@@ -90,6 +90,9 @@ def generate(data: Dict[str, Any], config: dict, project_root: str) -> str:
     sections = _group_by_category(data.get("items", []), categories, max_per_section)
     display_count = sum(len(s["entries"]) for s in sections.values())
 
+    # Save display_count to JSON for archive page
+    data["display_count"] = display_count
+
     html = template.render(
         title=title,
         date=date_str,
@@ -154,7 +157,7 @@ def _generate_archive(site_dir: str, title: str, env: Environment) -> None:
             try:
                 with open(data_path) as jf:
                     d = json.load(jf)
-                    count = len(d.get("items", []))
+                    count = d.get("display_count", len(d.get("items", [])))
             except Exception:
                 pass
 

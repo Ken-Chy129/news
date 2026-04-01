@@ -118,19 +118,19 @@ def main():
     print("=" * 60)
     processed_data = process_items(raw_items, config)
 
-    # Save intermediate JSON
+    # Step 3: Generate HTML
+    print("\n" + "=" * 60)
+    print("Step 3: Generating HTML...")
+    print("=" * 60)
+    issue_path = generate(processed_data, config, project_root)
+
+    # Save JSON (after generate, which adds display_count)
     data_dir = os.path.join(project_root, "data")
     os.makedirs(data_dir, exist_ok=True)
     json_path = os.path.join(data_dir, f"{processed_data['date']}.json")
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(processed_data, f, ensure_ascii=False, indent=2)
     print(f"[main] Saved data: {json_path}")
-
-    # Step 3: Generate HTML
-    print("\n" + "=" * 60)
-    print("Step 3: Generating HTML...")
-    print("=" * 60)
-    issue_path = generate(processed_data, config, project_root)
 
     # Step 4: Notify
     print("\n" + "=" * 60)
