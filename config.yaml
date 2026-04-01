@@ -149,7 +149,9 @@ notification:
 
   feishu:
     enabled: true
-    webhook_url_env: FEISHU_WEBHOOK_URL
+    webhook_urls:
+      - env: FEISHU_WEBHOOK_URL
+      # - env: FEISHU_WEBHOOK_URL_2
 
   weixin:
     enabled: false
