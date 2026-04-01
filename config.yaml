@@ -4,7 +4,7 @@ site:
   language: zh
   max_items: 30
   max_per_section: 5  # 每个分类最多展示条数
-  base_url: ""  # GitHub Pages URL, e.g. https://username.github.io/daily-ai-news
+  base_url: "https://ken-chy129.github.io/news"
 
 schedule:
   cron: "0 0 * * *"  # UTC 0:00 = 北京时间 8:00

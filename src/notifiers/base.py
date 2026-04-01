@@ -29,7 +29,8 @@ class BaseNotifier(abc.ABC):
             lines.append("\u2022 " + "\n\u2022 ".join(tldr))
             lines.append("")
 
-        lines.append(f"\u5171 {len(items)} \u6761\u65b0\u95fb")
+        count = data.get("display_count", len(items))
+        lines.append(f"\u5171 {count} \u6761\u65b0\u95fb")
 
         if site_url:
             issue_url = f"{site_url.rstrip('/')}/issues/{date}.html"
