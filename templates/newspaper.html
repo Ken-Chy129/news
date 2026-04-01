@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ title }} - {{ date }}</title>
+<link rel="stylesheet" href="{{ assets_prefix }}assets/style.css">
+</head>
+<body>
+<div class="newspaper">
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-rule"></div>
+    <h1 class="masthead">{{ title }}</h1>
+    <div class="header-meta">
+      <span class="date">{{ date_zh }}</span>
+      <span class="separator">|</span>
+      <span class="edition">第 {{ issue_number }} 期</span>
+      <span class="separator">|</span>
+      <span class="stats">共 {{ items | length }} 条</span>
+    </div>
+    <div class="header-rule"></div>
+  </header>
+
+  <!-- TL;DR -->
+  {% if tldr %}
+  <section class="tldr">
+    <h2 class="section-title">今日要点</h2>
+    <ul class="tldr-list">
+      {% for point in tldr %}
+      <li>{{ point }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  <div class="section-rule"></div>
+  {% endif %}
+
+  <!-- News sections in two-column layout -->
+  <div class="columns">
+    {% for cat_id, cat_info in sections.items() %}
+    {% if cat_info.entries %}
+    <section class="news-section">
+      <h2 class="section-title">{{ cat_info.icon }} {{ cat_info.name }}</h2>
+      <ol class="news-list">
+        {% for item in cat_info.entries %}
+        <li class="news-item">
+          <a href="{{ item.url }}" target="_blank" rel="noopener">
+            {{ item.title_zh or item.title }}
+          </a>
+          <span class="news-source">{{ item.source }}</span>
+          {% if item.summary_zh %}
+          <p class="news-summary">{{ item.summary_zh }}</p>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ol>
+    </section>
+    {% endif %}
+    {% endfor %}
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="header-rule"></div>
+    <p>
+      {{ title }} &middot; 由 GitHub Actions 自动生成 &middot;
+      <a href="{{ archive_url }}">历史归档</a>
+    </p>
+  </footer>
+
+</div>
+</body>
+</html>

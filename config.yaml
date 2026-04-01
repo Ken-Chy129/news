@@ -1,0 +1,133 @@
+site:
+  title: "AI 日报"
+  description: "每日 AI/LLM 新闻速递"
+  language: zh
+  max_items: 30
+  max_per_section: 5  # 每个分类最多展示条数
+  base_url: ""  # GitHub Pages URL, e.g. https://username.github.io/daily-ai-news
+
+schedule:
+  cron: "0 0 * * *"  # UTC 0:00 = 北京时间 8:00
+
+sources:
+  # --- 热榜 (via NewsNow API) ---
+  - name: "微博热搜"
+    type: newsnow
+    platform_id: "weibo"
+    category: trending
+
+  - name: "抖音热榜"
+    type: newsnow
+    platform_id: "douyin"
+    category: trending
+
+  - name: "知乎热榜"
+    type: newsnow
+    platform_id: "zhihu"
+    category: trending
+
+  # --- 论文 ---
+  - name: "ArXiv CS.AI"
+    type: rss
+    url: "https://rss.arxiv.org/rss/cs.AI"
+    category: paper
+    max_age_days: 1
+
+  - name: "ArXiv CS.CL"
+    type: rss
+    url: "https://rss.arxiv.org/rss/cs.CL"
+    category: paper
+    max_age_days: 1
+
+  # --- 博客 ---
+  - name: "OpenAI Blog"
+    type: rss
+    url: "https://openai.com/blog/rss.xml"
+    category: blog
+    max_age_days: 1
+
+  - name: "Anthropic Research"
+    type: rss
+    url: "https://www.anthropic.com/feed"
+    category: blog
+    max_age_days: 1
+
+  - name: "Google AI Blog"
+    type: rss
+    url: "https://blog.google/technology/ai/rss/"
+    category: blog
+    max_age_days: 1
+
+  # --- 社区 ---
+  - name: "Hacker News"
+    type: hackernews
+    category: industry
+    filter_keywords: ["AI", "LLM", "GPT", "Claude", "machine learning", "deep learning", "neural", "transformer", "anthropic", "openai"]
+    top_n: 20
+
+  - name: "Reddit r/MachineLearning"
+    type: reddit
+    subreddit: "MachineLearning"
+    category: industry
+    top_n: 15
+
+  # --- 开源 ---
+  - name: "GitHub Trending"
+    type: github_trending
+    category: open_source
+
+  # --- 模型发布 ---
+  - name: "HuggingFace Models"
+    type: huggingface
+    category: model_release
+    top_n: 10
+
+newsnow:
+  api_url: "https://newsnow.busiyi.world/api/s"
+
+llm:
+  provider: openai
+  model: gpt-4o-mini
+  api_key_env: OPENAI_API_KEY
+  temperature: 0.3
+  max_items_per_batch: 20
+
+categories:
+  trending:
+    name: "热榜"
+    max_items: 5
+  paper:
+    name: "论文"
+    max_items: 5
+  blog:
+    name: "博客"
+    max_items: 3
+  industry:
+    name: "行业动态"
+    max_items: 5
+  open_source:
+    name: "开源项目"
+    max_items: 5
+  model_release:
+    name: "模型发布"
+    max_items: 3
+
+notification:
+  enabled: false
+
+  feishu:
+    enabled: false
+    webhook_url_env: FEISHU_WEBHOOK_URL
+
+  weixin:
+    enabled: false
+    webhook_url_env: WEIXIN_WEBHOOK_URL
+
+  email:
+    enabled: false
+    smtp_server: ""
+    smtp_port: 465
+    username_env: EMAIL_USERNAME
+    password_env: EMAIL_PASSWORD
+    from_addr: ""
+    to_addrs: []

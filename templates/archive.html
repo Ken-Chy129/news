@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ title }} - 历史归档</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="newspaper">
+
+  <header class="header">
+    <div class="header-rule"></div>
+    <h1 class="masthead">{{ title }}</h1>
+    <div class="header-meta">
+      <span>历史归档</span>
+      <span class="separator">|</span>
+      <span>共 {{ issues | length }} 期</span>
+    </div>
+    <div class="header-rule"></div>
+  </header>
+
+  <section class="archive-list">
+    {% for issue in issues %}
+    <a href="{{ issue.url }}" class="archive-item">
+      <span class="archive-date">{{ issue.date }}</span>
+      <span class="archive-count">{{ issue.count }} 条新闻</span>
+    </a>
+    {% endfor %}
+  </section>
+
+  <footer class="footer">
+    <div class="header-rule"></div>
+    <p>{{ title }} &middot; 由 GitHub Actions 自动生成</p>
+  </footer>
+
+</div>
+</body>
+</html>
