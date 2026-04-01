@@ -25,9 +25,9 @@ CATEGORY_ICONS = {
 
 
 def _compute_issue_number(date_str: str) -> int:
-    """Compute issue number as days since 2026-01-01."""
+    """Compute issue number as days since 2026-04-01 (first issue)."""
     d = datetime.strptime(date_str, "%Y-%m-%d")
-    epoch = datetime(2026, 1, 1)
+    epoch = datetime(2026, 4, 1)
     return max(1, (d - epoch).days + 1)
 
 
@@ -87,6 +87,9 @@ def generate(data: Dict[str, Any], config: dict, project_root: str) -> str:
 
     # Render issue page
     template = env.get_template("newspaper.html")
+    sections = _group_by_category(data.get("items", []), categories, max_per_section)
+    display_count = sum(len(s["entries"]) for s in sections.values())
+
     html = template.render(
         title=title,
         date=date_str,
@@ -95,7 +98,8 @@ def generate(data: Dict[str, Any], config: dict, project_root: str) -> str:
         tldr=data.get("tldr", []),
         headlines=data.get("headlines", []),
         items=data.get("items", []),
-        sections=_group_by_category(data.get("items", []), categories, max_per_section),
+        sections=sections,
+        display_count=display_count,
         category_names=category_names,
         archive_url="../archive.html",
         assets_prefix="../",
@@ -115,7 +119,8 @@ def generate(data: Dict[str, Any], config: dict, project_root: str) -> str:
         tldr=data.get("tldr", []),
         headlines=data.get("headlines", []),
         items=data.get("items", []),
-        sections=_group_by_category(data.get("items", []), categories, max_per_section),
+        sections=sections,
+        display_count=display_count,
         category_names=category_names,
         archive_url="archive.html",
         assets_prefix="",
