@@ -1,0 +1,287 @@
+{
+  "date": "2026-03-31",
+  "generated_at": "2026-03-31T22:42:23.943700",
+  "tldr": [
+    "鞠婧祎被指未涉税问题，相关话题引发热议。",
+    "中年人泡泡玛特即将上市，雷军押注的项目备受关注。",
+    "53岁女子去世后600万遗产无人继承，社会反响强烈。",
+    "国足0:2喀麦隆，U23国足1:0战胜越南队。",
+    "3月中国制造业PMI重返扩张区间，显示经济复苏迹象。"
+  ],
+  "items": [
+    {
+      "title": "国足0:2喀麦隆",
+      "title_zh": "国足0:2喀麦隆",
+      "url": "https://www.douyin.com/hot/2449453",
+      "source": "抖音热榜",
+      "category": "trending",
+      "summary_zh": "国足在与喀麦隆的比赛中以0:2落败，表现不佳。",
+      "importance": 9
+    },
+    {
+      "title": "LLM Readiness Harness: Evaluation, Observability, and CI Gates for LLM/RAG Applications",
+      "title_zh": "LLM准备工具：LLM/RAG应用的评估、可观察性和CI门",
+      "url": "https://arxiv.org/abs/2603.27355",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该论文提出了一种用于LLM和RAG应用的准备度工具，将评估转化为部署决策工作流。",
+      "importance": 9
+    },
+    {
+      "title": "Pashto Common Voice: Building the First Open Speech Corpus for a 60-Million-Speaker Low-Resource Language",
+      "title_zh": "Pashto Common Voice：为6000万说话者的低资源语言建立首个开放语音语料库",
+      "url": "https://arxiv.org/abs/2603.27021",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "Pashto Common Voice语料库是首个为Pashto语言建立的大规模开放语音资源，旨在促进语音技术的发展。",
+      "importance": 9
+    },
+    {
+      "title": "Introducing the OpenAI Safety Bug Bounty program",
+      "title_zh": "推出OpenAI安全漏洞赏金计划",
+      "url": "https://openai.com/index/safety-bug-bounty",
+      "source": "OpenAI Blog",
+      "category": "blog",
+      "summary_zh": "OpenAI推出安全漏洞赏金计划，以识别AI滥用和安全风险，包括代理漏洞和数据外泄。",
+      "importance": 9
+    },
+    {
+      "title": "Introducing GPT-5.4",
+      "title_zh": "推出GPT-5.4",
+      "url": "https://openai.com/index/introducing-gpt-5-4",
+      "source": "OpenAI Blog",
+      "category": "model_release",
+      "summary_zh": "OpenAI推出最新的GPT-5.4模型，具备更强的编码和工具搜索能力，适用于专业工作。",
+      "importance": 9
+    },
+    {
+      "title": "How our open-source AI model SpeciesNet is helping to promote wildlife conservation",
+      "title_zh": "我们的开源AI模型SpeciesNet如何帮助促进野生动物保护",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/speciesnet-open-source-ai-wildlife/",
+      "source": "Google AI Blog",
+      "category": "blog",
+      "summary_zh": "Google推出了开源AI模型SpeciesNet，旨在促进野生动物保护。",
+      "importance": 9
+    },
+    {
+      "title": "Mathematical methods and human thought in the age of AI",
+      "title_zh": "人工智能时代的数学方法与人类思维",
+      "url": "https://arxiv.org/abs/2603.26524",
+      "source": "Hacker News",
+      "category": "paper",
+      "summary_zh": "这篇论文探讨了在人工智能时代，数学方法如何影响人类思维的方式。",
+      "importance": 9
+    },
+    {
+      "title": "microsoft/VibeVoice",
+      "title_zh": "微软的VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "VibeVoice是一个开源的前沿语音AI项目，旨在推动语音技术的发展。",
+      "importance": 9
+    },
+    {
+      "title": "PaddlePaddle/PaddleOCR",
+      "title_zh": "PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "PaddleOCR是一个强大的轻量级OCR工具包，可以将PDF或图像文档转化为结构化数据，支持100多种语言。",
+      "importance": 9
+    },
+    {
+      "title": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "title_zh": "HauhauCS发布Qwen3.5-35B模型",
+      "url": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "HauhauCS发布了Qwen3.5-35B模型，下载量达到592823次，受到广泛关注。",
+      "importance": 9
+    },
+    {
+      "title": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "title_zh": "HauhauCS发布Qwen3.5-9B模型",
+      "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "HauhauCS的Qwen3.5-9B模型下载量达到623469次，表现出色。",
+      "importance": 9
+    },
+    {
+      "title": "未发现鞠婧祎涉税问题",
+      "title_zh": "未发现鞠婧祎涉税问题",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%AA%E5%8F%91%E7%8E%B0%E9%9E%A0%E5%A9%A7%E7%A5%8E%E6%B6%89%E7%A8%8E%E9%97%AE%E9%A2%98%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "鞠婧祎被指未涉税问题，相关话题引发热议。",
+      "importance": 8
+    },
+    {
+      "title": "U23国足1:0战胜越南队",
+      "title_zh": "U23国足1:0战胜越南队",
+      "url": "https://www.douyin.com/hot/2450522",
+      "source": "抖音热榜",
+      "category": "trending",
+      "summary_zh": "U23国足在比赛中以1:0战胜越南队，取得胜利。",
+      "importance": 8
+    },
+    {
+      "title": "电影寒战1994定档五一",
+      "title_zh": "电影《寒战1994》定档五一",
+      "url": "https://www.douyin.com/hot/2449570",
+      "source": "抖音热榜",
+      "category": "trending",
+      "summary_zh": "电影《寒战1994》宣布定档于五一假期上映。",
+      "importance": 8
+    },
+    {
+      "title": "电影消失的人定档五一",
+      "title_zh": "电影《消失的人》定档五一",
+      "url": "https://www.douyin.com/hot/2449642",
+      "source": "抖音热榜",
+      "category": "trending",
+      "summary_zh": "电影《消失的人》也将于五一假期上映，备受期待。",
+      "importance": 8
+    },
+    {
+      "title": "如何看待兰州大学通信工程考研复试 401 高分被刷，318 分被录取？",
+      "title_zh": "如何看待兰州大学通信工程考研复试 401 高分被刷，318 分被录取？",
+      "url": "https://www.zhihu.com/question/2022107844250539411",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "兰州大学通信工程考研复试的录取分数引发热议，401分被刷，318分被录取的现象引发网友讨论。",
+      "importance": 8
+    },
+    {
+      "title": "Bitboard version of Tetris AI",
+      "title_zh": "Tetris AI的Bitboard版本",
+      "url": "https://arxiv.org/abs/2603.26765",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "新提出的高性能Tetris AI模型解决了现有实现的低模拟速度和低效训练问题。",
+      "importance": 8
+    },
+    {
+      "title": "Multiverse: Language-Conditioned Multi-Game Level Blending via Shared Representation",
+      "title_zh": "Multiverse：基于共享表示的语言条件多游戏级别融合",
+      "url": "https://arxiv.org/abs/2603.26782",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "Multiverse项目通过共享表示实现了多游戏的语言条件级别生成，推动了程序内容生成的直观控制。",
+      "importance": 8
+    },
+    {
+      "title": "Defend: Automated Rebuttals for Peer Review with Minimal Author Guidance",
+      "title_zh": "Defend：最小作者指导下的同行评审自动反驳",
+      "url": "https://arxiv.org/abs/2603.27360",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究表明，自动化反驳生成在同行评审中对澄清误解和纠正事实不准确性至关重要。",
+      "importance": 8
+    },
+    {
+      "title": "AstraAI: LLMs, Retrieval, and AST-Guided Assistance for HPC Codebases",
+      "title_zh": "AstraAI：LLM、检索和AST引导的高性能计算代码库辅助",
+      "url": "https://arxiv.org/abs/2603.27423",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "AstraAI是一个命令行界面框架，旨在为高性能计算软件开发提供上下文感知的代码生成。",
+      "importance": 8
+    },
+    {
+      "title": "Introducing MELI: the Mandarin-English Language Interview Corpus",
+      "title_zh": "介绍MELI：中英语言访谈语料库",
+      "url": "https://arxiv.org/abs/2603.27043",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "MELI语料库提供29.8小时的中英双语访谈录音，支持语言学习和研究。",
+      "importance": 8
+    },
+    {
+      "title": "RASPRef: Retrieval-Augmented Self-Supervised Prompt Refinement for Large Reasoning Models",
+      "title_zh": "RASPRef：用于大型推理模型的检索增强自监督提示精炼",
+      "url": "https://arxiv.org/abs/2603.27008",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "RASPRef提出了一种新方法，通过自监督机制改善大型推理模型在结构化推理基准上的表现。",
+      "importance": 8
+    },
+    {
+      "title": "Update on the OpenAI Foundation",
+      "title_zh": "关于OpenAI基金会的最新消息",
+      "url": "https://openai.com/index/update-on-the-openai-foundation",
+      "source": "OpenAI Blog",
+      "category": "blog",
+      "summary_zh": "OpenAI基金会宣布计划投资至少10亿美元用于疾病治疗、经济机会和社区项目。",
+      "importance": 8
+    },
+    {
+      "title": "Introducing GPT-5.4 mini and nano",
+      "title_zh": "推出GPT-5.4迷你和纳米版本",
+      "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "source": "OpenAI Blog",
+      "category": "blog",
+      "summary_zh": "GPT-5.4迷你和纳米是更小、更快的版本，优化了编码和多模态推理。",
+      "importance": 8
+    },
+    {
+      "title": "OpenAI to acquire Promptfoo",
+      "title_zh": "OpenAI收购Promptfoo",
+      "url": "https://openai.com/index/openai-to-acquire-promptfoo",
+      "source": "OpenAI Blog",
+      "category": "industry",
+      "summary_zh": "OpenAI收购AI安全平台Promptfoo，以帮助企业识别和修复AI系统中的漏洞。",
+      "importance": 8
+    },
+    {
+      "title": "Google and the Massachusetts AI Hub are launching a new AI training initiative for the Commonwealth.",
+      "title_zh": "Google与马萨诸塞州AI中心推出新的AI培训计划。",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/",
+      "source": "Google AI Blog",
+      "category": "blog",
+      "summary_zh": "Google与马萨诸塞州AI中心合作，推出新的AI培训计划，提供无成本的AI培训。",
+      "importance": 8
+    },
+    {
+      "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
+      "title_zh": "Claude Code的源代码在NPM注册表中泄露",
+      "url": "https://twitter.com/Fried_rice/status/2038894956459290963",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Claude Code的源代码在NPM注册表中泄露，用户面临使用限制。",
+      "importance": 8
+    },
+    {
+      "title": "Learn Claude Code by doing, not reading",
+      "title_zh": "通过实践而非阅读学习Claude代码",
+      "url": "https://claude.nagdy.me/",
+      "source": "Hacker News",
+      "category": "blog",
+      "summary_zh": "该博客介绍了一种新的学习方法，强调通过实践来掌握编程技能。",
+      "importance": 8
+    },
+    {
+      "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "title_zh": "Qwen 3.5-27B Claude 4.6 逻辑推理模型",
+      "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "新发布的Qwen模型专注于图像到文本的转换，展示了其在多模态学习中的应用潜力。",
+      "importance": 8
+    },
+    {
+      "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "title_zh": "Jackrong发布Qwen3.5-27B模型",
+      "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Jackrong的Qwen3.5-27B模型下载量超过155487次，受到用户青睐。",
+      "importance": 8
+    }
+  ],
+  "stats": {
+    "raw_count": 246,
+    "processed_count": 30
+  }
+}

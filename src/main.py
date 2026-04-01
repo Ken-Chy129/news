@@ -17,6 +17,8 @@ from .collectors.reddit import RedditCollector
 from .collectors.github_trending import GitHubTrendingCollector
 from .collectors.huggingface import HuggingFaceCollector
 from .collectors.newsnow import NewsNowCollector
+from .collectors.github_releases import GitHubReleasesCollector
+from .collectors.web_scraper import WebScraperCollector
 from .processor import process_items
 from .generator import generate
 from .notifiers.feishu import FeishuNotifier
@@ -30,6 +32,8 @@ COLLECTOR_MAP = {
     "github_trending": GitHubTrendingCollector,
     "huggingface": HuggingFaceCollector,
     "newsnow": NewsNowCollector,
+    "github_releases": GitHubReleasesCollector,
+    "web_scraper": WebScraperCollector,
 }
 
 

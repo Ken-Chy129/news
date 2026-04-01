@@ -1,4 +1,4 @@
-/* === AI Daily News - Classic Newspaper Style === */
+/* === AI Daily News - Classic Newspaper Style v2 === */
 
 :root {
   --text-primary: #1a1a1a;
@@ -6,6 +6,7 @@
   --text-muted: #888;
   --bg-primary: #fdf6e3;
   --bg-paper: #fff9f0;
+  --bg-trending: #f5f0e6;
   --border-color: #2a2a2a;
   --border-light: #ccc;
   --accent: #8b0000;
@@ -65,8 +66,70 @@ body {
 }
 
 .separator {
-  margin: 0 0.5rem;
+  margin: 0 0.4rem;
   color: var(--text-muted);
+}
+
+/* --- Headlines --- */
+
+.headlines {
+  margin: 1.5rem 0;
+}
+
+.headline {
+  margin-bottom: 1.2rem;
+}
+
+.headline-primary .headline-title {
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 1.4;
+  border-bottom: 3px solid var(--border-color);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.headline-secondary .headline-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
+}
+
+.headline-title a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.headline-title a:hover {
+  color: var(--accent);
+}
+
+.headline-meta {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: 0.4rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.headline-category {
+  background: var(--accent);
+  color: #fff;
+  padding: 0.1rem 0.4rem;
+  border-radius: 2px;
+  font-size: 0.65rem;
+  font-weight: 600;
+}
+
+.headline-summary {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
 }
 
 /* --- TL;DR --- */
@@ -93,7 +156,7 @@ body {
   padding: 0.3rem 0;
   padding-left: 1.2rem;
   position: relative;
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 
 .tldr-list li::before {
@@ -101,8 +164,8 @@ body {
   position: absolute;
   left: 0;
   color: var(--accent);
-  font-size: 0.6rem;
-  top: 0.55rem;
+  font-size: 0.5rem;
+  top: 0.6rem;
 }
 
 /* --- Section --- */
@@ -114,12 +177,37 @@ body {
 }
 
 .section-title {
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   font-weight: 700;
   border-bottom: 2px solid var(--border-color);
   padding-bottom: 0.3rem;
   margin-bottom: 0.8rem;
   font-family: var(--font-sans);
+}
+
+/* --- AI Zone --- */
+
+.ai-zone {
+  margin: 1.5rem 0;
+  position: relative;
+}
+
+.zone-label {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.zone-label-muted {
+  color: var(--text-muted);
+  border-color: var(--border-light);
 }
 
 /* --- Two-column layout --- */
@@ -184,7 +272,7 @@ body {
 .news-source {
   display: inline-block;
   font-family: var(--font-sans);
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   color: var(--text-muted);
   background: #f0e8d8;
   padding: 0.1rem 0.4rem;
@@ -198,6 +286,70 @@ body {
   color: var(--text-secondary);
   margin-top: 0.2rem;
   line-height: 1.6;
+}
+
+/* --- Trending Zone --- */
+
+.trending-zone {
+  margin: 2rem 0 1rem;
+  padding: 1.2rem 1.5rem;
+  background: var(--bg-trending);
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.trending-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.trending-source {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.trending-list {
+  list-style: none;
+  padding: 0;
+  counter-reset: trending-counter;
+}
+
+.trending-list li {
+  counter-increment: trending-counter;
+  padding: 0.2rem 0;
+  padding-left: 1.4rem;
+  position: relative;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+.trending-list li::before {
+  content: counter(trending-counter);
+  position: absolute;
+  left: 0;
+  top: 0.25rem;
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.trending-list a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.trending-list a:hover {
+  color: var(--accent);
+  text-decoration: underline;
 }
 
 /* --- Archive --- */
@@ -271,7 +423,23 @@ body {
     column-rule: none;
   }
 
+  .headline-primary .headline-title {
+    font-size: 1.3rem;
+  }
+
+  .headline-secondary .headline-title {
+    font-size: 1.05rem;
+  }
+
+  .trending-grid {
+    grid-template-columns: 1fr;
+  }
+
   .tldr {
+    padding: 1rem;
+  }
+
+  .trending-zone {
     padding: 1rem;
   }
 
@@ -291,5 +459,9 @@ body {
 
   .news-summary {
     display: none;
+  }
+
+  .headline-summary {
+    font-size: 0.9rem;
   }
 }

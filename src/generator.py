@@ -20,6 +20,7 @@ CATEGORY_ICONS = {
     "industry": "\U0001f4f0",
     "open_source": "\U0001f527",
     "model_release": "\U0001f680",
+    "tool_update": "\U0001f504",
 }
 
 
@@ -68,6 +69,14 @@ def generate(data: Dict[str, Any], config: dict, project_root: str) -> str:
     base_url = site_config.get("base_url", "")
     max_per_section = site_config.get("max_per_section", 5)
 
+    # Build category name lookup for templates
+    category_names = {}
+    for cat_id, cat_cfg in categories.items():
+        if isinstance(cat_cfg, str):
+            category_names[cat_id] = cat_cfg
+        else:
+            category_names[cat_id] = cat_cfg.get("name", cat_id)
+
     date_str = data["date"]
     templates_dir = os.path.join(project_root, "templates")
     site_dir = os.path.join(project_root, "site")
@@ -84,8 +93,10 @@ def generate(data: Dict[str, Any], config: dict, project_root: str) -> str:
         date_zh=_format_date_zh(date_str),
         issue_number=_compute_issue_number(date_str),
         tldr=data.get("tldr", []),
+        headlines=data.get("headlines", []),
         items=data.get("items", []),
         sections=_group_by_category(data.get("items", []), categories, max_per_section),
+        category_names=category_names,
         archive_url="../archive.html",
         assets_prefix="../",
     )
@@ -102,8 +113,10 @@ def generate(data: Dict[str, Any], config: dict, project_root: str) -> str:
         date_zh=_format_date_zh(date_str),
         issue_number=_compute_issue_number(date_str),
         tldr=data.get("tldr", []),
+        headlines=data.get("headlines", []),
         items=data.get("items", []),
         sections=_group_by_category(data.get("items", []), categories, max_per_section),
+        category_names=category_names,
         archive_url="archive.html",
         assets_prefix="",
     )

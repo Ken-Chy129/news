@@ -15,7 +15,7 @@ SYSTEM_PROMPT = """你是一个专业的 AI 新闻编辑。你的任务是处理
 
 请完成以下工作：
 1. 去重：合并标题或内容高度相似的条目，保留信息最丰富的版本
-2. 分类：将每条新闻归入以下类别之一：paper(论文)、blog(博客)、industry(行业动态)、open_source(开源项目)、model_release(模型发布)、trending(热榜)
+2. 分类：将每条新闻归入以下类别之一：paper(论文)、blog(博客)、industry(行业动态)、open_source(开源项目)、model_release(模型发布)、tool_update(工具更新，如 Claude Code、OpenClaw 等开发工具的版本更新)、trending(热榜)
 3. 评分：为每条新闻评估重要性(1-10)，依据：影响力、新颖性、与AI领域的相关性
 4. 摘要：为每条新闻生成 3-5 句中文摘要，要求信息丰富，包含关键数据、核心观点和背景信息，让读者不点开链接也能了解要点
 5. TL;DR：从所有新闻中提炼 3-5 条最重要的要点，每条 2-3 句话，包含具体细节
@@ -37,6 +37,9 @@ SYSTEM_PROMPT = """你是一个专业的 AI 新闻编辑。你的任务是处理
 }
 
 注意：
+- 这是一份 AI/人工智能领域的专业日报
+- TL;DR 只包含与 AI/人工智能/大模型/机器学习直接相关的要点，不要包含娱乐、体育、社会新闻等非 AI 内容
+- 评分时，AI 相关内容的 importance 应显著高于非 AI 内容。热榜中与 AI 无关的条目 importance 不超过 4
 - 追求质量而非数量，宁可条目少也要每条信息量充足
 - items 按 importance 降序排列
 - 去重后的条目不要重复出现
@@ -118,10 +121,19 @@ def process_items(raw_items: List[RawItem], config: dict) -> Dict[str, Any]:
     max_items = config.get("site", {}).get("max_items", 30)
     all_processed_items = all_processed_items[:max_items]
 
+    # Pick headlines: top 2 non-trending AI-related items
+    headlines = []
+    for item in all_processed_items:
+        if item.get("category") != "trending" and item.get("importance", 0) >= 8:
+            headlines.append(item)
+            if len(headlines) >= 2:
+                break
+
     return {
         "date": datetime.now().strftime("%Y-%m-%d"),
         "generated_at": datetime.now().isoformat(),
         "tldr": all_tldrs,
+        "headlines": headlines,
         "items": all_processed_items,
         "stats": {
             "raw_count": len(raw_items),

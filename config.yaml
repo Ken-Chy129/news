@@ -16,11 +16,6 @@ sources:
     platform_id: "weibo"
     category: trending
 
-  - name: "抖音热榜"
-    type: newsnow
-    platform_id: "douyin"
-    category: trending
-
   - name: "知乎热榜"
     type: newsnow
     platform_id: "zhihu"
@@ -46,15 +41,35 @@ sources:
     category: blog
     max_age_days: 1
 
-  - name: "Anthropic Research"
-    type: rss
-    url: "https://www.anthropic.com/feed"
+  - name: "Anthropic Engineering"
+    type: web_scraper
+    url: "https://www.anthropic.com/engineering"
+    base_url: "https://www.anthropic.com"
+    link_selector: "a[href*='/engineering/']"
     category: blog
-    max_age_days: 1
+    top_n: 5
 
   - name: "Google AI Blog"
     type: rss
     url: "https://blog.google/technology/ai/rss/"
+    category: blog
+    max_age_days: 1
+
+  - name: "Implicator AI"
+    type: rss
+    url: "https://www.implicator.ai/tag/vibecoding/feed"
+    category: blog
+    max_age_days: 1
+
+  - name: "MIT Technology Review"
+    type: rss
+    url: "https://www.technologyreview.com/feed/"
+    category: blog
+    max_age_days: 1
+
+  - name: "HuggingFace Blog"
+    type: rss
+    url: "https://huggingface.co/blog/feed.xml"
     category: blog
     max_age_days: 1
 
@@ -81,6 +96,20 @@ sources:
     type: huggingface
     category: model_release
     top_n: 10
+
+  # --- 工具更新 ---
+  - name: "Claude Code Updates"
+    type: github_releases
+    repo: "anthropics/claude-code"
+    category: tool_update
+    max_age_days: 3
+
+  - name: "OpenClaw Updates"
+    type: github_releases
+    repo: "openclaw/openclaw"
+    category: tool_update
+    max_age_days: 3
+
 
 newsnow:
   api_url: "https://newsnow.busiyi.world/api/s"
@@ -110,6 +139,9 @@ categories:
     max_items: 5
   model_release:
     name: "模型发布"
+    max_items: 3
+  tool_update:
+    name: "工具更新"
     max_items: 3
 
 notification:
