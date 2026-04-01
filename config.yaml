@@ -145,10 +145,10 @@ categories:
     max_items: 3
 
 notification:
-  enabled: false
+  enabled: true
 
   feishu:
-    enabled: false
+    enabled: true
     webhook_url_env: FEISHU_WEBHOOK_URL
 
   weixin:
