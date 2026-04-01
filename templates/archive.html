@@ -10,27 +10,33 @@
 <div class="newspaper">
 
   <header class="header">
-    <div class="header-rule"></div>
+    <div class="rule-heavy"></div>
     <h1 class="masthead">{{ title }}</h1>
-    <div class="header-meta">
-      <span>历史归档</span>
-      <span class="separator">|</span>
-      <span>共 {{ issues | length }} 期</span>
-    </div>
-    <div class="header-rule"></div>
+    <div class="header-meta">历史归档 &middot; 共 {{ total }} 期</div>
+    <div class="rule-heavy"></div>
   </header>
 
-  <section class="archive-list">
-    {% for issue in issues %}
-    <a href="{{ issue.url }}" class="archive-item">
-      <span class="archive-date">{{ issue.date }}</span>
-      <span class="archive-count">{{ issue.count }} 条新闻</span>
-    </a>
+  <div class="archive-months">
+    {% for month in months %}
+    <details class="archive-month" {% if loop.first %}open{% endif %}>
+      <summary class="archive-month-head">
+        <span class="archive-month-name">{{ month.label }}</span>
+        <span class="archive-month-count">{{ month.issues | length }} 期</span>
+      </summary>
+      <div class="archive-month-body">
+        {% for issue in month.issues %}
+        <a href="{{ issue.url }}" class="archive-item">
+          <span class="archive-date">{{ issue.date }}</span>
+          <span class="archive-count">{{ issue.count }} 条新闻</span>
+        </a>
+        {% endfor %}
+      </div>
+    </details>
     {% endfor %}
-  </section>
+  </div>
 
   <footer class="footer">
-    <div class="header-rule"></div>
+    <div class="rule-light"></div>
     <p>{{ title }} &middot; 由 GitHub Actions 自动生成</p>
   </footer>
 

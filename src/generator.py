@@ -133,8 +133,23 @@ def _generate_archive(site_dir: str, title: str, env: Environment) -> None:
             "count": count,
         })
 
+    # Group by month
+    from collections import OrderedDict
+    months_dict = OrderedDict()
+    for issue in issues:
+        month_key = issue["date"][:7]  # "2026-04"
+        if month_key not in months_dict:
+            year, mon = month_key.split("-")
+            months_dict[month_key] = {
+                "label": f"{year}\u5e74{int(mon)}\u6708",
+                "issues": [],
+            }
+        months_dict[month_key]["issues"].append(issue)
+
+    months = list(months_dict.values())
+
     template = env.get_template("archive.html")
-    html = template.render(title=title, issues=issues)
+    html = template.render(title=title, total=len(issues), months=months)
     archive_path = os.path.join(site_dir, "archive.html")
     with open(archive_path, "w", encoding="utf-8") as f:
         f.write(html)
