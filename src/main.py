@@ -132,6 +132,15 @@ def main():
         json.dump(processed_data, f, ensure_ascii=False, indent=2)
     print(f"[main] Saved data: {json_path}")
 
+    # Step 3.5: Screenshot (only if any notifier needs it)
+    need_screenshot = config.get("notification", {}).get("feishu", {}).get("send_image", False)
+    if need_screenshot:
+        from .screenshot import take_screenshot
+        screenshot_path = os.path.join(project_root, "site", "screenshots", f"{processed_data['date']}.png")
+        os.makedirs(os.path.dirname(screenshot_path), exist_ok=True)
+        if take_screenshot(issue_path, screenshot_path):
+            processed_data["screenshot_path"] = screenshot_path
+
     # Step 4: Notify
     print("\n" + "=" * 60)
     print("Step 4: Sending notifications...")

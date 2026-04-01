@@ -149,9 +149,8 @@ notification:
 
   feishu:
     enabled: true
-    webhook_urls:
-      - env: FEISHU_WEBHOOK_URL
-      - env: FEISHU_WEBHOOK_URL_2
+    webhook_url_env: FEISHU_WEBHOOK_URL  # 多个用分号分割: url1;url2
+    send_image: true  # 是否发送报纸截图
 
   weixin:
     enabled: false

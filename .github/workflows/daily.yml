@@ -24,7 +24,9 @@ jobs:
           cache: 'pip'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium
 
       - name: Run pipeline
         env:
@@ -33,6 +35,8 @@ jobs:
           WEIXIN_WEBHOOK_URL: ${{ secrets.WEIXIN_WEBHOOK_URL }}
           EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
         run: python -m src
 
       - name: Commit generated files
