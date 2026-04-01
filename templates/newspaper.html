@@ -23,72 +23,35 @@
     <div class="header-rule"></div>
   </header>
 
-  <!-- Headlines -->
-  {% if headlines %}
-  <section class="headlines">
-    {% for item in headlines %}
-    <article class="headline {% if loop.first %}headline-primary{% else %}headline-secondary{% endif %}">
-      <h2 class="headline-title">
-        <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title_zh or item.title }}</a>
-      </h2>
-      <div class="headline-meta">
-        <span class="news-source">{{ item.source }}</span>
-        <span class="headline-category">{{ category_names.get(item.category, item.category) }}</span>
-      </div>
-      <p class="headline-summary">{{ item.summary_zh }}</p>
-    </article>
-    {% endfor %}
-  </section>
-  <div class="section-rule"></div>
-  {% endif %}
-
-  <!-- TL;DR -->
-  {% if tldr %}
-  <section class="tldr">
-    <h2 class="section-title">今日要点</h2>
-    <ul class="tldr-list">
-      {% for point in tldr %}
-      <li>{{ point }}</li>
-      {% endfor %}
-    </ul>
-  </section>
-  <div class="section-rule"></div>
-  {% endif %}
-
-  <!-- AI Core: papers, models, industry, open source, blog -->
-  {% set ai_cats = ['paper', 'model_release', 'tool_update', 'industry', 'open_source', 'blog'] %}
-  {% set ai_sections = {} %}
+  <!-- AI sections in grid layout -->
+  {% set ai_cats = ['industry', 'blog', 'paper', 'model_release', 'tool_update', 'open_source'] %}
+  {% set ai_sections = [] %}
   {% for cat_id in ai_cats %}
-    {% if cat_id in sections %}
-      {% set _ = ai_sections.update({cat_id: sections[cat_id]}) %}
+    {% if cat_id in sections and sections[cat_id].entries %}
+      {% set _ = ai_sections.append({'id': cat_id, 'info': sections[cat_id]}) %}
     {% endif %}
   {% endfor %}
 
   {% if ai_sections %}
-  <div class="ai-zone">
-    <div class="zone-label">AI 专区</div>
-    <div class="columns">
-      {% for cat_id, cat_info in ai_sections.items() %}
-      {% if cat_info.entries %}
-      <section class="news-section">
-        <h2 class="section-title">{{ cat_info.icon }} {{ cat_info.name }}</h2>
-        <ol class="news-list">
-          {% for item in cat_info.entries %}
-          <li class="news-item">
-            <a href="{{ item.url }}" target="_blank" rel="noopener">
-              {{ item.title_zh or item.title }}
-            </a>
-            <span class="news-source">{{ item.source }}</span>
-            {% if item.summary_zh %}
-            <p class="news-summary">{{ item.summary_zh }}</p>
-            {% endif %}
-          </li>
-          {% endfor %}
-        </ol>
-      </section>
-      {% endif %}
-      {% endfor %}
-    </div>
+  <div class="content-grid">
+    {% for sec in ai_sections %}
+    <section class="grid-section">
+      <h2 class="section-title">{{ sec.info.icon }} {{ sec.info.name }}</h2>
+      <ol class="news-list">
+        {% for item in sec.info.entries %}
+        <li class="news-item">
+          <a href="{{ item.url }}" target="_blank" rel="noopener">
+            {{ item.title_zh or item.title }}
+          </a>
+          <span class="news-source">{{ item.source }}</span>
+          {% if item.detail_zh or item.summary_zh %}
+          <p class="news-summary">{{ item.detail_zh or item.summary_zh }}</p>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ol>
+    </section>
+    {% endfor %}
   </div>
   {% endif %}
 

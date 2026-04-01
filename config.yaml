@@ -127,7 +127,7 @@ categories:
     max_items: 5
   paper:
     name: "论文"
-    max_items: 5
+    max_items: 2
   blog:
     name: "博客"
     max_items: 3
@@ -139,7 +139,7 @@ categories:
     max_items: 5
   model_release:
     name: "模型发布"
-    max_items: 3
+    max_items: 2
   tool_update:
     name: "工具更新"
     max_items: 3
@@ -148,7 +148,7 @@ notification:
   enabled: true
 
   feishu:
-    enabled: true
+    enabled: false
     webhook_url_env: FEISHU_WEBHOOK_URL  # 多个用分号分割: url1;url2
     send_image: true  # 是否发送报纸截图
 

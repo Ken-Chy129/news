@@ -1,4 +1,4 @@
-/* === AI Daily News - Classic Newspaper Style v2 === */
+/* === AI Daily News - Classic Newspaper Style v3 === */
 
 :root {
   --text-primary: #1a1a1a;
@@ -70,104 +70,6 @@ body {
   color: var(--text-muted);
 }
 
-/* --- Headlines --- */
-
-.headlines {
-  margin: 1.5rem 0;
-}
-
-.headline {
-  margin-bottom: 1.2rem;
-}
-
-.headline-primary .headline-title {
-  font-size: 1.6rem;
-  font-weight: 900;
-  line-height: 1.4;
-  border-bottom: 3px solid var(--border-color);
-  padding-bottom: 0.4rem;
-  margin-bottom: 0.5rem;
-}
-
-.headline-secondary .headline-title {
-  font-size: 1.2rem;
-  font-weight: 700;
-  line-height: 1.4;
-  border-bottom: 1px solid var(--border-light);
-  padding-bottom: 0.3rem;
-  margin-bottom: 0.4rem;
-}
-
-.headline-title a {
-  color: var(--text-primary);
-  text-decoration: none;
-}
-
-.headline-title a:hover {
-  color: var(--accent);
-}
-
-.headline-meta {
-  font-family: var(--font-sans);
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  margin-bottom: 0.4rem;
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-}
-
-.headline-category {
-  background: var(--accent);
-  color: #fff;
-  padding: 0.1rem 0.4rem;
-  border-radius: 2px;
-  font-size: 0.65rem;
-  font-weight: 600;
-}
-
-.headline-summary {
-  font-size: 1rem;
-  color: var(--text-secondary);
-  line-height: 1.8;
-}
-
-/* --- TL;DR --- */
-
-.tldr {
-  margin: 1.5rem 0;
-  padding: 1.2rem 1.5rem;
-  border-left: 4px solid var(--accent);
-  background: rgba(139, 0, 0, 0.03);
-}
-
-.tldr .section-title {
-  color: var(--accent);
-  font-size: 1.1rem;
-  margin-bottom: 0.8rem;
-}
-
-.tldr-list {
-  list-style: none;
-  padding: 0;
-}
-
-.tldr-list li {
-  padding: 0.3rem 0;
-  padding-left: 1.2rem;
-  position: relative;
-  font-size: 0.95rem;
-}
-
-.tldr-list li::before {
-  content: "\25A0";
-  position: absolute;
-  left: 0;
-  color: var(--accent);
-  font-size: 0.5rem;
-  top: 0.6rem;
-}
-
 /* --- Section --- */
 
 .section-rule {
@@ -185,12 +87,22 @@ body {
   font-family: var(--font-sans);
 }
 
-/* --- AI Zone --- */
+/* --- Grid layout --- */
 
-.ai-zone {
-  margin: 1.5rem 0;
-  position: relative;
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 2.5rem;
+  margin: 1rem 0;
 }
+
+.grid-section {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
+/* --- Zone label --- */
 
 .zone-label {
   font-family: var(--font-sans);
@@ -210,19 +122,6 @@ body {
   border-color: var(--border-light);
 }
 
-/* --- Two-column layout --- */
-
-.columns {
-  column-count: 2;
-  column-gap: 2.5rem;
-  column-rule: 1px solid var(--border-light);
-}
-
-.news-section {
-  break-inside: avoid;
-  margin-bottom: 1.5rem;
-}
-
 /* --- News items --- */
 
 .news-list {
@@ -235,7 +134,7 @@ body {
   padding: 0.5rem 0;
   border-bottom: 1px dotted var(--border-light);
   counter-increment: news-counter;
-  padding-left: 1.8rem;
+  padding-left: 2rem;
   position: relative;
 }
 
@@ -243,15 +142,15 @@ body {
   content: counter(news-counter);
   position: absolute;
   left: 0;
-  top: 0.55rem;
+  top: 0.6rem;
   font-family: var(--font-sans);
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 700;
   color: var(--text-muted);
   background: #f0e8d8;
-  width: 1.3rem;
-  height: 1.3rem;
-  line-height: 1.3rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
   text-align: center;
   border-radius: 2px;
 }
@@ -418,25 +317,12 @@ body {
     letter-spacing: 0.15em;
   }
 
-  .columns {
-    column-count: 1;
-    column-rule: none;
-  }
-
-  .headline-primary .headline-title {
-    font-size: 1.3rem;
-  }
-
-  .headline-secondary .headline-title {
-    font-size: 1.05rem;
+  .content-grid {
+    grid-template-columns: 1fr;
   }
 
   .trending-grid {
     grid-template-columns: 1fr;
-  }
-
-  .tldr {
-    padding: 1rem;
   }
 
   .trending-zone {
@@ -458,10 +344,6 @@ body {
   }
 
   .news-summary {
-    display: none;
-  }
-
-  .headline-summary {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }

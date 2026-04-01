@@ -5,14 +5,12 @@ from __future__ import annotations
 import json
 import os
 import re
-import shutil
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, Any, List
 
 from jinja2 import Environment, FileSystemLoader
 
-# Category display config
 CATEGORY_ICONS = {
     "trending": "\U0001f525",
     "paper": "\U0001f4c4",
@@ -32,7 +30,6 @@ def _compute_issue_number(date_str: str) -> int:
 
 
 def _format_date_zh(date_str: str) -> str:
-    """Format date in Chinese style: 2026年3月31日 · 星期一"""
     d = datetime.strptime(date_str, "%Y-%m-%d")
     weekdays = ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"]
     return f"{d.year}年{d.month}月{d.day}日 · {weekdays[d.weekday()]}"
@@ -42,7 +39,6 @@ def _group_by_category(items: List[dict], categories: dict, default_max: int = 5
     """Group items by category, preserving config order, capped per section."""
     sections = {}
     for cat_id, cat_cfg in categories.items():
-        # Support both "category: name" and "category: {name, max_items}"
         if isinstance(cat_cfg, str):
             cat_name = cat_cfg
             max_items = default_max
@@ -66,16 +62,7 @@ def generate(data: Dict[str, Any], config: dict, project_root: str) -> str:
     site_config = config.get("site", {})
     categories = config.get("categories", {})
     title = site_config.get("title", "AI \u65e5\u62a5")
-    base_url = site_config.get("base_url", "")
     max_per_section = site_config.get("max_per_section", 5)
-
-    # Build category name lookup for templates
-    category_names = {}
-    for cat_id, cat_cfg in categories.items():
-        if isinstance(cat_cfg, str):
-            category_names[cat_id] = cat_cfg
-        else:
-            category_names[cat_id] = cat_cfg.get("name", cat_id)
 
     date_str = data["date"]
     templates_dir = os.path.join(project_root, "templates")
@@ -84,56 +71,36 @@ def generate(data: Dict[str, Any], config: dict, project_root: str) -> str:
     os.makedirs(issues_dir, exist_ok=True)
 
     env = Environment(loader=FileSystemLoader(templates_dir), autoescape=False)
-
-    # Render issue page
     template = env.get_template("newspaper.html")
     sections = _group_by_category(data.get("items", []), categories, max_per_section)
     display_count = sum(len(s["entries"]) for s in sections.values())
-
-    # Save display_count to JSON for archive page
     data["display_count"] = display_count
 
-    html = template.render(
+    render_kwargs = dict(
         title=title,
         date=date_str,
         date_zh=_format_date_zh(date_str),
         issue_number=_compute_issue_number(date_str),
-        tldr=data.get("tldr", []),
-        headlines=data.get("headlines", []),
         items=data.get("items", []),
         sections=sections,
         display_count=display_count,
-        category_names=category_names,
-        archive_url="../archive.html",
-        assets_prefix="../",
     )
 
+    # Issue page
+    html = template.render(**render_kwargs, archive_url="../archive.html", assets_prefix="../")
     issue_path = os.path.join(issues_dir, f"{date_str}.html")
     with open(issue_path, "w", encoding="utf-8") as f:
         f.write(html)
     print(f"[generator] Wrote issue: {issue_path}")
 
-    # Copy latest issue as index.html
-    index_html = template.render(
-        title=title,
-        date=date_str,
-        date_zh=_format_date_zh(date_str),
-        issue_number=_compute_issue_number(date_str),
-        tldr=data.get("tldr", []),
-        headlines=data.get("headlines", []),
-        items=data.get("items", []),
-        sections=sections,
-        display_count=display_count,
-        category_names=category_names,
-        archive_url="archive.html",
-        assets_prefix="",
-    )
+    # Index page
+    index_html = template.render(**render_kwargs, archive_url="archive.html", assets_prefix="")
     index_path = os.path.join(site_dir, "index.html")
     with open(index_path, "w", encoding="utf-8") as f:
         f.write(index_html)
     print(f"[generator] Wrote index: {index_path}")
 
-    # Generate archive page
+    # Archive page
     _generate_archive(site_dir, title, env)
 
     return issue_path
@@ -150,7 +117,6 @@ def _generate_archive(site_dir: str, title: str, env: Environment) -> None:
             continue
 
         date_str = date_match.group(1)
-        # Try to get item count from corresponding JSON
         data_path = Path(site_dir).parent / "data" / f"{date_str}.json"
         count = 0
         if data_path.exists():

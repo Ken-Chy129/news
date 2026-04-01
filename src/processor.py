@@ -17,12 +17,17 @@ SYSTEM_PROMPT = """你是一个专业的 AI 新闻编辑。你的任务是处理
 1. 去重：合并标题或内容高度相似的条目，保留信息最丰富的版本
 2. 分类：将每条新闻归入以下类别之一：paper(论文)、blog(博客)、industry(行业动态)、open_source(开源项目)、model_release(模型发布)、tool_update(工具更新，如 Claude Code、OpenClaw 等开发工具的版本更新)、trending(热榜)
 3. 评分：为每条新闻评估重要性(1-10)，依据：影响力、新颖性、与AI领域的相关性
-4. 摘要：为每条新闻生成 3-5 句中文摘要，要求信息丰富，包含关键数据、核心观点和背景信息，让读者不点开链接也能了解要点
-5. TL;DR：从所有新闻中提炼 3-5 条最重要的要点，每条 2-3 句话，包含具体细节
+4. 摘要：为每条新闻生成 1-2 句中文摘要，简洁概括核心信息
+5. 详细分析：为每条新闻生成一段深入的中文分析，包含：
+   - 事件的具体内容和关键数据
+   - 技术背景和原理解读（如适用）
+   - 行业影响和意义分析
+   - 与相关领域的关联和趋势判断
+6. TL;DR：不需要生成，留空数组即可
 
 输出严格的 JSON 格式：
 {
-  "tldr": ["要点1（2-3句，含具体信息）", "要点2", "要点3"],
+  "tldr": [],
   "items": [
     {
       "title": "原始标题",
@@ -30,7 +35,8 @@ SYSTEM_PROMPT = """你是一个专业的 AI 新闻编辑。你的任务是处理
       "url": "原始URL",
       "source": "来源名称",
       "category": "分类",
-      "summary_zh": "3-5句中文摘要，信息丰富，包含关键数据和背景",
+      "summary_zh": "1-2句简洁摘要",
+      "detail_zh": "200-400字深入分析，包含技术解读、行业影响、趋势判断等",
       "importance": 8
     }
   ]
@@ -72,7 +78,6 @@ def process_items(raw_items: List[RawItem], config: dict) -> Dict[str, Any]:
     # Process in batches if needed
     batches = _chunk_items(item_dicts, max_per_batch)
     all_processed_items = []
-    all_tldrs = []
 
     for i, batch in enumerate(batches):
         print(f"[processor] Processing batch {i + 1}/{len(batches)} ({len(batch)} items)...")
@@ -91,7 +96,6 @@ def process_items(raw_items: List[RawItem], config: dict) -> Dict[str, Any]:
 
             result = json.loads(response.choices[0].message.content)
             all_processed_items.extend(result.get("items", []))
-            all_tldrs.extend(result.get("tldr", []))
         except Exception as e:
             print(f"[processor] LLM error on batch {i + 1}: {e}")
             # Fallback: include raw items without processing
@@ -103,6 +107,7 @@ def process_items(raw_items: List[RawItem], config: dict) -> Dict[str, Any]:
                     "source": item["source"],
                     "category": item["category"],
                     "summary_zh": item.get("content", "")[:200],
+                    "detail_zh": item.get("content", ""),
                     "importance": 5,
                 })
 
@@ -115,25 +120,13 @@ def process_items(raw_items: List[RawItem], config: dict) -> Dict[str, Any]:
                 seen_urls.add(item["url"])
                 deduped.append(item)
         all_processed_items = deduped
-        # Keep only top 5 TL;DRs
-        all_tldrs = all_tldrs[:5]
 
     max_items = config.get("site", {}).get("max_items", 30)
     all_processed_items = all_processed_items[:max_items]
 
-    # Pick headlines: top 2 non-trending AI-related items
-    headlines = []
-    for item in all_processed_items:
-        if item.get("category") != "trending" and item.get("importance", 0) >= 8:
-            headlines.append(item)
-            if len(headlines) >= 2:
-                break
-
     return {
         "date": datetime.now().strftime("%Y-%m-%d"),
         "generated_at": datetime.now().isoformat(),
-        "tldr": all_tldrs,
-        "headlines": headlines,
         "items": all_processed_items,
         "stats": {
             "raw_count": len(raw_items),
@@ -164,7 +157,6 @@ def _fallback_process(raw_items: List[RawItem], config: dict) -> Dict[str, Any]:
     return {
         "date": datetime.now().strftime("%Y-%m-%d"),
         "generated_at": datetime.now().isoformat(),
-        "tldr": [],
         "items": items[:max_items],
         "stats": {
             "raw_count": len(raw_items),
