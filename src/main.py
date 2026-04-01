@@ -112,11 +112,28 @@ def main():
         print("[main] No items collected, exiting")
         sys.exit(0)
 
-    # Step 2: Process with LLM
+    # Separate trending items (skip LLM, pass through directly)
+    ai_items = [item for item in raw_items if item.category != "trending"]
+    trending_items = [item for item in raw_items if item.category == "trending"]
+    print(f"[main] AI items: {len(ai_items)}, Trending items: {len(trending_items)}")
+
+    # Step 2: Process AI items with LLM
     print("\n" + "=" * 60)
     print("Step 2: Processing with LLM...")
     print("=" * 60)
-    processed_data = process_items(raw_items, config)
+    processed_data = process_items(ai_items, config)
+
+    # Add trending items back as-is
+    for item in trending_items:
+        processed_data["items"].append({
+            "title": item.title,
+            "title_zh": item.title,
+            "url": item.url,
+            "source": item.source,
+            "category": "trending",
+            "summary_zh": "",
+            "importance": 3,
+        })
 
     # Step 3: Generate HTML
     print("\n" + "=" * 60)

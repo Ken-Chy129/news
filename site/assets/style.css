@@ -1,5 +1,4 @@
-/* === AI Daily News - Classic Newspaper Style v3 === */
-
+/* === AI Daily News v7 === */
 :root {
   --text-primary: #1a1a1a;
   --text-secondary: #555;
@@ -16,11 +15,7 @@
   --font-sans: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Hiragino Sans GB", sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
   background: var(--bg-primary);
@@ -39,16 +34,21 @@ body {
 }
 
 /* --- Header --- */
-
 .header {
   text-align: center;
   margin-bottom: 1.5rem;
 }
 
-.header-rule {
+.rule-heavy {
   border: none;
   border-top: 3px double var(--border-color);
   margin: 0.5rem 0;
+}
+
+.rule-light {
+  border: none;
+  border-top: 1px solid var(--border-light);
+  margin: 0;
 }
 
 .masthead {
@@ -63,112 +63,67 @@ body {
   font-family: var(--font-sans);
   font-size: 0.9rem;
   color: var(--text-secondary);
+  margin-bottom: 0.3rem;
 }
 
-.separator {
-  margin: 0 0.4rem;
-  color: var(--text-muted);
+/* --- Two-column flow --- */
+.columns {
+  column-count: 2;
+  column-gap: 2.5rem;
+  column-rule: 1px solid var(--border-light);
+  padding-top: 0.5rem;
 }
 
 /* --- Section --- */
-
-.section-rule {
-  border: none;
-  border-top: 1px solid var(--border-light);
-  margin: 1.5rem 0;
+.col-section {
+  break-inside: avoid;
+  margin-bottom: 2rem;
 }
 
-.section-title {
+.col-section-title {
+  font-family: var(--font-sans);
   font-size: 1.1rem;
   font-weight: 700;
   border-bottom: 2px solid var(--border-color);
   padding-bottom: 0.3rem;
-  margin-bottom: 0.8rem;
-  font-family: var(--font-sans);
-}
-
-/* --- Grid layout --- */
-
-.content-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0 2.5rem;
-  margin: 1rem 0;
-}
-
-.grid-section {
-  margin-bottom: 1.5rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--border-light);
-}
-
-/* --- Zone label --- */
-
-.zone-label {
-  font-family: var(--font-sans);
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  color: var(--accent);
-  border: 1px solid var(--accent);
-  display: inline-block;
-  padding: 0.15rem 0.6rem;
   margin-bottom: 1rem;
 }
 
-.zone-label-muted {
-  color: var(--text-muted);
-  border-color: var(--border-light);
-}
-
-/* --- News items --- */
-
-.news-list {
-  list-style: none;
-  padding: 0;
-  counter-reset: news-counter;
-}
-
-.news-item {
-  padding: 0.5rem 0;
+/* --- News item --- */
+.item {
+  margin-bottom: 1.2rem;
+  padding-bottom: 1.2rem;
   border-bottom: 1px dotted var(--border-light);
-  counter-increment: news-counter;
-  padding-left: 2rem;
-  position: relative;
 }
 
-.news-item::before {
-  content: counter(news-counter);
-  position: absolute;
-  left: 0;
-  top: 0.6rem;
-  font-family: var(--font-sans);
-  font-size: 0.7rem;
-  font-weight: 700;
-  color: var(--text-muted);
-  background: #f0e8d8;
-  width: 1.4rem;
-  height: 1.4rem;
-  line-height: 1.4rem;
-  text-align: center;
-  border-radius: 2px;
+.item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-.news-item a {
+.item-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 0.3rem;
+}
+
+.item-title a {
   color: var(--link-color);
   text-decoration: none;
-  font-weight: 600;
-  font-size: 0.95rem;
-  line-height: 1.5;
 }
 
-.news-item a:hover {
+.item-title a:hover {
   color: var(--link-hover);
   text-decoration: underline;
 }
 
-.news-source {
+.item-meta {
+  margin-bottom: 0.3rem;
+}
+
+.item-source {
   display: inline-block;
   font-family: var(--font-sans);
   font-size: 0.65rem;
@@ -176,34 +131,38 @@ body {
   background: #f0e8d8;
   padding: 0.1rem 0.4rem;
   border-radius: 2px;
-  margin-left: 0.3rem;
-  vertical-align: middle;
 }
 
-.news-summary {
+.item-desc {
   font-size: 0.85rem;
   color: var(--text-secondary);
-  margin-top: 0.2rem;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
-/* --- Trending Zone --- */
-
-.trending-zone {
-  margin: 2rem 0 1rem;
-  padding: 1.2rem 1.5rem;
-  background: var(--bg-trending);
+/* --- Trending --- */
+.trending {
+  margin-top: 1rem;
+  padding-top: 1.5rem;
   border-top: 1px solid var(--border-light);
-  border-bottom: 1px solid var(--border-light);
 }
 
-.trending-grid {
+.trending-title {
+  font-family: var(--font-sans);
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-bottom: 2px solid var(--border-light);
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+  color: var(--text-muted);
+}
+
+.trending-cols {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 }
 
-.trending-source {
+.trending-src {
   font-family: var(--font-sans);
   font-size: 0.85rem;
   font-weight: 700;
@@ -213,46 +172,54 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.trending-list {
+.trending-ol {
   list-style: none;
-  padding: 0;
-  counter-reset: trending-counter;
+  counter-reset: t;
 }
 
-.trending-list li {
-  counter-increment: trending-counter;
-  padding: 0.2rem 0;
-  padding-left: 1.4rem;
+.trending-ol li {
+  counter-increment: t;
+  padding: 0.15rem 0 0.15rem 1.5rem;
   position: relative;
   font-size: 0.8rem;
-  line-height: 1.5;
+  line-height: 1.6;
   color: var(--text-secondary);
 }
 
-.trending-list li::before {
-  content: counter(trending-counter);
+.trending-ol li::before {
+  content: counter(t);
   position: absolute;
   left: 0;
-  top: 0.25rem;
+  top: 0.2rem;
   font-family: var(--font-sans);
   font-size: 0.65rem;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text-muted);
+  background: #f0e8d8;
+  width: 1.2rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  border-radius: 2px;
 }
 
-.trending-list a {
+.trending-ol li:nth-child(-n+3)::before {
+  color: var(--accent);
+  background: #f0e0d8;
+  font-weight: 800;
+}
+
+.trending-ol a {
   color: var(--text-secondary);
   text-decoration: none;
-  font-weight: 400;
 }
 
-.trending-list a:hover {
-  color: var(--accent);
+.trending-ol a:hover {
+  color: var(--link-hover);
   text-decoration: underline;
 }
 
 /* --- Archive --- */
-
 .archive-list {
   display: flex;
   flex-direction: column;
@@ -274,18 +241,10 @@ body {
   background: rgba(139, 0, 0, 0.03);
 }
 
-.archive-date {
-  font-weight: 600;
-}
-
-.archive-count {
-  font-family: var(--font-sans);
-  font-size: 0.85rem;
-  color: var(--text-muted);
-}
+.archive-date { font-weight: 600; }
+.archive-count { font-family: var(--font-sans); font-size: 0.85rem; color: var(--text-muted); }
 
 /* --- Footer --- */
-
 .footer {
   text-align: center;
   margin-top: 2rem;
@@ -299,51 +258,21 @@ body {
   text-decoration: none;
 }
 
-.footer a:hover {
-  text-decoration: underline;
-}
+.footer a:hover { text-decoration: underline; }
 
 /* === Responsive === */
-
 @media (max-width: 768px) {
   .newspaper {
     margin: 0;
     padding: 1rem 1.2rem;
     box-shadow: none;
   }
-
-  .masthead {
-    font-size: 1.8rem;
-    letter-spacing: 0.15em;
-  }
-
-  .content-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .trending-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .trending-zone {
-    padding: 1rem;
-  }
-
-  .news-item a {
-    font-size: 0.9rem;
-  }
+  .masthead { font-size: 1.8rem; letter-spacing: 0.15em; }
+  .columns { column-count: 1; }
+  .trending-cols { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 480px) {
-  .masthead {
-    font-size: 1.5rem;
-  }
-
-  .header-meta {
-    font-size: 0.8rem;
-  }
-
-  .news-summary {
-    font-size: 0.8rem;
-  }
+  .masthead { font-size: 1.5rem; }
+  .header-meta { font-size: 0.8rem; }
 }

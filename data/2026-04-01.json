@@ -1,135 +1,42 @@
 {
   "date": "2026-04-01",
-  "generated_at": "2026-04-01T18:19:09.657198",
-  "editorial": "今天的AI新闻主要集中在模型发布和开源项目的更新上，反映出AI领域的持续创新和发展。多个新模型的发布，如Jackrong的Qwen系列和Cohere的自动语音识别模型，展示了在图像与文本生成、语音识别等领域的进步。这些模型不仅在下载量上表现出色，也引发了对其应用场景的广泛讨论。同时，开源项目如TaxHacker和ChatDev 2.0的推出，表明开发者们正在利用AI技术来提升工作效率和用户体验，这种趋势将进一步推动AI在各行业的应用。工具更新方面，Claude Code和OpenClaw的版本更新则为开发者提供了更强大的功能和灵活性，显示出AI工具的不断演进。整体来看，AI领域正在向更高效、更智能的方向发展，未来的应用场景将更加丰富多样。",
-  "tldr": [
-    "AI技术在各行业的应用正在加速，尤其是在数据处理和智能决策方面。",
-    "企业对AI研发的重视程度不断提升，未来市场竞争将更加依赖技术创新。",
-    "AI在资源配置和效率提升方面的潜力依然是行业关注的重点。",
-    "AI领域今天缺乏重大突破，但行业趋势依然值得关注。",
-    "越来越多企业重视自主研发和技术创新，推动行业进步。"
-  ],
+  "generated_at": "2026-04-01T20:16:19.288814",
   "items": [
     {
+      "title": "OpenAI raises $122 billion in new funding to expand frontier AI globally",
+      "title_zh": "OpenAI获得1220亿美元新融资以全球扩展前沿AI",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "source": "OpenAI Blog",
+      "category": "industry",
+      "summary_zh": "OpenAI近日宣布获得1220亿美元的新融资，旨在全球扩展前沿人工智能技术，投资下一代计算能力，以满足ChatGPT、Codex及企业AI日益增长的需求。这一融资将加速AI技术的发展和应用，具有重要的行业影响力。",
+      "importance": 10
+    },
+    {
       "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
-      "title_zh": "Claude Code源代码通过NPM注册表中的映射文件泄露",
+      "title_zh": "Claude Code的源代码通过其NPM注册表中的映射文件泄露",
       "url": "https://twitter.com/Fried_rice/status/2038894956459290963",
       "source": "Hacker News",
       "category": "industry",
-      "summary_zh": "Claude Code的源代码泄露事件引发了对数据安全的广泛关注。",
-      "detail_zh": "Claude Code的源代码泄露事件通过NPM注册表的映射文件曝光，可能对用户和开发者造成重大影响。此事件引发了对数据安全和隐私保护的讨论，尤其是在AI工具和模型日益普及的背景下，如何保障用户数据的安全性成为了行业亟待解决的问题。泄露事件可能导致用户对Claude Code的信任度下降，同时也可能引发法律和合规方面的挑战，促使开发者在未来加强安全措施。",
-      "importance": 10,
-      "_index": 0
+      "summary_zh": "Claude Code的源代码意外泄露，这可能会影响其安全性和开发者的信任。该事件引发了广泛关注，尤其是在开源社区中。开发者应注意潜在的安全风险。",
+      "importance": 10
     },
     {
-      "title": "ChartDiff: A Large-Scale Benchmark for Comprehending Pairs of Charts",
-      "title_zh": "ChartDiff：理解图表对的大规模基准",
-      "url": "https://arxiv.org/abs/2603.28902",
+      "title": "Enhancing Policy Learning with World-Action Model",
+      "title_zh": "通过世界-行动模型增强政策学习",
+      "url": "https://arxiv.org/abs/2603.28955",
       "source": "ArXiv CS.AI",
       "category": "paper",
-      "summary_zh": "ChartDiff是首个针对跨图表比较总结的大规模基准，包含8541对图表，旨在提升图表理解能力。",
-      "detail_zh": "ChartDiff是一个新发布的基准，专注于跨图表的比较理解，填补了现有基准主要集中在单一图表理解的空白。该基准包含8541对来自多种数据源、图表类型和视觉风格的图表，每对图表都经过详细注释。这一研究的意义在于，它不仅推动了图表理解的研究进展，还为数据分析和可视化领域提供了新的评估标准。随着数据可视化在各行业中的重要性日益增加，ChartDiff的推出将有助于提升AI在图表分析中的应用能力，促进更智能的数据决策过程。",
-      "importance": 9,
-      "_index": 1
-    },
-    {
-      "title": "SciVisAgentBench: A Benchmark for Evaluating Scientific Data Analysis and Visualization Agents",
-      "title_zh": "SciVisAgentBench：评估科学数据分析和可视化代理的基准测试",
-      "url": "https://arxiv.org/abs/2603.29139",
-      "source": "ArXiv CS.AI",
-      "category": "paper",
-      "summary_zh": "SciVisAgentBench是一个全面的基准测试，用于评估科学数据分析和可视化代理的性能，填补了这一领域的评估空白。",
-      "detail_zh": "随着大型语言模型（LLMs）的进步，科学可视化代理的开发逐渐成为研究热点。然而，缺乏系统化的评估标准使得比较和改进这些代理的工作变得困难。SciVisAgentBench的提出，旨在为科学数据分析提供一个可重复的评估框架，涵盖多步骤分析的真实场景。该基准测试不仅为研究人员提供了一个评估工具，还促进了科学可视化领域的标准化进程，预示着未来在这一领域的进一步发展和应用。",
-      "importance": 9,
-      "_index": 2
-    },
-    {
-      "title": "OptiMer: Optimal Distribution Vector Merging Is Better than Data Mixing for Continual Pre-Training",
-      "title_zh": "OptiMer：最佳分布向量合并优于数据混合的持续预训练",
-      "url": "https://arxiv.org/abs/2603.28858",
-      "source": "ArXiv CS.CL",
-      "category": "paper",
-      "summary_zh": "OptiMer提出了一种新的持续预训练方法，优化了训练数据的分配，避免了超参数调优的复杂性。",
-      "detail_zh": "OptiMer方法通过将训练数据的比例选择与训练过程解耦，提出了一种新的持续预训练策略。研究表明，传统方法中数据混合比例的选择是一个敏感的超参数，错误的选择可能导致计算资源的浪费。OptiMer通过为每个数据集训练一个模型，提取其分布向量，从而实现更优的训练效果。这一方法不仅提高了模型的适应性，还降低了训练前的准备工作量，具有重要的实用价值，尤其在需要快速适应不同语言和领域的场景中。",
-      "importance": 9,
-      "_index": 3
-    },
-    {
-      "title": "Beyond Idealized Patients: Evaluating LLMs under Challenging Patient Behaviors in Medical Consultations",
-      "title_zh": "超越理想患者：在医疗咨询中评估LLMs应对挑战性患者行为",
-      "url": "https://arxiv.org/abs/2603.29373",
-      "source": "ArXiv CS.CL",
-      "category": "paper",
-      "summary_zh": "研究探讨了大型语言模型在医疗咨询中的应用，特别是在面对复杂患者行为时的评估方法。",
-      "detail_zh": "这篇论文研究了大型语言模型（LLMs）在医疗咨询中的应用，尤其是在处理患者输入不明确或不一致的情况下的表现。研究表明，现有的医疗LLM评估往往假设患者提问是理想化的，这限制了模型在实际应用中的有效性。通过对复杂患者行为的分析，作者提出了新的评估标准，以提高模型在真实医疗场景中的可靠性和安全性。这一研究不仅为医疗AI的应用提供了新的视角，也为未来的模型开发指明了方向，强调了在高风险环境中安全性的重要性。",
-      "importance": 9,
-      "_index": 4
-    },
-    {
-      "title": "AI benchmarks are broken. Here’s what we need instead.",
-      "title_zh": "AI基准测试失效，我们需要什么替代方案",
-      "url": "https://www.technologyreview.com/2026/03/31/1134833/ai-benchmarks-are-broken-heres-what-we-need-instead/",
-      "source": "MIT Technology Review",
-      "category": "blog",
-      "summary_zh": "AI基准测试的有效性受到质疑，呼吁建立更全面的评估标准。",
-      "detail_zh": "文章探讨了当前AI基准测试的局限性，指出传统的AI与人类的比较方法并不能全面反映AI的实际能力。作者提到，AI在特定任务中的表现往往被孤立评估，而忽视了其在更复杂和动态环境中的应用。为了更好地评估AI的能力，建议采用多维度的评估标准，考虑AI在实际应用中的表现和影响。这一观点对AI研究和应用的未来发展具有重要意义，尤其是在推动AI技术向更广泛领域应用时。",
-      "importance": 9,
-      "_index": 5
-    },
-    {
-      "title": "luongnv89/claude-howto",
-      "title_zh": "Claude Code 使用指南",
-      "url": "https://github.com/luongnv89/claude-howto",
-      "source": "GitHub Trending",
-      "category": "open_source",
-      "summary_zh": "提供了一个视觉化的Claude Code使用指南，涵盖从基础概念到高级代理的示例。",
-      "detail_zh": "该项目是一个针对Claude Code的示例驱动指南，旨在帮助开发者快速上手。它包含了从基础到高级的多种用例和模板，极大地降低了学习曲线。随着Claude Code的普及，这类资源将对开发者的工作效率产生积极影响，促进AI应用的快速开发和部署。",
-      "importance": 9,
-      "_index": 6
-    },
-    {
-      "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-      "title_zh": "Jackrong发布Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled模型",
-      "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-      "source": "HuggingFace Models",
-      "category": "model_release",
-      "summary_zh": "Jackrong推出了新的图像文本生成模型，受到了广泛关注。",
-      "detail_zh": "Jackrong发布的Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled模型，专注于图像与文本的生成，已经获得了353205次下载和1949个点赞。该模型的推出标志着在多模态学习领域的进一步突破，能够处理复杂的图像和文本交互，适用于内容创作、广告生成等多个场景。随着AI技术的不断进步，这类模型的应用前景广阔，可能会在教育、娱乐等行业引发新的变革。",
-      "importance": 9,
-      "_index": 7
+      "summary_zh": "本文提出了世界-行动模型（WAM），一种通过结合未来视觉观察和驱动状态转变的行动进行推理的模型。与传统的仅通过图像预测训练的世界模型不同，WAM引入了逆动态目标，鼓励学习到的表示捕捉与行动相关的结构。这一研究为政策学习提供了新的思路，值得关注。",
+      "importance": 9
     },
     {
       "title": "Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research",
-      "title_zh": "Mimosa框架：面向科学研究的演变多代理系统",
+      "title_zh": "Mimosa框架：朝着进化的多智能体系统进行科学研究",
       "url": "https://arxiv.org/abs/2603.28986",
       "source": "ArXiv CS.AI",
       "category": "paper",
-      "summary_zh": "Mimosa框架旨在通过自动合成多代理工作流，推动科学研究中的自主演化。",
-      "detail_zh": "Mimosa框架是一个新提出的多代理系统，旨在克服当前自主科学研究系统在固定工作流和工具集上的局限性。该框架能够自动合成任务特定的多代理工作流，并通过实验反馈不断优化。这一创新在于它允许系统根据不断变化的任务和环境进行自我调整，提升了科学研究的灵活性和效率。随着科学研究的复杂性增加，Mimosa框架的引入可能会成为推动科研进展的重要工具，尤其是在需要快速适应新挑战的领域。",
-      "importance": 8,
-      "_index": 8
-    },
-    {
-      "title": "Working Paper: Towards a Category-theoretic Comparative Framework for Artificial General Intelligence",
-      "title_zh": "工作论文：朝着人工通用智能的范畴理论比较框架",
-      "url": "https://arxiv.org/abs/2603.28906",
-      "source": "ArXiv CS.AI",
-      "category": "paper",
-      "summary_zh": "该论文探讨了AGI的定义及其比较框架，旨在推动AGI的研究进展。",
-      "detail_zh": "这篇工作论文提出了一个范畴理论的比较框架，旨在为人工通用智能（AGI）的研究提供理论支持。AGI被视为AI领域的圣杯，各大科技公司在这一领域投入了大量资源。然而，目前缺乏统一的定义和有效的评估框架。该论文的目标是通过建立一个通用的代数和范畴理论框架，来描述、比较和分析不同的AGI模型。这一研究不仅有助于理论上的深入理解，也为未来AGI的实际应用奠定了基础，反映出行业对AGI研究的高度重视。",
-      "importance": 8,
-      "_index": 9
-    },
-    {
-      "title": "REFINE: Real-world Exploration of Interactive Feedback and Student Behaviour",
-      "title_zh": "REFINE：互动反馈与学生行为的真实世界探索",
-      "url": "https://arxiv.org/abs/2603.29142",
-      "source": "ArXiv CS.AI",
-      "category": "paper",
-      "summary_zh": "REFINE系统利用大型语言模型提供个性化的反馈，旨在改善教育领域的学习体验。",
-      "detail_zh": "REFINE项目针对教育反馈的挑战，提出了一种新的解决方案。该系统能够在大规模环境中提供个性化、及时的反馈，克服了传统反馈机制的局限性。通过利用大型语言模型，REFINE不仅能够生成静态反馈，还支持互动和后续讨论，极大地提升了学习效果和学生参与度。这一创新为教育技术领域带来了新的机遇，尤其是在个性化学习和反馈机制的设计上。",
-      "importance": 8,
-      "_index": 10
+      "summary_zh": "Mimosa是一个进化的多智能体框架，旨在自动合成特定任务的多智能体工作流程，并通过实验反馈迭代优化。这一框架能够适应不断变化的任务和环境，展示了在科学研究中的潜力，具有重要的应用价值。",
+      "importance": 9
     },
     {
       "title": "Nomad: Autonomous Exploration and Discovery",
@@ -137,142 +44,17 @@
       "url": "https://arxiv.org/abs/2603.29353",
       "source": "ArXiv CS.AI",
       "category": "paper",
-      "summary_zh": "Nomad系统旨在实现自主数据探索和洞察发现，推动AI在科研中的应用。",
-      "detail_zh": "Nomad项目提出了一种新的自主数据探索系统，旨在解决传统查询驱动的研究方法的局限性。通过对文献和数据源的深入探索，Nomad能够发现潜在的研究问题和联系，从而推动科学创意的生成。这一系统的设计不仅提升了研究效率，还为AI在科学研究中的应用提供了新的视角，展示了AI如何在数据丰富的环境中发挥更大的作用。",
-      "importance": 8,
-      "_index": 11
-    },
-    {
-      "title": "FlowPIE: Test-Time Scientific Idea Evolution with Flow-Guided Literature Exploration",
-      "title_zh": "FlowPIE：基于流引导的文献探索的科学创意演变",
-      "url": "https://arxiv.org/abs/2603.29557",
-      "source": "ArXiv CS.AI",
-      "category": "paper",
-      "summary_zh": "FlowPIE提出了一种新的文献探索与创意生成的协同框架，推动科学研究的创新。",
-      "detail_zh": "FlowPIE项目通过将文献探索与创意生成视为一个协同过程，提出了一种新的框架，旨在克服现有方法的局限性。该框架能够动态调整文献检索和创意生成的策略，从而产生更具多样性和创新性的研究思路。这一方法不仅提升了AI在科学研究中的应用潜力，也为未来的研究提供了新的方向，尤其是在如何有效利用文献资源方面。",
-      "importance": 8,
-      "_index": 12
-    },
-    {
-      "title": "CrossTrace: A Cross-Domain Dataset of Grounded Scientific Reasoning Traces for Hypothesis Generation",
-      "title_zh": "CrossTrace：用于假设生成的跨领域科学推理轨迹数据集",
-      "url": "https://arxiv.org/abs/2603.28924",
-      "source": "ArXiv CS.CL",
-      "category": "paper",
-      "summary_zh": "CrossTrace数据集为科学假设生成提供了跨领域的推理轨迹，促进了研究的加速。",
-      "detail_zh": "CrossTrace是一个包含1389个科学推理轨迹的数据集，涵盖生物医学研究、人工智能和跨领域工作。这些推理轨迹连接了先前知识与新贡献，填补了现有假设生成模型在数据集上的不足。该数据集的推出将为科学研究中的假设生成提供更为丰富的训练和评估基础，推动科学研究的加速。通过提供跨领域的推理轨迹，研究者能够更好地理解和生成科学假设，具有重要的学术价值和应用潜力。",
-      "importance": 8,
-      "_index": 13
+      "summary_zh": "Nomad是一个用于自主数据探索和洞察发现的系统，旨在克服传统查询驱动的问答系统的局限性。它通过自动化探索文档和数据库，帮助用户发现潜在问题和假设，推动更广泛的洞察力生成。这一研究为AI在数据分析领域的应用提供了新的视角，值得关注。",
+      "importance": 9
     },
     {
       "title": "PolarQuant: Optimal Gaussian Weight Quantization via Hadamard Rotation for LLM Compression",
-      "title_zh": "PolarQuant：通过Hadamard旋转实现LLM压缩的最佳高斯权重量化",
+      "title_zh": "PolarQuant：通过哈达玛旋转实现 LLM 压缩的最佳高斯权重量化",
       "url": "https://arxiv.org/abs/2603.29078",
       "source": "ArXiv CS.CL",
       "category": "paper",
-      "summary_zh": "PolarQuant方法为大语言模型的压缩提供了近乎无损的解决方案，推动了模型的高效应用。",
-      "detail_zh": "PolarQuant是一种后训练权重量化方法，旨在通过利用神经网络权重的分布结构实现近乎无损的压缩。该方法分为三个阶段：块级归一化、Walsh-Hadamard旋转和与高斯分布匹配的量化。通过这一过程，PolarQuant能够显著降低模型的存储需求，同时保持其性能。这一技术的提出为大语言模型在资源受限环境中的应用提供了新的可能性，尤其在移动设备和边缘计算场景中，具有重要的实际意义。",
-      "importance": 8,
-      "_index": 14
-    },
-    {
-      "title": "CounselReflect: A Toolkit for Auditing Mental-Health Dialogues",
-      "title_zh": "CounselReflect：心理健康对话审计工具包",
-      "url": "https://arxiv.org/abs/2603.29429",
-      "source": "ArXiv CS.CL",
-      "category": "paper",
-      "summary_zh": "CounselReflect工具包为心理健康支持对话提供了结构化的审计方法，提升了对话质量的可控性。",
-      "detail_zh": "随着心理健康支持越来越多地通过对话系统提供，CounselReflect工具包应运而生。该工具包不仅提供单一的质量评分，而是通过多维度报告和会话级摘要，帮助用户更好地审计和评估心理健康对话的质量。这种方法为用户提供了更透明的支持体验，能够识别潜在风险并提高对话的有效性。此工具的推出标志着心理健康领域AI应用的一个重要进步，强调了在提供支持时质量控制的重要性。",
-      "importance": 8,
-      "_index": 15
-    },
-    {
-      "title": "M-MiniGPT4: Multilingual VLLM Alignment via Translated Data",
-      "title_zh": "M-MiniGPT4：通过翻译数据实现多语言VLLM对齐",
-      "url": "https://arxiv.org/abs/2603.29467",
-      "source": "ArXiv CS.CL",
-      "category": "paper",
-      "summary_zh": "M-MiniGPT4展示了在11种语言中的强大视觉-语言理解能力，推动了多语言处理的进步。",
-      "detail_zh": "M-MiniGPT4是一种多语言视觉大型语言模型，展示了其在11种语言中的视觉-语言理解能力。研究者采用了本地多语言和翻译数据的混合，以提升MiniGPT4架构的多语言表现。此外，研究还提出了一种多语言对齐训练阶段，利用平行文本语料库进一步增强模型的多语言能力。这一研究不仅推动了多语言AI应用的进展，也为未来的跨语言模型开发提供了新的思路，显示了在全球化背景下AI技术的广泛应用潜力。",
-      "importance": 8,
-      "_index": 16
-    },
-    {
-      "title": "OpenAI closes funding round at an $852B valuation",
-      "title_zh": "OpenAI以8520亿美元的估值完成融资",
-      "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html",
-      "source": "Hacker News",
-      "category": "industry",
-      "summary_zh": "OpenAI成功完成融资，显示出市场对AI技术的持续信心。",
-      "detail_zh": "OpenAI最近完成了一轮融资，估值达到8520亿美元，这一数字反映了市场对其技术和未来发展的高度认可。此次融资将为OpenAI提供更多资源，以推动其在AI领域的创新和应用。随着AI技术的不断进步，市场对AI的需求也在持续增长，OpenAI的成功融资不仅是其自身发展的里程碑，也标志着整个AI行业的蓬勃发展。投资者对AI的信心将进一步推动相关技术的研究和应用，可能引发更多的行业变革。",
-      "importance": 8,
-      "_index": 17
-    },
-    {
-      "title": "microsoft/VibeVoice",
-      "title_zh": "开源前沿语音AI",
-      "url": "https://github.com/microsoft/VibeVoice",
-      "source": "GitHub Trending",
-      "category": "open_source",
-      "summary_zh": "微软发布了一个开源的语音AI项目，旨在推动语音技术的发展。",
-      "detail_zh": "VibeVoice是微软推出的一个开源项目，专注于语音AI的开发。该项目的发布不仅展示了微软在AI领域的技术实力，也为开发者提供了一个强大的工具，帮助他们在语音识别和合成方面进行创新。随着语音技术的不断进步，VibeVoice有望成为行业内的重要参考。",
-      "importance": 8,
-      "_index": 18
-    },
-    {
-      "title": "CohereLabs/cohere-transcribe-03-2026",
-      "title_zh": "Cohere发布新的自动语音识别模型",
-      "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
-      "source": "HuggingFace Models",
-      "category": "model_release",
-      "summary_zh": "Cohere推出的新模型专注于自动语音识别，提升了语音转文本的准确性。",
-      "detail_zh": "Cohere的自动语音识别模型已获得58683次下载和670个点赞，旨在提高语音转文本的准确性和效率。该模型的发布响应了市场对高效语音识别技术的需求，尤其是在会议记录、客户服务等领域。随着语音技术的不断进步，未来可能会看到更多基于该技术的应用，进一步推动人机交互的自然化。",
-      "importance": 8,
-      "_index": 19
-    },
-    {
-      "title": "Drop the Hierarchy and Roles: How Self-Organizing LLM Agents Outperform Designed Structures",
-      "title_zh": "放弃层级和角色：自组织LLM代理如何超越设计结构",
-      "url": "https://arxiv.org/abs/2603.28990",
-      "source": "ArXiv CS.AI",
-      "category": "paper",
-      "summary_zh": "研究表明，自组织的多代理LLM系统在任务执行中表现优于传统设计结构。",
-      "detail_zh": "这项研究通过25,000个任务的计算实验，探讨了自组织的多代理LLM系统的表现。研究发现，在给定最小结构框架的情况下，代理能够自发地创造专业化角色并自我组织。这一发现挑战了传统的层级结构设计，表明自组织机制在多代理系统中可能更有效。随着AI应用场景的复杂性增加，理解和利用自组织行为将成为提升系统性能的重要方向，预示着未来AI系统设计的转变。",
-      "importance": 7,
-      "_index": 20
-    },
-    {
-      "title": "Xuanwu: Evolving General Multimodal Models into an Industrial-Grade Foundation for Content Ecosystems",
-      "title_zh": "Xuanwu：将通用多模态模型演变为内容生态系统的工业级基础",
-      "url": "https://arxiv.org/abs/2603.29211",
-      "source": "ArXiv CS.AI",
-      "category": "paper",
-      "summary_zh": "Xuanwu项目展示了多模态模型在内容生态系统中的工业级应用潜力。",
-      "detail_zh": "Xuanwu项目探讨了如何将通用多模态模型发展为适用于内容生态系统的工业级基础。研究指出，现有模型在面对复杂的内容审核和对抗性环境时，常常表现出泛化能力不足和灾难性遗忘的问题。通过改进模型的视觉感知能力和对长尾噪声的建模，Xuanwu旨在提升多模态模型的实用性和稳定性，为内容生态系统的构建提供强有力的支持。这一研究为多模态AI的发展指明了方向，尤其是在工业应用场景中的潜力。",
-      "importance": 7,
-      "_index": 21
-    },
-    {
-      "title": "Dual Perspectives in Emotion Attribution: A Generator-Interpreter Framework for Cross-Cultural Analysis of Emotion in LLMs",
-      "title_zh": "情感归属中的双重视角：用于跨文化情感分析的生成-解释框架",
-      "url": "https://arxiv.org/abs/2603.29077",
-      "source": "ArXiv CS.CL",
-      "category": "paper",
-      "summary_zh": "该研究强调了文化背景在情感归属中的重要性，推动了跨文化情感理解的进展。",
-      "detail_zh": "本研究提出了一个生成-解释框架，探讨了大语言模型在跨文化情感分析中的应用。研究发现，情感的表达和理解受到文化规范的深刻影响，传统的情感归属研究往往忽视了这一点。通过引入生成者和解释者的双重视角，研究者能够更全面地理解情感在不同文化中的表现。这一框架不仅丰富了情感分析的理论基础，也为实际应用提供了新的视角，尤其在多文化环境下的AI系统设计中，具有重要的应用价值。",
-      "importance": 7,
-      "_index": 22
-    },
-    {
-      "title": "Known Intents, New Combinations: Clause-Factorized Decoding for Compositional Multi-Intent Detection",
-      "title_zh": "已知意图，新组合：用于组合多意图检测的子句因子化解码",
-      "url": "https://arxiv.org/abs/2603.28929",
-      "source": "ArXiv CS.CL",
-      "category": "paper",
-      "summary_zh": "新提出的多意图检测基准CoMIX-Shift增强了模型在组合意图识别上的能力。",
-      "detail_zh": "本研究提出了CoMIX-Shift，一个用于组合多意图检测的控制基准，旨在测试模型在新组合意图识别上的能力。现有基准往往只弱测试这一能力，而CoMIX-Shift通过设计特定的测试集，能够有效评估模型的组合泛化能力。这一研究不仅推动了多意图检测的理论发展，也为实际应用中的意图识别提供了新的思路，特别是在对话系统和智能助手等领域，具有重要的应用前景。",
-      "importance": 7,
-      "_index": 23
+      "summary_zh": "PolarQuant 是一种后训练权重量化方法，专为大型语言模型设计，通过利用神经网络权重的分布结构实现近乎无损的压缩。该方法分为三个阶段：块状归一化、沃尔什-哈达玛旋转和量化，具有重要的应用潜力，尤其在模型部署和存储方面。",
+      "importance": 9
     },
     {
       "title": "Gradient Labs gives every bank customer an AI account manager",
@@ -280,70 +62,382 @@
       "url": "https://openai.com/index/gradient-labs",
       "source": "OpenAI Blog",
       "category": "blog",
-      "summary_zh": "Gradient Labs利用GPT-4和GPT-5为银行客户提供AI账户经理，提升了金融服务的自动化水平。",
-      "detail_zh": "Gradient Labs通过使用GPT-4.1和GPT-5.4的迷你和纳米版本，开发了一种AI账户经理，旨在自动化银行支持工作流程。这一创新不仅提高了服务的响应速度和可靠性，还为客户提供了更为个性化的金融服务体验。随着AI技术在金融领域的不断深入应用，银行客户将享受到更高效、更便捷的服务，这标志着金融行业在数字化转型中的又一重要进展。",
-      "importance": 7,
-      "_index": 24
+      "summary_zh": "Gradient Labs利用GPT-4.1和GPT-5.4的迷你和纳米版本，推出AI代理，自动化银行支持工作流程。这一创新可以显著提高银行客户服务的效率和可靠性，值得关注。",
+      "importance": 9
     },
     {
-      "title": "OpenAI raises $122 billion in new funding to expand frontier AI globally",
-      "title_zh": "OpenAI获得1220亿美元新融资以全球扩展前沿AI",
-      "url": "https://openai.com/index/accelerating-the-next-phase-ai",
-      "source": "OpenAI Blog",
-      "category": "blog",
-      "summary_zh": "OpenAI获得1220亿美元融资，计划扩展前沿AI技术以满足日益增长的市场需求。",
-      "detail_zh": "OpenAI近日宣布获得1220亿美元的新融资，旨在推动前沿AI技术的全球扩展。这笔资金将用于投资下一代计算能力，以满足日益增长的ChatGPT、Codex和企业AI的需求。随着AI技术的快速发展和应用场景的不断扩展，OpenAI的这一举措不仅将加速其技术进步，也将推动整个行业的创新与发展，进一步巩固其在全球AI市场的领导地位。",
-      "importance": 7,
-      "_index": 25
-    },
-    {
-      "title": "ICML 2026 review policy debate: 100 responses suggest Policy B may score higher",
-      "title_zh": "ICML 2026评审政策辩论：100个回应显示政策B可能得分更高",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8rpuo/d_icml_2026_review_policy_debate_100_responses/",
-      "source": "Reddit r/MachineLearning",
+      "title": "Microsoft: Copilot is for entertainment purposes only",
+      "title_zh": "微软：Copilot仅供娱乐用途",
+      "url": "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/termsofuse",
+      "source": "Hacker News",
       "category": "industry",
-      "summary_zh": "关于ICML 2026评审政策的讨论表明，政策B可能在评分上更具优势。",
-      "detail_zh": "最近的讨论集中在ICML 2026的评审政策上，尤其是政策A与政策B的比较。调查显示，虽然政策A的评审信心较高，但政策B的得分潜力更大。这一争议反映出学术界对评审过程公平性和透明度的关注，可能会影响未来的投稿策略和研究方向。",
-      "importance": 7,
-      "_index": 26
+      "summary_zh": "微软明确表示其Copilot工具仅供娱乐用途，这引发了对AI工具责任和使用场景的讨论。此声明可能影响用户对该工具的信任和使用方式。",
+      "importance": 9
     },
     {
-      "title": "vas3k/TaxHacker",
-      "title_zh": "TaxHacker：自托管的AI会计应用",
-      "url": "https://github.com/vas3k/TaxHacker",
+      "title": "google-research/timesfm",
+      "title_zh": "谷歌研究的 TimesFM",
+      "url": "https://github.com/google-research/timesfm",
       "source": "GitHub Trending",
       "category": "open_source",
-      "summary_zh": "TaxHacker是一个自托管的AI会计应用，支持收据和发票分析。",
-      "detail_zh": "TaxHacker项目通过使用大语言模型分析收据、发票和交易，提供了一个自托管的AI会计解决方案。该项目在GitHub上获得了318个星标，显示出开发者对其功能的认可。随着企业对财务管理的智能化需求增加，这类应用将有助于提升会计工作的效率和准确性，减少人工操作的错误率，未来可能会成为中小企业的标准工具。",
-      "importance": 7,
-      "_index": 27
+      "summary_zh": "TimesFM 是谷歌研究开发的预训练时间序列基础模型，旨在用于时间序列预测。该模型的发布将为时间序列分析领域带来新的机遇，值得关注。",
+      "importance": 9
     },
     {
-      "title": "我从头开始训练了一个低资源语言的语言模型，并在Android上完全离线运行（无GPU，演示）",
-      "title_zh": "我从头开始训练了一个低资源语言的语言模型，并在Android上完全离线运行（无GPU，演示）",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s89pv3/p_i_trained_a_language_model_from_scratch_for_a/",
-      "source": "Reddit r/MachineLearning",
-      "category": "industry",
-      "summary_zh": "研究者成功训练了适用于低资源语言的语言模型，并在Android设备上实现了离线运行。",
-      "detail_zh": "该项目展示了如何为低资源语言Luganda训练语言模型，并成功在Android设备上实现离线运行。这一成就不仅突破了资源限制，还为低资源语言的应用提供了新的可能性。随着对多语言支持的需求增加，这类技术的进步将对全球语言的数字化和保护产生深远影响。",
-      "importance": 6,
-      "_index": 28
+      "title": "PAR$^2$-RAG: Planned Active Retrieval and Reasoning for Multi-Hop Question Answering",
+      "title_zh": "PAR$^2$-RAG：多跳问答的计划主动检索与推理",
+      "url": "https://arxiv.org/abs/2603.29085",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了一种新的多跳问答方法PAR$^2$-RAG，旨在解决现有系统在检索和推理过程中可能出现的错误。通过计划和主动检索的结合，该方法能够更有效地处理多文档证据，提升问答的准确性和可靠性，具有较高的研究价值。",
+      "importance": 8
     },
     {
-      "title": "claude-code v2.1.89",
-      "title_zh": "Claude Code更新至v2.1.89",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.89",
-      "source": "Claude Code Updates",
-      "category": "tool_update",
-      "summary_zh": "Claude Code的最新版本增加了多项新功能，提升了开发者的使用体验。",
-      "detail_zh": "Claude Code v2.1.89版本更新包含了多个新功能，如新增的权限决策和无闪烁渲染选项，旨在提升开发者在使用过程中的流畅性和效率。这些更新不仅优化了工具的性能，也为开发者提供了更大的灵活性，能够更好地适应不同的开发需求。随着AI开发工具的不断演进，开发者的工作效率将得到显著提升。",
-      "importance": 6,
-      "_index": 29
+      "title": "Drop the Hierarchy and Roles: How Self-Organizing LLM Agents Outperform Designed Structures",
+      "title_zh": "放弃层级与角色：自组织LLM代理如何超越设计结构",
+      "url": "https://arxiv.org/abs/2603.28990",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究通过25,000个任务的计算实验，探讨了多智能体LLM系统的自主行为。结果表明，自组织的代理在任务执行中表现优于传统的层级结构，揭示了智能体自主性的潜力，对未来的系统设计有重要启示。",
+      "importance": 8
+    },
+    {
+      "title": "GISTBench: Evaluating LLM User Understanding via Evidence-Based Interest Verification",
+      "title_zh": "GISTBench：通过基于证据的兴趣验证评估LLM用户理解能力",
+      "url": "https://arxiv.org/abs/2603.29112",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "GISTBench是一个新的基准，旨在评估大型语言模型（LLMs）从用户交互历史中提取和验证用户兴趣的能力。与传统推荐系统基准不同，该基准关注用户兴趣的精准性和召回率，推动了用户理解能力的研究。",
+      "importance": 8
+    },
+    {
+      "title": "SciVisAgentBench: A Benchmark for Evaluating Scientific Data Analysis and Visualization Agents",
+      "title_zh": "SciVisAgentBench：评估科学数据分析与可视化代理的基准",
+      "url": "https://arxiv.org/abs/2603.29139",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "SciVisAgentBench是一个全面的基准，用于评估科学数据分析和可视化代理在现实多步骤分析环境中的表现。该基准为科学可视化领域的代理提供了标准化的评估框架，具有重要的应用前景。",
+      "importance": 8
+    },
+    {
+      "title": "BenchScope: How Many Independent Signals Does Your Benchmark Provide?",
+      "title_zh": "BenchScope：你的基准提供了多少独立信号？",
+      "url": "https://arxiv.org/abs/2603.29357",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "BenchScope提出了一种有效的维度性（ED）指标，用于评估AI基准的测量广度。通过对多个基准的分析，研究发现许多基准存在显著的冗余，这一发现对AI模型评估的准确性具有重要影响，值得研究者关注。",
+      "importance": 8
+    },
+    {
+      "title": "Learning to Generate Formally Verifiable Step-by-Step Logic Reasoning via Structured Formal Intermediaries",
+      "title_zh": "通过结构化形式中介学习生成形式可验证的逐步逻辑推理",
+      "url": "https://arxiv.org/abs/2603.29500",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究提出PRoSFI方法，旨在提高大型语言模型在复杂多步骤推理任务中的可靠性。通过关注中间步骤的质量，研究为提升AI推理能力提供了新的方法论，具有重要的学术价值。",
+      "importance": 8
+    },
+    {
+      "title": "FlowPIE: Test-Time Scientific Idea Evolution with Flow-Guided Literature Exploration",
+      "title_zh": "FlowPIE：基于流引导的文献探索的测试时科学思想演变",
+      "url": "https://arxiv.org/abs/2603.29557",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "FlowPIE提出了一种新的文献探索与思想生成的紧密耦合框架，旨在克服现有方法的局限性。该研究为AI驱动的自主研究提供了新的思路，推动科学思想的多样性与创新性，具有重要的应用前景。",
+      "importance": 8
+    },
+    {
+      "title": "APEX-EM: Non-Parametric Online Learning for Autonomous Agents via Structured Procedural-Episodic Experience Replay",
+      "title_zh": "APEX-EM：通过结构化程序-情节经验重放的非参数在线学习",
+      "url": "https://arxiv.org/abs/2603.29093",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "APEX-EM 提出了一个非参数在线学习框架，旨在帮助基于 LLM 的自主代理积累和重用结构化的程序计划，而无需修改模型权重。这种方法有助于提高模型在重复任务中的效率，具有广泛的应用前景。",
+      "importance": 8
+    },
+    {
+      "title": "Long-Document QA with Chain-of-Structured-Thought and Fine-Tuned SLMs",
+      "title_zh": "基于结构化思维链和微调 SLM 的长文档问答",
+      "url": "https://arxiv.org/abs/2603.29232",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "该研究提出了一种新的问答框架 LiteCoST，旨在提高对长文档的问答准确性和响应速度。通过整合分散的证据并输出结构化结果，该方法在处理复杂文档时表现出色，具有重要的实用价值。",
+      "importance": 8
+    },
+    {
+      "title": "Beyond Idealized Patients: Evaluating LLMs under Challenging Patient Behaviors in Medical Consultations",
+      "title_zh": "超越理想患者：在医疗咨询中评估 LLM 面对挑战性患者行为的表现",
+      "url": "https://arxiv.org/abs/2603.29373",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本研究探讨了大型语言模型在医疗咨询中的应用，特别是在面对模糊或误导性患者输入时的表现。通过评估模型在实际医疗场景中的反应，研究为提升医疗 LLM 的安全性和有效性提供了重要见解。",
+      "importance": 8
+    },
+    {
+      "title": "Shifting to AI model customization is an architectural imperative",
+      "title_zh": "转向AI模型定制是架构的必然选择",
+      "url": "https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/",
+      "source": "MIT Technology Review",
+      "category": "blog",
+      "summary_zh": "随着大型语言模型的演进，模型定制化成为提升性能的关键。文章探讨了如何通过定制化实现显著的性能提升，尤其是在特定领域的智能应用中，这一趋势对AI行业发展具有重要意义。",
+      "importance": 8
+    },
+    {
+      "title": "anthropics/claude-code",
+      "title_zh": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Claude Code是一个智能编码工具，能够理解代码库并通过自然语言命令帮助开发者更快地编写代码。该项目在开源社区中受到广泛关注，适合希望提高编码效率的开发者。",
+      "importance": 8
+    },
+    {
+      "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "title_zh": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled 模型发布",
+      "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "该模型支持图像到文本的转换，已获得超过35万次下载，显示出其在图像处理和自然语言处理领域的潜力，值得研究者关注。",
+      "importance": 8
+    },
+    {
+      "title": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "title_zh": "Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive 模型发布",
+      "url": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "此模型专注于图像到文本的转换，下载量接近60万，展示了其在多模态学习中的应用潜力，适合相关领域的研究者使用。",
+      "importance": 8
+    },
+    {
+      "title": "Knowledge database development by large language models for countermeasures against viruses and marine toxins",
+      "title_zh": "大型语言模型开发的知识数据库用于应对病毒和海洋毒素",
+      "url": "https://arxiv.org/abs/2603.29149",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文利用大型语言模型设计了两个综合数据库，以支持对病毒和海洋毒素的医疗对策研究。这一工作填补了当前缺乏全面数据库的空白，具有重要的公共卫生意义。",
+      "importance": 7
+    },
+    {
+      "title": "Emergence WebVoyager: Toward Consistent and Transparent Evaluation of (Web) Agents in The Wild",
+      "title_zh": "Emergence WebVoyager：朝着一致和透明的（网络）代理评估",
+      "url": "https://arxiv.org/abs/2603.29020",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究探讨了在复杂真实环境中评估AI代理的可靠性和透明性，指出现有评估实践的不足，并提出了WebVoyager的审计结果。这一研究为改进AI代理的评估方法提供了重要的思路。",
+      "importance": 7
+    },
+    {
+      "title": "Xuanwu: Evolving General Multimodal Models into an Industrial-Grade Foundation for Content Ecosystems",
+      "title_zh": "Xuanwu：将通用多模态模型演变为内容生态系统的工业级基础",
+      "url": "https://arxiv.org/abs/2603.29211",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文探讨了如何将通用多模态模型发展为适应实际内容管理和对抗环境的工业级基础。研究揭示了在复杂场景中模型的泛化能力和长期噪声建模的重要性，具有较高的应用价值。",
+      "importance": 7
+    },
+    {
+      "title": "AI-Generated Prior Authorization Letters: Strong Clinical Content, Weak Administrative Scaffolding",
+      "title_zh": "AI生成的事前授权信：强大的临床内容，薄弱的行政支撑",
+      "url": "https://arxiv.org/abs/2603.29366",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "这项研究探讨了大型语言模型在生成事前授权信方面的能力，指出现有研究多为单一案例，缺乏多场景的结构化验证。随着医疗行业对自动化的需求增加，该研究为AI在医疗行政流程中的应用提供了新的思路。",
+      "importance": 7
+    },
+    {
+      "title": "PSPA-Bench: A Personalized Benchmark for Smartphone GUI Agent",
+      "title_zh": "PSPA-Bench：智能手机GUI代理的个性化基准",
+      "url": "https://arxiv.org/abs/2603.29318",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "PSPA-Bench是针对智能手机GUI代理的个性化基准，旨在帮助代理提供更符合用户个性化需求的服务。该研究为智能手机应用的智能化提供了新的评估标准，具有实际应用价值。",
+      "importance": 7
+    },
+    {
+      "title": "Rigorous Explanations for Tree Ensembles",
+      "title_zh": "树集成的严格解释",
+      "url": "https://arxiv.org/abs/2603.29361",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究探讨了如何为树集成模型提供自动化解释，以增强其在决策过程中的透明度和可解释性。这一方法有助于提高用户对AI决策的信任，具有重要的应用潜力。",
+      "importance": 7
+    },
+    {
+      "title": "ELT-Bench-Verified: Benchmark Quality Issues Underestimate AI Agent Capabilities",
+      "title_zh": "ELT-Bench-Verified：基准质量问题低估了AI代理的能力",
+      "url": "https://arxiv.org/abs/2603.29399",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "ELT-Bench-Verified重新评估了AI代理在构建数据管道方面的能力，揭示了现有基准的低成功率可能低估了代理的实际能力。这一发现对AI在数据工程领域的应用具有重要的启示。",
+      "importance": 7
+    },
+    {
+      "title": "有线耳机爆火原因",
+      "title_zh": "有线耳机爆火原因",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%89%E7%BA%BF%E8%80%B3%E6%9C%BA%E7%88%86%E7%81%AB%E5%8E%9F%E5%9B%A0%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "你的公积金悄悄变多了",
+      "title_zh": "你的公积金悄悄变多了",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BD%A0%E7%9A%84%E5%85%AC%E7%A7%AF%E9%87%91%E6%82%84%E6%82%84%E5%8F%98%E5%A4%9A%E4%BA%86%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "4月1日起一批国家标准开始实施",
+      "title_zh": "4月1日起一批国家标准开始实施",
+      "url": "https://s.weibo.com/weibo?q=%234%E6%9C%881%E6%97%A5%E8%B5%B7%E4%B8%80%E6%89%B9%E5%9B%BD%E5%AE%B6%E6%A0%87%E5%87%86%E5%BC%80%E5%A7%8B%E5%AE%9E%E6%96%BD%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "以色列决定报复法国",
+      "title_zh": "以色列决定报复法国",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BB%A5%E8%89%B2%E5%88%97%E5%86%B3%E5%AE%9A%E6%8A%A5%E5%A4%8D%E6%B3%95%E5%9B%BD%23&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "369休息",
+      "title_zh": "369休息",
+      "url": "https://s.weibo.com/weibo?q=369%E4%BC%91%E6%81%AF&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "时代少年团愚人节互发",
+      "title_zh": "时代少年团愚人节互发",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%97%B6%E4%BB%A3%E5%B0%91%E5%B9%B4%E5%9B%A2%E6%84%9A%E4%BA%BA%E8%8A%82%E4%BA%92%E5%8F%91%23&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "如何看待教育部发布通知，明确学校自主经营食堂不以营利为目的，并严格执行陪餐制度？能保障学生用餐安全吗？",
+      "title_zh": "如何看待教育部发布通知，明确学校自主经营食堂不以营利为目的，并严格执行陪餐制度？能保障学生用餐安全吗？",
+      "url": "https://www.zhihu.com/question/2022246464714227999",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "考编女生预订考点周边十多间酒店房间，加价转卖被警方立案，如何看待「考生变黄牛」现象？这种现象能根治吗？",
+      "title_zh": "考编女生预订考点周边十多间酒店房间，加价转卖被警方立案，如何看待「考生变黄牛」现象？这种现象能根治吗？",
+      "url": "https://www.zhihu.com/question/2021956677616895320",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "TES 369 被曝疑似跑路，具体什么情况？369 最近的竞技状态怎样？他真的要「休息」了吗？",
+      "title_zh": "TES 369 被曝疑似跑路，具体什么情况？369 最近的竞技状态怎样？他真的要「休息」了吗？",
+      "url": "https://www.zhihu.com/question/2022448853580867113",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "张雪称不介意开放影视版权，「得是顶级团队，我能给顶级的资源」，可能有哪些精彩镜头？你期待谁来执导拍摄？",
+      "title_zh": "张雪称不介意开放影视版权，「得是顶级团队，我能给顶级的资源」，可能有哪些精彩镜头？你期待谁来执导拍摄？",
+      "url": "https://www.zhihu.com/question/2022642526977361738",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "长期保持一定饥饿感的人现在怎么样了？",
+      "title_zh": "长期保持一定饥饿感的人现在怎么样了？",
+      "url": "https://www.zhihu.com/question/5585412326",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "伊朗副议长称目前最高领袖未批准任何谈判，如何解读？美伊关系未来将如何发展？",
+      "title_zh": "伊朗副议长称目前最高领袖未批准任何谈判，如何解读？美伊关系未来将如何发展？",
+      "url": "https://www.zhihu.com/question/2022729020421220020",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "英国冻结一中国人涉及7.38亿元房产",
+      "title_zh": "英国冻结一中国人涉及7.38亿元房产",
+      "url": "https://www.toutiao.com/trending/7623653683580207131/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "列车进站美国男子突然推搡等车乘客",
+      "title_zh": "列车进站美国男子突然推搡等车乘客",
+      "url": "https://www.toutiao.com/trending/7623691090163482660/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "海南自贸港磁吸效应持续增强",
+      "title_zh": "海南自贸港磁吸效应持续增强",
+      "url": "https://www.toutiao.com/trending/7622616359062781995/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "钓鱼佬炫耀车里大鱼被路过骑警撤回",
+      "title_zh": "钓鱼佬炫耀车里大鱼被路过骑警撤回",
+      "url": "https://www.toutiao.com/trending/7623679503420604425/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "中方在委内瑞拉合法权益必须得到保护",
+      "title_zh": "中方在委内瑞拉合法权益必须得到保护",
+      "url": "https://www.toutiao.com/trending/7623690050745221156/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "公安部网安局公布3起网络谣言案例",
+      "title_zh": "公安部网安局公布3起网络谣言案例",
+      "url": "https://www.toutiao.com/trending/7623335434847964726/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
     }
   ],
   "stats": {
-    "raw_count": 179,
+    "raw_count": 119,
     "processed_count": 30
   },
-  "display_count": 15
+  "display_count": 29
 }

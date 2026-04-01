@@ -9,89 +9,60 @@
 <body>
 <div class="newspaper">
 
-  <!-- Header -->
   <header class="header">
-    <div class="header-rule"></div>
+    <div class="rule-heavy"></div>
     <h1 class="masthead">{{ title }}</h1>
-    <div class="header-meta">
-      <span class="date">{{ date_zh }}</span>
-      <span class="separator">&middot;</span>
-      <span class="edition">第 {{ issue_number }} 期</span>
-      <span class="separator">&middot;</span>
-      <span class="stats">{{ display_count }} 条新闻</span>
-    </div>
-    <div class="header-rule"></div>
+    <div class="header-meta">{{ date_zh }} &middot; 第 {{ issue_number }} 期 &middot; {{ display_count }} 条新闻</div>
+    <div class="rule-heavy"></div>
   </header>
 
-  <!-- AI sections in grid layout -->
   {% set ai_cats = ['industry', 'blog', 'paper', 'model_release', 'tool_update', 'open_source'] %}
-  {% set ai_sections = [] %}
-  {% for cat_id in ai_cats %}
-    {% if cat_id in sections and sections[cat_id].entries %}
-      {% set _ = ai_sections.append({'id': cat_id, 'info': sections[cat_id]}) %}
-    {% endif %}
-  {% endfor %}
 
-  {% if ai_sections %}
-  <div class="content-grid">
-    {% for sec in ai_sections %}
-    <section class="grid-section">
-      <h2 class="section-title">{{ sec.info.icon }} {{ sec.info.name }}</h2>
-      <ol class="news-list">
-        {% for item in sec.info.entries %}
-        <li class="news-item">
-          <a href="{{ item.url }}" target="_blank" rel="noopener">
-            {{ item.title_zh or item.title }}
-          </a>
-          <span class="news-source">{{ item.source }}</span>
-          {% if item.summary_zh %}
-          <p class="news-summary">{{ item.summary_zh }}</p>
-          {% endif %}
-        </li>
+  <div class="columns">
+    {% for cat_id in ai_cats %}
+      {% if cat_id in sections and sections[cat_id].entries %}
+      {% set sec = sections[cat_id] %}
+      <section class="col-section">
+        <h2 class="col-section-title">{{ sec.icon }} {{ sec.name }}</h2>
+        {% for item in sec.entries %}
+        <article class="item">
+          <h3 class="item-title"><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title_zh or item.title }}</a></h3>
+          <div class="item-meta"><span class="item-source">{{ item.source }}</span></div>
+          {% if item.summary_zh %}<p class="item-desc">{{ item.summary_zh }}</p>{% endif %}
+        </article>
         {% endfor %}
-      </ol>
-    </section>
+      </section>
+      {% endif %}
     {% endfor %}
   </div>
-  {% endif %}
 
-  <!-- Trending Zone -->
   {% if 'trending' in sections and sections['trending'].entries %}
-  <div class="trending-zone">
-    <div class="zone-label zone-label-muted">全网热榜</div>
-    <div class="trending-grid">
+  <section class="trending">
+    <div class="rule-light"></div>
+    <h2 class="col-section-title trending-title">🔥 全网热榜</h2>
+    <div class="trending-cols">
       {% set trending_items = sections['trending'].entries %}
       {% set sources_seen = [] %}
       {% for item in trending_items %}
-        {% if item.source not in sources_seen %}
-          {% set _ = sources_seen.append(item.source) %}
-        {% endif %}
+        {% if item.source not in sources_seen %}{% set _ = sources_seen.append(item.source) %}{% endif %}
       {% endfor %}
       {% for src in sources_seen %}
-      <div class="trending-column">
-        <h3 class="trending-source">{{ src }}</h3>
-        <ol class="trending-list">
-          {% for item in trending_items %}
-          {% if item.source == src %}
-          <li>
-            <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title_zh or item.title }}</a>
-          </li>
-          {% endif %}
-          {% endfor %}
+      <div class="trending-col">
+        <h3 class="trending-src">{{ src }}</h3>
+        <ol class="trending-ol">
+          {% for item in trending_items %}{% if item.source == src %}
+          <li><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title_zh or item.title }}</a></li>
+          {% endif %}{% endfor %}
         </ol>
       </div>
       {% endfor %}
     </div>
-  </div>
+  </section>
   {% endif %}
 
-  <!-- Footer -->
   <footer class="footer">
-    <div class="header-rule"></div>
-    <p>
-      {{ title }} &middot; 由 GitHub Actions 自动生成 &middot;
-      <a href="{{ archive_url }}">历史归档</a>
-    </p>
+    <div class="rule-light"></div>
+    <p>{{ title }} &middot; 由 GitHub Actions 自动生成 &middot; <a href="{{ archive_url }}">历史归档</a></p>
   </footer>
 
 </div>
