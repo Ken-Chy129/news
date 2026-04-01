@@ -44,8 +44,8 @@
             {{ item.title_zh or item.title }}
           </a>
           <span class="news-source">{{ item.source }}</span>
-          {% if item.detail_zh or item.summary_zh %}
-          <p class="news-summary">{{ item.detail_zh or item.summary_zh }}</p>
+          {% if item.summary_zh %}
+          <p class="news-summary">{{ item.summary_zh }}</p>
           {% endif %}
         </li>
         {% endfor %}

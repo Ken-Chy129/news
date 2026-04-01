@@ -17,17 +17,14 @@ SYSTEM_PROMPT = """你是一个专业的 AI 新闻编辑。你的任务是处理
 1. 去重：合并标题或内容高度相似的条目，保留信息最丰富的版本
 2. 分类：将每条新闻归入以下类别之一：paper(论文)、blog(博客)、industry(行业动态)、open_source(开源项目)、model_release(模型发布)、tool_update(工具更新，如 Claude Code、OpenClaw 等开发工具的版本更新)、trending(热榜)
 3. 评分：为每条新闻评估重要性(1-10)，依据：影响力、新颖性、与AI领域的相关性
-4. 摘要：为每条新闻生成 1-2 句中文摘要，简洁概括核心信息
-5. 详细分析：为每条新闻生成一段深入的中文分析，包含：
+4. 分析：为每条新闻生成一段深入的中文分析（150-300字），包含：
    - 事件的具体内容和关键数据
    - 技术背景和原理解读（如适用）
    - 行业影响和意义分析
    - 与相关领域的关联和趋势判断
-6. TL;DR：不需要生成，留空数组即可
 
 输出严格的 JSON 格式：
 {
-  "tldr": [],
   "items": [
     {
       "title": "原始标题",
@@ -35,8 +32,7 @@ SYSTEM_PROMPT = """你是一个专业的 AI 新闻编辑。你的任务是处理
       "url": "原始URL",
       "source": "来源名称",
       "category": "分类",
-      "summary_zh": "1-2句简洁摘要",
-      "detail_zh": "200-400字深入分析，包含技术解读、行业影响、趋势判断等",
+      "summary_zh": "150-300字深入分析",
       "importance": 8
     }
   ]
@@ -106,8 +102,7 @@ def process_items(raw_items: List[RawItem], config: dict) -> Dict[str, Any]:
                     "url": item["url"],
                     "source": item["source"],
                     "category": item["category"],
-                    "summary_zh": item.get("content", "")[:200],
-                    "detail_zh": item.get("content", ""),
+                    "summary_zh": item.get("content", "")[:300],
                     "importance": 5,
                 })
 
