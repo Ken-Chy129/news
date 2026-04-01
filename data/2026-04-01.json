@@ -1,12 +1,12 @@
 {
   "date": "2026-04-01",
-  "generated_at": "2026-04-01T08:48:18.891345",
+  "generated_at": "2026-04-01T09:05:09.822406",
   "tldr": [
-    "OpenAI完成了1220亿美元的融资，投后估值达到8520亿美元，这一轮融资将推动其在人工智能领域的进一步发展。",
-    "新发布的论文《ChartDiff》介绍了一种用于跨图表比较总结的大规模基准，旨在填补现有图表理解基准的空白。",
-    "研究表明，当前的多代理系统在自组织方面表现出色，能够在最小的结构支持下自发创造专业角色，显示出自主行为的潜力。",
-    "SciVisAgentBench是一个全面的基准，用于评估科学数据分析和可视化代理，旨在填补当前缺乏可重复性评估工具的空白。",
-    "REFINE项目利用大型语言模型自动化个性化反馈，旨在解决在大规模学习环境中提供及时反馈的挑战。"
+    "OpenAI完成了1220亿美元的融资，投后估值达到8520亿美元，这一轮融资标志着AI领域的重大投资趋势。",
+    "新发布的研究论文ChartDiff提供了一个大规模基准，用于比较多个图表的数据理解，填补了现有单图表分析的空白。",
+    "Mimosa框架被提出以支持科学研究中的多智能体系统，能够根据实验反馈自动生成和优化多智能体工作流。",
+    "SciVisAgentBench是一个新的基准，旨在评估科学数据分析和可视化代理的性能，填补了当前缺乏系统性评估标准的空白。",
+    "REFINE项目展示了如何利用大型语言模型提供个性化的反馈，解决了大规模教育中反馈提供的挑战。"
   ],
   "headlines": [
     {
@@ -15,16 +15,16 @@
       "url": "https://arxiv.org/abs/2603.29139",
       "source": "ArXiv CS.AI",
       "category": "paper",
-      "summary_zh": "SciVisAgentBench是一个全面的基准，旨在评估科学数据分析和可视化代理的能力。该基准填补了当前缺乏可重复性评估工具的空白，特别是在多步骤分析设置中。通过提供一个系统化的评估框架，研究者可以更好地理解和优化这些代理的性能。",
+      "summary_zh": "SciVisAgentBench是一个全面且可扩展的基准，用于评估科学数据分析和可视化代理的性能。该基准填补了当前缺乏系统性评估标准的空白，特别是在多步骤分析设置中。通过该基准，研究者可以更好地理解和比较不同的SciVis代理在实际应用中的表现。",
       "importance": 9
     },
     {
       "title": "OptiMer: Optimal Distribution Vector Merging Is Better than Data Mixing for Continual Pre-Training",
-      "title_zh": "OptiMer：最佳分布向量合并优于数据混合进行持续预训练",
+      "title_zh": "OptiMer：最佳分布向量合并优于数据混合用于持续预训练",
       "url": "https://arxiv.org/abs/2603.28858",
       "source": "ArXiv CS.CL",
       "category": "paper",
-      "summary_zh": "OptiMer提出了一种新的持续预训练方法，旨在解决训练数据混合比例的敏感性问题。通过为每个数据集训练一个模型并提取其分布向量，OptiMer能够在不固定混合比例的情况下进行训练，从而节省计算资源并提高效率。该方法为大语言模型的适应性训练提供了新的思路。",
+      "summary_zh": "持续预训练在适应大型语言模型（LLMs）到目标语言和领域中被广泛使用，但训练数据的混合比例是一个敏感的超参数。OptiMer方法通过为每个数据集训练一个CPT模型，提取每个模型的分布向量，从而解耦了比例选择与训练过程，显著降低了调参的复杂性和计算成本。",
       "importance": 9
     }
   ],
@@ -35,7 +35,7 @@
       "url": "https://www.zhihu.com/question/2022593285970027591",
       "source": "知乎热榜",
       "category": "trending",
-      "summary_zh": "OpenAI最近完成了1220亿美元的融资，投后估值达到8520亿美元。这一轮融资不仅为OpenAI的未来发展提供了强大资金支持，也标志着人工智能领域的投资热潮持续升温。分析人士认为，这将加速OpenAI在技术创新和市场扩展方面的布局。",
+      "summary_zh": "OpenAI最近完成了一轮1220亿美元的融资，投后估值达8520亿美元。这一融资不仅显示了投资者对AI技术的强烈信心，也反映出AI行业的快速发展和未来潜力。分析认为，这一轮融资将推动OpenAI在技术研发和市场扩展方面的进一步布局。",
       "importance": 9
     },
     {
@@ -44,61 +44,79 @@
       "url": "https://arxiv.org/abs/2603.29139",
       "source": "ArXiv CS.AI",
       "category": "paper",
-      "summary_zh": "SciVisAgentBench是一个全面的基准，旨在评估科学数据分析和可视化代理的能力。该基准填补了当前缺乏可重复性评估工具的空白，特别是在多步骤分析设置中。通过提供一个系统化的评估框架，研究者可以更好地理解和优化这些代理的性能。",
+      "summary_zh": "SciVisAgentBench是一个全面且可扩展的基准，用于评估科学数据分析和可视化代理的性能。该基准填补了当前缺乏系统性评估标准的空白，特别是在多步骤分析设置中。通过该基准，研究者可以更好地理解和比较不同的SciVis代理在实际应用中的表现。",
       "importance": 9
     },
     {
       "title": "OptiMer: Optimal Distribution Vector Merging Is Better than Data Mixing for Continual Pre-Training",
-      "title_zh": "OptiMer：最佳分布向量合并优于数据混合进行持续预训练",
+      "title_zh": "OptiMer：最佳分布向量合并优于数据混合用于持续预训练",
       "url": "https://arxiv.org/abs/2603.28858",
       "source": "ArXiv CS.CL",
       "category": "paper",
-      "summary_zh": "OptiMer提出了一种新的持续预训练方法，旨在解决训练数据混合比例的敏感性问题。通过为每个数据集训练一个模型并提取其分布向量，OptiMer能够在不固定混合比例的情况下进行训练，从而节省计算资源并提高效率。该方法为大语言模型的适应性训练提供了新的思路。",
+      "summary_zh": "持续预训练在适应大型语言模型（LLMs）到目标语言和领域中被广泛使用，但训练数据的混合比例是一个敏感的超参数。OptiMer方法通过为每个数据集训练一个CPT模型，提取每个模型的分布向量，从而解耦了比例选择与训练过程，显著降低了调参的复杂性和计算成本。",
       "importance": 9
     },
     {
-      "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
-      "title_zh": "Claude Code的源代码通过NPM注册表中的地图文件泄露",
-      "url": "https://twitter.com/Fried_rice/status/2038894956459290963",
+      "title": "Beyond Idealized Patients: Evaluating LLMs under Challenging Patient Behaviors in Medical Consultations",
+      "title_zh": "超越理想患者：在医疗咨询中评估LLMs在挑战性患者行为下的表现",
+      "url": "https://arxiv.org/abs/2603.29373",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "大型语言模型（LLMs）在医疗咨询和健康信息支持中的应用日益增加。然而，现有的评估往往假设患者提问理想化，这限制了其现实性。本文研究了在患者输入不明确或不一致的情况下，LLMs的表现，强调了在医疗环境中确保安全性的重要性。",
+      "importance": 9
+    },
+    {
+      "title": "OpenAI closes funding round at an $852B valuation",
+      "title_zh": "OpenAI在最新一轮融资中估值达8520亿美元",
+      "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html",
       "source": "Hacker News",
       "category": "industry",
-      "summary_zh": "Claude Code的源代码泄露事件引发了广泛关注，泄露源自其NPM注册表中的地图文件。这一事件可能影响用户的信任度和软件的安全性，用户们对未来的使用限制表示担忧。",
+      "summary_zh": "OpenAI近日完成了一轮融资，估值达到8520亿美元。这一融资不仅反映了市场对OpenAI的信心，也表明其在人工智能领域的领导地位。此轮融资将进一步推动OpenAI的研发和市场扩展。",
       "importance": 9
     },
     {
-      "title": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "title_zh": "HauhauCS发布Qwen3.5-35B-A3B模型",
-      "url": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "title_zh": "Jackrong发布的Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled模型",
+      "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
       "source": "HuggingFace Models",
       "category": "model_release",
-      "summary_zh": "HauhauCS发布了Qwen3.5-35B-A3B模型，下载量达到599,974次，显示出其在文本生成领域的强大能力。该模型在处理复杂文本生成任务时表现出色，适用于多种应用场景。",
+      "summary_zh": "Jackrong发布的Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled模型专注于图像到文本的转换，已被下载353205次，并获得1939个点赞。这一模型在处理复杂的图像信息方面展现了强大的能力，适用于多种应用场景。",
       "importance": 9
     },
     {
       "title": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
-      "title_zh": "HauhauCS发布Qwen3.5-9B模型",
+      "title_zh": "HauhauCS发布Qwen3.5-9B无审查模型",
       "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
       "source": "HuggingFace Models",
       "category": "model_release",
-      "summary_zh": "HauhauCS推出了Qwen3.5-9B模型，下载量达到636,153次，表明其在AI社区中的受欢迎程度。该模型专注于无审查文本生成，适合多种应用需求。",
+      "summary_zh": "HauhauCS发布了Qwen3.5-9B无审查模型，下载量达到636,153次，受到了用户的广泛欢迎。该模型在文本生成和理解方面表现出色，适用于多种AI应用场景。其受欢迎程度反映了市场对高性能模型的需求。",
+      "importance": 9
+    },
+    {
+      "title": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "title_zh": "HauhauCS发布Qwen3.5-35B无审查模型",
+      "url": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "HauhauCS还推出了Qwen3.5-35B无审查模型，下载量为599,974次，显示出其在AI领域的强大影响力。该模型在处理复杂任务时表现优异，适合需要高计算能力的应用。",
       "importance": 9
     },
     {
       "title": "ChartDiff: A Large-Scale Benchmark for Comprehending Pairs of Charts",
-      "title_zh": "ChartDiff: 一种用于理解图表对的大规模基准",
+      "title_zh": "ChartDiff: 一项大型基准，用于理解图表对",
       "url": "https://arxiv.org/abs/2603.28902",
       "source": "ArXiv CS.AI",
       "category": "paper",
-      "summary_zh": "《ChartDiff》论文介绍了一种新的大规模基准，专注于跨图表的比较总结。该基准包含8541对图表，涵盖多种数据源和视觉风格，旨在提升图表理解的能力，尤其是在比较推理方面。这一研究为图表分析提供了新的视角和工具。",
+      "summary_zh": "ChartDiff是首个针对跨图表比较总结的大规模基准，包含8541对图表，旨在提升对多图表数据的理解能力。该基准涵盖多种数据源和图表类型，能够帮助研究人员更好地进行图表分析和比较。",
       "importance": 8
     },
     {
-      "title": "Drop the Hierarchy and Roles: How Self-Organizing LLM Agents Outperform Designed Structures",
-      "title_zh": "摒弃等级和角色：自组织LLM代理如何超越设计结构",
-      "url": "https://arxiv.org/abs/2603.28990",
+      "title": "Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research",
+      "title_zh": "Mimosa框架：朝着科学研究的进化多智能体系统",
+      "url": "https://arxiv.org/abs/2603.28986",
       "source": "ArXiv CS.AI",
       "category": "paper",
-      "summary_zh": "该论文探讨了多代理LLM系统的自主性，展示了在最小结构支持下，代理能够自发创造专业角色的能力。研究表明，自组织的代理在执行任务时表现出色，揭示了当前LLM代理在自主行为方面的潜力和应用前景。",
+      "summary_zh": "Mimosa框架旨在推动科学研究中的多智能体系统，能够根据实验反馈自动生成和优化任务特定的多智能体工作流。这一框架利用了大语言模型和智能架构，克服了现有系统在适应性上的局限。",
       "importance": 8
     },
     {
@@ -107,7 +125,7 @@
       "url": "https://arxiv.org/abs/2603.29142",
       "source": "ArXiv CS.AI",
       "category": "paper",
-      "summary_zh": "REFINE项目探讨了如何利用大型语言模型自动化个性化反馈，以应对在大规模学习环境中提供及时反馈的挑战。该系统不仅提供静态反馈，还支持解释、澄清和后续互动，旨在提升学习效果和学生参与度。",
+      "summary_zh": "REFINE项目介绍了一种新的方法，通过大型语言模型提供个性化的反馈，旨在解决大规模教育中反馈提供的挑战。该系统能够在本地部署，支持多轮互动反馈，克服了传统反馈机制的局限性，为学生提供更有效的学习支持。",
       "importance": 8
     },
     {
@@ -116,7 +134,7 @@
       "url": "https://arxiv.org/abs/2603.29353",
       "source": "ArXiv CS.AI",
       "category": "paper",
-      "summary_zh": "Nomad是一个系统，旨在通过自主数据探索和洞察发现来解决传统查询驱动系统的局限性。该系统能够处理文档、数据库等多种数据源，帮助用户发现潜在的问题和假设，从而覆盖更广泛的洞察空间，提升研究效率。",
+      "summary_zh": "Nomad是一个自主数据探索和洞察发现的系统，旨在帮助用户从文档和数据库中挖掘潜在问题和假设。该系统通过将文献探索与想法生成视为一个共同演变的过程，克服了传统查询驱动方法的局限性，能够更全面地覆盖潜在的洞察空间。",
       "importance": 8
     },
     {
@@ -125,7 +143,7 @@
       "url": "https://arxiv.org/abs/2603.28924",
       "source": "ArXiv CS.CL",
       "category": "paper",
-      "summary_zh": "CrossTrace是一个新的数据集，包含1389个科学推理轨迹，覆盖生物医学和人工智能等多个领域。该数据集旨在为假设生成模型提供训练和评估的基础，填补了现有数据集在跨领域推理方面的不足。它的推出将有助于加速科学研究的进展。",
+      "summary_zh": "CrossTrace是一个包含1389个科学推理轨迹的数据集，涵盖生物医学研究、人工智能/机器学习等多个领域。该数据集旨在为假设生成模型的训练和评估提供支持，填补现有数据集中缺乏跨领域推理轨迹的空白，促进科学研究的加速。",
       "importance": 8
     },
     {
@@ -134,34 +152,7 @@
       "url": "https://arxiv.org/abs/2603.29078",
       "source": "ArXiv CS.CL",
       "category": "paper",
-      "summary_zh": "PolarQuant是一种新提出的后训练权重量化方法，旨在为大语言模型实现近乎无损的压缩。该方法通过块归一化、Walsh-Hadamard旋转和量化三个阶段，利用神经网络权重的分布结构，显著提高了模型的存储效率，适用于资源受限的环境。",
-      "importance": 8
-    },
-    {
-      "title": "Open Machine Translation for Esperanto",
-      "title_zh": "开放的世界语机器翻译",
-      "url": "https://arxiv.org/abs/2603.29345",
-      "source": "ArXiv CS.CL",
-      "category": "paper",
-      "summary_zh": "本研究首次全面评估了开放源代码的世界语机器翻译系统，比较了基于规则的系统、编码器-解码器模型和大型语言模型（LLMs）。尽管世界语有丰富的在线资源，但在现代机器翻译方法中仍然相对未被充分探索。研究表明，LLMs在处理世界语翻译时表现出色，推动了该领域的进一步发展。",
-      "importance": 8
-    },
-    {
-      "title": "Beyond Idealized Patients: Evaluating LLMs under Challenging Patient Behaviors in Medical Consultations",
-      "title_zh": "超越理想化患者：在医疗咨询中评估LLMs应对挑战性患者行为",
-      "url": "https://arxiv.org/abs/2603.29373",
-      "source": "ArXiv CS.CL",
-      "category": "paper",
-      "summary_zh": "本研究探讨了大型语言模型（LLMs）在医疗咨询中的应用，特别是在患者输入不明确或不一致的情况下的表现。研究指出，现有的医疗LLM评估通常假设患者问题理想化，限制了其现实性。通过引入更具挑战性的患者行为评估，研究旨在提高LLMs在医疗场景中的安全性和有效性。",
-      "importance": 8
-    },
-    {
-      "title": "M-MiniGPT4: Multilingual VLLM Alignment via Translated Data",
-      "title_zh": "M-MiniGPT4：通过翻译数据实现多语言VLLM对齐",
-      "url": "https://arxiv.org/abs/2603.29467",
-      "source": "ArXiv CS.CL",
-      "category": "paper",
-      "summary_zh": "本论文介绍了一种名为M-MiniGPT4的多语言视觉大型语言模型，展现出在11种语言中的强大视觉语言理解能力。研究利用本地多语言和翻译数据的混合，推动了多语言VLU性能的提升，并提出了一种多语言对齐训练阶段，以进一步增强模型的多语言能力。",
+      "summary_zh": "PolarQuant是一种新提出的后训练权重量化方法，旨在通过利用神经网络权重的分布结构实现近无损压缩。该方法包括三个阶段：块级归一化、Walsh-Hadamard旋转和量化，能够显著提高大型语言模型的存储效率，同时保持模型性能。",
       "importance": 8
     },
     {
@@ -170,25 +161,25 @@
       "url": "https://arxiv.org/abs/2603.29429",
       "source": "ArXiv CS.CL",
       "category": "paper",
-      "summary_zh": "随着心理健康支持越来越多地通过对话系统提供，用户常常缺乏结构化的方式来审计他们所获得支持的质量和潜在风险。CounselReflect是一个端到端的工具包，提供多维度的报告，帮助用户评估心理健康对话的质量，而不是仅仅生成单一的模糊质量评分。",
+      "summary_zh": "随着心理健康支持越来越多地通过对话系统进行，用户往往缺乏结构化的方式来审计所获得支持的质量。CounselReflect工具包提供了多维度的报告，帮助用户评估对话的质量和潜在风险，而不是仅仅提供单一的质量评分。",
       "importance": 8
     },
     {
-      "title": "OpenAI closes funding round at an $852B valuation",
-      "title_zh": "OpenAI完成了一轮融资，估值达到8520亿美元",
-      "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html",
+      "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
+      "title_zh": "Claude Code的源代码通过NPM注册表中的地图文件泄露",
+      "url": "https://twitter.com/Fried_rice/status/2038894956459290963",
       "source": "Hacker News",
       "category": "industry",
-      "summary_zh": "OpenAI近期完成了一轮融资，估值高达8520亿美元，显示出其在人工智能领域的强大市场地位。这一融资将进一步推动其技术研发和市场扩展。",
+      "summary_zh": "Claude Code的源代码近日通过NPM注册表中的地图文件泄露，可能引发安全和隐私问题。用户对此表示担忧，认为这可能会影响到他们的项目和数据安全。",
       "importance": 8
     },
     {
-      "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-      "title_zh": "Jackrong/Qwen3.5-27B模型发布",
-      "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "title": "CohereLabs/cohere-transcribe-03-2026",
+      "title_zh": "CohereLabs的cohere-transcribe-03-2026模型",
+      "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
       "source": "HuggingFace Models",
       "category": "model_release",
-      "summary_zh": "新发布的Jackrong/Qwen3.5-27B模型在图像和文本处理方面表现出色，已获得超过35万次下载。这一模型的推出为多模态应用提供了强大的技术支持。",
+      "summary_zh": "CohereLabs推出的cohere-transcribe-03-2026模型专注于自动语音识别，已下载58683次，并获得666个点赞。该模型在语音转文本的准确性和效率方面表现出色，适合各种语音处理需求。",
       "importance": 8
     },
     {
@@ -197,8 +188,17 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.89",
       "source": "Claude Code Updates",
       "category": "tool_update",
-      "summary_zh": "Claude Code的最新版本v2.1.89引入了多项新功能，包括无闪烁的虚拟化滚动和改进的权限管理。此更新旨在提升用户体验，使得工具在执行复杂任务时更加高效。",
+      "summary_zh": "Claude Code工具更新至v2.1.89，新增了多个重要功能，包括无闪烁的渲染选项和改进的权限管理机制。这些更新旨在提升开发者的使用体验，帮助他们更高效地进行AI开发。",
       "importance": 8
+    },
+    {
+      "title": "Working Paper: Towards a Category-theoretic Comparative Framework for Artificial General Intelligence",
+      "title_zh": "工作论文：朝着一个范畴论比较框架的人工通用智能",
+      "url": "https://arxiv.org/abs/2603.28906",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该论文探讨了人工通用智能（AGI）的定义和比较框架，提出了一种代数和范畴论的框架，以描述和分析不同的AGI模型。随着各大科技公司对AGI的投资加大，建立统一的比较标准显得尤为重要。",
+      "importance": 7
     },
     {
       "title": "Enhancing Policy Learning with World-Action Model",
@@ -206,102 +206,102 @@
       "url": "https://arxiv.org/abs/2603.28955",
       "source": "ArXiv CS.AI",
       "category": "paper",
-      "summary_zh": "论文提出了一种新的世界-行动模型（WAM），该模型通过联合推理未来视觉观察和驱动状态转变的行动，来增强策略学习。与传统的世界模型不同，WAM通过引入逆动态目标，提升了学习表示的有效性，展示了在复杂任务中的应用潜力。",
+      "summary_zh": "本论文提出了世界-行动模型（WAM），该模型通过逆向动态目标来增强现有的世界模型，使其能够更好地捕捉与行动相关的结构。这种方法在未来的视觉观察和状态转移的推理中表现出色。",
       "importance": 7
     },
     {
-      "title": "Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research",
-      "title_zh": "Mimosa框架：朝着演变的多代理系统进行科学研究",
-      "url": "https://arxiv.org/abs/2603.28986",
+      "title": "Webscraper: Leverage Multimodal Large Language Models for Index-Content Web Scraping",
+      "title_zh": "Webscraper：利用多模态大型语言模型进行索引内容网页抓取",
+      "url": "https://arxiv.org/abs/2603.29161",
       "source": "ArXiv CS.AI",
       "category": "paper",
-      "summary_zh": "Mimosa框架旨在解决当前自主科学研究系统的局限性，通过自动合成任务特定的多代理工作流并通过实验反馈迭代优化。这一框架的提出为科学研究中的多代理协作提供了新的思路，能够适应不断变化的任务和环境。",
+      "summary_zh": "Webscraper是一个新框架，旨在解决现代动态网页抓取的挑战。它利用多模态大型语言模型，能够自主导航交互式界面，调用专用工具，显著提高了网页抓取的灵活性和效率，适应了当前网络环境的复杂性。",
       "importance": 7
     },
     {
-      "title": "Knowledge database development by large language models for countermeasures against viruses and marine toxins",
-      "title_zh": "大型语言模型在病毒和海洋毒素对策知识数据库开发中的应用",
-      "url": "https://arxiv.org/abs/2603.29149",
+      "title": "Xuanwu: Evolving General Multimodal Models into an Industrial-Grade Foundation for Content Ecosystems",
+      "title_zh": "Xuanwu：将通用多模态模型演变为工业级内容生态基础",
+      "url": "https://arxiv.org/abs/2603.29211",
       "source": "ArXiv CS.AI",
       "category": "paper",
-      "summary_zh": "本研究利用大型语言模型（如ChatGPT和Grok）开发了针对病毒和海洋毒素的综合知识数据库。这些数据库旨在为医疗对策的研究和开发提供最新信息，解决当前缺乏全面数据的问题，从而加速决策过程。",
-      "importance": 7
-    },
-    {
-      "title": "Learning to Generate Formally Verifiable Step-by-Step Logic Reasoning via Structured Formal Intermediaries",
-      "title_zh": "通过结构化形式中介生成形式可验证的逐步逻辑推理",
-      "url": "https://arxiv.org/abs/2603.29500",
-      "source": "ArXiv CS.AI",
-      "category": "paper",
-      "summary_zh": "本研究提出了一种新方法PRoSFI，旨在解决大型语言模型在复杂多步骤推理任务中的不可靠性问题。通过引入结构化的中介步骤，研究者希望提高推理过程的可靠性，确保每一步的逻辑推理都能得到验证，从而增强最终结果的可信度。",
+      "summary_zh": "Xuanwu VL-2B展示了如何将通用多模态模型发展为适应真实世界内容审核和对抗环境的工业级基础。该研究强调了在处理长尾噪声和细粒度视觉感知方面的挑战，并提出了相应的解决方案，以提高模型的泛化能力。",
       "importance": 7
     },
     {
       "title": "Theory of Mind and Self-Attributions of Mentality are Dissociable in LLMs",
-      "title_zh": "大语言模型中的心智理论与自我归因是可分离的",
+      "title_zh": "理论心理与自我归因在大型语言模型中是可分离的",
       "url": "https://arxiv.org/abs/2603.28925",
       "source": "ArXiv CS.CL",
       "category": "paper",
-      "summary_zh": "本研究探讨了在大语言模型中，抑制心智归因倾向是否会影响其社会认知能力。通过对多种模型进行安全消融和机制分析，结果表明，心智理论与自我归因在模型中是可分离的，这为理解模型的社会认知能力提供了新的视角。",
+      "summary_zh": "本研究探讨了大型语言模型（LLMs）中的安全微调如何影响其心理归因倾向和社会认知能力。通过对模型进行安全消融和机制分析，研究发现抑制心理归因倾向并不会显著降低模型的理论心理能力，揭示了这两者之间的分离性。",
       "importance": 7
     },
     {
-      "title": "Long-Document QA with Chain-of-Structured-Thought and Fine-Tuned SLMs",
-      "title_zh": "基于结构化思维链和微调语言模型的长文档问答",
-      "url": "https://arxiv.org/abs/2603.29232",
+      "title": "Human-Like Lifelong Memory: A Neuroscience-Grounded Architecture for Infinite Interaction",
+      "title_zh": "类人终身记忆：基于神经科学的无限交互架构",
+      "url": "https://arxiv.org/abs/2603.29023",
       "source": "ArXiv CS.CL",
       "category": "paper",
-      "summary_zh": "该研究提出了一种新的长文档问答框架LiteCoST，旨在提高对长篇文档的问答准确性和效率。通过整合分散的证据并生成结构化输出，LiteCoST能够支持可靠且可验证的问答，推动了长文档处理技术的发展。",
+      "summary_zh": "大型语言模型在长期交互和上下文敏感检索方面缺乏持久的结构化记忆。研究提出了一种基于生物启发的记忆框架，结合认知行为疗法的信念层次和模糊逻辑，旨在提高模型的推理能力和记忆效率。",
       "importance": 7
     },
     {
-      "title": "Accelerating the next phase of AI",
-      "title_zh": "加速人工智能的下一个阶段",
-      "url": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "title": "Gradient Labs gives every bank customer an AI account manager",
+      "title_zh": "Gradient Labs为每位银行客户提供AI账户经理",
+      "url": "https://openai.com/index/gradient-labs",
       "source": "OpenAI Blog",
       "category": "blog",
-      "summary_zh": "OpenAI宣布获得1220亿美元的新融资，旨在扩展前沿人工智能的全球影响力，并投资于下一代计算能力，以满足对ChatGPT、Codex和企业AI日益增长的需求。这一融资将推动OpenAI在AI领域的进一步创新和发展。",
+      "summary_zh": "Gradient Labs利用GPT-4.1和GPT-5.4 mini及nano模型，驱动AI代理自动化银行支持工作流程。这些代理能够以低延迟和高可靠性处理客户请求，提升了银行服务的效率和用户体验。",
       "importance": 7
     },
     {
-      "title": "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
-      "title_zh": "Granite 4.0 3B Vision：企业文档的紧凑多模态智能",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
+      "title": "Falcon Perception",
+      "title_zh": "Falcon Perception",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-perception",
       "source": "HuggingFace Blog",
       "category": "blog",
-      "summary_zh": "Granite 4.0 3B Vision模型为企业文档提供了紧凑的多模态智能解决方案，提升了文档处理效率。该模型的推出将帮助企业更好地管理和分析文档信息。",
+      "summary_zh": "Falcon Perception是一种新兴的多模态智能工具，旨在提升企业文档处理的效率。该工具结合了视觉和语言处理能力，为用户提供更为智能的文档分析和管理解决方案。",
+      "importance": 7
+    },
+    {
+      "title": "luongnv89/claude-howto",
+      "title_zh": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "luongnv89的claude-howto项目在GitHub上获得2390颗星，提供了从基础到高级的Claude Code使用指南。该项目包含了丰富的示例和模板，帮助用户快速上手并应用Claude Code于实际项目中。",
       "importance": 7
     },
     {
       "title": "openclaw openclaw 2026.3.31",
-      "title_zh": "OpenClaw工具更新至2026.3.31",
+      "title_zh": "OpenClaw更新至2026.3.31",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.31",
       "source": "OpenClaw Updates",
       "category": "tool_update",
-      "summary_zh": "OpenClaw发布了2026.3.31版本，进行了多项重大改进，包括CLI和插件SDK的更新，旨在提高安全性和兼容性。此次更新还引入了新的插件安装策略，以防止潜在的安全风险。",
+      "summary_zh": "OpenClaw工具更新至2026.3.31，移除了CLI中的重复shell包装，并对插件SDK进行了重要的向后兼容性调整。这些改进将确保未来版本的稳定性和安全性，提升用户的开发体验。",
       "importance": 7
     },
     {
-      "title": "Claude Code users hitting usage limits 'way faster than expected'",
-      "title_zh": "Claude Code用户反馈使用限制超出预期",
-      "url": "https://www.theregister.com/2026/03/31/anthropic_claude_code_limits/",
-      "source": "Hacker News",
-      "category": "industry",
-      "summary_zh": "Claude Code的用户反馈其使用限制超出预期，影响了用户体验。这一问题可能会导致用户对该工具的接受度下降，开发者需考虑调整使用政策。",
+      "title": "Accelerating the next phase of AI",
+      "title_zh": "加速AI的下一个阶段",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "source": "OpenAI Blog",
+      "category": "blog",
+      "summary_zh": "OpenAI最近筹集了1220亿美元的新资金，旨在扩大其前沿AI的全球影响力，并投资于下一代计算。这一资金将用于满足对ChatGPT、Codex和企业AI日益增长的需求，标志着AI领域的又一重要发展。",
       "importance": 6
     },
     {
-      "title": "mistralai/Voxtral-4B-TTS-2603",
-      "title_zh": "mistralai发布Voxtral-4B语音合成模型",
-      "url": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
-      "source": "HuggingFace Models",
-      "category": "model_release",
-      "summary_zh": "mistralai推出了Voxtral-4B语音合成模型，下载量为3,851次，显示出其在文本转语音领域的应用潜力。该模型能够生成高质量的语音输出，适用于多种场景。",
+      "title": "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
+      "title_zh": "Granite 4.0 3B Vision: 企业文档的紧凑多模态智能",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
+      "source": "HuggingFace Blog",
+      "category": "blog",
+      "summary_zh": "Granite 4.0 3B Vision是一款为企业文档处理设计的多模态智能工具。它通过集成视觉和文本处理技术，帮助企业更高效地管理和分析文档内容，提升工作效率。",
       "importance": 6
     }
   ],
   "stats": {
-    "raw_count": 152,
+    "raw_count": 168,
     "processed_count": 30
   }
 }
