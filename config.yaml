@@ -7,7 +7,7 @@ site:
   base_url: "https://ken-chy129.github.io/news"
 
 schedule:
-  cron: "0 2 * * *"  # UTC 2:00 = 北京时间 10:00
+  cron: "0 0 * * *"  # UTC 0:00 = 北京时间 8:00
 
 sources:
   # --- 热榜 (via NewsNow API) ---
@@ -156,7 +156,7 @@ notification:
   enabled: true
 
   feishu:
-    enabled: false
+    enabled: true
     webhook_url_env: FEISHU_WEBHOOK_URL  # 多个用分号分割: url1;url2
     send_image: true  # 是否发送报纸截图
 
