@@ -1,0 +1,443 @@
+{
+  "date": "2026-04-02",
+  "generated_at": "2026-04-02T04:32:30.983090",
+  "items": [
+    {
+      "title": "How Emotion Shapes the Behavior of LLMs and Agents: A Mechanistic Study",
+      "title_zh": "情感如何塑造大型语言模型和代理的行为：机制研究",
+      "url": "https://arxiv.org/abs/2604.00005",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究探讨情感信号是否能影响大型语言模型（LLMs）和代理的行为。通过提出E-STEER框架，研究者揭示了情感在任务处理中的机制作用，强调了情感在提高模型表现中的重要性。这一发现对情感计算和人机交互领域具有重要意义。",
+      "importance": 9
+    },
+    {
+      "title": "CircuitProbe: Predicting Reasoning Circuits in Transformers via Stability Zone Detection",
+      "title_zh": "CircuitProbe：通过稳定区检测预测变压器中的推理电路",
+      "url": "https://arxiv.org/abs/2604.00716",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "CircuitProbe 提出了通过激活统计在不到 5 分钟内预测变压器模型中的推理电路位置的方法，显著提高了寻找这些电路的效率，速度提升达三到四个数量级。这一研究为优化变压器模型的推理能力提供了新的思路，值得关注。",
+      "importance": 9
+    },
+    {
+      "title": "PolarQuant: Optimal Gaussian Weight Quantization via Hadamard Rotation for LLM Compression",
+      "title_zh": "PolarQuant：通过哈达玛旋转实现的最佳高斯权重量化用于LLM压缩",
+      "url": "https://arxiv.org/abs/2603.29078",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "PolarQuant是一种后训练权重量化方法，旨在通过利用神经网络权重的分布结构，实现近乎无损的压缩。该方法通过块归一化、哈达玛旋转和量化三个阶段进行操作，具有重要的应用价值，尤其在大语言模型的优化上。",
+      "importance": 9
+    },
+    {
+      "title": "Open-Weights LLMs Score 94.8% on Custom Coding Benchmark, 4% Behind Claude Opus",
+      "title_zh": "开放权重的LLM在自定义编码基准测试中得分94.8%，落后Claude Opus 4%",
+      "url": "https://www.implicator.ai/open-weights-llms-score-94-8-on-custom-coding-benchmark-4-behind-claude-opus/",
+      "source": "Implicator AI",
+      "category": "blog",
+      "summary_zh": "一项新的测试显示，开放权重的LLM在自定义TypeScript基准测试中得分94.8%，仅落后于Claude Opus 4.6的98.8%。这一结果表明，开放模型在编码任务中表现出色，值得关注其潜在应用。",
+      "importance": 9
+    },
+    {
+      "title": "Claude wrote a full FreeBSD remote kernel RCE with root shell",
+      "title_zh": "Claude 编写了完整的 FreeBSD 远程内核 RCE 和 root shell",
+      "url": "https://github.com/califio/publications/blob/main/MADBugs/CVE-2026-4747/write-up.md",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Claude 工具展示了其强大的编程能力，能够编写出完整的 FreeBSD 远程内核 RCE 和 root shell。这一成就展示了 AI 在安全领域的潜力，值得关注。",
+      "importance": 9
+    },
+    {
+      "title": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "title_zh": "HauhauCS/Qwen3.5-35B-A3B-未审查-HauhauCS-激进版",
+      "url": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "HauhauCS发布了Qwen3.5-35B-A3B模型，这是一个未审查的激进版本，适用于图像文本生成任务。该模型已获得超过599,000次下载，显示出其在社区中的受欢迎程度，值得关注其在生成任务中的应用潜力。",
+      "importance": 9
+    },
+    {
+      "title": "One Panel Does Not Fit All: Case-Adaptive Multi-Agent Deliberation for Clinical Prediction",
+      "title_zh": "一刀切的面板并不适合所有：针对临床预测的案例自适应多代理深思",
+      "url": "https://arxiv.org/abs/2604.00085",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究提出了CAMP框架，旨在解决大型语言模型在临床预测中的案例异质性问题。通过引入多代理协作机制，研究者能够更好地处理复杂案例的预测，提升模型的准确性和可靠性。这对医疗AI应用的优化具有重要意义。",
+      "importance": 8
+    },
+    {
+      "title": "Open, Reliable, and Collective: A Community-Driven Framework for Tool-Using AI Agents",
+      "title_zh": "开放、可靠与集体：一个社区驱动的工具使用AI代理框架",
+      "url": "https://arxiv.org/abs/2604.00137",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本论文提出了OpenTools框架，旨在提高工具集成的LLMs的可靠性。通过标准化工具架构和提供轻量级插件，研究者解决了工具使用准确性和内在工具准确性之间的矛盾。这一框架为AI代理的实际应用提供了新的思路。",
+      "importance": 8
+    },
+    {
+      "title": "A Safety-Aware Role-Orchestrated Multi-Agent LLM Framework for Behavioral Health Communication Simulation",
+      "title_zh": "一个安全意识的角色编排多代理LLM框架用于行为健康沟通模拟",
+      "url": "https://arxiv.org/abs/2604.00249",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究提出了一种安全意识的多代理LLM框架，旨在模拟支持性行为健康对话。通过角色分工，研究者能够更好地处理多样化的对话功能，提升安全性和有效性。这对心理健康领域的AI应用具有重要意义。",
+      "importance": 8
+    },
+    {
+      "title": "UK AISI Alignment Evaluation Case-Study",
+      "title_zh": "英国人工智能安全研究所对齐评估案例研究",
+      "url": "https://arxiv.org/abs/2604.00788",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该技术报告评估了先进 AI 系统是否可靠地遵循预期目标，特别是评估前沿模型在 AI 实验室作为编码助手时是否会破坏安全研究。研究结果显示没有确认的研究破坏实例，强调了对 AI 系统安全性评估的重要性。",
+      "importance": 8
+    },
+    {
+      "title": "RefineRL: Advancing Competitive Programming with Self-Refinement Reinforcement Learning",
+      "title_zh": "RefineRL：利用自我精炼强化学习推进竞争编程",
+      "url": "https://arxiv.org/abs/2604.00790",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "RefineRL 提出了一种新方法，利用大型语言模型的自我精炼能力解决竞争编程问题。该方法通过引入怀疑年龄机制和自我反馈机制，推动了模型在复杂任务中的表现，具有较高的研究价值。",
+      "importance": 8
+    },
+    {
+      "title": "Proactive Agent Research Environment: Simulating Active Users to Evaluate Proactive Assistants",
+      "title_zh": "主动代理研究环境：模拟活跃用户以评估主动助手",
+      "url": "https://arxiv.org/abs/2604.00842",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该研究引入了主动代理研究环境，旨在通过模拟用户需求来评估主动助手的表现，解决了现有方法无法捕捉用户交互的状态性和序列性的问题，为主动助手的开发提供了新框架。",
+      "importance": 8
+    },
+    {
+      "title": "Beyond Symbolic Solving: Multi Chain-of-Thought Voting for Geometric Reasoning in Large Language Models",
+      "title_zh": "超越符号求解：大型语言模型中的多链思维投票几何推理",
+      "url": "https://arxiv.org/abs/2604.00890",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该研究探讨了几何问题解决在大型语言模型中的重要性，提出了多链思维投票的方法，强调了图示理解、符号操作与逻辑推理的结合，推动了数学推理能力的提升。",
+      "importance": 8
+    },
+    {
+      "title": "APEX-EM: Non-Parametric Online Learning for Autonomous Agents via Structured Procedural-Episodic Experience Replay",
+      "title_zh": "APEX-EM：通过结构化程序-情节经验重放实现的非参数在线学习",
+      "url": "https://arxiv.org/abs/2603.29093",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "APEX-EM是一个非参数在线学习框架，旨在为基于LLM的自主智能体提供持久的程序记忆。该框架通过积累和重用结构化程序计划，提升了智能体在重复任务中的效率，具有重要的研究意义。",
+      "importance": 8
+    },
+    {
+      "title": "Long-Document QA with Chain-of-Structured-Thought and Fine-Tuned SLMs",
+      "title_zh": "长文档问答：基于结构化思维链和微调的SLM",
+      "url": "https://arxiv.org/abs/2603.29232",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本研究提出了一种新的文档问答框架LiteCoST，旨在提高长文档问答的准确性和效率。通过整合分散证据并生成结构化输出，该框架为处理复杂文档提供了新的解决方案，具有实际应用潜力。",
+      "importance": 8
+    },
+    {
+      "title": "Beyond Idealized Patients: Evaluating LLMs under Challenging Patient Behaviors in Medical Consultations",
+      "title_zh": "超越理想化患者：在医疗咨询中评估LLMs应对挑战性患者行为",
+      "url": "https://arxiv.org/abs/2603.29373",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "该研究探讨了在医疗咨询中，LLM如何应对不理想的患者输入，强调了在真实场景中评估模型表现的重要性。通过挑战性行为的评估，提升了医疗对话系统的安全性和可靠性。",
+      "importance": 8
+    },
+    {
+      "title": "Claude Code auto mode: a safer way to skip permissions",
+      "title_zh": "Claude Code自动模式：一种更安全的跳过权限的方法",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Claude Code推出了自动模式，旨在提高用户在编程时的安全性，减少权限管理的复杂性。这一创新将为开发者提供更流畅的使用体验，值得关注其对开发流程的影响。",
+      "importance": 8
+    },
+    {
+      "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
+      "title_zh": "Claude Opus 4.6的BrowseComp性能评估意识",
+      "url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Claude Opus 4.6在BrowseComp性能评估中展现了出色的评估意识，表明其在处理复杂任务时的能力。这一进展可能会推动模型在实际应用中的表现，值得关注。",
+      "importance": 8
+    },
+    {
+      "title": "anthropics/claude-code",
+      "title_zh": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Claude Code 是一个智能编码工具，能够理解代码库并通过自然语言命令帮助用户更快地编写代码。它的开源性质使得开发者可以自由使用和改进，具有广泛的应用前景。",
+      "importance": 8
+    },
+    {
+      "title": "google-research/timesfm",
+      "title_zh": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "TimesFM 是谷歌研究开发的预训练时间序列基础模型，旨在进行时间序列预测。这一模型的发布为时间序列分析提供了新的工具，具有重要的研究价值。",
+      "importance": 8
+    },
+    {
+      "title": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "title_zh": "HauhauCS/Qwen3.5-9B-未审查-HauhauCS-激进版",
+      "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "HauhauCS推出了Qwen3.5-9B模型，未审查的激进版本，专注于文本生成。此模型已被下载超过636,000次，显示其在文本生成领域的广泛应用和受欢迎程度，值得关注其在实际应用中的表现。",
+      "importance": 8
+    },
+    {
+      "title": "Human-in-the-Loop Control of Objective Drift in LLM-Assisted Computer Science Education",
+      "title_zh": "人机协作控制LLM辅助计算机科学教育中的目标漂移",
+      "url": "https://arxiv.org/abs/2604.00281",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究探讨了在计算机科学教育中使用LLMs时出现的目标漂移问题。通过人机协作的方法，研究者提出了一种新的策略来提高教育工具的稳定性和适应性。这一研究为教育领域的AI应用提供了重要的见解。",
+      "importance": 7
+    },
+    {
+      "title": "Improvisational Games as a Benchmark for Social Intelligence of AI Agents: The Case of Connections",
+      "title_zh": "即兴游戏作为AI代理社会智能的基准：连接游戏案例",
+      "url": "https://arxiv.org/abs/2604.00284",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究提出了一种新的基准测试，即兴游戏Connections，用于评估AI代理的社会智能。通过结合知识检索和总结能力，研究者展示了如何通过游戏评估代理的社交推理能力。这一方法为AI的社会智能研究提供了新的视角。",
+      "importance": 7
+    },
+    {
+      "title": "Collaborative AI Agents and Critics for Fault Detection and Cause Analysis in Network Telemetry",
+      "title_zh": "协作AI代理和评论员用于网络遥测中的故障检测和原因分析",
+      "url": "https://arxiv.org/abs/2604.00319",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究开发了协作控制算法，旨在提高AI代理和评论员在网络遥测中的故障检测和原因分析能力。通过多代理协作，研究者能够更有效地完成多模态任务，为网络监控提供了新的解决方案。",
+      "importance": 7
+    },
+    {
+      "title": "Signals: Trajectory Sampling and Triage for Agentic Interactions",
+      "title_zh": "信号：代理交互的轨迹采样和分类",
+      "url": "https://arxiv.org/abs/2604.00356",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究提出了一种轻量级的轨迹采样方法，旨在改善基于大型语言模型的代理应用的后期优化。通过对代理轨迹的有效分类和采样，研究者能够提高系统的效率和可维护性。这一方法为后续的AI系统优化提供了新的思路。",
+      "importance": 7
+    },
+    {
+      "title": "PsychAgent: An Experience-Driven Lifelong Learning Agent for Self-Evolving Psychological Counselor",
+      "title_zh": "PsychAgent：一个经验驱动的终身学习代理，用于自我进化的心理顾问",
+      "url": "https://arxiv.org/abs/2604.00931",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "PsychAgent 提出了一个经验驱动的终身学习代理，旨在通过临床实践不断提升心理咨询能力，填补现有方法依赖静态对话数据的空白，为心理咨询领域的 AI 应用提供了新思路。",
+      "importance": 7
+    },
+    {
+      "title": "Adversarial Moral Stress Testing of Large Language Models",
+      "title_zh": "大型语言模型的对抗性道德压力测试",
+      "url": "https://arxiv.org/abs/2604.01108",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该研究探讨了在持续对抗性用户交互下评估大型语言模型的伦理鲁棒性的问题，提出了新的评估方法，强调了多轮交互中的行为不稳定性，为模型的安全性提供了重要的见解。",
+      "importance": 7
+    },
+    {
+      "title": "OmniMem: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory",
+      "title_zh": "OmniMem：自研究引导的终身多模态代理记忆发现",
+      "url": "https://arxiv.org/abs/2604.01007",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "OmniMem 研究了 AI 代理在长期操作中保持多模态经验的能力，提出了一种自研究引导的记忆框架，旨在解决记忆组织和回忆的瓶颈，推动了多模态学习的进展。",
+      "importance": 7
+    },
+    {
+      "title": "CounselReflect: A Toolkit for Auditing Mental-Health Dialogues",
+      "title_zh": "CounselReflect：心理健康对话审计工具包",
+      "url": "https://arxiv.org/abs/2603.29429",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "CounselReflect是一个用于审计心理健康支持对话的工具包，提供多维度报告，帮助用户评估对话质量和潜在风险。该工具的开发为心理健康领域的对话系统提供了重要的评估手段。",
+      "importance": 7
+    },
+    {
+      "title": "M-MiniGPT4: Multilingual VLLM Alignment via Translated Data",
+      "title_zh": "M-MiniGPT4：通过翻译数据实现的多语言VLLM对齐",
+      "url": "https://arxiv.org/abs/2603.29467",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "M-MiniGPT4是一种多语言视觉大语言模型，展示了在11种语言上的强大视觉-语言理解能力。该模型通过结合本地多语言和翻译数据，推动了多语言处理的性能，具有广泛的应用前景。",
+      "importance": 7
+    },
+    {
+      "title": "日本终于露出獠牙",
+      "title_zh": "日本终于露出獠牙",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E7%BB%88%E4%BA%8E%E9%9C%B2%E5%87%BA%E7%8D%A0%E7%89%99%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "优思益",
+      "title_zh": "优思益",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BC%98%E6%80%9D%E7%9B%8A%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "天宫画展再上新",
+      "title_zh": "天宫画展再上新",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A9%E5%AE%AB%E7%94%BB%E5%B1%95%E5%86%8D%E4%B8%8A%E6%96%B0%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "优思益营销策划公司被立案调查",
+      "title_zh": "优思益营销策划公司被立案调查",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BC%98%E6%80%9D%E7%9B%8A%E8%90%A5%E9%94%80%E7%AD%96%E5%88%92%E5%85%AC%E5%8F%B8%E8%A2%AB%E7%AB%8B%E6%A1%88%E8%B0%83%E6%9F%A5%23&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "特朗普话音刚落伊朗导弹袭向以色列",
+      "title_zh": "特朗普话音刚落伊朗导弹袭向以色列",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E8%AF%9D%E9%9F%B3%E5%88%9A%E8%90%BD%E4%BC%8A%E6%9C%97%E5%AF%BC%E5%BC%B9%E8%A2%AD%E5%90%91%E4%BB%A5%E8%89%B2%E5%88%97%23&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "乘风2026乘风送考人",
+      "title_zh": "乘风2026乘风送考人",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B9%98%E9%A3%8E2026%E4%B9%98%E9%A3%8E%E9%80%81%E8%80%83%E4%BA%BA%23&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "全红婵落泪恳求「不要再骂我了」，如何看待「捧杀」与「棒杀」交替出现的饭圈怪圈？我们该如何理性追星？",
+      "title_zh": "全红婵落泪恳求「不要再骂我了」，如何看待「捧杀」与「棒杀」交替出现的饭圈怪圈？我们该如何理性追星？",
+      "url": "https://www.zhihu.com/question/2022619683019335525",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "网友曝某大厂绩效开始和 Token 消耗挂钩，或将影响转正、晋升等，是真的吗？这种考核方式合理吗？",
+      "title_zh": "网友曝某大厂绩效开始和 Token 消耗挂钩，或将影响转正、晋升等，是真的吗？这种考核方式合理吗？",
+      "url": "https://www.zhihu.com/question/2022684150977623815",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "武汉一高校内设置 999 秒红绿灯，校方称是为了保障课间高峰期的通行安全，如何看待这一操作？是否合理？",
+      "title_zh": "武汉一高校内设置 999 秒红绿灯，校方称是为了保障课间高峰期的通行安全，如何看待这一操作？是否合理？",
+      "url": "https://www.zhihu.com/question/2021945526069773721",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "外交部回应「美国颁发在委投资矿产通用许可证将中俄排除在外」，称坚决反对，如何看待美方此举？",
+      "title_zh": "外交部回应「美国颁发在委投资矿产通用许可证将中俄排除在外」，称坚决反对，如何看待美方此举？",
+      "url": "https://www.zhihu.com/question/2022701322135171727",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "现实中真的有丁元英这样的人吗？",
+      "title_zh": "现实中真的有丁元英这样的人吗？",
+      "url": "https://www.zhihu.com/question/302831101",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美以袭击伊朗进入第 34 天，当前局势如何？哪些信息值得关注？",
+      "title_zh": "美以袭击伊朗进入第 34 天，当前局势如何？哪些信息值得关注？",
+      "url": "https://www.zhihu.com/question/2022805425607767116",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "多家银行下调部分存款挂牌利率",
+      "title_zh": "多家银行下调部分存款挂牌利率",
+      "url": "https://www.toutiao.com/trending/7623785096319746084/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "县委书记“六秒致辞”火了",
+      "title_zh": "县委书记“六秒致辞”火了",
+      "url": "https://www.toutiao.com/trending/7623614387089784851/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "脑机接口加速落地",
+      "title_zh": "脑机接口加速落地",
+      "url": "https://www.toutiao.com/trending/7622892036563157046/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "夫妻出卖5名亲生子女获利47万被判刑",
+      "title_zh": "夫妻出卖5名亲生子女获利47万被判刑",
+      "url": "https://www.toutiao.com/trending/7623976202130735110/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "洪秀柱：对郑丽文访陆怀抱深切期许",
+      "title_zh": "洪秀柱：对郑丽文访陆怀抱深切期许",
+      "url": "https://www.toutiao.com/trending/7624008416050269734/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "勾结男团司机售卖艺人隐私3人被抓",
+      "title_zh": "勾结男团司机售卖艺人隐私3人被抓",
+      "url": "https://www.toutiao.com/trending/7623632292754079787/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 109,
+    "processed_count": 30
+  },
+  "display_count": 28
+}
