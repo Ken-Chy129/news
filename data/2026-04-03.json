@@ -1,0 +1,443 @@
+{
+  "date": "2026-04-03",
+  "generated_at": "2026-04-03T04:32:16.402925",
+  "items": [
+    {
+      "title": "How Emotion Shapes the Behavior of LLMs and Agents: A Mechanistic Study",
+      "title_zh": "情感如何塑造大型语言模型和代理的行为：一种机械研究",
+      "url": "https://arxiv.org/abs/2604.00005",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究探讨情感在大型语言模型（LLMs）和智能代理行为中的作用，提出了一种可解释的情感引导框架E-STEER，旨在填补现有研究对情感机制理解的不足。这一研究不仅为情感在任务处理中的作用提供了新的视角，也为未来的情感智能AI系统设计提供了理论基础。",
+      "importance": 9
+    },
+    {
+      "title": "CircuitProbe: Predicting Reasoning Circuits in Transformers via Stability Zone Detection",
+      "title_zh": "CircuitProbe：通过稳定区检测预测变压器中的推理电路",
+      "url": "https://arxiv.org/abs/2604.00716",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "CircuitProbe 提出了通过激活统计预测变压器中的推理电路的新方法，显著提高了检测速度，降低了计算成本。这一研究为理解和优化变压器模型的推理能力提供了新思路，具有重要的应用潜力。",
+      "importance": 9
+    },
+    {
+      "title": "WHBench: Evaluating Frontier LLMs with Expert-in-the-Loop Validation on Women's Health Topics",
+      "title_zh": "WHBench：在女性健康主题上通过专家验证评估前沿LLM",
+      "url": "https://arxiv.org/abs/2604.00024",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "随着大型语言模型在医疗指导中的应用增加，女性健康领域的评估仍显不足。WHBench提供了一个针对47个专家设计的场景的评估套件，旨在揭示临床相关的失败模式，包括过时的指南和安全遗漏。这项研究为提高女性健康相关AI应用的可靠性提供了重要依据。",
+      "importance": 9
+    },
+    {
+      "title": "OpenAI acquires TBPN",
+      "title_zh": "OpenAI 收购 TBPN",
+      "url": "https://openai.com/index/openai-acquires-tbpn",
+      "source": "OpenAI Blog",
+      "category": "blog",
+      "summary_zh": "OpenAI 收购了 TBPN，旨在加速全球关于人工智能的对话，并支持独立媒体。这一举措将促进与构建者、企业和更广泛科技社区的交流，具有重要的行业影响。",
+      "importance": 9
+    },
+    {
+      "title": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "title_zh": "HauhauCS/Qwen3.5-9B-无审查-HauhauCS-激进版",
+      "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "HauhauCS发布了Qwen3.5-9B无审查激进版模型，该模型在下载量上表现出色，达到674,007次。此版本可能在生成内容的自由度上有所提升，值得关注。",
+      "importance": 9
+    },
+    {
+      "title": "One Panel Does Not Fit All: Case-Adaptive Multi-Agent Deliberation for Clinical Prediction",
+      "title_zh": "一刀切的面板并不适合所有：针对临床预测的案例自适应多代理审议",
+      "url": "https://arxiv.org/abs/2604.00085",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本论文提出了一种案例自适应的多代理框架CAMP，旨在解决大型语言模型在临床预测中面临的案例异质性问题。通过引入动态角色分配和投票机制，该方法能够更好地处理复杂案例的预测，提高了模型的准确性和可靠性。",
+      "importance": 8
+    },
+    {
+      "title": "Open, Reliable, and Collective: A Community-Driven Framework for Tool-Using AI Agents",
+      "title_zh": "开放、可靠和集体：一个社区驱动的工具使用AI代理框架",
+      "url": "https://arxiv.org/abs/2604.00137",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究提出OpenTools，一个社区驱动的工具集，旨在提高工具集成大型语言模型的可靠性。通过标准化工具架构和提供轻量级的插件式包装，OpenTools为AI代理的工具使用提供了更高的准确性和一致性，解决了当前工具使用中的主要瓶颈。",
+      "importance": 8
+    },
+    {
+      "title": "A Safety-Aware Role-Orchestrated Multi-Agent LLM Framework for Behavioral Health Communication Simulation",
+      "title_zh": "一种安全意识的角色编排多代理LLM框架用于行为健康沟通模拟",
+      "url": "https://arxiv.org/abs/2604.00249",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本论文提出了一种安全意识的多代理框架，旨在通过角色分工来模拟支持性的行为健康对话。该框架通过专门的代理角色来处理不同的对话任务，提高了对话的安全性和有效性，适用于行为健康领域的应用。",
+      "importance": 8
+    },
+    {
+      "title": "UK AISI Alignment Evaluation Case-Study",
+      "title_zh": "英国人工智能安全研究所对齐评估案例研究",
+      "url": "https://arxiv.org/abs/2604.00788",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该研究评估了先进AI系统是否能够可靠地遵循预期目标，特别是在作为编码助手时的安全性。结果显示，没有发现研究破坏的实例，表明当前模型在安全性方面的表现令人满意，值得关注。",
+      "importance": 8
+    },
+    {
+      "title": "RefineRL: Advancing Competitive Programming with Self-Refinement Reinforcement Learning",
+      "title_zh": "RefineRL：通过自我精炼强化学习推进竞争编程",
+      "url": "https://arxiv.org/abs/2604.00790",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "RefineRL 提出了利用自我精炼能力来解决竞争编程问题的新方法，强调了迭代精炼的重要性。这一创新可能会提升大语言模型在复杂任务中的表现，具有较高的研究价值。",
+      "importance": 8
+    },
+    {
+      "title": "Beyond Symbolic Solving: Multi Chain-of-Thought Voting for Geometric Reasoning in Large Language Models",
+      "title_zh": "超越符号求解：大型语言模型中的多链思维投票几何推理",
+      "url": "https://arxiv.org/abs/2604.00890",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究提出了一种多链思维投票机制，旨在提升大型语言模型在几何推理任务中的表现。通过结合图示理解和逻辑推理，该方法为数学推理的研究提供了新的视角，具有重要的理论意义。",
+      "importance": 8
+    },
+    {
+      "title": "Think Twice Before You Write -- an Entropy-based Decoding Strategy to Enhance LLM Reasoning",
+      "title_zh": "三思而后行——一种基于熵的解码策略以增强LLM推理能力",
+      "url": "https://arxiv.org/abs/2604.00018",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "解码策略在大型语言模型的推理能力中起着关键作用。传统方法常常导致错误传播，而基于熵的解码框架则通过聚合多个回合来提高可靠性，尽管计算开销较大。这项研究为提升LLM的推理能力提供了新的思路，值得关注。",
+      "importance": 8
+    },
+    {
+      "title": "Do Language Models Know When They'll Refuse? Probing Introspective Awareness of Safety Boundaries",
+      "title_zh": "语言模型知道何时会拒绝吗？探测安全边界的内省意识",
+      "url": "https://arxiv.org/abs/2604.00228",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本研究探讨大型语言模型在面对有害请求时，是否能够准确预测何时会拒绝。通过对3754个数据点的分析，评估了多个前沿模型的拒绝行为。这项研究对于理解LLM的安全性和可靠性具有重要意义。",
+      "importance": 8
+    },
+    {
+      "title": "Hierarchical Chain-of-Thought Prompting: Enhancing LLM Reasoning Performance and Efficiency",
+      "title_zh": "分层思维链提示：提升LLM推理性能与效率",
+      "url": "https://arxiv.org/abs/2604.00130",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "传统的思维链提示方法在复杂推理中表现不佳。本文提出分层思维链提示（Hi-CoT），旨在通过结构化推理来提升大型语言模型的推理能力和效率。这项研究为复杂问题的解决提供了新的方法，具有重要的应用潜力。",
+      "importance": 8
+    },
+    {
+      "title": "Codex now offers more flexible pricing for teams",
+      "title_zh": "Codex 现提供更灵活的团队定价",
+      "url": "https://openai.com/index/codex-flexible-pricing-for-teams",
+      "source": "OpenAI Blog",
+      "category": "blog",
+      "summary_zh": "Codex 现在为 ChatGPT 商业版和企业版提供按需付费定价，允许团队更灵活地启动和扩展使用。这一变化将有助于更多团队采用 AI 工具，提升工作效率。",
+      "importance": 8
+    },
+    {
+      "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "title_zh": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-推理-精简版-v2-GGUF",
+      "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Jackrong推出了Qwen3.5-27B-Claude-4.6-Opus推理精简版的更新，下载量已达202,605次。该模型在图像与文本的转换任务中表现出色，适合多种应用场景。",
+      "importance": 8
+    },
+    {
+      "title": "openclaw openclaw 2026.4.2",
+      "title_zh": "openclaw 2026.4.2",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.2",
+      "source": "OpenClaw Updates",
+      "category": "tool_update",
+      "summary_zh": "OpenClaw 2026.4.2版本更新，主要改动包括将插件的配置路径进行标准化，迁移旧配置，并恢复核心任务流基础设施。这些改动将提升插件的可用性和稳定性，值得开发者关注。",
+      "importance": 8
+    },
+    {
+      "title": "Human-in-the-Loop Control of Objective Drift in LLM-Assisted Computer Science Education",
+      "title_zh": "人机协作控制LLM辅助计算机科学教育中的目标漂移",
+      "url": "https://arxiv.org/abs/2604.00281",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究探讨了在计算机科学教育中使用大型语言模型（LLMs）时出现的目标漂移问题。通过引入人机协作的控制机制，研究提出了一种新的方法来保持输出与任务规格的一致性，为教育领域的AI应用提供了新的思路。",
+      "importance": 7
+    },
+    {
+      "title": "Improvisational Games as a Benchmark for Social Intelligence of AI Agents: The Case of Connections",
+      "title_zh": "即兴游戏作为AI代理社会智能的基准：以Connections为例",
+      "url": "https://arxiv.org/abs/2604.00284",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究引入了一种名为Connections的即兴文字游戏，作为评估AI代理社会智能能力的基准。通过结合知识检索、总结和对其他代理认知状态的意识，该游戏提供了一种新的评估AI社交能力的方法，具有重要的研究意义。",
+      "importance": 7
+    },
+    {
+      "title": "Collaborative AI Agents and Critics for Fault Detection and Cause Analysis in Network Telemetry",
+      "title_zh": "用于网络遥测中的故障检测和原因分析的协作AI代理和评审",
+      "url": "https://arxiv.org/abs/2604.00319",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本论文开发了一种协作控制算法，用于在多代理系统中进行故障检测和原因分析。通过结合经典机器学习和生成AI模型，研究展示了AI代理如何在网络遥测任务中有效协作，提升了故障检测的准确性和效率。",
+      "importance": 7
+    },
+    {
+      "title": "PsychAgent: An Experience-Driven Lifelong Learning Agent for Self-Evolving Psychological Counselor",
+      "title_zh": "PsychAgent：一个经验驱动的终身学习代理，用于自我演化的心理咨询师",
+      "url": "https://arxiv.org/abs/2604.00931",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "PsychAgent 提出了一个经验驱动的终身学习代理，旨在模拟人类心理咨询师的学习过程。这一方法可能会提升AI在心理咨询领域的应用效果，值得关注。",
+      "importance": 7
+    },
+    {
+      "title": "Omni-SimpleMem: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory",
+      "title_zh": "Omni-SimpleMem：自研究引导的终身多模态代理记忆发现",
+      "url": "https://arxiv.org/abs/2604.01007",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "Omni-SimpleMem 研究了多模态代理的记忆管理，提出了一种自研究引导的方法来提升记忆的有效性。该研究为AI代理的长期记忆能力提供了新的思路，具有重要的应用前景。",
+      "importance": 7
+    },
+    {
+      "title": "Adversarial Moral Stress Testing of Large Language Models",
+      "title_zh": "大型语言模型的对抗性道德压力测试",
+      "url": "https://arxiv.org/abs/2604.01108",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究探讨了在对抗性用户交互下评估大型语言模型的伦理稳健性的方法，提出了新的压力测试框架。这一研究对于确保AI系统的安全性和可靠性具有重要意义。",
+      "importance": 7
+    },
+    {
+      "title": "Criterion Validity of LLM-as-Judge for Business Outcomes in Conversational Commerce",
+      "title_zh": "LLM作为评判者在对话商业中的标准效度",
+      "url": "https://arxiv.org/abs/2604.00022",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本文通过对中国一家大型婚介平台的研究，探讨了多维度评分标准在对话AI评估中的标准效度。这项研究填补了对话AI评估与商业结果之间关联的空白，为AI在商业领域的应用提供了实证支持。",
+      "importance": 7
+    },
+    {
+      "title": "Oblivion: Self-Adaptive Agentic Memory Control through Decay-Driven Activation",
+      "title_zh": "遗忘：通过衰减驱动激活的自适应代理记忆控制",
+      "url": "https://arxiv.org/abs/2604.00131",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本文提出了一种新的记忆控制框架，强调遗忘作为一种衰减驱动的过程，而非简单删除。这种方法有助于提高记忆增强型LLM代理的效率，降低干扰，为智能体的记忆管理提供了新的视角。",
+      "importance": 7
+    },
+    {
+      "title": "Google Releases Gemma 4 Under Apache 2.0, Dropping Its Custom AI License",
+      "title_zh": "谷歌发布 Gemma 4，采用 Apache 2.0 许可证，放弃自定义 AI 许可证",
+      "url": "https://www.implicator.ai/google-releases-gemma-4-under-apache-2-0-dropping-its-custom-ai-license/",
+      "source": "Implicator AI",
+      "category": "blog",
+      "summary_zh": "谷歌发布了 Gemma 4，并将其许可证更改为 Apache 2.0，这一决定可能会影响开源 AI 模型的使用和发展，值得开发者关注。",
+      "importance": 7
+    },
+    {
+      "title": "claude-code v2.1.91",
+      "title_zh": "claude-code v2.1.91",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.91",
+      "source": "Claude Code Updates",
+      "category": "tool_update",
+      "summary_zh": "Claude Code发布了v2.1.91版本，新增了多个功能和修复，包括支持多行提示和插件可执行文件的调用。这些更新将提升开发者在使用Claude Code时的灵活性和效率。",
+      "importance": 7
+    },
+    {
+      "title": "claude-code v2.1.90",
+      "title_zh": "claude-code v2.1.90",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.90",
+      "source": "Claude Code Updates",
+      "category": "tool_update",
+      "summary_zh": "Claude Code v2.1.90版本发布，新增互动式教学课程，修复了多个bug，包括无限循环和提示缓存问题。这些更新将增强用户体验，提升工具的稳定性。",
+      "importance": 7
+    },
+    {
+      "title": "Signals: Trajectory Sampling and Triage for Agentic Interactions",
+      "title_zh": "信号：代理交互的轨迹采样与分类",
+      "url": "https://arxiv.org/abs/2604.00356",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究提出了一种轻量级的信号采样和分类方法，旨在改善基于大型语言模型的代理应用的后期改进。通过有效处理代理轨迹的非确定性和庞大数据量，该方法为提高AI系统的可持续性和可维护性提供了新思路。",
+      "importance": 6
+    },
+    {
+      "title": "In harmony with gpt-oss",
+      "title_zh": "与gpt-oss和谐共处",
+      "url": "https://arxiv.org/abs/2604.00362",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究通过逆向工程OpenAI的gpt-oss-20b模型，探讨了模型的工具调用能力。研究表明，gpt-oss能够在没有工具定义的情况下高效调用训练分布中的工具，为理解模型的工具使用能力提供了重要见解。",
+      "importance": 6
+    },
+    {
+      "title": "韩国40岁导演遭围殴致死引众怒",
+      "title_zh": "韩国40岁导演遭围殴致死引众怒",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%9F%A9%E5%9B%BD40%E5%B2%81%E5%AF%BC%E6%BC%94%E9%81%AD%E5%9B%B4%E6%AE%B4%E8%87%B4%E6%AD%BB%E5%BC%95%E4%BC%97%E6%80%92%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "小米调价",
+      "title_zh": "小米调价",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E7%B1%B3%E8%B0%83%E4%BB%B7%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "致敬所有隐蔽战线的无名英雄",
+      "title_zh": "致敬所有隐蔽战线的无名英雄",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%87%B4%E6%95%AC%E6%89%80%E6%9C%89%E9%9A%90%E8%94%BD%E6%88%98%E7%BA%BF%E7%9A%84%E6%97%A0%E5%90%8D%E8%8B%B1%E9%9B%84%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "黄灿灿浪姐直播闯祸",
+      "title_zh": "黄灿灿浪姐直播闯祸",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E7%81%BF%E7%81%BF%E6%B5%AA%E5%A7%90%E7%9B%B4%E6%92%AD%E9%97%AF%E7%A5%B8%23&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "老爸评测就优思益事件道歉",
+      "title_zh": "老爸评测就优思益事件道歉",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%80%81%E7%88%B8%E8%AF%84%E6%B5%8B%E5%B0%B1%E4%BC%98%E6%80%9D%E7%9B%8A%E4%BA%8B%E4%BB%B6%E9%81%93%E6%AD%89%23&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "秦岚说沈月确实漂亮",
+      "title_zh": "秦岚说沈月确实漂亮",
+      "url": "https://s.weibo.com/weibo?q=%E7%A7%A6%E5%B2%9A%E8%AF%B4%E6%B2%88%E6%9C%88%E7%A1%AE%E5%AE%9E%E6%BC%82%E4%BA%AE&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "6 月起网约车司机 24 小时内累计驾驶超 8 小时，将属于疲劳驾驶，这对平台和司机收入有何影响？",
+      "title_zh": "6 月起网约车司机 24 小时内累计驾驶超 8 小时，将属于疲劳驾驶，这对平台和司机收入有何影响？",
+      "url": "https://www.zhihu.com/question/2022098936475689525",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "张雪每年给员工涨薪两次，同时有 10 % 的员工不参与涨薪并面临淘汰，如何看待此调薪制度？",
+      "title_zh": "张雪每年给员工涨薪两次，同时有 10 % 的员工不参与涨薪并面临淘汰，如何看待此调薪制度？",
+      "url": "https://www.zhihu.com/question/2022678284845024528",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "如何评价 Google 发布的开源大模型 Gemma4？使用体验怎么样？",
+      "title_zh": "如何评价 Google 发布的开源大模型 Gemma4？使用体验怎么样？",
+      "url": "https://www.zhihu.com/question/2023204569811828949",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "有没有两个地点在地图上看着挺近，但实际上却很难直接走陆路，需要绕很远才能通过的？",
+      "title_zh": "有没有两个地点在地图上看着挺近，但实际上却很难直接走陆路，需要绕很远才能通过的？",
+      "url": "https://www.zhihu.com/question/1950813245293171979",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "曝「与辉同行」卖优思益销售额超千万，暴露出带货平台选品环节存在哪些问题？产品出问题平台责任如何界定？",
+      "title_zh": "曝「与辉同行」卖优思益销售额超千万，暴露出带货平台选品环节存在哪些问题？产品出问题平台责任如何界定？",
+      "url": "https://www.zhihu.com/question/2023066961702122325",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "外交部回应「伊朗是否向中国寻求安全保障」，表示中方支持一切有利于和平的努力，释放哪些信号？",
+      "title_zh": "外交部回应「伊朗是否向中国寻求安全保障」，表示中方支持一切有利于和平的努力，释放哪些信号？",
+      "url": "https://www.zhihu.com/question/2023064985580893986",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "25岁海警烈士牺牲最后画面公开",
+      "title_zh": "25岁海警烈士牺牲最后画面公开",
+      "url": "https://www.toutiao.com/trending/7624299105887473161/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "金正恩与女儿视察宠物店 现场撸猫",
+      "title_zh": "金正恩与女儿视察宠物店 现场撸猫",
+      "url": "https://www.toutiao.com/trending/7624352819042664458/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "制造业PMI重回扩张区间",
+      "title_zh": "制造业PMI重回扩张区间",
+      "url": "https://www.toutiao.com/trending/7623299576968069163/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "杜兰特是NBA史上最难防的得分手吗",
+      "title_zh": "杜兰特是NBA史上最难防的得分手吗",
+      "url": "https://www.toutiao.com/trending/7624211948520538150/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "揭秘清明节的前世今生",
+      "title_zh": "揭秘清明节的前世今生",
+      "url": "https://www.toutiao.com/trending/7623393540596531243/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "伊朗外长谈最大桥梁被炸：不会投降",
+      "title_zh": "伊朗外长谈最大桥梁被炸：不会投降",
+      "url": "https://www.toutiao.com/trending/7624326903637298714/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 107,
+    "processed_count": 30
+  },
+  "display_count": 28
+}
