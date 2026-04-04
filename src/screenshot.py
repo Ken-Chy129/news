@@ -22,6 +22,8 @@ def take_screenshot(html_path: str, output_path: str) -> bool:
             browser = p.chromium.launch()
             page = browser.new_page(viewport={"width": 1000, "height": 800}, device_scale_factor=2)
             page.goto(file_url, wait_until="networkidle")
+            # Wait for web fonts to finish loading
+            page.evaluate("() => document.fonts.ready")
             page.screenshot(path=output_path, full_page=True)
             browser.close()
 
