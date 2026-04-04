@@ -1,0 +1,344 @@
+{
+  "date": "2026-04-04",
+  "generated_at": "2026-04-04T04:18:24.128795",
+  "items": [
+    {
+      "title": "Arcee AI Releases 400B Open Reasoning Model That Rivals Claude at 96% Lower Cost",
+      "title_zh": "Arcee AI发布400B开源推理模型，成本比Claude低96%",
+      "url": "https://www.implicator.ai/arcee-ai-releases-400b-open-reasoning-model-that-rivals-claude-at-96-lower-cost/",
+      "source": "Implicator AI",
+      "category": "model_release",
+      "summary_zh": "Arcee AI推出的Trinity-Large-Thinking模型在PinchBench上得分91.9，接近Claude Opus 4.6，但成本仅为其96%。该模型使用400B参数，每个token激活仅13B参数，展示了高效的推理能力，值得关注。",
+      "importance": 9
+    },
+    {
+      "title": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "title_zh": "HauhauCS/Qwen3.5-9B-无审查-HauhauCS-激进版",
+      "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "HauhauCS发布了Qwen3.5-9B无审查激进版模型，下载量达到700218次，受到951个用户的喜爱。该模型在生成内容方面具有较高的灵活性，适合需要更大自由度的应用场景。",
+      "importance": 9
+    },
+    {
+      "title": "Claude Code Found a Linux Vulnerability Hidden for 23 Years",
+      "title_zh": "Claude Code发现隐藏23年的Linux漏洞",
+      "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Claude Code成功发现了一个存在23年的Linux漏洞，展示了其在安全性检测方面的能力。这一发现可能影响大量使用Linux的系统，值得开发者和安全专家关注。",
+      "importance": 8
+    },
+    {
+      "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "title_zh": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-推理-蒸馏版v2-GGUF",
+      "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Jackrong发布了Qwen3.5-27B-Claude-4.6-Opus-推理-蒸馏版v2-GGUF，下载量为227053次，获得496个用户的喜爱。该模型在图像与文本之间的转换能力上表现出色，适合多种应用。",
+      "importance": 8
+    },
+    {
+      "title": "Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw",
+      "title_zh": "告诉HN：Anthropic不再允许Claude Code订阅使用OpenClaw",
+      "url": "https://news.ycombinator.com/item?id=47633396",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Anthropic宣布不再允许Claude Code的订阅用户使用OpenClaw，这一政策变化可能会影响用户的开发流程和工具选择，值得开发者关注。",
+      "importance": 7
+    },
+    {
+      "title": "google/gemma-4-31B-it",
+      "title_zh": "google/gemma-4-31B-it",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "谷歌发布了gemma-4-31B-it模型，专注于图像与文本的转换，下载量达到76200次，获得704个用户的喜爱。该模型在多模态任务中具有潜在的应用价值。",
+      "importance": 7
+    },
+    {
+      "title": "CohereLabs/cohere-transcribe-03-2026",
+      "title_zh": "CohereLabs/cohere-transcribe-03-2026",
+      "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "CohereLabs发布了cohere-transcribe-03-2026模型，专注于自动语音识别，下载量为84600次，获得767个用户的喜爱。该模型在语音转文本任务中表现优异，适合多种应用场景。",
+      "importance": 7
+    },
+    {
+      "title": "openclaw openclaw 2026.4.2",
+      "title_zh": "openclaw 2026.4.2",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.2",
+      "source": "OpenClaw Updates",
+      "category": "tool_update",
+      "summary_zh": "OpenClaw 发布了 2026.4.2 版本，主要更新包括将 `x_search` 和 `web_fetch` 的配置路径迁移到插件管理下，标准化认证方式，并修复了相关的配置问题。这些改动将提升插件的可用性和稳定性，值得开发者关注。",
+      "importance": 7
+    },
+    {
+      "title": "Getting Claude to QA its own work",
+      "title_zh": "让Claude进行自我质量检查",
+      "url": "https://www.skyvern.com/blog/getting-claude-to-qa-its-own-work/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "一篇关于如何让Claude进行自我质量检查的博客，探讨了AI在代码审核中的应用。这一方法可能提高开发效率，值得开发者学习和尝试。",
+      "importance": 6
+    },
+    {
+      "title": "OpenAI Cap Table leak reveals Microsoft's 18x return",
+      "title_zh": "OpenAI资本表泄露揭示微软18倍回报",
+      "url": "https://www.forbes.com/sites/josipamajic/2026/04/02/openai-cap-table-leak-reveals-microsofts-18x-return-softbanks-50b-gain-and-a-ceo-who-owns-nothing/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "OpenAI的资本表泄露显示，微软在投资OpenAI方面获得了18倍的回报。这一信息揭示了大型科技公司在AI领域的投资潜力，值得关注。",
+      "importance": 6
+    },
+    {
+      "title": "openclaw openclaw 2026.4.1",
+      "title_zh": "openclaw 2026.4.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.1",
+      "source": "OpenClaw Updates",
+      "category": "tool_update",
+      "summary_zh": "OpenClaw 2026.4.1 版本更新引入了多个新功能，包括聊天任务板 `/tasks`、SearXNG 搜索插件以及对 Amazon Bedrock Guardrails 的支持。这些功能增强了平台的灵活性和用户体验，适合开发者和用户使用。",
+      "importance": 6
+    },
+    {
+      "title": "Claude Code auto mode: a safer way to skip permissions",
+      "title_zh": "Claude Code自动模式：跳过权限的更安全方式",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "source": "Anthropic Engineering",
+      "category": "tool_update",
+      "summary_zh": "Claude Code推出了自动模式，旨在提供更安全的权限跳过方式。这一更新可能改善用户体验，提升开发效率，值得关注。",
+      "importance": 5
+    },
+    {
+      "title": "OpenClaw privilege escalation vulnerability",
+      "title_zh": "OpenClaw特权提升漏洞",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33579",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "OpenClaw被发现存在特权提升漏洞，可能影响使用该工具的用户安全。开发者应尽快评估风险并采取相应措施，确保系统安全。",
+      "importance": 5
+    },
+    {
+      "title": "claude-code v2.1.92",
+      "title_zh": "claude-code v2.1.92",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.92",
+      "source": "Claude Code Updates",
+      "category": "tool_update",
+      "summary_zh": "Claude Code发布了v2.1.92版本，新增了多个功能，包括交互式Bedrock设置向导和每模型的成本分析。这些更新将提升开发者的使用体验，值得关注。",
+      "importance": 5
+    },
+    {
+      "title": "google-research/timesfm",
+      "title_zh": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "谷歌研究团队发布了TimesFM，这是一个预训练的时间序列基础模型，专注于时间序列预测。该模型的发布将为相关领域的研究提供支持，具有重要的应用价值。",
+      "importance": 5
+    },
+    {
+      "title": "claude-code v2.1.90",
+      "title_zh": "claude-code v2.1.90",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.90",
+      "source": "Claude Code Updates",
+      "category": "tool_update",
+      "summary_zh": "Claude Code 版本 2.1.90 更新了多个功能，包括新增的交互式学习课程 `/powerup` 和多个修复，提升了用户体验和稳定性。此版本对于使用 Claude Code 的开发者来说是一个重要的更新。",
+      "importance": 5
+    },
+    {
+      "title": "Show HN: Apfel – The free AI already on your Mac",
+      "title_zh": "展示HN：Apfel – 你Mac上已有的免费AI",
+      "url": "https://apfel.franzai.com",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Apfel是一个在Mac上运行的免费AI工具，提供多种功能，方便用户使用。对于寻求简单AI解决方案的用户来说，这是一个值得尝试的工具。",
+      "importance": 4
+    },
+    {
+      "title": "Show HN: Travel Hacking Toolkit – Points search and trip planning with AI",
+      "title_zh": "展示HN：旅行黑客工具包 – 使用AI进行积分搜索和旅行规划",
+      "url": "https://github.com/borski/travel-hacking-toolkit",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "旅行黑客工具包利用AI帮助用户进行积分搜索和旅行规划，适合频繁旅行的用户。该工具的实用性和创新性值得关注。",
+      "importance": 4
+    },
+    {
+      "title": "onyx-dot-app/onyx",
+      "title_zh": "onyx-dot-app/onyx",
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "onyx是一个开源AI平台，支持与各种大型语言模型的聊天，具备先进功能。该项目的发布将为开发者提供更多的选择，值得关注。",
+      "importance": 4
+    },
+    {
+      "title": "华裔女子西安刚下飞机就被历史暴击",
+      "title_zh": "华裔女子西安刚下飞机就被历史暴击",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%8E%E8%A3%94%E5%A5%B3%E5%AD%90%E8%A5%BF%E5%AE%89%E5%88%9A%E4%B8%8B%E9%A3%9E%E6%9C%BA%E5%B0%B1%E8%A2%AB%E5%8E%86%E5%8F%B2%E6%9A%B4%E5%87%BB%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "王濛 挂脸",
+      "title_zh": "王濛 挂脸",
+      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E6%BF%9B%20%E6%8C%82%E8%84%B8&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "属于中国人的清明仪式感",
+      "title_zh": "属于中国人的清明仪式感",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B1%9E%E4%BA%8E%E4%B8%AD%E5%9B%BD%E4%BA%BA%E7%9A%84%E6%B8%85%E6%98%8E%E4%BB%AA%E5%BC%8F%E6%84%9F%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美军2架黑鹰直升机被伊朗击中",
+      "title_zh": "美军2架黑鹰直升机被伊朗击中",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%86%9B2%E6%9E%B6%E9%BB%91%E9%B9%B0%E7%9B%B4%E5%8D%87%E6%9C%BA%E8%A2%AB%E4%BC%8A%E6%9C%97%E5%87%BB%E4%B8%AD%23&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "阿娇首部短剧",
+      "title_zh": "阿娇首部短剧",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%98%BF%E5%A8%87%E9%A6%96%E9%83%A8%E7%9F%AD%E5%89%A7%23&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "因为自制力差一下午赚了七千",
+      "title_zh": "因为自制力差一下午赚了七千",
+      "url": "https://s.weibo.com/weibo?q=%E5%9B%A0%E4%B8%BA%E8%87%AA%E5%88%B6%E5%8A%9B%E5%B7%AE%E4%B8%80%E4%B8%8B%E5%8D%88%E8%B5%9A%E4%BA%86%E4%B8%83%E5%8D%83&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "新版软著申请表要求不得使用 AI 编写代码或文档，违者纳入征信记录，对行业有哪些影响？",
+      "title_zh": "新版软著申请表要求不得使用 AI 编写代码或文档，违者纳入征信记录，对行业有哪些影响？",
+      "url": "https://www.zhihu.com/question/2022610310935115479",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "优思益声明称「已无力进行相关售后及客诉服务，整体处于崩溃边缘」，消费者该怎样维权？此次事件有何警示？",
+      "title_zh": "优思益声明称「已无力进行相关售后及客诉服务，整体处于崩溃边缘」，消费者该怎样维权？此次事件有何警示？",
+      "url": "https://www.zhihu.com/question/2023447323699683399",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "华谊兄弟超 5600 万债务逾期，多个银行账号、王氏兄弟持股全被冻结，该公司经营出现了哪些问题？",
+      "title_zh": "华谊兄弟超 5600 万债务逾期，多个银行账号、王氏兄弟持股全被冻结，该公司经营出现了哪些问题？",
+      "url": "https://www.zhihu.com/question/2022732593586521536",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "如何评价微软前 CTO 发长文指出 Windows 的混乱局面，「14 年 14 次转变，17 种 GUI 共存」？",
+      "title_zh": "如何评价微软前 CTO 发长文指出 Windows 的混乱局面，「14 年 14 次转变，17 种 GUI 共存」？",
+      "url": "https://www.zhihu.com/question/2023155392658589555",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "与辉同行就带货「优思益」致歉，称将全额退款，怎样看待这一处理方式？这种情况需要额外赔偿吗？",
+      "title_zh": "与辉同行就带货「优思益」致歉，称将全额退款，怎样看待这一处理方式？这种情况需要额外赔偿吗？",
+      "url": "https://www.zhihu.com/question/2023312628072670879",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "伊朗宣称击落一美国先进战斗机后，消息称该战机飞行员或被伊朗军方俘虏，若属实，会如何影响战场内外？",
+      "title_zh": "伊朗宣称击落一美国先进战斗机后，消息称该战机飞行员或被伊朗军方俘虏，若属实，会如何影响战场内外？",
+      "url": "https://www.zhihu.com/question/2023505434653324083",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "威力巨大！传说中的武器来了",
+      "title_zh": "威力巨大！传说中的武器来了",
+      "url": "https://www.toutiao.com/trending/7624077493708816425/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "王楚钦：如果0比2落后就没机会了",
+      "title_zh": "王楚钦：如果0比2落后就没机会了",
+      "url": "https://www.toutiao.com/trending/7624435052776214079/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "清明之际追思公安英烈",
+      "title_zh": "清明之际追思公安英烈",
+      "url": "https://www.toutiao.com/trending/7624654402540388371/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "打人董事长所在国企迎来新任董事长",
+      "title_zh": "打人董事长所在国企迎来新任董事长",
+      "url": "https://www.toutiao.com/trending/7624374274564227108/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "6秒致辞走红的县委书记是清华硕士",
+      "title_zh": "6秒致辞走红的县委书记是清华硕士",
+      "url": "https://www.toutiao.com/trending/7624678892296523273/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美军搜救直升机被伊朗火力击中",
+      "title_zh": "美军搜救直升机被伊朗火力击中",
+      "url": "https://www.toutiao.com/trending/7624629654246785034/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 44,
+    "processed_count": 19
+  },
+  "display_count": 30
+}
