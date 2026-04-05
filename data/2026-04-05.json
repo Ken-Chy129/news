@@ -1,0 +1,371 @@
+{
+  "date": "2026-04-05",
+  "generated_at": "2026-04-05T04:38:14.970955",
+  "items": [
+    {
+      "title": "Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw",
+      "title_zh": "告诉HN：Anthropic不再允许Claude Code订阅使用OpenClaw",
+      "url": "https://news.ycombinator.com/item?id=47633396",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Anthropic宣布停止允许Claude Code订阅用户使用OpenClaw，原因是计算成本不可持续。这一决定可能会影响大量依赖OpenClaw的开发者，值得关注其对AI开发环境的影响。",
+      "importance": 9
+    },
+    {
+      "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "title_zh": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Jackrong发布了Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled模型，专注于图像与文本的转换，已获得524224次下载和2296个点赞。此模型在多模态任务中表现出色，值得关注。",
+      "importance": 9
+    },
+    {
+      "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "title_zh": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Jackrong发布了Qwen3.5-27B模型的最新版本，名为Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF。该模型专注于图像与文本的转换，下载量已超过241,000次，显示出其在AI领域的广泛应用潜力。值得关注的是其在推理任务中的表现。",
+      "importance": 9
+    },
+    {
+      "title": "Claude Code Found a Linux Vulnerability Hidden for 23 Years",
+      "title_zh": "Claude Code发现隐藏23年的Linux漏洞",
+      "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Claude Code成功发现了一个隐藏了23年的Linux漏洞。这一发现不仅展示了AI在安全领域的潜力，也提醒开发者关注潜在的安全隐患。",
+      "importance": 8
+    },
+    {
+      "title": "google/gemma-4-31B-it",
+      "title_zh": "google/gemma-4-31B-it",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Google推出了Gemma-4-31B-it模型，支持图像与文本的转换，已获得287440次下载和867个点赞。该模型在多模态应用中具有广泛的潜力，值得开发者关注。",
+      "importance": 8
+    },
+    {
+      "title": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "title_zh": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "HauhauCS发布了Qwen3.5-9B-Uncensored-HauhauCS-Aggressive模型，已获得715586次下载和971个点赞。该模型在处理敏感内容时表现出色，适合需要高自由度的应用场景。",
+      "importance": 8
+    },
+    {
+      "title": "claude-code v2.1.92",
+      "title_zh": "claude-code v2.1.92",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.92",
+      "source": "Claude Code Updates",
+      "category": "tool_update",
+      "summary_zh": "Claude Code发布了v2.1.92版本，新增了多个功能，包括交互式Bedrock设置向导和订阅用户的成本细分。这些更新将提升用户体验和工具的灵活性，尤其是在AWS环境中的应用。",
+      "importance": 8
+    },
+    {
+      "title": "Emotion concepts and their function in a large language model",
+      "title_zh": "情感概念及其在大型语言模型中的功能",
+      "url": "https://www.anthropic.com/research/emotion-concepts-function",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "这项研究探讨了情感概念在大型语言模型中的作用，揭示了情感理解对提升AI交互质量的重要性。这一领域的进展可能会影响未来AI的应用和发展。",
+      "importance": 7
+    },
+    {
+      "title": "baidu/Qianfan-OCR",
+      "title_zh": "baidu/Qianfan-OCR",
+      "url": "https://huggingface.co/baidu/Qianfan-OCR",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "百度推出了Qianfan-OCR模型，专注于图像与文本的转换，已获得36635次下载和959个点赞。该模型在OCR任务中表现优异，适合各种文档处理应用。",
+      "importance": 7
+    },
+    {
+      "title": "CohereLabs/cohere-transcribe-03-2026",
+      "title_zh": "CohereLabs/cohere-transcribe-03-2026",
+      "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "CohereLabs发布了cohere-transcribe-03-2026模型，专注于自动语音识别，已获得96615次下载和791个点赞。该模型在语音转文本任务中表现出色，适合语音助手等应用。",
+      "importance": 7
+    },
+    {
+      "title": "claude-code v2.1.91",
+      "title_zh": "claude-code v2.1.91",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.91",
+      "source": "Claude Code Updates",
+      "category": "tool_update",
+      "summary_zh": "Claude Code的v2.1.91版本更新了多个功能，包括支持多行提示和插件可执行文件的调用。这些改进将增强开发者在使用Claude Code时的灵活性和效率，值得开发者关注。",
+      "importance": 7
+    },
+    {
+      "title": "Quantifying infrastructure noise in agentic coding evals",
+      "title_zh": "量化代理编码评估中的基础设施噪声",
+      "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "研究表明基础设施配置对代理编码基准测试的影响显著，可能会影响模型排名。这一发现强调了在评估AI模型时考虑环境因素的重要性。",
+      "importance": 6
+    },
+    {
+      "title": "Blaizzy/mlx-vlm",
+      "title_zh": "Blaizzy/mlx-vlm",
+      "url": "https://github.com/Blaizzy/mlx-vlm",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "MLX-VLM是一个用于在Mac上进行视觉语言模型推理和微调的开源包，支持Python。该项目为开发者提供了便捷的工具，值得关注。",
+      "importance": 6
+    },
+    {
+      "title": "onyx-dot-app/onyx",
+      "title_zh": "onyx-dot-app/onyx",
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Onyx是一个开源AI平台，支持与各种大型语言模型的聊天，具备先进功能。该项目为开发者提供了强大的AI交互工具，值得关注。",
+      "importance": 6
+    },
+    {
+      "title": "openclaw openclaw 2026.4.2",
+      "title_zh": "openclaw openclaw 2026.4.2",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.2",
+      "source": "OpenClaw Updates",
+      "category": "tool_update",
+      "summary_zh": "OpenClaw发布了2026.4.2版本，进行了多项重大更新，包括插件配置的迁移和核心任务流的恢复。这些变化将提升OpenClaw的可用性和功能，适合需要深度集成的开发者使用。",
+      "importance": 6
+    },
+    {
+      "title": "Claude Code auto mode: a safer way to skip permissions",
+      "title_zh": "Claude Code自动模式：跳过权限的更安全方式",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Claude Code推出了自动模式，旨在提供更安全的权限跳过方式。这一更新可能会提升用户体验，减少开发过程中的安全风险。",
+      "importance": 5
+    },
+    {
+      "title": "A case study in testing with 100+ Claude agents in parallel",
+      "title_zh": "使用100多个Claude代理进行并行测试的案例研究",
+      "url": "https://imbue.com/product/mngr_part_2/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "该案例研究展示了如何使用100多个Claude代理进行并行测试，提供了对大规模AI模型测试的新见解。这一方法可能会推动AI测试效率的提升。",
+      "importance": 5
+    },
+    {
+      "title": "Yeachan-Heo/oh-my-codex",
+      "title_zh": "Yeachan-Heo/oh-my-codex",
+      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "OmX - Oh My codeX是一个开源项目，提供了多种功能扩展，旨在提升代码生成和管理的效率。该项目为开发者提供了丰富的工具，值得关注。",
+      "importance": 5
+    },
+    {
+      "title": "block/goose",
+      "title_zh": "block/goose",
+      "url": "https://github.com/block/goose",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Goose是一个开源的可扩展AI代理，超越了代码建议的功能，支持安装、执行、编辑和测试。该项目为开发者提供了强大的AI工具，值得关注。",
+      "importance": 5
+    },
+    {
+      "title": "microsoft/agent-framework",
+      "title_zh": "microsoft/agent-framework",
+      "url": "https://github.com/microsoft/agent-framework",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "微软推出了Agent Framework，支持构建、编排和部署AI代理及多代理工作流，兼容Python和.NET。该框架为开发者提供了便捷的AI代理开发工具，值得关注。",
+      "importance": 5
+    },
+    {
+      "title": "Writing Lisp Is AI Resistant and I'm Sad",
+      "title_zh": "写Lisp是AI抗性，我很难过",
+      "url": "https://blog.djhaskin.com/blog/writing-lisp-is-ai-resistant-and-im-sad/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "这篇文章探讨了Lisp编程语言在AI时代的抗性，反映了对传统编程语言在现代技术背景下的思考，值得关注其对开发者的启示。",
+      "importance": 4
+    },
+    {
+      "title": "siddharthvaddem/openscreen",
+      "title_zh": "siddharthvaddem/openscreen",
+      "url": "https://github.com/siddharthvaddem/openscreen",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "OpenScreen是一个开源项目，允许用户免费创建精美演示，适合商业用途。该项目为开发者提供了无水印的演示工具，值得关注。",
+      "importance": 4
+    },
+    {
+      "title": "浪姐今日直播暂停",
+      "title_zh": "浪姐今日直播暂停",
+      "url": "https://s.weibo.com/weibo?q=%E6%B5%AA%E5%A7%90%E4%BB%8A%E6%97%A5%E7%9B%B4%E6%92%AD%E6%9A%82%E5%81%9C&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "王曼昱vs申裕斌",
+      "title_zh": "王曼昱vs申裕斌",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%9B%BC%E6%98%B1vs%E7%94%B3%E8%A3%95%E6%96%8C%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "清明假期新业态解锁新体验",
+      "title_zh": "清明假期新业态解锁新体验",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B8%85%E6%98%8E%E5%81%87%E6%9C%9F%E6%96%B0%E4%B8%9A%E6%80%81%E8%A7%A3%E9%94%81%E6%96%B0%E4%BD%93%E9%AA%8C%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "张月曾沛慈 评级人数",
+      "title_zh": "张月曾沛慈 评级人数",
+      "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E6%9C%88%E6%9B%BE%E6%B2%9B%E6%85%88%20%E8%AF%84%E7%BA%A7%E4%BA%BA%E6%95%B0&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "男子拿祖宗骨灰坛回家进门就打碎了",
+      "title_zh": "男子拿祖宗骨灰坛回家进门就打碎了",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E6%8B%BF%E7%A5%96%E5%AE%97%E9%AA%A8%E7%81%B0%E5%9D%9B%E5%9B%9E%E5%AE%B6%E8%BF%9B%E9%97%A8%E5%B0%B1%E6%89%93%E7%A2%8E%E4%BA%86%23&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "原来软柿子在人群里这么明显",
+      "title_zh": "原来软柿子在人群里这么明显",
+      "url": "https://s.weibo.com/weibo?q=%E5%8E%9F%E6%9D%A5%E8%BD%AF%E6%9F%BF%E5%AD%90%E5%9C%A8%E4%BA%BA%E7%BE%A4%E9%87%8C%E8%BF%99%E4%B9%88%E6%98%8E%E6%98%BE&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "全网最不想火鸡煲店老板抗拒走红，称「用的冰冻鸡，别来了」，如何看待其这波操作？背后是怎样的心态与逻辑？",
+      "title_zh": "全网最不想火鸡煲店老板抗拒走红，称「用的冰冻鸡，别来了」，如何看待其这波操作？背后是怎样的心态与逻辑？",
+      "url": "https://www.zhihu.com/question/2023829606344521498",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "雨果晋级澳门世界杯男单 4 强，半决赛对阵王楚钦，你看好谁晋级决赛？",
+      "title_zh": "雨果晋级澳门世界杯男单 4 强，半决赛对阵王楚钦，你看好谁晋级决赛？",
+      "url": "https://www.zhihu.com/question/2023902037910253830",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "为什么中国人对清明节如此重视？",
+      "title_zh": "为什么中国人对清明节如此重视？",
+      "url": "https://www.zhihu.com/question/2021979359066498993",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "老爸评测就优思益事件道歉，消费者可退一赔三， 这样的补偿力度如何？测评机构该为品牌「出身」负责吗？",
+      "title_zh": "老爸评测就优思益事件道歉，消费者可退一赔三， 这样的补偿力度如何？测评机构该为品牌「出身」负责吗？",
+      "url": "https://www.zhihu.com/question/2023427816964843446",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "汉代的厚葬风气最盛，为何到了魏晋却流行薄葬，这种转变是因为经济崩了还是观念变了？",
+      "title_zh": "汉代的厚葬风气最盛，为何到了魏晋却流行薄葬，这种转变是因为经济崩了还是观念变了？",
+      "url": "https://www.zhihu.com/question/2020910767772366811",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美以袭击伊朗进入第 37 天，当前局势如何？哪些信息值得关注？",
+      "title_zh": "美以袭击伊朗进入第 37 天，当前局势如何？哪些信息值得关注？",
+      "url": "https://www.zhihu.com/question/2023889394210195324",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "给老祖宗上坟熊孩子把钱顺回来了",
+      "title_zh": "给老祖宗上坟熊孩子把钱顺回来了",
+      "url": "https://www.toutiao.com/trending/7625072707113061894/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "曹操墓前集齐各类布洛芬",
+      "title_zh": "曹操墓前集齐各类布洛芬",
+      "url": "https://www.toutiao.com/trending/7624142004075692083/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "这些身影 我们永远记得",
+      "title_zh": "这些身影 我们永远记得",
+      "url": "https://www.toutiao.com/trending/7624922562664857636/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "男子要求摩友慢点 称这是自己地盘",
+      "title_zh": "男子要求摩友慢点 称这是自己地盘",
+      "url": "https://www.toutiao.com/trending/7624995900051193919/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "孙颖莎晋级世界杯女单决赛",
+      "title_zh": "孙颖莎晋级世界杯女单决赛",
+      "url": "https://www.toutiao.com/trending/7625117832069516842/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美军失踪飞行员已获救",
+      "title_zh": "美军失踪飞行员已获救",
+      "url": "https://www.toutiao.com/trending/7624634463192924166/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 44,
+    "processed_count": 22
+  },
+  "display_count": 35
+}
