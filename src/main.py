@@ -20,6 +20,7 @@ from .collectors.newsnow import NewsNowCollector
 from .collectors.github_releases import GitHubReleasesCollector
 from .collectors.web_scraper import WebScraperCollector
 from .processor import process_items
+from .content_enricher import enrich_items
 from .generator import generate
 from .notifiers.feishu import FeishuNotifier
 from .notifiers.weixin import WeixinNotifier
@@ -117,9 +118,15 @@ def main():
     trending_items = [item for item in raw_items if item.category == "trending"]
     print(f"[main] AI items: {len(ai_items)}, Trending items: {len(trending_items)}")
 
-    # Step 2: Process AI items with LLM
+    # Step 2: Enrich content (fetch full article text)
     print("\n" + "=" * 60)
-    print("Step 2: Processing with LLM...")
+    print("Step 2: Enriching content...")
+    print("=" * 60)
+    ai_items = enrich_items(ai_items)
+
+    # Step 3: Process AI items with LLM
+    print("\n" + "=" * 60)
+    print("Step 3: Processing with LLM...")
     print("=" * 60)
     processed_data = process_items(ai_items, config)
 
@@ -135,9 +142,9 @@ def main():
             "importance": 3,
         })
 
-    # Step 3: Generate HTML
+    # Step 4: Generate HTML
     print("\n" + "=" * 60)
-    print("Step 3: Generating HTML...")
+    print("Step 4: Generating HTML...")
     print("=" * 60)
     issue_path = generate(processed_data, config, project_root)
 
@@ -149,7 +156,7 @@ def main():
         json.dump(processed_data, f, ensure_ascii=False, indent=2)
     print(f"[main] Saved data: {json_path}")
 
-    # Step 3.5: Screenshot (only if any notifier needs it)
+    # Step 4.5: Screenshot (only if any notifier needs it)
     need_screenshot = config.get("notification", {}).get("feishu", {}).get("send_image", False)
     if need_screenshot:
         from .screenshot import take_screenshot
@@ -158,9 +165,9 @@ def main():
         if take_screenshot(issue_path, screenshot_path):
             processed_data["screenshot_path"] = screenshot_path
 
-    # Step 4: Notify
+    # Step 5: Notify
     print("\n" + "=" * 60)
-    print("Step 4: Sending notifications...")
+    print("Step 5: Sending notifications...")
     print("=" * 60)
     notify_all(config, processed_data)
 

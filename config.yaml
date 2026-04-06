@@ -124,7 +124,7 @@ newsnow:
 
 llm:
   provider: openai
-  model: gpt-4o-mini
+  model: gpt-4o
   api_key_env: OPENAI_API_KEY
   temperature: 0.3
   max_items_per_batch: 20

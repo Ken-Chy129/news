@@ -76,8 +76,8 @@ class RSSCollector(BaseCollector):
             if "<" in summary:
                 from bs4 import BeautifulSoup
                 summary = BeautifulSoup(summary, "html.parser").get_text(separator=" ", strip=True)
-            if len(summary) > 500:
-                summary = summary[:500] + "..."
+            if len(summary) > 2000:
+                summary = summary[:2000] + "..."
 
             items.append(self._make_item(
                 title=title,

@@ -52,8 +52,8 @@ class GitHubReleasesCollector(BaseCollector):
             name = rel.get("name", tag)
             body = rel.get("body", "")
             # Truncate long release notes
-            if len(body) > 800:
-                body = body[:800] + "..."
+            if len(body) > 3000:
+                body = body[:3000] + "..."
 
             items.append(self._make_item(
                 title=f"{repo.split('/')[-1]} {name}",

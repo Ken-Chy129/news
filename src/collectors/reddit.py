@@ -41,7 +41,7 @@ class RedditCollector(BaseCollector):
             items.append(self._make_item(
                 title=title,
                 url=post_url,
-                content=d.get("selftext", "")[:300],
+                content=d.get("selftext", "")[:2000],
                 extra={"score": d.get("score", 0), "comments": d.get("num_comments", 0)},
             ))
 
