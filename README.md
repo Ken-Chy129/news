@@ -2,6 +2,16 @@
 
 每日自动采集多平台 AI 资讯，通过 LLM 生成中文摘要，输出经典报纸风格的静态网站。
 
+> 🔗 **在线预览**: [https://ken-chy129.github.io/news/](https://ken-chy129.github.io/news/)
+
+## 效果展示
+
+<p align="center">
+  <img src="site/screenshots/2026-04-06.png" alt="AI 日报 - 桌面端效果" width="600">
+</p>
+
+<p align="center"><em>经典报纸排版：头条区 + AI 专区（行业动态/论文/模型发布）+ 全网热榜</em></p>
+
 ## 功能
 
 - **16+ 数据源**: ArXiv 论文、AI 公司博客 (OpenAI/Anthropic/Google)、Hacker News、Reddit、GitHub Trending、HuggingFace、MIT Technology Review、微博/知乎热榜等
