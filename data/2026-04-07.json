@@ -1,0 +1,443 @@
+{
+  "date": "2026-04-07",
+  "generated_at": "2026-04-07T04:35:22.321362",
+  "items": [
+    {
+      "title": "IC3-Evolve: Proof-/Witness-Gated Offline LLM-Driven Heuristic Evolution for IC3 Hardware Model Checking",
+      "title_zh": "IC3-Evolve：基于LLM的IC3硬件模型检查启发式演化",
+      "url": "https://arxiv.org/abs/2604.03232",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "IC3-Evolve是一种自动化的离线代码演化框架，利用大型语言模型（LLM）为IC3硬件安全模型检查算法提出小型、可审计的补丁。IC3算法用于验证状态转换系统是否符合安全属性，通常依赖复杂的启发式方法和实现选择。IC3-Evolve通过证明/见证门控验证确保每个候选补丁的安全性，避免不可靠的编辑被部署。该框架在公共硬件模型检查竞赛（HWMCC）基准上进行演化，并在未见过的公共和工业基准上评估其通用性，结果表明IC3-Evolve能够在严格的正确性门控下可靠地发现实用的启发式改进。这种方法消除了运行时模型依赖，提供了一个独立的演化检查器。",
+      "importance": 9
+    },
+    {
+      "title": "A Multimodal Foundation Model of Spatial Transcriptomics and Histology for Biological Discovery and Clinical Prediction",
+      "title_zh": "用于生物发现和临床预测的空间转录组学和组织学多模态基础模型",
+      "url": "https://arxiv.org/abs/2604.03630",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该研究介绍了STORM，一个多模态基础模型，旨在结合空间转录组学和组织学数据进行生物学发现和临床预测。STORM模型在120万空间分辨的转录组学数据和匹配的组织学数据上进行训练，涵盖18个器官。通过整合形态特征、基因表达和空间上下文，STORM在生成生物学一致的组织地图和预测空间基因表达方面优于现有方法。该模型在Visium、Xenium等多个平台上表现一致，并在预测免疫治疗反应和预后方面显著优于现有生物标志物。STORM为空间信息驱动的发现和临床精准医学提供了可扩展的框架。",
+      "importance": 9
+    },
+    {
+      "title": "Vocabulary Dropout for Curriculum Diversity in LLM Co-Evolution",
+      "title_zh": "词汇丢弃促进大语言模型共同进化中的课程多样性",
+      "url": "https://arxiv.org/abs/2604.03472",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "该研究探讨了在大语言模型（LLM）共同进化中，如何通过词汇丢弃机制来维持课程多样性。通常情况下，生成问题的模型会迅速收敛到满足奖励函数的狭窄问题分布，导致课程对求解器的信息量不足。研究引入了一种轻量级的词汇丢弃机制，通过在策略训练和课程生成中随机掩盖生成模型的输出logits，防止其锁定在固定的词序列上。实验表明，词汇丢弃在训练过程中保持了生成模型的多样性，并在数学推理任务中提高了求解器的性能，尤其是在竞争级基准测试中提升显著。这一机制表明，通过显式的行动空间约束，可以帮助维持语言模型的有效共同进化。",
+      "importance": 9
+    },
+    {
+      "title": "Anthropic expands partnership with Google and Broadcom for next-gen compute",
+      "title_zh": "Anthropic扩展与Google和Broadcom的合作以支持下一代计算",
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Anthropic宣布与Google和Broadcom达成新协议，以提供多千兆瓦的下一代TPU容量，预计将于2027年上线。这一扩展将支持Anthropic的Claude模型，满足全球客户的巨大需求。Anthropic的收入增长迅速，2026年的收入已超过300亿美元，客户数量也在快速增加。大部分新计算资源将部署在美国，这标志着Anthropic对美国计算基础设施的重大投资。通过与Google Cloud和Broadcom的合作，Anthropic将进一步提升其AI开发的前沿能力。",
+      "importance": 9
+    },
+    {
+      "title": "Eight years of wanting, three months of building with AI",
+      "title_zh": "八年的渴望，三个月的AI构建",
+      "url": "https://lalitm.com/post/building-syntaqlite-ai/",
+      "source": "Hacker News",
+      "category": "blog",
+      "summary_zh": "作者花费八年时间期望开发一套高质量的SQLite开发工具，最终在AI编码代理的帮助下，仅用三个月时间完成了Syntaqlite的开发。Syntaqlite是一个为SQLite提供更好开发体验的工具，特别是在处理PerfettoSQL时表现出色。该项目的成功得益于AI在代码生成和项目管理中的应用，尽管作者也指出了AI在某些方面的不足。此项目展示了AI在软件开发中提高效率的潜力，尤其是在复杂项目的快速迭代和实现方面。",
+      "importance": 9
+    },
+    {
+      "title": "Toward Full Autonomous Laboratory Instrumentation Control with Large Language Models",
+      "title_zh": "利用大型语言模型实现全自动实验室仪器控制",
+      "url": "https://arxiv.org/abs/2604.03286",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本研究探讨了大型语言模型（LLM）如ChatGPT在科学设备编程和自动化中的潜力。通过一个案例研究，展示了ChatGPT如何帮助创建用于仪器控制的定制脚本，显著降低实验定制的技术门槛。此外，研究还展示了如何将LLM辅助工具扩展为能够独立操作实验室仪器并迭代优化控制策略的自主AI代理。这种方法强调了LLM工具和AI代理在实验室自动化和加速科学进步中的变革性作用。",
+      "importance": 8
+    },
+    {
+      "title": "BioAlchemy: Distilling Biological Literature into Reasoning-Ready Reinforcement Learning Training Data",
+      "title_zh": "BioAlchemy：将生物学文献提炼为推理就绪的强化学习训练数据",
+      "url": "https://arxiv.org/abs/2604.03506",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "BioAlchemy是一种从生物学研究文本中提取多样化且可验证的问答对的管道，旨在改善生物学研究任务中的推理性能。通过创建BioAlchemy-345K数据集，包含超过345K个科学推理问题，并将其与现代生物学的主题分布对齐，研究表明这种方法可以通过强化学习提高推理性能。BioAlchemist-8B模型在生物学基准上比其基础推理模型提高了9.12%，展示了该方法在发展更强的科学推理能力方面的有效性。",
+      "importance": 8
+    },
+    {
+      "title": "Selective Forgetting for Large Reasoning Models",
+      "title_zh": "大规模推理模型的选择性遗忘",
+      "url": "https://arxiv.org/abs/2604.03571",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该研究提出了一种新的选择性遗忘框架，旨在解决大规模推理模型（LRMs）中的知识泄漏问题。传统的遗忘方法主要针对最终答案，可能会削弱模型的整体推理能力。该框架通过利用多个大型语言模型（LLMs）和检索增强生成（RAG）技术，分析推理链，识别需要遗忘的部分，并用保持逻辑结构的良性占位符替换它们。此外，引入了一种新的特征替换遗忘损失，以同时抑制生成被遗忘内容的概率，并加强结构上有效的替换。实验结果表明，该方法在合成和医学数据集上验证了其有效性。",
+      "importance": 8
+    },
+    {
+      "title": "Personality Requires Struggle: Three Regimes of the Baldwin Effect in Neuroevolved Chess Agents",
+      "title_zh": "个性需要斗争：神经进化国际象棋代理中的鲍德温效应的三种模式",
+      "url": "https://arxiv.org/abs/2604.03565",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该研究探讨了终身学习如何在进化过程中扩展行为多样性，尤其是在竞争性领域如国际象棋代理中。研究发现，具有Hebbian学习的代理在进化初期表现出较低的行为多样性，但随着进化的进行，多样性逐渐增加。这种变化通过想象力的反馈循环得以实现，导致代理在相同棋局中选择不同的走法，发展出独特的开局策略和棋子偏好。研究揭示了三种行为模式：探索、彩票和透明模式，取决于对手类型。透明模式预测自我对弈系统可能会系统性地抑制行为多样性。",
+      "importance": 8
+    },
+    {
+      "title": "Evolutionary Search for Automated Design of Uncertainty Quantification Methods",
+      "title_zh": "用于自动设计不确定性量化方法的进化搜索",
+      "url": "https://arxiv.org/abs/2604.03473",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "该研究应用大语言模型（LLM）驱动的进化搜索，自动发现用于不确定性量化（UQ）的无监督方法，这些方法以Python程序形式表示。在原子声明验证任务中，进化方法在9个数据集上相对ROC-AUC提升了6.7%，并在分布外表现出强大的泛化能力。不同的LLM展示了不同的进化策略，例如Claude模型倾向于设计高特征计数的线性估计器，而Gpt-oss-120B则偏向于简单且可解释的定位加权方案。研究结果表明，LLM驱动的进化搜索是一种有前景的自动化、可解释的幻觉检测器设计范式。",
+      "importance": 8
+    },
+    {
+      "title": "LangFIR: Discovering Sparse Language-Specific Features from Monolingual Data for Language Steering",
+      "title_zh": "LangFIR：从单语数据中发现稀疏的语言特定特征以进行语言引导",
+      "url": "https://arxiv.org/abs/2604.03532",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "LangFIR方法通过使用单语数据和随机令牌序列，识别语言特定的稀疏自编码器（SAE）特征。这些特征在多语言生成控制中表现出极高的选择性和因果重要性。LangFIR在Gemma 3 1B、Gemma 3 4B和Llama 3.1 8B等模型上表现优异，超越了依赖平行数据的方法。研究表明，多语言LLM中的语言身份被定位在一组稀疏的特征方向中，这些特征可以通过单语数据发现。",
+      "importance": 8
+    },
+    {
+      "title": "Cultural Authenticity: Comparing LLM Cultural Representations to Native Human Expectations",
+      "title_zh": "文化真实性：比较大语言模型的文化表征与本地人类期望",
+      "url": "https://arxiv.org/abs/2604.03493",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "该研究提出了一种以人为中心的框架，用于评估大语言模型（LLM）生成的内容与本地文化期望的对齐程度。研究通过在九个国家收集的开放式调查响应，建立了文化重要性向量的基准，并应用于三种前沿LLM。结果显示，一些模型存在西方中心化的校准，模型的文化表征与人类文化重要性之间的对齐度随着国家与美国文化距离的增加而降低。这一方法超越了简单的多样性指标，评估了AI生成内容在捕捉全球文化细微层次上的真实性。",
+      "importance": 8
+    },
+    {
+      "title": "Building a C compiler with a team of parallel ClaudesFeb 05, 2026",
+      "title_zh": "使用并行Claude团队构建C编译器",
+      "url": "https://www.anthropic.com/engineering/building-c-compiler",
+      "source": "Anthropic Engineering",
+      "category": "industry",
+      "summary_zh": "Anthropic的研究员Nicholas Carlini介绍了一种新方法，使用多个Claude实例并行工作来开发Rust基础的C编译器。经过近2000次Claude Code会话和2万美元的API成本，该团队成功编写了一个10万行代码的编译器，能够在x86、ARM和RISC-V架构上编译Linux 6.9。这一项目展示了在没有人类干预的情况下，如何通过设计长时间运行的自主代理团队来实现复杂的工程任务。这种方法不仅扩展了LLM代理的能力，也为未来的自动化开发提供了新的思路。",
+      "importance": 8
+    },
+    {
+      "title": "Gemma 4 on iPhone",
+      "title_zh": "Gemma 4在iPhone上的应用",
+      "url": "https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337",
+      "source": "Hacker News",
+      "category": "model_release",
+      "summary_zh": "Google发布了AI Edge Gallery应用，支持在iPhone上运行Gemma 4模型。此应用允许用户在移动设备上离线体验高性能的生成式AI，具有先进的推理、逻辑和创造能力。核心功能包括Agent Skills、AI聊天、图像识别、音频转录等，用户可以通过设备摄像头或照片库进行多模态交互。此更新使用户能够在不将数据发送到服务器的情况下测试最新的设备端AI技术，标志着移动设备AI应用的重大进步。",
+      "importance": 8
+    },
+    {
+      "title": "Show HN: Gemma Gem – AI model embedded in a browser – no API keys, no cloud",
+      "title_zh": "展示HN: Gemma Gem – 嵌入浏览器的AI模型 – 无需API密钥，无需云",
+      "url": "https://github.com/kessler/gemma-gem",
+      "source": "Hacker News",
+      "category": "open_source",
+      "summary_zh": "Gemma Gem是一个嵌入在浏览器中的AI助手，运行于Google的Gemma 4模型，完全在设备上通过WebGPU进行推理，无需API密钥或云服务。用户可以在浏览器中直接与模型交互，进行页面阅读、按钮点击、表单填写等操作。该工具支持多种浏览器扩展功能，允许用户在不泄露数据的情况下享受AI的便利。此项目展示了在浏览器环境中实现高效AI推理的可能性，为开发者提供了新的工具和方法。",
+      "importance": 8
+    },
+    {
+      "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "title_zh": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled是一个经过精细调优的模型，旨在简化大型语言模型（LLM）的训练过程。该模型通过Unsloth开源库和Transformers 5.2.0等核心依赖进行优化，解决了官方模型中的崩溃问题。模型的训练和测试完全由个人资助，并提供了完整的训练笔记本、代码库和PDF指南，帮助初学者理解和重现模型的微调过程。此版本的发布不仅提供了技术细节，还通过Google Colab和Unsloth等工具使LLM训练更加易于接近。",
+      "importance": 8
+    },
+    {
+      "title": "VERT: Reliable LLM Judges for Radiology Report Evaluation",
+      "title_zh": "VERT：用于放射学报告评估的可靠LLM评估者",
+      "url": "https://arxiv.org/abs/2604.03376",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "在放射学报告评估中，VERT提出了一种新的LLM评估指标，旨在提高与放射科医生判断的相关性。通过与现有的RadFact、GREEN和FineRadScore等指标的对比，VERT在多种模型和数据集上进行了评估，结果显示VERT在与专家判断的相关性上提高了最多11.7%。此外，通过对Qwen3 30B模型的微调，使用仅1300个训练样本实现了高达25%的增益，并减少了多达37.2倍的推理时间。这些结果表明，LLM评估者在放射学报告评估中的有效性，并展示了通过轻量级适应实现可靠评估的可能性。",
+      "importance": 7
+    },
+    {
+      "title": "Automated Analysis of Global AI Safety Initiatives: A Taxonomy-Driven LLM Approach",
+      "title_zh": "全球AI安全倡议的自动化分析：一种基于分类法的LLM方法",
+      "url": "https://arxiv.org/abs/2604.03533",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该研究提出了一种自动化的框架，通过共享的活动分类法比较AI安全政策文件。使用五种大型语言模型对十份公开文件进行分析，结果显示模型选择对分析结果有显著影响，部分文件对的相似性评分在模型间存在较大分歧。人类专家的评估显示高一致性，而模型评分与人类判断仍有差异。这些发现支持对政策文件的比较检查，强调了在政策分析中使用LLM的潜力。",
+      "importance": 7
+    },
+    {
+      "title": "Entropy and Attention Dynamics in Small Language Models: A Trace-Level Structural Analysis on the TruthfulQA Benchmark",
+      "title_zh": "小型语言模型中的熵和注意力动态：TruthfulQA基准上的轨迹级结构分析",
+      "url": "https://arxiv.org/abs/2604.03589",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该研究分析了小型语言模型（SLMs）在TruthfulQA基准上的熵和注意力动态。研究发现，不同模型在输出熵、注意力熵和隐藏状态表示上表现出不同的模式，影响了模型的稳定性和准确性。研究将模型分为三类：确定性模型、探索性模型和平衡模型，并指出真相性在SLMs中源于结构化的熵和注意力动态。通过监控和优化这些内部不确定性模式，可以指导设计更可靠的、对幻觉敏感的边缘设备SLMs。",
+      "importance": 7
+    },
+    {
+      "title": "Rashomon Memory: Towards Argumentation-Driven Retrieval for Multi-Perspective Agent Memory",
+      "title_zh": "罗生门记忆：面向多视角代理记忆的论证驱动检索",
+      "url": "https://arxiv.org/abs/2604.03588",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该研究提出了罗生门记忆架构，旨在支持多视角代理根据其优先级编码经验，并在查询时通过论证进行协商。每个视角维护自己的本体和知识图谱，并在检索时提出解释，使用不对称领域知识批判彼此的建议。Dung的论证语义决定哪些建议存活，生成的攻击图本身就是一种解释。研究展示了检索模式如何从攻击图拓扑中涌现，并证明了冲突显现模式可以让决策者直接看到潜在的解释冲突。",
+      "importance": 7
+    },
+    {
+      "title": "Rethinking Token Prediction: Tree-Structured Diffusion Language Model",
+      "title_zh": "重新思考令牌预测：树结构扩散语言模型",
+      "url": "https://arxiv.org/abs/2604.03537",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "该研究提出了一种树结构扩散语言模型，旨在解决在有限参数和内存预算下训练离散扩散语言模型的挑战。通过利用令牌之间的固有结构，研究构建了一个树状的扩散语言模型，显著减少了分类维度，使得预测头的尺寸可以忽略不计，并允许将参数重新分配以加深注意力块。在相同的参数预算下，该方法将峰值GPU内存使用量减少了一半，同时匹配了最先进的离散扩散语言模型的困惑度表现。",
+      "importance": 7
+    },
+    {
+      "title": "LightThinker++: From Reasoning Compression to Memory Management",
+      "title_zh": "LightThinker++：从推理压缩到记忆管理",
+      "url": "https://arxiv.org/abs/2604.03679",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "LightThinker++是一种新方法，旨在提高大语言模型（LLM）在复杂推理任务中的效率。通过引入显式自适应记忆管理，该方法在推理过程中动态压缩中间思维为紧凑的语义表示，从而减少了推理过程中的认知开销。实验表明，LightThinker++在标准推理任务中减少了70%的峰值令牌使用，并在长时间任务中保持稳定的性能提升，平均性能提高14.8%。该方法为在扩展推理任务中维持LLM的深度推理提供了一个可扩展的方向。",
+      "importance": 7
+    },
+    {
+      "title": "Announcing the OpenAI Safety Fellowship",
+      "title_zh": "OpenAI安全研究奖学金计划宣布",
+      "url": "https://openai.com/index/introducing-openai-safety-fellowship",
+      "source": "OpenAI Blog",
+      "category": "blog",
+      "summary_zh": "OpenAI宣布启动一个试点项目，旨在支持独立的安全和对齐研究，并培养下一代人才。该项目将为研究人员提供资源和支持，以促进AI安全领域的发展。通过这一奖学金计划，OpenAI希望推动更多的研究和创新，确保AI技术的安全性和可靠性。这一举措不仅有助于提升AI技术的安全标准，还将为行业带来更多的专业人才。",
+      "importance": 7
+    },
+    {
+      "title": "Claude Code auto mode: a safer way to skip permissionsMar 25, 2026",
+      "title_zh": "Claude Code自动模式：一种更安全的跳过权限的方法",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "source": "Anthropic Engineering",
+      "category": "tool_update",
+      "summary_zh": "Anthropic推出了Claude Code的自动模式，这是一种在不需要用户手动批准的情况下，使用模型分类器来自动处理命令的功能。该模式旨在减少用户的批准疲劳，同时确保安全性。自动模式通过两层防御机制来实现：输入层的服务器端探测和输出层的行为监控。这种方法在保持用户意图对齐的同时，减少了不必要的手动干预，提高了工具的使用效率。",
+      "importance": 7
+    },
+    {
+      "title": "google-ai-edge/gallery",
+      "title_zh": "google-ai-edge/gallery",
+      "url": "https://github.com/google-ai-edge/gallery",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Google AI Edge Gallery是一个用于在移动设备上运行大型语言模型的开源平台，支持Gemma 4模型。此平台允许用户在设备上离线体验高性能生成式AI，具备高级推理、逻辑和创造能力。核心功能包括Agent Skills、AI聊天、图像识别等，用户可以通过设备摄像头或照片库进行多模态交互。此项目展示了在设备端实现高效AI推理的可能性，为开发者提供了新的工具和方法。",
+      "importance": 7
+    },
+    {
+      "title": "google/gemma-4-31B-it",
+      "title_zh": "google/gemma-4-31B-it",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Google DeepMind发布了Gemma 4模型家族，支持多模态输入（文本、图像、音频）和文本输出。此版本包括预训练和指令调优变体，支持超过140种语言。Gemma 4引入了关键能力和架构进步，如推理能力、扩展多模态处理、优化的设备端执行等。其多样化的架构和高效的本地执行能力使其适用于从高端手机到服务器的各种环境，标志着AI模型在设备端应用的重大进步。",
+      "importance": 7
+    },
+    {
+      "title": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
+      "title_zh": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
+      "url": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Gemma 4 31B JANG_4M CRACK是一个经过优化的密集模型，支持混合精度，内存占用为18 GB。该模型在HarmBench测试中达到了93.7%的合规性，MMLU测试中仅有-2.0%的知识损失。模型在安全和渗透测试中表现出色，能够生成完整的工作代码，如端口扫描器和反向shell。其架构采用60层密集变压器，支持滑动窗口和全注意力层的混合注意力机制，适合多模态推理。该模型的发布为安全研究和多语言处理提供了新的工具。",
+      "importance": 7
+    },
+    {
+      "title": "ActionNex: A Virtual Outage Manager for Cloud",
+      "title_zh": "ActionNex：云计算的虚拟故障管理器",
+      "url": "https://arxiv.org/abs/2604.03512",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "ActionNex是一种生产级代理系统，支持端到端的故障管理，包括实时更新、知识提炼和基于角色和阶段的最佳行动建议。该系统通过摄取多模态操作信号并将其压缩为关键事件，结合层次化记忆子系统进行操作。评估显示，ActionNex在八个Azure实际故障中实现了71.4%的精度和52.8-54.8%的召回率。该系统已在生产中试点，并获得了积极的早期反馈。",
+      "importance": 6
+    },
+    {
+      "title": "When Do Hallucinations Arise? A Graph Perspective on the Evolution of Path Reuse and Path Compression",
+      "title_zh": "幻觉何时产生？路径重用和路径压缩演化的图视角",
+      "url": "https://arxiv.org/abs/2604.03557",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文从图的角度研究了大型语言模型（LLM）中推理幻觉的产生机制。推理幻觉通常表现为流畅但不支持的结论，违反给定上下文或基础事实知识。研究表明，推理幻觉源于路径重用和路径压缩两种机制：路径重用在早期训练中，记忆知识覆盖上下文约束；路径压缩在后期训练中，频繁遍历的多步路径折叠为快捷边。这些机制为LLM中的推理幻觉提供了统一的解释，并与下游应用中观察到的行为相联系。",
+      "importance": 6
+    },
+    {
+      "title": "AI Appeals Processor: A Deep Learning Approach to Automated Classification of Citizen Appeals in Government Services",
+      "title_zh": "AI申诉处理器：一种用于政府服务中公民申诉自动分类的深度学习方法",
+      "url": "https://arxiv.org/abs/2604.03672",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "该研究介绍了一种基于微服务的系统，AI申诉处理器，整合自然语言处理和深度学习技术，实现公民申诉的自动分类和路由。研究评估了多种方法，包括Bag-of-Words与SVM、TF-IDF与SVM、fastText、Word2Vec与LSTM以及BERT，最终发现Word2Vec+LSTM架构在分类准确性和计算效率之间达到了最佳平衡，准确率为78%，处理时间减少了54%。该系统显著提高了政府服务中公民申诉处理的效率。",
+      "importance": 6
+    },
+    {
+      "title": "5月放假12天",
+      "title_zh": "5月放假12天",
+      "url": "https://s.weibo.com/weibo?q=%235%E6%9C%88%E6%94%BE%E5%81%8712%E5%A4%A9%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "陈丽华是唐僧扮演者迟重瑞的妻子",
+      "title_zh": "陈丽华是唐僧扮演者迟重瑞的妻子",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%99%88%E4%B8%BD%E5%8D%8E%E6%98%AF%E5%94%90%E5%83%A7%E6%89%AE%E6%BC%94%E8%80%85%E8%BF%9F%E9%87%8D%E7%91%9E%E7%9A%84%E5%A6%BB%E5%AD%90%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "清明文旅市场三线齐热",
+      "title_zh": "清明文旅市场三线齐热",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B8%85%E6%98%8E%E6%96%87%E6%97%85%E5%B8%82%E5%9C%BA%E4%B8%89%E7%BA%BF%E9%BD%90%E7%83%AD%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "妻子的浪漫旅行嘉宾阵容",
+      "title_zh": "妻子的浪漫旅行嘉宾阵容",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A6%BB%E5%AD%90%E7%9A%84%E6%B5%AA%E6%BC%AB%E6%97%85%E8%A1%8C%E5%98%89%E5%AE%BE%E9%98%B5%E5%AE%B9%23&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "伊朗称以放弃北部城市承认了失败",
+      "title_zh": "伊朗称以放弃北部城市承认了失败",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E7%A7%B0%E4%BB%A5%E6%94%BE%E5%BC%83%E5%8C%97%E9%83%A8%E5%9F%8E%E5%B8%82%E6%89%BF%E8%AE%A4%E4%BA%86%E5%A4%B1%E8%B4%A5%23&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "原来这叫软孤立啊",
+      "title_zh": "原来这叫软孤立啊",
+      "url": "https://s.weibo.com/weibo?q=%E5%8E%9F%E6%9D%A5%E8%BF%99%E5%8F%AB%E8%BD%AF%E5%AD%A4%E7%AB%8B%E5%95%8A&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "研究称午睡时间超过 1 小时死亡风险增加 30%，这是真的吗？午睡怎么睡、睡多久才是最科学的？",
+      "title_zh": "研究称午睡时间超过 1 小时死亡风险增加 30%，这是真的吗？午睡怎么睡、睡多久才是最科学的？",
+      "url": "https://www.zhihu.com/question/2022303887835619414",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "广州明确传统早茶食品必须 24 小时现制，新规 5 月施行，对此你怎么看？现制是早茶的灵魂吗？",
+      "title_zh": "广州明确传统早茶食品必须 24 小时现制，新规 5 月施行，对此你怎么看？现制是早茶的灵魂吗？",
+      "url": "https://www.zhihu.com/question/2023420406791422348",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美军特种兵潜入伊朗救人场面失控，运输机「失灵」了，为什么会出现这种情况？暴露出美军的哪些短板？",
+      "title_zh": "美军特种兵潜入伊朗救人场面失控，运输机「失灵」了，为什么会出现这种情况？暴露出美军的哪些短板？",
+      "url": "https://www.zhihu.com/question/2024754145689694623",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "兽用麻醉药被未成年人盯上，多家电商平台均有卖，商家的免责声明真能免责吗？药物滥用链条上各方该如何担责？",
+      "title_zh": "兽用麻醉药被未成年人盯上，多家电商平台均有卖，商家的免责声明真能免责吗？药物滥用链条上各方该如何担责？",
+      "url": "https://www.zhihu.com/question/2023811326082905221",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "2026 年清明档总票房 3.04 亿，相较去年继续下降，如何评价这个成绩？对行业会产生什么影响？",
+      "title_zh": "2026 年清明档总票房 3.04 亿，相较去年继续下降，如何评价这个成绩？对行业会产生什么影响？",
+      "url": "https://www.zhihu.com/question/2024250301692027403",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "中国前女首富、唐僧饰演者迟重瑞的妻子陈丽华逝世，如何评价她的一生？她有哪些故事令你印象深刻？",
+      "title_zh": "中国前女首富、唐僧饰演者迟重瑞的妻子陈丽华逝世，如何评价她的一生？她有哪些故事令你印象深刻？",
+      "url": "https://www.zhihu.com/question/2024803246716315093",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "700多万二手房一夜跳涨50万",
+      "title_zh": "700多万二手房一夜跳涨50万",
+      "url": "https://www.toutiao.com/trending/7624741551691956270/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美国载人飞船成功绕过月球背面",
+      "title_zh": "美国载人飞船成功绕过月球背面",
+      "url": "https://www.toutiao.com/trending/7625827495429836338/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "字里行间皆家国！英烈楷模从未忘",
+      "title_zh": "字里行间皆家国！英烈楷模从未忘",
+      "url": "https://www.toutiao.com/trending/7625835198038724105/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "英媒：赵心童统治力令对手胆寒",
+      "title_zh": "英媒：赵心童统治力令对手胆寒",
+      "url": "https://www.toutiao.com/trending/7625849386584821299/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "14代人为南宋丞相守墓800多年",
+      "title_zh": "14代人为南宋丞相守墓800多年",
+      "url": "https://www.toutiao.com/trending/7625496425602809894/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "女企业家陈丽华因病去世",
+      "title_zh": "女企业家陈丽华因病去世",
+      "url": "https://www.toutiao.com/trending/7625842352863166518/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 110,
+    "processed_count": 30
+  },
+  "display_count": 29
+}
