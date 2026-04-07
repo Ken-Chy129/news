@@ -7,7 +7,7 @@
 ## 效果展示
 
 <p align="center">
-  <img src="site/screenshots/2026-04-06.png" alt="AI 日报 - 桌面端效果" width="600">
+  <img src="site/screenshots/2026-04-07.png" alt="AI 日报 - 桌面端效果" width="600">
 </p>
 
 <p align="center"><em>经典报纸排版：头条区 + AI 专区（行业动态/论文/模型发布）+ 全网热榜</em></p>
