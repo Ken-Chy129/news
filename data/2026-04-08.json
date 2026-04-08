@@ -1,0 +1,443 @@
+{
+  "date": "2026-04-08",
+  "generated_at": "2026-04-08T03:27:01.539753",
+  "items": [
+    {
+      "title": "Project Glasswing: Securing critical software for the AI era",
+      "title_zh": "玻璃翼计划：为AI时代的关键软件保驾护航",
+      "url": "https://www.anthropic.com/glasswing",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "玻璃翼计划是一个由多家科技巨头联合发起的项目，旨在利用Anthropic开发的Claude Mythos模型来提升全球关键软件的安全性。该模型在发现和利用软件漏洞方面表现出色，能够超越大多数人类专家。项目参与者包括亚马逊、苹果、谷歌、微软等公司，他们将利用Mythos模型进行防御性安全工作。Anthropic承诺提供高达1亿美元的使用额度，并向开源安全组织捐赠400万美元。此举标志着AI在网络安全领域的重大进展，可能对经济和国家安全产生深远影响。",
+      "importance": 10
+    },
+    {
+      "title": "google/gemma-4-31B-it",
+      "title_zh": "Google发布Gemma 4-31B-it模型",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Google DeepMind推出了Gemma 4系列模型，其中包括多模态处理能力，支持文本和图像输入，并生成文本输出。Gemma 4模型具有256K的上下文窗口，并支持超过140种语言。该系列模型采用了密集和专家混合（MoE）架构，适用于文本生成、编码和推理等任务。Gemma 4的多样化尺寸使其可以在从高端手机到笔记本电脑和服务器的各种环境中部署，推动了最先进AI的普及。该模型还引入了原生系统提示支持，增强了编码和自主代理功能。",
+      "importance": 10
+    },
+    {
+      "title": "IC3-Evolve: Proof-/Witness-Gated Offline LLM-Driven Heuristic Evolution for IC3 Hardware Model Checking",
+      "title_zh": "IC3-Evolve：用于IC3硬件模型检查的证明/见证门控离线LLM驱动启发式进化",
+      "url": "https://arxiv.org/abs/2604.03232",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "IC3-Evolve是一种自动化的离线代码进化框架，利用大语言模型（LLM）对IC3硬件安全模型检查算法进行小规模、可审计的补丁提议。该框架通过证明/见证门控验证来确保每个候选补丁的正确性，避免不可靠的编辑被部署。IC3-Evolve在公共硬件模型检查竞赛（HWMCC）基准上进行进化，并在未见过的公共和工业模型检查基准上评估其普适性，显示出在严格的正确性门控下能够可靠地发现实用的启发式改进。这一方法的意义在于，它能够在不增加运行时模型依赖的情况下，提升IC3的性能，降低手动调优的成本和难度。",
+      "importance": 9
+    },
+    {
+      "title": "A Multimodal Foundation Model of Spatial Transcriptomics and Histology for Biological Discovery and Clinical Prediction",
+      "title_zh": "用于生物发现和临床预测的空间转录组学和组织学多模态基础模型",
+      "url": "https://arxiv.org/abs/2604.03630",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究提出了一种名为STORM的多模态基础模型，结合了空间转录组学和组织学数据，通过整合形态特征、基因表达和空间信息，提升了生物组织图谱的发现能力。该模型在11种肿瘤类型的H&E图像中预测空间基因表达方面表现优异，并在免疫治疗反应预测和预后评估中显著优于现有生物标志物。STORM适用于多种平台，提供了一种可扩展的框架，有助于空间信息驱动的生物学发现和临床精准医学。",
+      "importance": 9
+    },
+    {
+      "title": "Vocabulary Dropout for Curriculum Diversity in LLM Co-Evolution",
+      "title_zh": "词汇丢弃用于LLM共进化中的课程多样性",
+      "url": "https://arxiv.org/abs/2604.03472",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本文提出了一种名为词汇丢弃的新方法，用于在语言模型共进化过程中维持课程多样性。传统的共进化自我对弈方法中，问题生成模型往往会收敛到满足奖励函数的狭窄问题分布，导致课程对求解模型失去信息性。词汇丢弃通过在输出logits上随机掩码，阻止生成模型锁定固定的词序列，从而维持多样性。在数学推理任务中，训练Qwen3-4B和Qwen3-8B模型时，词汇丢弃在词汇、语义和功能指标上保持了生成模型的多样性，并在8B参数模型上平均提升了求解性能4.4分，尤其在竞赛级基准上取得了显著进步。这表明，类似于游戏规则在经典自我对弈中的结构性作用，显式的动作空间约束可以帮助维持语言模型的有效共进化。",
+      "importance": 9
+    },
+    {
+      "title": "Assessing Claude Mythos Preview's cybersecurity capabilities",
+      "title_zh": "评估Claude Mythos Preview的网络安全能力",
+      "url": "https://red.anthropic.com/2026/mythos-preview/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Claude Mythos Preview是一个通用语言模型，在网络安全任务中表现出色。该模型能够发现和利用开源代码中的零日漏洞，并能逆向工程封闭源软件的漏洞。Anthropic启动了玻璃翼计划，利用该模型帮助保护全球关键软件，并为行业准备应对未来的网络攻击。尽管模型发现的99%以上的漏洞尚未修补，但其能力已被视为网络安全领域的里程碑，促使行业开始协调努力以加强网络防御。",
+      "importance": 9
+    },
+    {
+      "title": "google-ai-edge/gallery",
+      "title_zh": "Google AI Edge推出Gallery平台",
+      "url": "https://github.com/google-ai-edge/gallery",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Google AI Edge推出了Gallery平台，允许用户在移动设备上运行强大的开源大型语言模型（LLMs）。最新版本支持Gemma 4系列，用户可以在设备上离线体验高性能生成式AI。平台提供多种功能，包括Agent Skills、AI Chat、Ask Image、Audio Scribe等，支持多模态交互和实时语音转录。Gallery平台旨在通过本地执行提供隐私保护和快速响应的AI体验。",
+      "importance": 9
+    },
+    {
+      "title": "google-ai-edge/LiteRT-LM",
+      "title_zh": "Google发布LiteRT-LM推理框架",
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "LiteRT-LM是Google推出的高性能开源推理框架，专为在边缘设备上部署大型语言模型（LLMs）而设计。该框架支持跨平台部署，包括Android、iOS、Web、桌面和物联网设备，并提供GPU和NPU加速。LiteRT-LM支持多模态输入，适用于视觉和音频数据处理。用户可以通过命令行界面（CLI）在Linux、macOS、Windows和Raspberry Pi上试用Gemma 4模型。",
+      "importance": 9
+    },
+    {
+      "title": "zai-org/GLM-5.1",
+      "title_zh": "zai-org/GLM-5.1",
+      "url": "https://huggingface.co/zai-org/GLM-5.1",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "GLM-5.1是Z.ai推出的下一代旗舰模型，专注于代理工程，具备比前代更强的编码能力。该模型在SWE-Bench Pro上达到了业界领先的表现，并在NL2Repo和Terminal-Bench 2.0等基准测试中显著超越了GLM-5。GLM-5.1能够在更长时间内保持高效，尤其在处理模糊问题时表现出更好的判断力。它能够分解复杂问题、进行实验、读取结果并精准识别障碍，通过反复迭代优化策略，能够在数百轮和数千次工具调用中持续优化。该模型支持本地部署，兼容多种开源框架，如SGLang、vLLM、xLLM、Transformers和KTransformers。",
+      "importance": 9
+    },
+    {
+      "title": "Toward Full Autonomous Laboratory Instrumentation Control with Large Language Models",
+      "title_zh": "利用大型语言模型实现全自动实验室仪器控制",
+      "url": "https://arxiv.org/abs/2604.03286",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究探讨了大型语言模型（LLM），如ChatGPT，如何帮助科学家进行实验室仪器的编程和自动化控制。通过一个案例研究，展示了ChatGPT如何帮助创建定制脚本以控制实验设备，显著降低了实验定制的技术门槛。此外，研究还展示了LLM辅助工具如何扩展为能够独立操作实验室仪器并迭代优化控制策略的自主AI代理。这种方法表明，基于LLM的工具和AI代理在推动实验室自动化和加速科学进步方面具有变革性作用。",
+      "importance": 8
+    },
+    {
+      "title": "VERT: Reliable LLM Judges for Radiology Report Evaluation",
+      "title_zh": "VERT：用于放射学报告评估的可靠LLM评审",
+      "url": "https://arxiv.org/abs/2604.03376",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究评估了不同大型语言模型（LLM）在放射学报告评估中的表现，提出了新的LLM评估指标VERT。通过与专家和其他LLM指标（如RadFact、GREEN、FineRadScore）的对比，VERT在与放射科医生判断的相关性上提高了11.7%。此外，通过对Qwen3 30B模型的微调，使用仅1300个训练样本，性能提升了25%，推理时间减少了37.2倍。这些结果表明，LLM可以通过轻量级适应实现可靠的放射学报告评估。",
+      "importance": 8
+    },
+    {
+      "title": "Selective Forgetting for Large Reasoning Models",
+      "title_zh": "大规模推理模型的选择性遗忘",
+      "url": "https://arxiv.org/abs/2604.03571",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该研究提出了一种新的大规模推理模型（LRM）选择性遗忘框架，旨在解决模型在训练数据中记忆敏感信息的问题。通过使用多种大语言模型（LLM）和检索增强生成（RAG）技术，该方法分析推理链条，识别需要遗忘的部分，并用保持逻辑结构的良性占位符替换。新引入的特征替换遗忘损失可以同时抑制生成被遗忘内容的概率，同时强化结构上有效的替代方案。实验表明，该方法在合成和医学数据集上表现出色，验证了其有效性。",
+      "importance": 8
+    },
+    {
+      "title": "Personality Requires Struggle: Three Regimes of the Baldwin Effect in Neuroevolved Chess Agents",
+      "title_zh": "个性需要斗争：神经进化国际象棋代理中的鲍德温效应三种机制",
+      "url": "https://arxiv.org/abs/2604.03565",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究探讨了神经进化国际象棋代理中的鲍德温效应，揭示了终身学习如何在进化过程中扩展行为多样性。通过对比不同的Hebbian条件，发现Hebbian学习初期压缩多样性，但随着进化的推进，多样性得以扩展。研究表明，不同的对手类型导致了探索、彩票和透明三种行为机制。透明机制预测自我对弈系统可能抑制行为多样性，这为未来的自我对弈系统设计提供了新的视角。",
+      "importance": 8
+    },
+    {
+      "title": "Evolutionary Search for Automated Design of Uncertainty Quantification Methods",
+      "title_zh": "用于不确定性量化方法自动设计的进化搜索",
+      "url": "https://arxiv.org/abs/2604.03473",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本文应用大语言模型驱动的进化搜索，自动发现用于不确定性量化的无监督方法。这些方法被表示为Python程序，并在原子声明验证任务中表现优于手工设计的基线，跨越9个数据集实现了高达6.7%的相对ROC-AUC提升，同时在分布外泛化上表现稳健。不同的语言模型展现出不同的进化策略：Claude模型倾向于设计高特征数的线性估计器，而Gpt-oss-120B则偏向于更简单和可解释的定位加权方案。令人惊讶的是，只有Sonnet 4.5和Opus 4.5能够可靠地利用方法复杂度的增加来提升性能，而Opus 4.6相较其前身出现了意外的回退。总体而言，结果表明，基于大语言模型的进化搜索是自动化、可解释的幻觉检测器设计的一个有前途的范式。",
+      "importance": 8
+    },
+    {
+      "title": "LangFIR: Discovering Sparse Language-Specific Features from Monolingual Data for Language Steering",
+      "title_zh": "LangFIR：从单语数据中发现稀疏语言特定特征以进行语言引导",
+      "url": "https://arxiv.org/abs/2604.03532",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "LangFIR是一种新方法，旨在从单语数据中发现语言特定的稀疏特征，以实现对大语言模型输出语言的控制。现有方法通常依赖于昂贵的多语言或平行数据，而LangFIR通过稀疏自编码器（SAE）分解残差激活，结合随机令牌序列，过滤出语言无关特征，从而识别出语言特定特征。这些特征极为稀疏，对目标语言高度选择性，并在方向消融实验中仅对相应语言增加交叉熵损失。使用这些特征构建的引导向量在多语言生成控制中表现出色，在多个模型和数据集上超越了依赖平行数据的方法。结果表明，多语言大语言模型中的语言身份被定位在一组稀疏的特征方向上，这些特征可以通过单语数据发现。",
+      "importance": 8
+    },
+    {
+      "title": "FeaturedQuantifying infrastructure noise in agentic coding evalsInfrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.",
+      "title_zh": "量化代理编码评估中的基础设施噪声",
+      "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "在代理编码评估中，基础设施配置对基准测试结果的影响可能超过模型之间的性能差距。在Terminal-Bench 2.0的内部实验中，不同资源配置的差距达到6个百分点。尽管最新版本已指定每项任务的CPU和RAM推荐配置，但执行方法的差异仍可能改变基准测试的实际测量结果。这一发现对模型选择和部署决策具有重要影响，表明在评估模型能力时，基础设施配置是不可忽视的因素。",
+      "importance": 8
+    },
+    {
+      "title": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
+      "title_zh": "Gemma 4 31B JANG_4M CRACK模型发布",
+      "url": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Gemma 4 31B JANG_4M CRACK模型是Gemma 4 31B的密集变体，采用混合精度，具有18 GB的内存需求。该模型在HarmBench上实现了93.7%的合规性，MMLU损失仅为-2.0%。模型支持安全性和渗透测试任务，具备完整的工作代码生成能力。其架构采用60层密集变压器，具有滑动窗口和全注意力层的混合注意力机制。",
+      "importance": 8
+    },
+    {
+      "title": "prism-ml/Bonsai-8B-gguf",
+      "title_zh": "Prism ML发布Bonsai-8B-GGUF-1bit模型",
+      "url": "https://huggingface.co/prism-ml/Bonsai-8B-gguf",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Bonsai-8B-GGUF-1bit是Prism ML推出的端到端1位语言模型，适用于llama.cpp框架。该模型比FP16小14.1倍，在RTX 4090上速度提升6.2倍，能耗降低4-5倍。模型采用Q1_0量化格式，每组128个权重共享一个FP16尺度因子，适用于CUDA、Metal、Android和CPU平台。",
+      "importance": 8
+    },
+    {
+      "title": "NVIDIA/personaplex",
+      "title_zh": "NVIDIA发布PersonaPlex对话模型",
+      "url": "https://github.com/NVIDIA/personaplex",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "PersonaPlex是NVIDIA推出的实时全双工语音对话模型，支持通过文本角色提示和音频条件进行角色控制。该模型基于Moshi架构，能够生成自然、低延迟的语音交互。用户可以通过Huggingface账户获取模型并在本地运行，支持CPU卸载以节省GPU内存。",
+      "importance": 8
+    },
+    {
+      "title": "baidu/Qianfan-OCR",
+      "title_zh": "百度/千帆-OCR",
+      "url": "https://huggingface.co/baidu/Qianfan-OCR",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "千帆-OCR是由百度千帆团队开发的4B参数端到端文档智能模型，整合了文档解析、布局分析和文档理解功能。与传统多阶段OCR管道不同，千帆-OCR直接支持从图像到Markdown的转换，并能够处理多种提示驱动任务，如结构化文档解析、表格提取、图表理解、文档问答和关键信息提取。该模型在OmniDocBench v1.5和OlmOCR Bench上均排名第一，支持192种语言的多语言OCR，部署效率高，在单个A100 GPU上实现1.024 PPS。其创新的“Layout-as-Thought”机制通过⟨think⟩标记恢复布局分析能力。",
+      "importance": 8
+    },
+    {
+      "title": "k2-fsa/OmniVoice",
+      "title_zh": "k2-fsa/OmniVoice",
+      "url": "https://huggingface.co/k2-fsa/OmniVoice",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "OmniVoice是一个支持600多种语言的大规模多语言零样本文本到语音（TTS）模型，基于新颖的扩散语言模型架构，提供高质量语音和优越的推理速度。其主要特性包括：从短参考音频中实现最先进的语音克隆质量，支持通过指定的说话者属性（如性别、年龄、音高、方言/口音、耳语等）进行语音设计，以及通过拼音或音素进行发音校正。OmniVoice的推理速度非常快，RTF低至0.025，比实时快40倍。",
+      "importance": 8
+    },
+    {
+      "title": "BioAlchemy: Distilling Biological Literature into Reasoning-Ready Reinforcement Learning Training Data",
+      "title_zh": "BioAlchemy：将生物学文献提炼为推理准备的强化学习训练数据",
+      "url": "https://arxiv.org/abs/2604.03506",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "BioAlchemy项目旨在通过从生物学研究文本中提取多样化的可验证问答对，来改善生物学领域的推理模型性能。研究创建了BioAlchemy-345K数据集，包含超过345K个科学推理问题，并展示了如何通过与现代生物学主题分布对齐的数据集来提升推理性能。最终，BioAlchemist-8B模型在生物学基准上提升了9.12%的性能。这些结果表明，BioAlchemy方法在增强生物学科学推理能力方面的有效性。",
+      "importance": 7
+    },
+    {
+      "title": "Position: Science of AI Evaluation Requires Item-level Benchmark Data",
+      "title_zh": "立场：AI评估科学需要项目级基准数据",
+      "url": "https://arxiv.org/abs/2604.03244",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文主张AI评估科学需要项目级基准数据，以建立严格的AI评估科学。通过项目级分析，可以进行细粒度的诊断和基准验证。文章通过分析当前的有效性失败案例，展示了项目级数据所提供的独特见解，并引入了OpenEval，一个支持证据中心AI评估的项目级基准数据的增长库。此举旨在推动社区广泛采用项目级数据，以改善AI系统在高风险领域的部署决策。",
+      "importance": 7
+    },
+    {
+      "title": "Entropy and Attention Dynamics in Small Language Models: A Trace-Level Structural Analysis on the TruthfulQA Benchmark",
+      "title_zh": "小型语言模型中的熵和注意力动态：TruthfulQA基准的轨迹级结构分析",
+      "url": "https://arxiv.org/abs/2604.03589",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究分析了小型语言模型（SLM）在TruthfulQA基准上的熵和注意力动态。通过对1B-1.7B参数范围内的四个模型进行分析，发现不同模型的输出熵模式各异：确定性模型的输出熵随时间减少，探索性模型的熵增加，而平衡模型的熵保持稳定。研究表明，SLM的真实性来源于结构化的熵和注意力动态，监控和优化这些内部不确定性模式可以指导设计更可靠的、具备幻觉感知能力的应用特定边缘SLM。",
+      "importance": 7
+    },
+    {
+      "title": "Single-agent vs. Multi-agents for Automated Video Analysis of On-Screen Collaborative Learning Behaviors",
+      "title_zh": "单代理与多代理在屏幕协作学习行为自动视频分析中的应用",
+      "url": "https://arxiv.org/abs/2604.03631",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究探讨了单代理和多代理框架在屏幕协作学习行为自动视频分析中的表现。通过对比领先的闭源和开源视觉语言模型（VLMs），提出了两种多代理框架：三代理工作流系统和自主决策系统。实验结果表明，多代理框架在场景和动作检测任务中优于单一VLMs，工作流代理在场景检测中表现最佳，而自主决策系统在动作检测中表现最佳。该研究展示了基于VLM的多代理系统在视频分析中的有效性，并为多模态数据分析提供了可扩展的框架。",
+      "importance": 7
+    },
+    {
+      "title": "Rethinking Token Prediction: Tree-Structured Diffusion Language Model",
+      "title_zh": "重新思考令牌预测：树结构扩散语言模型",
+      "url": "https://arxiv.org/abs/2604.03537",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本文提出了一种树结构扩散语言模型，旨在解决在有限参数和内存预算下训练离散扩散语言模型的挑战。传统架构依赖于全词汇表的令牌预测层，这占据了模型参数的很大一部分，并且常常主导GPU内存使用。新模型通过利用词汇表树的内在结构，将扩散过程建模为与词汇表树中的祖先节点对应的中间潜在状态。这种树结构分解大幅减少了分类维度，使得预测头的大小可以忽略不计，并允许将参数重新分配以加深注意力块。实验证明，在相同的参数预算下，该方法将峰值GPU内存使用减少了一半，同时匹配了最先进的离散扩散语言模型的困惑度性能。",
+      "importance": 7
+    },
+    {
+      "title": "Cultural Authenticity: Comparing LLM Cultural Representations to Native Human Expectations",
+      "title_zh": "文化真实性：比较LLM文化表现与本地人类期望",
+      "url": "https://arxiv.org/abs/2604.03493",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本文提出了一种以人为中心的框架，用于评估大语言模型（LLM）生成内容与本地文化期望的对齐程度。研究通过从九个国家收集的开放式调查响应建立了文化重要性向量的基线，并引入了一种方法来计算模型生成的文化表现向量。结果显示，一些模型在文化对齐上表现出西方中心化的校准，随着与美国文化距离的增加，对齐度下降。此外，所有模型在某些文化标记上过度索引，而忽视了用户的深层社会和价值优先级。该方法超越了简单的多样性指标，评估了AI生成内容在真实捕捉全球文化层次结构中的忠实度。",
+      "importance": 7
+    },
+    {
+      "title": "MultiPress: A Multi-Agent Framework for Interpretable Multimodal News Classification",
+      "title_zh": "MultiPress：用于可解释多模态新闻分类的多代理框架",
+      "url": "https://arxiv.org/abs/2604.03586",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "MultiPress是一种新颖的三阶段多代理框架，旨在解决多模态新闻分类中对异构数据（如文本和图像）的联合理解和推理。现有方法通常独立处理模态或采用简单的融合策略，限制了其捕捉复杂跨模态交互和利用外部知识的能力。MultiPress通过多模态感知、检索增强推理和门控融合评分的专用代理集成，并通过奖励驱动的迭代优化机制进行优化。在一个新构建的大规模多模态新闻数据集上验证了MultiPress，展示了其相对于强基线的显著改进，并突出了模块化多代理协作和检索增强推理在提高分类准确性和可解释性方面的有效性。",
+      "importance": 7
+    },
+    {
+      "title": "Claude Code auto mode: a safer way to skip permissionsMar 25, 2026",
+      "title_zh": "Claude Code自动模式：更安全的跳过权限方式",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "source": "Anthropic Engineering",
+      "category": "tool_update",
+      "summary_zh": "Claude Code推出了一种新的自动模式，利用模型分类器在不需要用户批准的情况下运行命令。这种模式在输入和输出层提供双重防护，旨在捕捉不符合用户意图的危险操作，同时允许其他操作无需批准。此更新旨在减少用户的批准疲劳，并提高操作的安全性和效率。通过这种方式，Claude Code在保持用户安全的同时，简化了操作流程。",
+      "importance": 7
+    },
+    {
+      "title": "Building a C compiler with a team of parallel ClaudesFeb 05, 2026",
+      "title_zh": "使用并行Claude团队构建C编译器",
+      "url": "https://www.anthropic.com/engineering/building-c-compiler",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "研究人员Nicholas Carlini使用16个Claude实例并行工作，成功开发出一个基于Rust的C编译器，能够编译Linux内核。该项目展示了多代理团队在无需人类干预的情况下进行复杂任务的潜力，强调了设计长时间自主代理团队的关键技术，如测试编写和任务结构化。此方法扩展了LLM代理的应用范围，表明在长时间和复杂任务中，代理团队可以显著提高效率和产出。",
+      "importance": 7
+    },
+    {
+      "title": "店主回应因博主吃12个汉堡报警",
+      "title_zh": "店主回应因博主吃12个汉堡报警",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BA%97%E4%B8%BB%E5%9B%9E%E5%BA%94%E5%9B%A0%E5%8D%9A%E4%B8%BB%E5%90%8312%E4%B8%AA%E6%B1%89%E5%A0%A1%E6%8A%A5%E8%AD%A6%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "仅1户报名摇号没买到房当事人发声",
+      "title_zh": "仅1户报名摇号没买到房当事人发声",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BB%851%E6%88%B7%E6%8A%A5%E5%90%8D%E6%91%87%E5%8F%B7%E6%B2%A1%E4%B9%B0%E5%88%B0%E6%88%BF%E5%BD%93%E4%BA%8B%E4%BA%BA%E5%8F%91%E5%A3%B0%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "从超3亿元退费看民生保障力度",
+      "title_zh": "从超3亿元退费看民生保障力度",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BB%8E%E8%B6%853%E4%BA%BF%E5%85%83%E9%80%80%E8%B4%B9%E7%9C%8B%E6%B0%91%E7%94%9F%E4%BF%9D%E9%9A%9C%E5%8A%9B%E5%BA%A6%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "妻子称上班11天死亡丈夫不抱怨工作",
+      "title_zh": "妻子称上班11天死亡丈夫不抱怨工作",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A6%BB%E5%AD%90%E7%A7%B0%E4%B8%8A%E7%8F%AD11%E5%A4%A9%E6%AD%BB%E4%BA%A1%E4%B8%88%E5%A4%AB%E4%B8%8D%E6%8A%B1%E6%80%A8%E5%B7%A5%E4%BD%9C%23&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "以色列仍在持续打击伊朗",
+      "title_zh": "以色列仍在持续打击伊朗",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BB%A5%E8%89%B2%E5%88%97%E4%BB%8D%E5%9C%A8%E6%8C%81%E7%BB%AD%E6%89%93%E5%87%BB%E4%BC%8A%E6%9C%97%23&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "伊朗代表感谢中俄",
+      "title_zh": "伊朗代表感谢中俄",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E4%BB%A3%E8%A1%A8%E6%84%9F%E8%B0%A2%E4%B8%AD%E4%BF%84%23&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "小米遭知名私募怒怼，市值再跌 280 多亿，资本在担心什么？你对小米的未来怎么看？",
+      "title_zh": "小米遭知名私募怒怼，市值再跌 280 多亿，资本在担心什么？你对小米的未来怎么看？",
+      "url": "https://www.zhihu.com/question/2024907625075160689",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "现在的人类肯定还在进化，但是有什么迹象能表明吗？",
+      "title_zh": "现在的人类肯定还在进化，但是有什么迹象能表明吗？",
+      "url": "https://www.zhihu.com/question/440336198",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "麦当劳店内放的音乐，为什么那么难听，是为了赶人么？为了不让客人长时驻留？",
+      "title_zh": "麦当劳店内放的音乐，为什么那么难听，是为了赶人么？为了不让客人长时驻留？",
+      "url": "https://www.zhihu.com/question/2022402779709277207",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "网友扒出周杰伦抄袭对比，连《晴天》《烟花易冷》都疑似抄袭国外歌曲，是这样吗？核心节奏重合算抄袭吗？",
+      "title_zh": "网友扒出周杰伦抄袭对比，连《晴天》《烟花易冷》都疑似抄袭国外歌曲，是这样吗？核心节奏重合算抄袭吗？",
+      "url": "https://www.zhihu.com/question/2024876134207153769",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "宁波高二女生将 AI「豆包」视为灵魂伴侣并为之休学，青少年过度沉迷 AI 会带来哪些风险？",
+      "title_zh": "宁波高二女生将 AI「豆包」视为灵魂伴侣并为之休学，青少年过度沉迷 AI 会带来哪些风险？",
+      "url": "https://www.zhihu.com/question/2023389785188745917",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美国伊朗双方同意停火两周，将开启谈判，双方为何此时接受停火？彻底结束战争的可能性有多大？",
+      "title_zh": "美国伊朗双方同意停火两周，将开启谈判，双方为何此时接受停火？彻底结束战争的可能性有多大？",
+      "url": "https://www.zhihu.com/question/2025108629058052769",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "全国仅存1只的百岁斑鳖现身",
+      "title_zh": "全国仅存1只的百岁斑鳖现身",
+      "url": "https://www.toutiao.com/trending/7625547607724605482/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "擦窗机器人销量迎来爆发式增长",
+      "title_zh": "擦窗机器人销量迎来爆发式增长",
+      "url": "https://www.toutiao.com/trending/7625860713425059876/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "千帆星座第7批组网卫星成功发射",
+      "title_zh": "千帆星座第7批组网卫星成功发射",
+      "url": "https://www.toutiao.com/trending/7625610092943097899/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "女子为亡弟追凶29年 今日二审开庭",
+      "title_zh": "女子为亡弟追凶29年 今日二审开庭",
+      "url": "https://www.toutiao.com/trending/7626161197179702834/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "赵心童说喜欢“赵公子”这个绰号",
+      "title_zh": "赵心童说喜欢“赵公子”这个绰号",
+      "url": "https://www.toutiao.com/trending/7625427832701747236/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "伊美双方停火生效",
+      "title_zh": "伊美双方停火生效",
+      "url": "https://www.toutiao.com/trending/7626162510177324607/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 106,
+    "processed_count": 30
+  },
+  "display_count": 30
+}
