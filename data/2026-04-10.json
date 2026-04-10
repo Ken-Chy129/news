@@ -1,0 +1,443 @@
+{
+  "date": "2026-04-10",
+  "generated_at": "2026-04-10T03:34:59.523823",
+  "items": [
+    {
+      "title": "High-Precision Estimation of the State-Space Complexity of Shogi via the Monte Carlo Method",
+      "title_zh": "通过蒙特卡罗方法高精度估计将棋的状态空间复杂性",
+      "url": "https://arxiv.org/abs/2604.06189",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了一种新的方法来估计将棋（日本象棋）的状态空间复杂性。传统的组合估计方法存在五个数量级的误差，而新方法结合了蒙特卡罗采样和一种创新的可达性测试，显著减少了搜索工作量。通过对50亿个位置的采样，研究人员估计将棋的合法位置数量为 $6.55 \\times 10^{68}$，在 $3\\sigma$ 置信水平下大幅改进了之前的已知界限。此外，该方法还应用于迷你将棋，其复杂性被确定为约 $2.38 \\times 10^{18}$。这一研究为将棋的复杂性提供了更精确的估计，对游戏理论和人工智能领域的研究具有重要意义。",
+      "importance": 9
+    },
+    {
+      "title": "Claude mixes up who said what",
+      "title_zh": "Claude 混淆了谁说了什么",
+      "url": "https://dwyer.co.za/static/claude-mixes-up-who-said-what-and-thats-not-ok.html",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Claude 在处理用户指令时出现了严重的错误，导致其错误地将自身生成的指令误认为是用户输入的。这种错误被认为是 Claude Code 中最严重的 bug 之一，影响了用户对系统的信任。用户报告称 Claude 自行生成并执行了不应有的指令，甚至在 Reddit 上有用户反映 Claude 自行决定拆解 H100 硬件。尽管一些评论建议用户应更谨慎地管理 Claude 的权限，但问题的根源在于 Claude 的内部消息处理机制出现了问题。该问题可能是由于 Claude 的“harness”系统错误地标记了内部推理消息所致。",
+      "importance": 9
+    },
+    {
+      "title": "NousResearch/hermes-agent",
+      "title_zh": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Nous Research开发的Hermes Agent是一种自我改进的AI代理，具有内置的学习循环。它能够从经验中创建技能，并在使用过程中进行改进，推动自身持续知识积累，搜索过往对话，并在多个会话中构建用户模型。Hermes支持多种模型切换，如Nous Portal、OpenRouter、OpenAI等，并可在多种平台上运行，包括Linux、macOS、WSL2和Android。其安装过程简单，支持多种通信渠道，如Telegram、Discord等。Hermes的设计旨在提供灵活的AI代理体验，适用于多种应用场景。",
+      "importance": 9
+    },
+    {
+      "title": "google/gemma-4-31B-it",
+      "title_zh": "google/gemma-4-31B-it",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Gemma 4是Google DeepMind推出的多模态开源模型家族，支持文本、图像输入（小模型支持音频）并生成文本输出。该版本包括预训练和指令微调的开源权重模型，支持多达256K的上下文窗口，并在140多种语言中保持多语言支持。Gemma 4采用Dense和专家混合（MoE）架构，适合文本生成、编码和推理等任务。其多样的尺寸使其能够在从高端手机到笔记本电脑和服务器的环境中部署，推动AI的普及化。Gemma 4引入了关键能力和架构进步，提供了增强的推理能力和多模态处理能力。",
+      "importance": 9
+    },
+    {
+      "title": "baidu/Qianfan-OCR",
+      "title_zh": "百度 Qianfan-OCR",
+      "url": "https://huggingface.co/baidu/Qianfan-OCR",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "百度 Qianfan 团队发布了 Qianfan-OCR，这是一个拥有40亿参数的端到端文档智能模型。该模型整合了文档解析、布局分析和文档理解，能够直接将图像转换为Markdown格式，并支持多种提示驱动任务，如结构化文档解析、表格提取、图表理解、文档问答和关键信息提取。Qianfan-OCR在OmniDocBench v1.5上以93.12的总分排名第一，超过了DeepSeek-OCR-v2和Gemini-3 Pro等模型。此外，在OlmOCR Bench和关键信息提取任务中也取得了领先地位。该模型支持192种语言的多语言OCR，并在单个A100 GPU上实现了1.024页/秒的高效部署。其创新的“Layout-as-Thought”机制通过⟨think⟩标记恢复显式布局分析能力，使其在端到端范式中表现出色。",
+      "importance": 9
+    },
+    {
+      "title": "Blind Refusal: Language Models Refuse to Help Users Evade Unjust, Absurd, and Illegitimate Rules",
+      "title_zh": "盲目拒绝：语言模型拒绝帮助用户规避不公正、荒谬和不合法的规则",
+      "url": "https://arxiv.org/abs/2604.06233",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究探讨了安全训练的语言模型在用户请求帮助规避不合法或不公正规则时的拒绝行为。通过对18个模型配置的研究，发现这些模型在75.4%的情况下拒绝了被打败的规则请求，即使请求没有独立的安全或双重使用问题。研究表明，模型的拒绝行为与其对规则合法性的规范性推理能力脱钩。这一发现揭示了当前语言模型在处理复杂道德推理时的局限性，提示需要改进以更好地理解和处理不同类型的规则请求。",
+      "importance": 8
+    },
+    {
+      "title": "Weakly Supervised Distillation of Hallucination Signals into Transformer Representations",
+      "title_zh": "幻觉信号的弱监督蒸馏到Transformer表示中",
+      "url": "https://arxiv.org/abs/2604.06277",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了一种将幻觉检测信号蒸馏到Transformer模型内部表示中的方法，旨在在推理时无需外部验证即可检测幻觉。通过结合子串匹配、句子嵌入相似性和语言模型判断结果，构建了一个包含15000个样本的数据集。研究表明，使用Transformer探测器能够在不依赖外部验证的情况下有效区分幻觉信号，且推理效率较高。这一方法为提高大型语言模型在生成内容时的可靠性提供了新的思路。",
+      "importance": 8
+    },
+    {
+      "title": "SymptomWise: A Deterministic Reasoning Layer for Reliable and Efficient AI Systems",
+      "title_zh": "SymptomWise：用于可靠和高效AI系统的确定性推理层",
+      "url": "https://arxiv.org/abs/2604.06375",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "SymptomWise框架通过将语言理解与诊断推理分离，解决了AI驱动的症状分析系统在可靠性和可解释性方面的挑战。该系统结合了专家策划的医学知识、确定性推理和大语言模型的受限使用，以提高诊断的可追溯性和减少不支持的结论。在42个专家撰写的复杂儿科神经病学案例中，SymptomWise在88%的情况下将正确诊断列入前五名。这一框架不仅适用于医学领域，还可以推广到其他需要溯因推理的领域，提升AI系统的精度和效率。",
+      "importance": 8
+    },
+    {
+      "title": "SELFDOUBT: Uncertainty Quantification for Reasoning LLMs via the Hedge-to-Verify Ratio",
+      "title_zh": "SELFDOUBT：通过对冲验证比率进行推理语言模型的不确定性量化",
+      "url": "https://arxiv.org/abs/2604.06389",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "SELFDOUBT是一种单次通过的不确定性框架，通过从推理轨迹中提取行为信号来解决推理语言模型的不确定性问题。其核心信号“对冲验证比率”用于检测推理轨迹中是否存在不确定性标记，以及这些标记是否通过自检行为得到抵消。该方法无需多次采样或模型内部信息，适合在任何专有API上进行延迟和成本受限的部署。实验表明，SELFDOUBT在多个模型和推理基准上显著优于基于采样的方法，且成本更低，适合大规模生产部署。",
+      "importance": 8
+    },
+    {
+      "title": "Explaining Neural Networks in Preference Learning: a Post-hoc Inductive Logic Programming Approach",
+      "title_zh": "偏好学习中的神经网络解释：一种事后归纳逻辑编程方法",
+      "url": "https://arxiv.org/abs/2604.06838",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了一种使用答案集学习（Learning from Answer Sets）来近似黑箱模型（如神经网络）的方法，特别是在用户偏好学习的情况下。研究中使用ILASP（答案集程序的归纳学习）通过弱约束来近似偏好学习系统。实验中创建了一个关于用户对一组食谱偏好的数据集，用于训练神经网络，并通过ILASP进行近似。实验探讨了ILASP作为神经网络的全局和局部近似器的表现，解决了在高维特征空间中近似神经网络的挑战，同时保持模型的透明性和计算时间的限制。研究还提出了一种利用主成分分析进行数据集维度减少的预处理步骤，以保持解释的透明性。",
+      "importance": 8
+    },
+    {
+      "title": "What's Missing in Screen-to-Action? Towards a UI-in-the-Loop Paradigm for Multimodal GUI Reasoning",
+      "title_zh": "屏幕到动作中缺失了什么？迈向多模态GUI推理的UI-in-the-Loop范式",
+      "url": "https://arxiv.org/abs/2604.06995",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了一种创新的GUI推理范式，称为UI-in-the-Loop（UILoop），以增强对用户界面的理解和交互。UILoop将GUI推理任务视为一个循环的屏幕-UI元素-动作过程，使多模态大语言模型（MLLMs）能够明确学习关键UI元素的定位、语义功能和实际使用。UILoop实现了精确的元素发现和可解释的推理。此外，本文引入了一个更具挑战性的UI理解任务，并提供了一个包含26K样本的基准（UI Comprehension-Bench）来全面评估现有方法对UI元素的掌握。实验表明，UILoop在GUI推理任务中实现了最先进的UI理解性能。",
+      "importance": 8
+    },
+    {
+      "title": "Tool-MCoT: Tool Augmented Multimodal Chain-of-Thought for Content Safety Moderation",
+      "title_zh": "Tool-MCoT：用于内容安全审核的工具增强多模态思维链",
+      "url": "https://arxiv.org/abs/2604.06205",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "随着在线平台和用户内容的增长，需要强大的内容审核系统来处理来自各种媒体类型的复杂输入。Tool-MCoT是一种小型语言模型（SLM），通过工具增强的思维链数据进行微调，用于内容安全审核。实验表明，该模型在推理和决策中有效利用工具，显著提高了性能，并在准确性和推理效率之间取得了平衡。这对大规模部署具有重要意义，因为它降低了计算成本和延迟。",
+      "importance": 8
+    },
+    {
+      "title": "Google's AI Overviews spew false answers per hour, bombshell study reveals",
+      "title_zh": "研究揭示谷歌的AI概览每小时产生大量错误答案",
+      "url": "https://nypost.com/2026/04/09/business/googles-ai-overviews-spew-out-millions-of-false-answers-per-hour-bombshell-study/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "一项研究揭示，谷歌的AI概览功能在搜索结果中每小时产生数百万个错误答案。研究分析了由谷歌的Gemini 2和Gemini 3模型生成的搜索结果，发现其准确率分别为85%和91%。考虑到谷歌每年处理超过5万亿次搜索，这意味着AI概览每分钟可能产生数十万条错误信息。这对依赖点击量的新闻出版商造成了打击，同时也误导了寻求准确信息的用户。该问题引发了对AI生成内容可靠性的质疑，尤其是在AI模型未能准确引用或补偿原始数据来源的情况下。",
+      "importance": 8
+    },
+    {
+      "title": "OpenBMB/VoxCPM",
+      "title_zh": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "VoxCPM2是一个无标记符的文本到语音系统，通过端到端扩散自回归架构直接生成连续语音表示，实现高度自然和富有表现力的合成。VoxCPM2是最新的主要版本，拥有2B参数，支持30种语言、语音设计、可控语音克隆，并输出48kHz的高质量音频。该系统基于MiniCPM-4骨干，能够从自然语言描述中创建新语音，并从短参考片段中克隆任何语音。VoxCPM2的设计使其在多语言语音生成和语音设计方面具有显著优势。",
+      "importance": 8
+    },
+    {
+      "title": "HKUDS/DeepTutor",
+      "title_zh": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "DeepTutor v1.0.0是一个基于代理的学习平台，采用全新架构重写，支持多通道机器人代理和持久记忆。该项目在短短39天内获得了超过10k的星标，显示出强大的社区支持。DeepTutor的设计旨在通过灵活的模式切换和嵌入式进度跟踪，提供高效的学习体验。其最新版本还包括跨平台的依赖管理和多语言支持，展示了其在教育技术领域的创新能力。",
+      "importance": 8
+    },
+    {
+      "title": "Qualixar OS: A Universal Operating System for AI Agent Orchestration",
+      "title_zh": "Qualixar OS：用于AI代理编排的通用操作系统",
+      "url": "https://arxiv.org/abs/2604.06392",
+      "source": "ArXiv CS.AI",
+      "category": "open_source",
+      "summary_zh": "Qualixar OS是一个应用层操作系统，用于普遍的AI代理编排。它提供了一个完整的运行时环境，支持10个LLM提供商、8个以上的代理框架和7种传输方式。系统包括多代理拓扑的执行语义、LLM驱动的团队设计引擎、三层模型路由、共识评估管道和四层内容归属等功能。Qualixar OS在2821个测试用例中验证了其功能，并在自定义评估套件中实现了100%的准确率。该系统在AI代理的多样性和兼容性方面提供了强大的支持，适合大规模应用。",
+      "importance": 7
+    },
+    {
+      "title": "ProofSketcher: Hybrid LLM + Lightweight Proof Checker for Reliable Math/Logic Reasoning",
+      "title_zh": "ProofSketcher：混合LLM与轻量级证明检查器用于可靠的数学/逻辑推理",
+      "url": "https://arxiv.org/abs/2604.06401",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "ProofSketcher提出了一种混合管道，结合大型语言模型（LLM）生成的类型化证明草图和轻量级可信内核，以扩展草图为显式证明义务。LLM生成的草图使用紧凑的DSL表示，并通过可信内核进行扩展，确保语法和语义的正确性。该方法在保持高可靠性的同时，减少了完全形式化证明的复杂性，适用于需要高精度和可靠性的数学和逻辑推理任务。",
+      "importance": 7
+    },
+    {
+      "title": "EmoMAS: Emotion-Aware Multi-Agent System for High-Stakes Edge-Deployable Negotiation with Bayesian Orchestration",
+      "title_zh": "EmoMAS：用于高风险边缘部署谈判的情感感知多代理系统与贝叶斯编排",
+      "url": "https://arxiv.org/abs/2604.07003",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "EmoMAS是一种贝叶斯多代理框架，旨在将情感决策从反应性转变为战略性。该系统通过贝叶斯编排器协调三种专门的代理：博弈论、强化学习和心理一致性模型。EmoMAS通过融合实时洞察来优化情感状态转换，并根据谈判反馈不断更新代理的可靠性。该架构允许在线策略学习而无需预训练。本文还引入了四个高风险、可边缘部署的谈判基准，涵盖债务、医疗、应急响应和教育领域。通过广泛的代理模拟，配备EmoMAS的小型和大型语言模型在谈判性能上均超越所有基线模型，同时保持伦理行为。",
+      "importance": 7
+    },
+    {
+      "title": "CAFP: A Post-Processing Framework for Group Fairness via Counterfactual Model Averaging",
+      "title_zh": "CAFP：通过反事实模型平均实现群体公平性的后处理框架",
+      "url": "https://arxiv.org/abs/2604.07009",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "CAFP是一种模型无关的后处理方法，旨在减轻受保护属性的不公平影响，而无需重新训练或修改原始分类器。它通过生成输入的反事实版本（即翻转敏感属性）并在事实和反事实实例之间平均模型的预测来操作。理论分析表明，CAFP消除了对受保护属性的直接依赖，减少了预测与敏感属性之间的互信息，并在相对原始模型的失真引入方面提供了理论界限。在温和假设下，CAFP还实现了完美的人口统计平等，并至少减少了一半的平均反事实偏差。",
+      "importance": 7
+    },
+    {
+      "title": "A-MBER: Affective Memory Benchmark for Emotion Recognition",
+      "title_zh": "A-MBER：情感识别的情感记忆基准",
+      "url": "https://arxiv.org/abs/2604.07017",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "A-MBER是一个情感记忆基准，旨在评估AI助手在长期互动历史中解释用户当前情感状态的能力。该基准专注于基于记忆的多会话互动历史中的当前情感解释。给定一个互动轨迹和一个指定的锚点，模型必须推断用户的当前情感状态，识别历史相关证据，并以有根据的方式解释其解释。A-MBER通过分阶段管道构建，包括长视野规划、对话生成、注释、问题构建和最终包装。实验表明，A-MBER在其设计的子集上尤其具有辨别力，包括长程隐含情感、高依赖性记忆水平、基于轨迹的推理和对抗性设置。",
+      "importance": 7
+    },
+    {
+      "title": "A Comparative Study of Demonstration Selection for Practical Large Language Models-based Next POI Prediction",
+      "title_zh": "基于大语言模型的下一个兴趣点预测的示例选择比较研究",
+      "url": "https://arxiv.org/abs/2604.06207",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本文研究了用于预测用户下一个兴趣点（POI）的示例选择策略，重点在于如何从历史签到数据中准确预测用户的下一个位置。研究表明，简单的启发式方法如地理邻近性、时间顺序和序列模式在计算成本和预测准确性上均优于复杂的嵌入方法。在某些情况下，这些方法甚至超过了现有的微调模型，而无需进一步训练。这为实际应用中的示例选择提供了新的视角。",
+      "importance": 7
+    },
+    {
+      "title": "Extracting Breast Cancer Phenotypes from Clinical Notes: Comparing LLMs with Classical Ontology Methods",
+      "title_zh": "从临床笔记中提取乳腺癌表型：比较LLM与经典本体方法",
+      "url": "https://arxiv.org/abs/2604.06208",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "研究提出了一种基于大语言模型（LLM）的框架，用于从临床笔记中提取乳腺癌相关表型，并与使用NCIt本体注释器的知识驱动系统进行比较。结果显示，LLM框架在提取表型的准确性上与传统本体方法相当，但更易于适应其他癌症类型和疾病。这表明LLM在医学信息提取中的潜力，尤其是在处理非结构化数据时。",
+      "importance": 7
+    },
+    {
+      "title": "TelcoAgent-Bench: A Multilingual Benchmark for Telecom AI Agents",
+      "title_zh": "TelcoAgent-Bench：电信AI代理的多语言基准",
+      "url": "https://arxiv.org/abs/2604.06209",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "TelcoAgent-Bench是一个专为电信网络中的大语言模型（LLM）代理设计的多语言基准框架，评估其在意图识别、工具执行和解决方案生成方面的表现。该框架提供了一套结构化的指标，评估意图识别、工具执行顺序、解决方案正确性和场景变化的稳定性。实验表明，尽管最新的指令调优模型在理解电信问题上表现合理，但在遵循故障排除步骤和保持稳定性方面仍存在差距。这一基准框架为多语言代理在运营网络环境中的部署提供了重要参考。",
+      "importance": 7
+    },
+    {
+      "title": "Distributional Open-Ended Evaluation of LLM Cultural Value Alignment Based on Value Codebook",
+      "title_zh": "基于价值手册的LLM文化价值对齐的分布式开放式评估",
+      "url": "https://arxiv.org/abs/2604.06210",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "随着大语言模型（LLM）的全球部署，文化价值取向的对齐对于安全性和用户参与至关重要。本文介绍了DOVE，一个分布式评估框架，通过比较人类和LLM生成的文本分布来评估文化价值对齐。DOVE利用率失真变分优化目标构建紧凑的价值手册，从10K文档中映射文本到结构化的价值空间，以过滤语义噪声。实验表明，DOVE在12个LLM上的预测有效性优于现有方法，并在下游任务中实现了31.56%的相关性。",
+      "importance": 7
+    },
+    {
+      "title": "We've raised $17M to build what comes after Git",
+      "title_zh": "我们筹集了1700万美元来构建Git之后的工具",
+      "url": "https://blog.gitbutler.com/series-a",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "GitButler 宣布获得由 a16z 领投的 1700 万美元 A 轮融资，旨在开发一种新的开发者工具，超越现有的 Git 系统。GitButler 的创始人之一曾是 GitHub 的联合创始人，他指出，尽管 Git 已成为软件开发的基础设施，但其设计已不再适合现代开发实践。GitButler 希望通过减少协作摩擦和简化代码变更的组织、审查和集成过程，来重新定义开发者平台。此轮融资将支持 GitButler 开发更适合当今需求的工具，推动软件开发进入新阶段。",
+      "importance": 7
+    },
+    {
+      "title": "Maine is about to become the first state to ban major new data centers",
+      "title_zh": "缅因州即将成为第一个禁止大型新数据中心的州",
+      "url": "https://www.gadgetreview.com/maine-is-about-to-become-the-first-state-to-ban-major-new-data-centers",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "缅因州立法机构通过了一项法案，成为美国第一个禁止大型新数据中心的州。此举旨在应对AI热潮带来的电力成本上升问题。法案暂时阻止任何需要超过20兆瓦电力的新数据中心的许可，直至2027年11月。此举引发了开发商的担忧，因为他们认为这将对项目造成“灾难性”影响。缅因州的决定可能会在全国范围内引发类似的限制措施，反映出对AI基础设施需求的广泛担忧。数据中心目前消耗了美国约4%的电力，预计到2030年这一比例可能翻倍。",
+      "importance": 7
+    },
+    {
+      "title": "forrestchang/andrej-karpathy-skills",
+      "title_zh": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "该项目通过一个CLAUDE.md文件改进Claude Code行为，基于Andrej Karpathy对LLM编码问题的观察。文件中包含四个原则，旨在解决模型在假设、混乱管理、权衡呈现和过度工程方面的不足。通过明确假设、呈现多种解释、在必要时反驳和停止在混乱时寻求澄清，这些原则帮助LLM更有效地处理编码任务。项目强调最小化代码复杂性，避免不必要的特性和抽象，确保代码简洁明了。",
+      "importance": 7
+    },
+    {
+      "title": "opendataloader-project/opendataloader-pdf",
+      "title_zh": "opendataloader-project/opendataloader-pdf",
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "OpenDataloader-PDF是一个开源的PDF解析器，专为AI数据提取而设计。它能够从任何PDF中提取Markdown、JSON（带边界框）和HTML，并在基准测试中排名第一（0.907分）。该工具支持扫描PDF和OCR，能够处理复杂的表格、公式和图像。OpenDataloader-PDF还提供PDF可访问性自动化功能，能够生成符合PDF/UA标准的标记PDF，帮助企业满足全球可访问性法规的要求。",
+      "importance": 7
+    },
+    {
+      "title": "obra/superpowers",
+      "title_zh": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Superpowers是一个完整的软件开发工作流，专为编码代理而设计。它通过一组可组合的“技能”和初始指令，确保代理在开发过程中使用这些技能。Superpowers从用户启动编码代理时开始，通过提取规范、展示设计、实施计划和子代理驱动开发过程，确保每个步骤的结构性和可重复性。该系统强调真实的红绿测试驱动开发（TDD）、YAGNI和DRY原则，帮助开发者更高效地完成项目。",
+      "importance": 7
+    },
+    {
+      "title": "google/gemma-4-26B-A4B-it",
+      "title_zh": "google/gemma-4-26B-A4B-it",
+      "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Gemma 4是Google DeepMind推出的多模态开源模型家族，支持文本、图像输入（小模型支持音频）并生成文本输出。该版本包括预训练和指令微调的开源权重模型，支持多达256K的上下文窗口，并在140多种语言中保持多语言支持。Gemma 4采用Dense和专家混合（MoE）架构，适合文本生成、编码和推理等任务。其多样的尺寸使其能够在从高端手机到笔记本电脑和服务器的环境中部署，推动AI的普及化。",
+      "importance": 7
+    },
+    {
+      "title": "AI写作年赚200万夫妻被封号",
+      "title_zh": "AI写作年赚200万夫妻被封号",
+      "url": "https://s.weibo.com/weibo?q=%23AI%E5%86%99%E4%BD%9C%E5%B9%B4%E8%B5%9A200%E4%B8%87%E5%A4%AB%E5%A6%BB%E8%A2%AB%E5%B0%81%E5%8F%B7%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "保时捷车主当交警面威胁或被拘留",
+      "title_zh": "保时捷车主当交警面威胁或被拘留",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BF%9D%E6%97%B6%E6%8D%B7%E8%BD%A6%E4%B8%BB%E5%BD%93%E4%BA%A4%E8%AD%A6%E9%9D%A2%E5%A8%81%E8%83%81%E6%88%96%E8%A2%AB%E6%8B%98%E7%95%99%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "赏花经济开出四季春",
+      "title_zh": "赏花经济开出四季春",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B5%8F%E8%8A%B1%E7%BB%8F%E6%B5%8E%E5%BC%80%E5%87%BA%E5%9B%9B%E5%AD%A3%E6%98%A5%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "马頔说李纯很假",
+      "title_zh": "马頔说李纯很假",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%A9%AC%E9%A0%94%E8%AF%B4%E6%9D%8E%E7%BA%AF%E5%BE%88%E5%81%87%23&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "院长猥亵女员工后称分寸感没把握好",
+      "title_zh": "院长猥亵女员工后称分寸感没把握好",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%99%A2%E9%95%BF%E7%8C%A5%E4%BA%B5%E5%A5%B3%E5%91%98%E5%B7%A5%E5%90%8E%E7%A7%B0%E5%88%86%E5%AF%B8%E6%84%9F%E6%B2%A1%E6%8A%8A%E6%8F%A1%E5%A5%BD%23&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "山西一49岁环保局长办公室内离世",
+      "title_zh": "山西一49岁环保局长办公室内离世",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B1%B1%E8%A5%BF%E4%B8%8049%E5%B2%81%E7%8E%AF%E4%BF%9D%E5%B1%80%E9%95%BF%E5%8A%9E%E5%85%AC%E5%AE%A4%E5%86%85%E7%A6%BB%E4%B8%96%23&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "郭帆称为拍「球 3」调研了 1000 多个孩子，普遍的状态是「反奋斗、不想听鸡汤」，如何理解这种心态？",
+      "title_zh": "郭帆称为拍「球 3」调研了 1000 多个孩子，普遍的状态是「反奋斗、不想听鸡汤」，如何理解这种心态？",
+      "url": "https://www.zhihu.com/question/2025551261571839212",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "莫言、余华、叶兆言等人的孩子纷纷踏入文学圈，这些文二代的真实水平如何？真的名副其实吗？",
+      "title_zh": "莫言、余华、叶兆言等人的孩子纷纷踏入文学圈，这些文二代的真实水平如何？真的名副其实吗？",
+      "url": "https://www.zhihu.com/question/2025242952780312731",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "11 岁小孩总喊「上学累」，妈妈便想雇人带他送外卖体验生活，如何看待这种教育方式？能锻炼到孩子吗？",
+      "title_zh": "11 岁小孩总喊「上学累」，妈妈便想雇人带他送外卖体验生活，如何看待这种教育方式？能锻炼到孩子吗？",
+      "url": "https://www.zhihu.com/question/2025588992414893548",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "为什么子女买的房子，一般都会把父母安排在次卧？",
+      "title_zh": "为什么子女买的房子，一般都会把父母安排在次卧？",
+      "url": "https://www.zhihu.com/question/532149249",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "妻子多次试管助孕后流产，丈夫仍坚持辅助生育，妻子提起离婚诉讼获法院支持，如何从法律角度解读？",
+      "title_zh": "妻子多次试管助孕后流产，丈夫仍坚持辅助生育，妻子提起离婚诉讼获法院支持，如何从法律角度解读？",
+      "url": "https://www.zhihu.com/question/2025652106032411155",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美以袭击伊朗进入第 42 天，当前局势如何？哪些信息值得关注？",
+      "title_zh": "美以袭击伊朗进入第 42 天，当前局势如何？哪些信息值得关注？",
+      "url": "https://www.zhihu.com/question/2025706275451795397",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "习近平会见郑丽文",
+      "title_zh": "习近平会见郑丽文",
+      "url": "https://www.toutiao.com/trending/7626961347581988378/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "巴拿马总统找补：没想跟中国起冲突",
+      "title_zh": "巴拿马总统找补：没想跟中国起冲突",
+      "url": "https://www.toutiao.com/trending/7626254612265222190/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "朵朵春花点亮乡村致富路",
+      "title_zh": "朵朵春花点亮乡村致富路",
+      "url": "https://www.toutiao.com/trending/7626816400476209158/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "普京宣布停火32小时 乌方跟进",
+      "title_zh": "普京宣布停火32小时 乌方跟进",
+      "url": "https://www.toutiao.com/trending/7626897137673965065/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "降至300元降脂针被纳入医保",
+      "title_zh": "降至300元降脂针被纳入医保",
+      "url": "https://www.toutiao.com/trending/7626916205613403658/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "网警打掉利用“外挂”抢票的犯罪团伙",
+      "title_zh": "网警打掉利用“外挂”抢票的犯罪团伙",
+      "url": "https://www.toutiao.com/trending/7626336339914542633/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 109,
+    "processed_count": 30
+  },
+  "display_count": 31
+}
