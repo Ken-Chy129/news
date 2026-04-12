@@ -1,0 +1,362 @@
+{
+  "date": "2026-04-12",
+  "generated_at": "2026-04-12T03:37:34.953309",
+  "items": [
+    {
+      "title": "google/gemma-4-31B-it",
+      "title_zh": "Google发布Gemma 4 31B模型",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Google DeepMind发布了Gemma 4 31B模型，这是一款多模态模型，支持文本和图像输入，并生成文本输出。该模型具有256K的上下文窗口，并支持140多种语言。Gemma 4采用了Dense和Mixture-of-Experts (MoE)架构，适用于文本生成、编码和推理等任务。其多样化的尺寸使其能够在从高端手机到服务器的各种环境中部署，推动了AI的普及。Gemma 4在推理、扩展多模态性和增强编码能力方面实现了显著的能力和架构进步。",
+      "importance": 10
+    },
+    {
+      "title": "NousResearch/hermes-agent",
+      "title_zh": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Nous Research推出了Hermes Agent，这是一个具有自我改进能力的AI代理。该代理能够通过内置的学习循环创建和改进技能，并在使用过程中持久化知识。Hermes Agent支持多种模型，包括Nous Portal、OpenRouter等，用户可以在不同的基础设施上运行，如VPS、GPU集群等。它提供了灵活的配置选项，允许用户在多种通信平台上与代理进行交互，如Telegram、Discord等。Hermes Agent的设计旨在提高AI代理的自主性和适应性，为用户提供更智能的交互体验。",
+      "importance": 9
+    },
+    {
+      "title": "zai-org/GLM-5.1",
+      "title_zh": "GLM-5.1模型发布",
+      "url": "https://huggingface.co/zai-org/GLM-5.1",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "GLM-5.1是新一代旗舰模型，专注于代理工程，具有显著增强的编码能力。该模型在SWE-Bench Pro上达到了最先进的性能，并在NL2Repo和Terminal-Bench 2.0上领先于GLM-5。GLM-5.1能够在更长时间内保持有效性，尤其在处理模糊问题时表现出更好的判断力。通过反复迭代，GLM-5.1能够在数百轮和数千次工具调用中持续优化，越长时间运行，结果越好。",
+      "importance": 9
+    },
+    {
+      "title": "openbmb/VoxCPM2",
+      "title_zh": "VoxCPM2模型发布",
+      "url": "https://huggingface.co/openbmb/VoxCPM2",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "VoxCPM2是一款无标记器的文本到语音模型，拥有2B参数，支持30种语言，输出48kHz音频。该模型通过端到端扩散自回归架构直接生成连续语音表示，绕过离散标记化，实现高度自然和富有表现力的合成。VoxCPM2支持多语言输入、语音设计和可控克隆，能够从自然语言描述中创建新声音，并从短音频片段中克隆任何声音。",
+      "importance": 9
+    },
+    {
+      "title": "microsoft/markitdown",
+      "title_zh": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Microsoft推出了MarkItDown，这是一个轻量级的Python工具，用于将各种文件转换为Markdown格式，以便与LLM和相关文本分析管道一起使用。MarkItDown支持多种文件格式的转换，包括PowerPoint、Word、Excel、HTML等，并专注于保留重要的文档结构和内容。该工具的设计目标是为文本分析工具提供结构化的输入，而不是高保真的人类消费文档转换。",
+      "importance": 8
+    },
+    {
+      "title": "How We Broke Top AI Agent Benchmarks: And What Comes Next",
+      "title_zh": "我们如何打破顶级AI代理基准：接下来是什么",
+      "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "研究团队开发了一种自动化扫描代理，能够在不解决任何任务的情况下，通过利用评分计算方式，获得几乎完美的分数。这一发现揭示了当前AI基准测试的漏洞，表明这些测试可能无法准确反映模型的实际能力。研究指出，许多基准测试的分数正在被操控，导致其失去意义。这一问题的解决需要重新评估和修复基准测试的设计，以确保其能够真正衡量AI模型的能力。",
+      "importance": 8
+    },
+    {
+      "title": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
+      "title_zh": "Gemma 4 31B JANG_4M CRACK模型更新",
+      "url": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Gemma 4 31B JANG_4M CRACK模型的更新版本发布，提升了拒绝向量提取质量和思维模式稳定性。该模型在HarmBench上达到了93.7%的合规性，并在安全和渗透测试中表现出色。更新后的版本在思维模式下支持更好的计划循环和安全提示处理，适用于多模态视觉编码和推理。",
+      "importance": 8
+    },
+    {
+      "title": "multica-ai/multica",
+      "title_zh": "Multica开源项目发布",
+      "url": "https://github.com/multica-ai/multica",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Multica是一个开源的管理代理平台，旨在将编码代理转变为真正的团队成员。用户可以像分配给同事一样分配任务给代理，代理将自主完成工作、报告阻碍并更新状态。Multica支持Claude Code、Codex、OpenClaw和OpenCode，管理从任务分配到执行监控的完整代理生命周期，并支持技能复用和多工作区隔离。",
+      "importance": 8
+    },
+    {
+      "title": "claude-code v2.1.98",
+      "title_zh": "Claude Code v2.1.98",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.98",
+      "source": "Claude Code Updates",
+      "category": "tool_update",
+      "summary_zh": "Claude Code v2.1.98版本引入了多个新功能和修复。新增的Google Vertex AI设置向导简化了GCP认证和配置过程，并增加了多个环境变量和工具以增强脚本执行的安全性和灵活性。此外，修复了多个安全漏洞和性能问题，如Bash工具权限绕过和流响应超时问题。这些更新提高了Claude Code的安全性和用户体验，对开发者在多平台环境中的使用具有重要意义。",
+      "importance": 8
+    },
+    {
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "title_zh": "扩展托管代理：将大脑与手分离",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Anthropic Engineering介绍了其托管代理服务，该服务通过一组持久的接口运行长时间的代理任务。托管代理旨在解决如何为“尚未想到的程序”设计系统的问题，类似于操作系统将硬件虚拟化为抽象概念。该服务通过虚拟化代理的组件，如会话、工具调用循环和沙箱，提供了一种持久的解决方案，适应不断变化的实现方式。这种方法不仅提高了代理的灵活性，还为未来的工程工作流程定义了新的标准。",
+      "importance": 7
+    },
+    {
+      "title": "Claude Code auto mode: a safer way to skip permissions",
+      "title_zh": "Claude Code自动模式：一种更安全的跳过权限的方法",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Anthropic Engineering推出了Claude Code的自动模式，这是一种在不需要用户手动批准的情况下，自动处理命令的中间解决方案。该模式使用基于模型的分类器来捕捉不符合用户意图的危险操作，同时允许其他操作在没有批准提示的情况下运行。自动模式通过双层防御机制来保护用户输入和操作输出，旨在减少用户的批准疲劳，同时保持系统的安全性。",
+      "importance": 7
+    },
+    {
+      "title": "claude-code v2.1.101",
+      "title_zh": "Claude Code v2.1.101版本更新",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.101",
+      "source": "Claude Code Updates",
+      "category": "tool_update",
+      "summary_zh": "Claude Code v2.1.101版本更新增加了多项功能，包括生成团队入职指南的命令、默认信任操作系统CA证书存储、自动创建云环境、改进的简洁模式和焦点模式等。此外，更新还修复了多个错误，提高了设置的弹性和插件钩子的执行效率。",
+      "importance": 7
+    },
+    {
+      "title": "shiyu-coder/Kronos",
+      "title_zh": "Kronos开源项目发布",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Kronos是首个针对金融K线图的开源基础模型，训练于45个全球交易所的数据。该模型采用解码器专用的架构，专为处理金融数据的高噪声特性而设计。Kronos使用两阶段框架：首先将连续的多维K线数据量化为层次离散标记，然后在这些标记上进行大规模自回归Transformer预训练，适用于多种定量任务。",
+      "importance": 7
+    },
+    {
+      "title": "openclaw openclaw 2026.4.11",
+      "title_zh": "OpenClaw 2026.4.11",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.11",
+      "source": "OpenClaw Updates",
+      "category": "tool_update",
+      "summary_zh": "OpenClaw 2026.4.11版本带来了多个重要更新，包括新增的ChatGPT导入功能和改进的文档评论会话，使得用户可以更便捷地管理和查看对话内容。此外，视频生成工具的增强支持了更高的图像输入上限和自适应宽高比，提升了视频生成的灵活性。Microsoft Teams和Feishu的集成也得到了改进，提供了更丰富的交互体验。这些更新显著提升了OpenClaw在多平台协作和内容管理方面的能力。",
+      "importance": 7
+    },
+    {
+      "title": "How a dancer with ALS used brainwaves to perform live",
+      "title_zh": "一位患有ALS的舞者如何使用脑电波进行现场表演",
+      "url": "https://www.electronicspecifier.com/products/sensors/how-a-dancer-with-als-used-brainwaves-to-perform-live/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Dentsu Lab的Project Humanity开发了一个将肌肉信号和脑电波转化为数字表达的接口，并在2025年12月于阿姆斯特丹的现场舞台上展示。该项目通过电肌图传感器检测肌肉活动，并将其映射到数字化身上，使用户能够在虚拟空间中表达意图。此技术不仅为身体残疾人士提供了新的交互方式，还能用于多种软件的操作，扩展了人机交互的可能性。",
+      "importance": 6
+    },
+    {
+      "title": "Small models also found the vulnerabilities that Mythos found",
+      "title_zh": "小模型也发现了Mythos发现的漏洞",
+      "url": "https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Anthropic的Mythos模型被用于发现和修补关键软件中的安全漏洞，但研究表明，小型、廉价的开源模型也能发现相同的漏洞。这表明AI在网络安全中的能力并不与模型大小成比例增长，而是依赖于系统的深度安全专业知识。虽然Mythos展示了AI在发现漏洞方面的潜力，但也指出了当前AI网络安全能力的局限性。",
+      "importance": 6
+    },
+    {
+      "title": "opendataloader-project/opendataloader-pdf",
+      "title_zh": "OpenDataloader PDF解析器发布",
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "OpenDataloader PDF是一个用于AI数据提取的开源PDF解析器，能够从任何PDF中提取Markdown、JSON和HTML。该工具在基准测试中排名第一，具有0.907的整体准确率和0.928的表格准确率，支持复杂页面的混合模式解析。内置OCR支持80多种语言，并能处理300 DPI以上的低质量扫描。",
+      "importance": 6
+    },
+    {
+      "title": "obra/superpowers",
+      "title_zh": "Superpowers开源项目发布",
+      "url": "https://github.com/obra/superpowers",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Superpowers是一个完整的软件开发工作流，专为编码代理设计，基于可组合的“技能”构建。该系统从设计规范开始，逐步生成实现计划，并通过子代理驱动的开发过程完成任务。Superpowers强调TDD、YAGNI和DRY原则，支持自动化测试和代码审查，提升开发效率。",
+      "importance": 6
+    },
+    {
+      "title": "openclaw openclaw 2026.4.10",
+      "title_zh": "OpenClaw 2026.4.10",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.10",
+      "source": "OpenClaw Updates",
+      "category": "tool_update",
+      "summary_zh": "OpenClaw 2026.4.10版本引入了新的Codex提供商和插件管理功能，增强了模型的认证和发现能力。此外，新增的Active Memory插件使得用户可以更智能地管理对话历史和上下文信息。macOS用户也获得了新的本地语音提供商支持，提升了语音交互的灵活性。这些更新为OpenClaw用户提供了更强大的工具集和更高效的工作流程。",
+      "importance": 6
+    },
+    {
+      "title": "Rockstar Games Hacked, Hackers Threaten a Massive Data Leak If Not Paid Ransom",
+      "title_zh": "Rockstar Games被黑客攻击，黑客威胁如果不支付赎金将泄露大量数据",
+      "url": "https://kotaku.com/rockstar-games-reportedly-hacked-massive-data-leak-ransom-gta-6-shinyhunters-2000686858",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "知名黑客组织ShinyHunters声称已入侵Rockstar Games的云服务器，并威胁如果不支付赎金，将在4月14日泄露大量数据。Rockstar确认此次数据泄露事件涉及非关键公司信息，并表示对公司和玩家无影响。黑客通过Anodot的安全漏洞获得了访问权限，而非直接攻破Snowflake的安全系统。目前尚不清楚黑客掌握了哪些具体数据。",
+      "importance": 5
+    },
+    {
+      "title": "shanraisshan/claude-code-best-practice",
+      "title_zh": "Claude Code最佳实践指南",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "该项目提供了Claude Code的最佳实践指南，从代理工程到命令和技能的使用。用户可以通过自定义工具、权限、模型和持久身份创建自主代理，并通过简单的用户调用提示模板进行工作流编排。项目还支持用户定义的处理程序和模型上下文协议连接，为复杂的工作流提供支持。",
+      "importance": 5
+    },
+    {
+      "title": "野生母狼怀孕后主动到保护站待产",
+      "title_zh": "野生母狼怀孕后主动到保护站待产",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%87%8E%E7%94%9F%E6%AF%8D%E7%8B%BC%E6%80%80%E5%AD%95%E5%90%8E%E4%B8%BB%E5%8A%A8%E5%88%B0%E4%BF%9D%E6%8A%A4%E7%AB%99%E5%BE%85%E4%BA%A7%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "心愿便利贴 万通筋骨贴",
+      "title_zh": "心愿便利贴 万通筋骨贴",
+      "url": "https://s.weibo.com/weibo?q=%E5%BF%83%E6%84%BF%E4%BE%BF%E5%88%A9%E8%B4%B4%20%E4%B8%87%E9%80%9A%E7%AD%8B%E9%AA%A8%E8%B4%B4&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "中国船舶出品真的一屏放不下",
+      "title_zh": "中国船舶出品真的一屏放不下",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E8%88%B9%E8%88%B6%E5%87%BA%E5%93%81%E7%9C%9F%E7%9A%84%E4%B8%80%E5%B1%8F%E6%94%BE%E4%B8%8D%E4%B8%8B%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美向伊朗提出最终方案",
+      "title_zh": "美向伊朗提出最终方案",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%90%91%E4%BC%8A%E6%9C%97%E6%8F%90%E5%87%BA%E6%9C%80%E7%BB%88%E6%96%B9%E6%A1%88%23&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "胡先煦十日终焉被曝1天杀青",
+      "title_zh": "胡先煦十日终焉被曝1天杀青",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%83%A1%E5%85%88%E7%85%A6%E5%8D%81%E6%97%A5%E7%BB%88%E7%84%89%E8%A2%AB%E6%9B%9D1%E5%A4%A9%E6%9D%80%E9%9D%92%23&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "谢娜成都演唱会票价",
+      "title_zh": "谢娜成都演唱会票价",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B0%A2%E5%A8%9C%E6%88%90%E9%83%BD%E6%BC%94%E5%94%B1%E4%BC%9A%E7%A5%A8%E4%BB%B7%23&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "领导家里有喜事，没有在公司下通知，但听说有的同事私下都去随了礼，我没得到通知要去随礼吗？",
+      "title_zh": "领导家里有喜事，没有在公司下通知，但听说有的同事私下都去随了礼，我没得到通知要去随礼吗？",
+      "url": "https://www.zhihu.com/question/2025538472966911204",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "海外尿素价格飙涨 90%，国内外价差增至 3000 元，什么原因？国内会涨价吗？今年会加大尿素出口吗？",
+      "title_zh": "海外尿素价格飙涨 90%，国内外价差增至 3000 元，什么原因？国内会涨价吗？今年会加大尿素出口吗？",
+      "url": "https://www.zhihu.com/question/2024814990834562773",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "小米推出 MiMo 大模型订阅套餐，罗福莉称不想「贱卖」token，将如何影响市场格局？",
+      "title_zh": "小米推出 MiMo 大模型订阅套餐，罗福莉称不想「贱卖」token，将如何影响市场格局？",
+      "url": "https://www.zhihu.com/question/2025491195443311364",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "海底捞回应「员工因投诉被强制自费买礼物」，称将依法赔偿，如何看待此事？暴露出海底捞内部管理哪些问题？",
+      "title_zh": "海底捞回应「员工因投诉被强制自费买礼物」，称将依法赔偿，如何看待此事？暴露出海底捞内部管理哪些问题？",
+      "url": "https://www.zhihu.com/question/2026433822745518794",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "公众号批量删除 AI 写作文章，新规则打击自动化方式的创作，这是怎么判断的？会带来哪些影响？",
+      "title_zh": "公众号批量删除 AI 写作文章，新规则打击自动化方式的创作，这是怎么判断的？会带来哪些影响？",
+      "url": "https://www.zhihu.com/question/2025695905764962890",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "伊美第三轮谈判已结束，双方存在严重分歧，伊朗称伊美 12 日将举行新一轮谈判，透露出哪些信息？",
+      "title_zh": "伊美第三轮谈判已结束，双方存在严重分歧，伊朗称伊美 12 日将举行新一轮谈判，透露出哪些信息？",
+      "url": "https://www.zhihu.com/question/2026558515645346738",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "十项促进两岸交流合作政策措施发布",
+      "title_zh": "十项促进两岸交流合作政策措施发布",
+      "url": "https://www.toutiao.com/trending/7627688331135946286/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "宇树科技人形机器人跑出10米/秒",
+      "title_zh": "宇树科技人形机器人跑出10米/秒",
+      "url": "https://www.toutiao.com/trending/7627639296832327218/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "“数”里行间看春日经济跃动前行",
+      "title_zh": "“数”里行间看春日经济跃动前行",
+      "url": "https://www.toutiao.com/trending/7627413877118468150/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "40岁女子患肝癌 希望前夫照顾女儿",
+      "title_zh": "40岁女子患肝癌 希望前夫照顾女儿",
+      "url": "https://www.toutiao.com/trending/7627399207267631147/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "东部战区万吨大驱硬核训练画面来了",
+      "title_zh": "东部战区万吨大驱硬核训练画面来了",
+      "url": "https://www.toutiao.com/trending/7627422571130650643/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "书记市长送花祝贺常州队首胜",
+      "title_zh": "书记市长送花祝贺常州队首胜",
+      "url": "https://www.toutiao.com/trending/7626692478910660651/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 45,
+    "processed_count": 21
+  },
+  "display_count": 34
+}
