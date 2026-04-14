@@ -1,0 +1,443 @@
+{
+  "date": "2026-04-14",
+  "generated_at": "2026-04-14T03:35:30.857292",
+  "items": [
+    {
+      "title": "Exploiting the most prominent AI agent benchmarks",
+      "title_zh": "利用最突出的AI代理基准测试",
+      "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "研究人员开发了一种自动化扫描代理，能够系统性地审计八个最突出的AI代理基准测试，包括SWE-bench、WebArena等，发现每个基准都可以被利用以实现接近完美的分数，而无需解决任何实际任务。这些攻击并非理论上的，代理能够构建有效的漏洞利用程序并通过官方评估管道运行，导致分数虚高。这表明当前的基准测试可能并不可靠，可能被用于夸大模型能力。此发现对AI领域的基准测试可靠性提出了质疑，可能影响投资者决策和工程师的模型选择。",
+      "importance": 10
+    },
+    {
+      "title": "OpenKedge: Governing Agentic Mutation with Execution-Bound Safety and Evidence Chains",
+      "title_zh": "OpenKedge：通过执行边界安全和证据链治理代理突变",
+      "url": "https://arxiv.org/abs/2604.08601",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "OpenKedge是一种新协议，旨在解决自主AI代理在API架构中执行状态突变时缺乏安全保障的问题。该协议通过要求参与者提交声明性意图提案，并在执行前对其进行系统状态、时间信号和政策约束的评估，从而将突变重新定义为受治理的过程。批准的意图被编译成执行合同，严格限制允许的操作、资源范围和时间，并通过临时、任务导向的身份强制执行。OpenKedge引入了意图到执行的证据链（IEEC），加密地将意图、上下文、政策决策、执行边界和结果链接成一个统一的谱系，转变突变为可验证和可重建的过程。实验表明，该协议在多代理冲突场景和云基础设施突变中有效仲裁竞争意图并限制不安全执行，同时保持高吞吐量，为大规模安全操作代理系统建立了原则性基础。",
+      "importance": 9
+    },
+    {
+      "title": "Mind the Gap Between Spatial Reasoning and Acting! Step-by-Step Evaluation of Agents With Spatial-Gym",
+      "title_zh": "注意空间推理与行动之间的差距！使用Spatial-Gym对代理进行逐步评估",
+      "url": "https://arxiv.org/abs/2604.09338",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "Spatial-Gym是一个新的Gymnasium环境，用于评估模型在2D网格谜题中的路径规划能力。研究评估了八种模型在单次、一对一和带回溯的逐步决策任务中的表现，结果显示最优模型GPT-OSS 120B的解决率为16.0%，远低于人类基线的98.0%。研究发现，逐步格式有助于较弱模型减少格式错误，但限制了较强模型的全局规划能力。回溯提高了情节完成率，但仅对较弱模型有利。实验揭示了模型在应对任务难度时推理努力的不足，以及视觉模型在接收空间环境图像时解决率下降73%。Spatial-Gym为通过强化学习改进空间推理提供了诊断模型局限性的框架。",
+      "importance": 9
+    },
+    {
+      "title": "Attention-Based Sampler for Diffusion Language Models",
+      "title_zh": "基于注意力的扩散语言模型采样器",
+      "url": "https://arxiv.org/abs/2604.08564",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本文研究了扩散语言模型（dLLMs）的解码顺序选择问题，提出了一种新的无训练解码算法——Attn-Sampler。通过理论证明，最佳序列似然可以通过按注意力矩阵列和递减顺序解码来近似实现。该方法不仅提高了生成质量，还增强了解码并行性。实验表明，该方法在多个基准测试中表现优异，显示出在语言建模中的潜力。",
+      "importance": 9
+    },
+    {
+      "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+      "title_zh": "企业在 Cloudflare Agent Cloud 中利用 OpenAI 推动代理工作流",
+      "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
+      "source": "OpenAI Blog",
+      "category": "blog",
+      "summary_zh": "Cloudflare 将 OpenAI 的 GPT-5.4 和 Codex 引入其 Agent Cloud 平台，使企业能够快速、安全地构建、部署和扩展 AI 代理以执行实际任务。这一集成为企业提供了更高效的自动化解决方案，提升了工作流的智能化水平。通过利用 OpenAI 的先进模型，企业可以在不牺牲安全性的情况下实现更高的生产力和创新能力。这一合作展示了 AI 技术在企业级应用中的潜力，可能会对行业标准和企业运营方式产生深远影响。",
+      "importance": 9
+    },
+    {
+      "title": "Meta spins up AI version of Mark Zuckerberg to engage with employees",
+      "title_zh": "Meta推出AI版马克·扎克伯格与员工互动",
+      "url": "https://arstechnica.com/ai/2026/04/meta-spins-up-ai-version-of-mark-zuckerberg-to-engage-with-employees/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Meta正在开发一个AI版的马克·扎克伯格，以便与员工互动。这个项目是Meta重塑公司以适应AI技术的更广泛努力的一部分。公司正在开发逼真的AI驱动3D角色，扎克伯格AI角色被优先开发。该角色将基于扎克伯格的习惯、语调和公开声明进行训练，以便员工通过与其互动更好地连接创始人。这一努力与扎克伯格计划开发的“CEO代理”项目分开，后者旨在支持其角色。Meta还发布了Muse Spark，一个小型封闭的模型，具备健康推理和视觉理解等高级能力。",
+      "importance": 9
+    },
+    {
+      "title": "zai-org/GLM-5.1",
+      "title_zh": "zai-org/GLM-5.1",
+      "url": "https://huggingface.co/zai-org/GLM-5.1",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "GLM-5.1是zai-org发布的下一代旗舰模型，专注于代理工程，具备显著增强的编码能力。该模型在SWE-Bench Pro上达到了最先进的性能，并在NL2Repo和Terminal-Bench 2.0上领先于GLM-5。GLM-5.1能够在更长时间内保持高效，特别是在处理模糊问题时表现出色。它能够分解复杂问题、运行实验、读取结果并识别障碍，通过反复迭代优化策略，能够在数百轮和数千次工具调用中持续优化。此模型支持本地部署，兼容多种开源框架，如SGLang、vLLM和Transformers。GLM-5.1的发布标志着在代理任务处理和长时间优化方面的重大进步。",
+      "importance": 9
+    },
+    {
+      "title": "google/gemma-4-31B-it",
+      "title_zh": "google/gemma-4-31B-it",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Gemma 4是Google DeepMind推出的多模态模型家族，支持文本、图像输入（小模型支持音频），并生成文本输出。该版本包括预训练和指令微调的开放权重模型，支持多达256K个token的上下文窗口，并在140多种语言中保持多语言支持。Gemma 4采用密集和专家混合（MoE）架构，适用于文本生成、编码和推理等任务。其多样化的尺寸使其能够在从高端手机到笔记本电脑和服务器的环境中部署，推动最先进AI的普及。Gemma 4引入了关键的能力和架构进步，特别是在推理能力和多模态处理方面。",
+      "importance": 9
+    },
+    {
+      "title": "From Business Events to Auditable Decisions: Ontology-Governed Graph Simulation for Enterprise AI",
+      "title_zh": "从商业事件到可审计决策：企业AI的本体治理图模拟",
+      "url": "https://arxiv.org/abs/2604.08603",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "LOM-action是一个为企业AI提供事件驱动本体模拟的系统，旨在解决现有大型语言模型（LLM）在未模拟业务场景的情况下做出不具备审计追踪的决策的问题。该系统通过企业本体（EO）触发的场景条件驱动图的确定性变异，形成场景有效的模拟图，从而从中导出所有决策。LOM-action实现了事件到模拟再到决策的核心流程，通过技能模式和推理模式的双模式架构实现。实验结果表明，LOM-action在准确性和工具链F1得分上显著优于现有基线，证明了本体治理、事件驱动模拟是可信企业决策智能的架构前提。",
+      "importance": 8
+    },
+    {
+      "title": "RAMP: Hybrid DRL for Online Learning of Numeric Action Models",
+      "title_zh": "RAMP：用于在线学习数值动作模型的混合深度强化学习",
+      "url": "https://arxiv.org/abs/2604.08685",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "RAMP是一种用于在线学习数值规划动作模型的策略，结合了深度强化学习（DRL）和规划，旨在解决现有算法需要离线专家轨迹输入的问题。RAMP策略通过与环境的交互同时训练DRL策略、学习数值动作模型，并在可能时利用该模型规划未来动作。这种正反馈循环使得RL策略能够收集数据以优化动作模型，而规划器则生成计划以继续训练RL策略。实验结果表明，RAMP在标准IPC数值域上显著优于PPO算法，在可解性和计划质量上表现出色。",
+      "importance": 8
+    },
+    {
+      "title": "HiL-Bench (Human-in-Loop Benchmark): Do Agents Know When to Ask for Help?",
+      "title_zh": "HiL-Bench（人机交互基准）：代理是否知道何时寻求帮助？",
+      "url": "https://arxiv.org/abs/2604.09408",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "HiL-Bench是一个新的基准，用于评估代理在任务中选择性升级的能力，即何时自主行动和何时寻求帮助。该基准通过人类验证的障碍（如信息缺失、请求模糊）进行测试，核心指标Ask-F1衡量过度询问与沉默猜测之间的平衡。实验表明，当前模型在判断是否询问时表现不佳，无法恢复完整信息下的性能。通过强化学习训练，32B模型在求助质量和任务通过率上有所提升，且这些提升可跨领域转移。研究表明，判断能力是可训练的，并且模型能够检测到不可解决的不确定性并采取行动。",
+      "importance": 8
+    },
+    {
+      "title": "E3-TIR: Enhanced Experience Exploitation for Tool-Integrated Reasoning",
+      "title_zh": "E3-TIR：工具集成推理的增强体验利用",
+      "url": "https://arxiv.org/abs/2604.09455",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "E3-TIR是一种新的训练范式，旨在解决大型语言模型在工具集成推理中的探索效率低下和模式退化问题。通过动态整合专家前缀、专家指导和自我探索三种经验类型，E3-TIR在工具使用任务上实现了6%的性能提升，同时减少了90%的合成数据需求。实验结果表明，该方法在性能、数据成本和训练效率的综合指标上比基线高出1.46倍。E3-TIR有效地平衡了探索多样性与训练效率，为工具集成推理提供了新的思路。",
+      "importance": 8
+    },
+    {
+      "title": "EXAONE 4.5 Technical Report",
+      "title_zh": "EXAONE 4.5技术报告",
+      "url": "https://arxiv.org/abs/2604.08644",
+      "source": "ArXiv CS.CL",
+      "category": "model_release",
+      "summary_zh": "LG AI 研究所发布了EXAONE 4.5，这是首个开放权重的视觉语言模型。该模型通过整合专用视觉编码器，实现了视觉和文本模态的多模态预训练。EXAONE 4.5在文档理解和相关任务中表现出显著的性能提升，并在一般语言能力上也有所改进。该模型支持长达256K个token的上下文长度，适用于企业级应用场景。与同类规模的最先进模型相比，EXAONE 4.5在文档理解和韩语语境推理中表现出色。",
+      "importance": 8
+    },
+    {
+      "title": "Dynamic sparsity in tree-structured feed-forward layers at scale",
+      "title_zh": "大规模树状结构前馈层中的动态稀疏性",
+      "url": "https://arxiv.org/abs/2604.08565",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "研究表明，在深度Transformer架构中，树状结构的稀疏前馈层可以作为MLP块的替代，支持条件计算并减少计算开销。该方法在自回归语言建模和下游问答任务中表现良好，尤其是在零样本和少样本设置下。尽管每个token激活的前馈单元不到5%，模型在受控训练和微调协议下与密集基线相匹配。研究还发现了一种自我修剪效应，表明硬路由与非对称非线性之间的相互作用会逐步停用未使用的路径。",
+      "importance": 8
+    },
+    {
+      "title": "FeaturedQuantifying infrastructure noise in agentic coding evalsInfrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.",
+      "title_zh": "量化代理编码评估中的基础设施噪声",
+      "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "在代理编码评估中，基础设施配置可能导致基准测试分数波动几个百分点，甚至超过顶级模型之间的差距。在内部实验中，Terminal-Bench 2.0 的最优和最差资源配置之间的差距达到了6个百分点。这表明，基础设施的配置和执行方法对评估结果有显著影响。为了解决这一问题，开发者开始在评估中指定推荐的CPU和RAM配置，但这并不等同于一致的执行。此发现强调了在评估AI模型时，考虑基础设施因素的重要性，以确保结果的准确性和公平性。",
+      "importance": 8
+    },
+    {
+      "title": "NousResearch/hermes-agent",
+      "title_zh": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Hermes-agent是由Nous Research开发的自我改进AI代理，具备内置学习循环，能够从经验中创建和改进技能，并在使用中持续改进。它可以在各种平台上运行，包括VPS、GPU集群和无服务器基础设施。用户可以选择多种模型，并通过简单的命令切换，无需代码更改。Hermes-agent支持多种通信方式，如Telegram、Discord等，适合需要灵活性和可扩展性的开发者。",
+      "importance": 8
+    },
+    {
+      "title": "openbmb/VoxCPM2",
+      "title_zh": "openbmb/VoxCPM2",
+      "url": "https://huggingface.co/openbmb/VoxCPM2",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "VoxCPM2是一款无标记、扩散自回归的文本到语音模型，拥有20亿参数，支持30种语言，输出48kHz音频。其创新功能包括多语言支持、基于自然语言描述的语音设计、可控的语音克隆，以及48kHz的工作室质量输出。VoxCPM2能够实时流式生成语音，RTF低至~0.3，并且完全开源，允许商用。该模型的发布为多语言文本到语音合成提供了新的技术手段，特别是在语音设计和克隆方面的能力，使其在语音合成领域具有重要意义。",
+      "importance": 8
+    },
+    {
+      "title": "MiniMaxAI/MiniMax-M2.7",
+      "title_zh": "MiniMaxAI/MiniMax-M2.7",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "MiniMax-M2.7是MiniMaxAI发布的首个深度参与自身进化的模型。M2.7能够构建复杂的代理框架并完成高度复杂的生产力任务，利用代理团队、复杂技能和动态工具搜索。该模型在开发过程中通过更新自身记忆、构建复杂技能和改进学习过程，实现了30%的性能提升。在MLE Bench Lite上，M2.7的奖牌率达到66.6%。此外，M2.7在软件工程领域表现出色，能够进行日志分析、错误排查、代码重构和安全性检查。通过M2.7，生产事故恢复时间显著缩短，展示了其在实际应用中的强大能力。",
+      "importance": 8
+    },
+    {
+      "title": "PilotBench: A Benchmark for General Aviation Agents with Safety Constraints",
+      "title_zh": "PilotBench：具有安全约束的通用航空代理基准",
+      "url": "https://arxiv.org/abs/2604.08987",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "PilotBench是一个用于评估大型语言模型（LLM）在安全关键飞行轨迹和姿态预测中的基准。该基准由708个真实世界的通用航空轨迹构建，涵盖九个不同的飞行阶段，并同步了34个通道的遥测数据。PilotBench通过比较LLM和传统预测器，系统地探讨了语义理解与物理预测的交集。引入的Pilot-Score综合指标平衡了60%的回归准确性与40%的指令遵循和安全合规性。实验表明，传统预测器在精度上优于LLM，但缺乏语义推理能力，而LLM在指令遵循上表现较好但精度较低。这些发现促使开发结合LLM符号推理与专业预测器数值精度的混合架构。",
+      "importance": 7
+    },
+    {
+      "title": "Sustained Impact of Agentic Personalisation in Marketing: A Longitudinal Case Study",
+      "title_zh": "代理个性化在营销中的持续影响：一个纵向案例研究",
+      "url": "https://arxiv.org/abs/2604.08621",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该研究通过一个长达11个月的纵向案例研究，分析了在大规模用户基础上使用代理基础设施进行营销消息个性化的效果。研究比较了两个不同的阶段：一个是由营销人员直接策划内容、受众和策略的主动阶段，另一个是代理从固定组件库中自主操作的被动阶段。结果显示，虽然主动的人为管理在参与指标上产生了最高的相对提升，但在被动阶段，自治代理成功地维持了积极的提升。这些发现表明了一种共生模型，其中人为干预驱动战略初始化和发现，而自治代理则确保了性能增益的可扩展保留和维护。",
+      "importance": 7
+    },
+    {
+      "title": "VerifAI: A Verifiable Open-Source Search Engine for Biomedical Question Answering",
+      "title_zh": "VerifAI：用于生物医学问答的可验证开源搜索引擎",
+      "url": "https://arxiv.org/abs/2604.08549",
+      "source": "ArXiv CS.AI",
+      "category": "open_source",
+      "summary_zh": "VerifAI是一个开源的生物医学问答专家系统，结合了检索增强生成（RAG）和后验声明验证机制。与标准RAG系统不同，VerifAI通过将生成的答案分解为原子声明并使用自然语言推理引擎验证其一致性，从而确保事实一致性。系统包括三个模块：优化的混合信息检索模块、引用感知的生成组件和检测幻觉的验证组件。评估结果表明，VerifAI显著减少了幻觉引用，并为每个声明提供了透明的可验证来源。该系统的代码、模型和数据集均已开源，以促进在高风险领域的可靠AI部署。",
+      "importance": 7
+    },
+    {
+      "title": "Do We Really Need to Approach the Entire Pareto Front in Many-Objective Bayesian Optimisation?",
+      "title_zh": "在多目标贝叶斯优化中，我们真的需要接近整个帕累托前沿吗？",
+      "url": "https://arxiv.org/abs/2604.09417",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文探讨了在多目标贝叶斯优化中是否需要接近整个帕累托前沿的问题。随着目标数量的增加，代表整个帕累托前沿所需的解数量也会大幅增加，这对设计有效的搜索算法提出了挑战。本文提出了一种单点多目标搜索框架（SPMO），旨在在有限的评估预算下，找到质量最高的单一解，而不是近似整个帕累托前沿。SPMO通过简单的期望单点改进（ESPI）获取函数，在无噪声和有噪声的场景下进行优化。实验表明，SPMO在计算上是可行的，并在广泛的基准和实际问题上优于现有方法。",
+      "importance": 7
+    },
+    {
+      "title": "Process Reward Agents for Steering Knowledge-Intensive Reasoning",
+      "title_zh": "用于引导知识密集型推理的过程奖励代理",
+      "url": "https://arxiv.org/abs/2604.09482",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "过程奖励代理（PRA）是一种测试时方法，旨在为冻结策略提供领域基础的在线逐步奖励。与之前的检索增强过程奖励模型不同，PRA在每一步生成时进行搜索解码，以对候选轨迹进行排序和修剪。实验表明，PRA在多个医学推理基准上表现优于强基线，在MedQA上以80.8%的准确率达到了新的4B规模的最先进水平。PRA能够在不更新策略模型的情况下，将冻结策略模型的准确率提高最多25.7%。这表明PRA可以在复杂领域中部署新的骨干模型，而无需重新训练。",
+      "importance": 7
+    },
+    {
+      "title": "Sentiment Classification of Gaza War Headlines: A Comparative Analysis of Large Language Models and Arabic Fine-Tuned BERT Models",
+      "title_zh": "加沙战争标题的情感分类：大型语言模型与阿拉伯语微调BERT模型的比较分析",
+      "url": "https://arxiv.org/abs/2604.08566",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本研究比较了大型语言模型（LLMs）和微调的阿拉伯语BERT模型在2023年加沙战争相关媒体话语中的情感解读。研究发现，微调的BERT模型倾向于中性分类，而LLMs则倾向于放大负面情感。特别是，LLaMA-3.1-8B几乎完全倾向于负面情感。GPT-4.1能够根据叙事框架调整情感判断，而其他LLMs则表现出有限的上下文调节能力。这表明模型选择会影响冲突叙事的算法框架和情感评估。",
+      "importance": 7
+    },
+    {
+      "title": "Multi-User Large Language Model Agents",
+      "title_zh": "多用户大型语言模型代理",
+      "url": "https://arxiv.org/abs/2604.08567",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "随着大型语言模型（LLMs）在团队工作流和组织工具中的应用增加，它们需要同时服务多个用户，这些用户具有不同的角色、偏好和权限。本文首次系统研究了多用户LLM代理，提出了一种多用户交互协议，并设计了三种压力测试场景来评估当前LLMs在指令遵循、隐私保护和协调方面的能力。结果显示，LLMs在用户目标冲突时难以维持稳定优先级，并且在多轮交互中隐私泄露风险增加，协调效率也受到瓶颈限制。",
+      "importance": 7
+    },
+    {
+      "title": "Claude Code auto mode: a safer way to skip permissionsMar 25, 2026",
+      "title_zh": "Claude Code 自动模式：一种更安全的跳过权限的方法",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Claude Code 推出了自动模式，通过模型驱动的分类器来管理权限批准，以减少用户的批准疲劳。该模式在输入和执行层面提供双重防御，旨在识别并阻止不符合用户意图的危险操作，同时允许其他操作在没有批准提示的情况下运行。这种方法通过减少人为干预，提升了工具的安全性和效率，特别是在开发和运维环境中，降低了误操作的风险。",
+      "importance": 7
+    },
+    {
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "title_zh": "扩展托管代理：将大脑与双手分离",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Anthropic 推出了 Managed Agents 服务，旨在通过稳定的接口运行长时间任务的代理。该服务通过虚拟化代理的组件，如会话、控制环和沙盒，解决了如何设计系统以适应未来未预见程序的问题。这种方法类似于操作系统将硬件虚拟化为通用抽象的方式，使得代理能够在不断变化的实现下保持稳定。这一创新为开发者提供了更灵活和可扩展的工具，支持更复杂和长期的自动化任务。",
+      "importance": 7
+    },
+    {
+      "title": "The AI revolution in math has arrived",
+      "title_zh": "数学中的AI革命已经到来",
+      "url": "https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "2025年，AI模型在国际数学奥林匹克竞赛中解决了六个问题中的五个，这标志着AI在数学领域的显著进步。虽然这些问题是已知答案的挑战性谜题，但AI模型的成功引起了数学界的广泛关注。数学家们开始利用AI来发现和证明新结果，显著加快了研究进程。AI的应用不仅限于解题，还包括提出和验证新的数学猜想，这一趋势正在改变数学研究的方式。著名数学家陶哲轩指出，AI在数学中的应用将继续扩展，推动领域内的创新。",
+      "importance": 7
+    },
+    {
+      "title": "Claude Code may be burning your limits with invisible tokens",
+      "title_zh": "Claude Code可能通过不可见的令牌消耗你的限制",
+      "url": "https://efficienist.com/claude-code-may-be-burning-your-limits-with-invisible-tokens-you-cant-see-or-audit/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "开发者的实验表明，Anthropic可能在Claude Code请求中无声地注入了数千个令牌，导致用户的使用限制迅速消耗。用户报告称，即使在每月200美元的计划下，使用限制也在数小时内耗尽。调查发现，从v2.1.100版本开始，每个请求似乎携带了约20,000个额外的令牌，这些令牌并未由用户发送。此问题尚未在大规模上独立验证，Anthropic也未对此发表评论。这一发现引发了社区对v2.1.100版本中引入的会话记忆功能的猜测。",
+      "importance": 7
+    },
+    {
+      "title": "shiyu-coder/Kronos",
+      "title_zh": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Kronos是首个开源的金融K线基础模型，基于来自45个全球交易所的数据进行训练。该模型采用一种新颖的两阶段框架：首先将连续的多维K线数据量化为离散的层次化令牌，然后在这些令牌上进行大规模自回归Transformer预训练。Kronos适用于处理金融数据的独特高噪声特性，并提供了多种预训练模型以适应不同的计算和应用需求。该项目为金融市场的量化任务提供了一个统一的模型。",
+      "importance": 7
+    },
+    {
+      "title": "垃圾真的不够烧",
+      "title_zh": "垃圾真的不够烧",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9E%83%E5%9C%BE%E7%9C%9F%E7%9A%84%E4%B8%8D%E5%A4%9F%E7%83%A7%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "莫氏鸡煲爆火帮工一周就扛不住了",
+      "title_zh": "莫氏鸡煲爆火帮工一周就扛不住了",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%AB%E6%B0%8F%E9%B8%A1%E7%85%B2%E7%88%86%E7%81%AB%E5%B8%AE%E5%B7%A5%E4%B8%80%E5%91%A8%E5%B0%B1%E6%89%9B%E4%B8%8D%E4%BD%8F%E4%BA%86%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "春日里的中国花经济",
+      "title_zh": "春日里的中国花经济",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%98%A5%E6%97%A5%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD%E8%8A%B1%E7%BB%8F%E6%B5%8E%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "奶奶帮我打印的身份证复印件",
+      "title_zh": "奶奶帮我打印的身份证复印件",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%B6%E5%A5%B6%E5%B8%AE%E6%88%91%E6%89%93%E5%8D%B0%E7%9A%84%E8%BA%AB%E4%BB%BD%E8%AF%81%E5%A4%8D%E5%8D%B0%E4%BB%B6&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "李梦演小三看起来好难对付",
+      "title_zh": "李梦演小三看起来好难对付",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E6%A2%A6%E6%BC%94%E5%B0%8F%E4%B8%89%E7%9C%8B%E8%B5%B7%E6%9D%A5%E5%A5%BD%E9%9A%BE%E5%AF%B9%E4%BB%98%23&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "王安宇王玉雯新片海报",
+      "title_zh": "王安宇王玉雯新片海报",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%AE%89%E5%AE%87%E7%8E%8B%E7%8E%89%E9%9B%AF%E6%96%B0%E7%89%87%E6%B5%B7%E6%8A%A5%23&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "比亚迪财务总监年薪 1013 万元，多名高管薪酬迈入千万级，在业内是什么水平？车企薪资在市场上竞争力如何？",
+      "title_zh": "比亚迪财务总监年薪 1013 万元，多名高管薪酬迈入千万级，在业内是什么水平？车企薪资在市场上竞争力如何？",
+      "url": "https://www.zhihu.com/question/2027000572734169725",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "如何看待石门中学某年级组级长「奶茶事件」？",
+      "title_zh": "如何看待石门中学某年级组级长「奶茶事件」？",
+      "url": "https://www.zhihu.com/question/2026285555021878931",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "有一个盒子，你可以放入任意金额，每隔一天金额翻 10 倍，你可以随时取出，盒子只能用一次，你会如何操作？",
+      "title_zh": "有一个盒子，你可以放入任意金额，每隔一天金额翻 10 倍，你可以随时取出，盒子只能用一次，你会如何操作？",
+      "url": "https://www.zhihu.com/question/2026109224694948075",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "为什么在中国神话体系里，厉害的神都在天上或者地上某个地区，没有地位尊贵的「海洋之神」呢？",
+      "title_zh": "为什么在中国神话体系里，厉害的神都在天上或者地上某个地区，没有地位尊贵的「海洋之神」呢？",
+      "url": "https://www.zhihu.com/question/2026209687700272121",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "如何看待网传有人通过豆包买保险，结果豆包编造订单，受害人支付的却是个人二维码，还被立案了？",
+      "title_zh": "如何看待网传有人通过豆包买保险，结果豆包编造订单，受害人支付的却是个人二维码，还被立案了？",
+      "url": "https://www.zhihu.com/question/2026223211436676545",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美军已开始对进出霍尔木兹海峡的船只进行阻截，封锁所有伊朗港口的船只，此举将带来哪些影响？",
+      "title_zh": "美军已开始对进出霍尔木兹海峡的船只进行阻截，封锁所有伊朗港口的船只，此举将带来哪些影响？",
+      "url": "https://www.zhihu.com/question/2027155979582666052",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "媒体：日本2个小动作把自己推向火坑",
+      "title_zh": "媒体：日本2个小动作把自己推向火坑",
+      "url": "https://www.toutiao.com/trending/7628205718885400626/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "女孩坐同学车侧翻终身残疾 法院判了",
+      "title_zh": "女孩坐同学车侧翻终身残疾 法院判了",
+      "url": "https://www.toutiao.com/trending/7628401398190735401/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "向着制造强国加速迈进",
+      "title_zh": "向着制造强国加速迈进",
+      "url": "https://www.toutiao.com/trending/7628206506252471844/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "苏林赴雄安新区参访",
+      "title_zh": "苏林赴雄安新区参访",
+      "url": "https://www.toutiao.com/trending/7628433778783817258/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "罗永浩吐槽“120W是充电器商标”",
+      "title_zh": "罗永浩吐槽“120W是充电器商标”",
+      "url": "https://www.toutiao.com/trending/7627890235733934089/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "官方通报深圳比亚迪火灾",
+      "title_zh": "官方通报深圳比亚迪火灾",
+      "url": "https://www.toutiao.com/trending/7628416832629902875/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 119,
+    "processed_count": 30
+  },
+  "display_count": 32
+}
