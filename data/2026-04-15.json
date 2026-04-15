@@ -1,0 +1,443 @@
+{
+  "date": "2026-04-15",
+  "generated_at": "2026-04-15T03:34:36.185532",
+  "items": [
+    {
+      "title": "LABBench2: An Improved Benchmark for AI Systems Performing Biology Research",
+      "title_zh": "LABBench2：用于生物研究的AI系统改进基准",
+      "url": "https://arxiv.org/abs/2604.09554",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "LABBench2是一个用于评估AI系统在生物研究中实际能力的基准测试，继承并扩展了LAB-Bench的工作。该基准包含近1900个任务，旨在更真实的情境中测试AI的科学任务执行能力。与前代相比，LABBench2的难度显著增加，模型在子任务中的准确率下降了26%到46%。这一基准的推出为AI在科学研究中的应用提供了更高的挑战和改进空间，推动AI工具在核心研究功能上的发展。数据集和评估工具已在Hugging Face和GitHub上公开。",
+      "importance": 9
+    },
+    {
+      "title": "Evaluating Reliability Gaps in Large Language Model Safety via Repeated Prompt Sampling",
+      "title_zh": "通过重复提示采样评估大型语言模型安全性的可靠性差距",
+      "url": "https://arxiv.org/abs/2604.09606",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "这篇论文介绍了一种新的评估框架——加速提示压力测试（APST），用于深入评估大型语言模型（LLM）的安全性。传统的评估方法如HELM和AIR-BENCH主要通过广泛的任务评估模型的安全风险，但在实际应用中，模型在重复使用相同提示时可能会出现操作性故障。APST通过在控制条件下重复采样相同提示，揭示模型的潜在故障模式，如幻觉、拒绝不一致和不安全的完成。研究表明，不同温度下的重复采样揭示了模型在可靠性上的显著差异，这对模型在高风险环境中的应用具有重要意义。",
+      "importance": 9
+    },
+    {
+      "title": "CoSToM:Causal-oriented Steering for Intrinsic Theory-of-Mind Alignment in Large Language Models",
+      "title_zh": "CoSToM：因果导向的内在心智理论对齐大语言模型",
+      "url": "https://arxiv.org/abs/2604.10031",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "心智理论（ToM）是社会智能的标志，然而大语言模型（LLMs）在复杂任务场景中常常无法泛化，依赖提示来模拟推理。CoSToM框架通过因果追踪映射ToM特征的内部分布，揭示了模型内部层在编码基本ToM语义的特性。通过在这些关键层进行有针对性的激活引导，CoSToM显著增强了人类式的社会推理能力和对话质量。这项研究展示了LLMs在社会推理任务中的潜力，并为提高其在复杂场景中的表现提供了新方向。",
+      "importance": 9
+    },
+    {
+      "title": "FeaturedQuantifying infrastructure noise in agentic coding evalsInfrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.",
+      "title_zh": "量化代理编码评估中的基础设施噪声",
+      "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Anthropic Engineering的研究表明，在代理编码评估中，基础设施配置的差异可能导致评估结果的波动，甚至超过模型排行榜之间的差距。在Terminal-Bench 2.0的内部实验中，最优和最差资源配置之间的分数差异达到6个百分点。该研究强调，静态基准测试直接对模型输出评分，而代理编码评估则提供完整的环境，模型在其中编写程序、运行测试并安装依赖项。研究还发现，基础设施错误率高达6%，大部分与模型解决任务的能力无关。这一发现对开发者和研究人员来说，意味着在评估模型能力时，必须考虑基础设施配置对结果的影响。",
+      "importance": 9
+    },
+    {
+      "title": "The M×N problem of tool calling and open-source models",
+      "title_zh": "工具调用和开源模型的M×N问题",
+      "url": "https://www.thetypicalset.com/blog/grammar-parser-maintenance-contract",
+      "source": "Hacker News",
+      "category": "blog",
+      "summary_zh": "本文讨论了在使用开源模型进行工具调用时遇到的挑战。不同的模型家族在调用工具时采用不同的格式，这导致输出可能出现混乱，如参数中的推理标记、格式错误的JSON等。为了适应这些不同的格式，开发者需要为每个模型编写自定义解析器，这增加了实现的复杂性。文章还提到，像Gemma 4这样的模型在解码器处理推理标记时会出现问题，导致解析器错误。解决这些问题需要开发新的编程语言和工具来管理这些系统，尽管有些人认为随着模型的进步，这些努力可能会被淘汰。作者认为，分布式系统的文献中有很多关于此类问题的研究成果可以借鉴。",
+      "importance": 9
+    },
+    {
+      "title": "zai-org/GLM-5.1",
+      "title_zh": "GLM-5.1",
+      "url": "https://huggingface.co/zai-org/GLM-5.1",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "GLM-5.1 是 Z.ai 推出的新一代旗舰模型，专注于代理工程，具有显著增强的编码能力。该模型在 SWE-Bench Pro 上达到了最先进的性能，并在 NL2Repo 和 Terminal-Bench 2.0 上大幅领先于前代 GLM-5。GLM-5.1 的主要突破在于其在长时间任务中的持续有效性，能够在数百轮和数千次工具调用中保持优化。该模型能够更好地处理模糊问题，进行实验、读取结果并识别阻碍因素，通过反复迭代优化策略来提高性能。GLM-5.1 支持多种开源框架的本地部署，如 SGLang、vLLM 和 Transformers，适用于多种编程和推理任务。",
+      "importance": 9
+    },
+    {
+      "title": "AHC: Meta-Learned Adaptive Compression for Continual Object Detection on Memory-Constrained Microcontrollers",
+      "title_zh": "AHC：用于内存受限微控制器的持续对象检测的元学习自适应压缩",
+      "url": "https://arxiv.org/abs/2604.09576",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "AHC是一种元学习框架，旨在解决微控制器上持续对象检测的内存限制问题。该框架通过MAML实现的压缩策略，能够在仅5步内适应新任务，并采用分层多尺度压缩策略，优化不同特征层的压缩比。AHC在CORe50、TiROD和PASCAL VOC等基准上表现出色，在100KB内存限制下实现了高效的对象检测，显著减少了灾难性遗忘。该研究为在资源受限环境中实现高效的AI应用提供了新的解决方案。",
+      "importance": 8
+    },
+    {
+      "title": "Help Without Being Asked: A Deployed Proactive Agent System for On-Call Support with Continuous Self-Improvement",
+      "title_zh": "无需请求的帮助：一个用于随叫随到支持的主动代理系统，具有持续自我改进能力",
+      "url": "https://arxiv.org/abs/2604.09579",
+      "source": "ArXiv CS.AI",
+      "category": "industry",
+      "summary_zh": "Vigil是一个部署在字节跳动火山引擎上的主动代理系统，旨在减轻云服务平台上人类支持分析师的工作负担。与传统的反应型代理不同，Vigil在整个呼叫生命周期中提供支持，主动参与客户与分析师的对话，并通过从人类解决的案例中提取知识来持续改进其能力。经过十个月的部署，Vigil展示了其在实际应用中的有效性和实用性，成为云服务支持领域的重要工具。",
+      "importance": 8
+    },
+    {
+      "title": "Unifying Ontology Construction and Semantic Alignment for Deterministic Enterprise Reasoning at Scale",
+      "title_zh": "统一本体构建和语义对齐以实现大规模确定性企业推理",
+      "url": "https://arxiv.org/abs/2604.09608",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了一种大规模本体模型（LOM），用于统一本体构建、语义对齐和逻辑推理。LOM通过构建-对齐-推理（CAR）管道，从原始数据自动构建领域特定的本体宇宙，并通过图感知编码器和强化学习对齐神经生成与结构现实，最后在构建的拓扑上执行确定性推理。实验结果表明，LOM-4B在本体完成和复杂图推理任务中分别达到88.8%和94%的准确率，显著优于现有的LLM。这表明自主逻辑构建对于实现企业级智能至关重要。",
+      "importance": 8
+    },
+    {
+      "title": "General-purpose LLMs as Models of Human Driver Behavior: The Case of Simplified Merging",
+      "title_zh": "通用大型语言模型作为人类驾驶行为模型：简化合并的案例",
+      "url": "https://arxiv.org/abs/2604.09609",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究探讨了通用大型语言模型（LLM）在模拟人类驾驶行为中的潜力，尤其是在简化的合并场景中。通过将OpenAI o3和Google Gemini 2.5 Pro作为独立的闭环驾驶代理，研究发现这些模型能够再现人类间歇性操作控制和空间线索的战术依赖性，但在动态速度线索的响应上表现不一致。提示消融研究表明，提示组件作为模型特定的归纳偏差，不可跨模型转移。这表明通用LLM可能作为自动驾驶评估管道中的人类行为模型，但需要进一步研究以理解其失效模式并确保其有效性。",
+      "importance": 8
+    },
+    {
+      "title": "Self-Calibrating Language Models via Test-Time Discriminative Distillation",
+      "title_zh": "通过测试时判别蒸馏实现自校准语言模型",
+      "url": "https://arxiv.org/abs/2604.09624",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "大型语言模型（LLM）常常表现出过度自信的问题，即使在错误回答时也表现出高度确定性。本文提出了一种自校准语言模型（SECL），利用无标签自监督在测试时训练（TTT）来解决这一问题。SECL在输入分布变化时进行适应，仅在问题流的6-26%上进行训练，成本低于其蒸馏的基线。实验表明，SECL在四个小型语言模型和四个不同领域中将期望校准误差（ECE）减少了56-78%，并且在没有标签数据或人工监督的情况下，匹配或超越了最近的推理时方法。这是首次将TTT应用于校准，验证了其组件在不同配置中的重要性和鲁棒性。",
+      "importance": 8
+    },
+    {
+      "title": "Reason Only When Needed: Efficient Generative Reward Modeling via Model-Internal Uncertainty",
+      "title_zh": "仅在需要时推理：通过模型内部不确定性实现高效生成奖励建模",
+      "url": "https://arxiv.org/abs/2604.10072",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "生成奖励模型（GRM）通过思维链提示提升了大语言模型的推理能力。然而，现有的GRM实现存在两个主要限制：对所有输入不加区分地应用思维链提示，增加了不必要的计算成本；以及依赖投票机制评估输出，缺乏精细度。E-GRM框架通过模型内部不确定性来选择性触发思维链推理，仅在必要时进行推理，从而降低推理成本并提高回答准确性。这表明模型内部不确定性是有效的推理信号，能够提升奖励建模的效率。",
+      "importance": 8
+    },
+    {
+      "title": "ASPIRin: Action Space Projection for Interactivity-Optimized Reinforcement Learning in Full-Duplex Speech Language Models",
+      "title_zh": "ASPIRin：全双工语音语言模型中交互优化的动作空间投影强化学习",
+      "url": "https://arxiv.org/abs/2604.10065",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "ASPIRin是一种交互优化的强化学习框架，旨在解决全双工语音语言模型中的时序动态优化问题。通过动作空间投影，ASPIRin将文本词汇映射为粗粒度的二元状态（主动语音与静默），并通过群体相对策略优化（GRPO）平衡用户打断与响应延迟。实验表明，ASPIRin在转接、反馈和暂停处理方面优化了交互性，同时保持语义一致性，减少重复生成。此方法在不影响语义质量的情况下，显著提高了模型的交互性能。",
+      "importance": 8
+    },
+    {
+      "title": "SEPTQ: A Simple and Effective Post-Training Quantization Paradigm for Large Language Models",
+      "title_zh": "SEPTQ：大语言模型的简单有效的后训练量化范式",
+      "url": "https://arxiv.org/abs/2604.10091",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "SEPTQ是一种针对大语言模型的简单有效的后训练量化方法，旨在降低计算和存储成本。与需要额外训练的量化感知训练（QAT）不同，SEPTQ通过计算权重矩阵中每个元素的重要性得分，静态全局确定量化位置，然后使用掩码矩阵逐列量化和更新权重。实验表明，SEPTQ在低比特量化场景下显著优于其他基线方法，简化了量化过程，同时兼顾了效果和效率。",
+      "importance": 8
+    },
+    {
+      "title": "Why Supervised Fine-Tuning Fails to Learn: A Systematic Study of Incomplete Learning in Large Language Models",
+      "title_zh": "为什么监督微调未能学习：大语言模型中不完全学习的系统研究",
+      "url": "https://arxiv.org/abs/2604.10079",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "监督微调（SFT）是适应大语言模型（LLMs）到下游任务的标准方法，但存在不完全学习现象，即模型在收敛后仍无法正确再现部分训练数据。研究表明，这种现象在多个模型家族、领域和数据集中普遍存在，原因包括预训练模型缺乏先验知识、SFT监督与预训练知识冲突、数据内部不一致性等。本文提出了一种诊断框架，帮助识别未学习样本的原因，并研究了多种针对性缓解策略。",
+      "importance": 8
+    },
+    {
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "title_zh": "扩展管理代理：将大脑与双手分离",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Anthropic Engineering推出了Claude平台的Managed Agents服务，旨在解决长时间运行的代理设计问题。Managed Agents通过虚拟化代理的组件，如会话、控制环和沙箱，来实现持久性和灵活性。这种设计借鉴了操作系统将硬件虚拟化为抽象的历史经验，使得代理可以在不断变化的实现下保持稳定。该服务通过一组接口运行长时间的代理任务，适应模型改进带来的变化。这一创新为开发者提供了一个稳定的基础来构建未来的程序，支持长时间的自动化任务。",
+      "importance": 8
+    },
+    {
+      "title": "Claude Code auto mode: a safer way to skip permissionsMar 25, 2026",
+      "title_zh": "Claude Code自动模式：一种更安全的跳过权限的方法",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Claude Code推出了一种新的自动模式，旨在减少用户在批准命令或修改文件时的疲劳。传统上，用户需要手动批准每个操作，这可能导致疲劳和不慎批准危险操作。新模式通过模型分类器自动处理批准请求，提供了一种在手动审查和无保护之间的中间地带。自动模式包括两层防御：一层用于Claude读取的内容，另一层用于Claude执行的操作。这种方法旨在捕捉不符合用户意图的危险操作，同时允许其他操作无需批准即可运行。",
+      "importance": 8
+    },
+    {
+      "title": "Multi-Agentic Software Development Is a Distributed Systems Problem",
+      "title_zh": "多代理软件开发是一个分布式系统问题",
+      "url": "https://kirancodes.me/posts/log-distributed-llms.html",
+      "source": "Hacker News",
+      "category": "paper",
+      "summary_zh": "本文探讨了多代理软件开发中的协调问题，认为这是一个分布式系统的问题。尽管当前的多代理LLM系统无法自主构建大规模软件，但作者认为开发用于管理这些系统的形式化语言和工具是必要的。文章指出，分布式系统的文献中有许多关于此类问题的研究成果可以借鉴，尽管有些人认为随着模型的进步，这些努力可能会被淘汰。作者强调，即使未来的模型具备AGI能力，协调问题仍然存在，因为这是一个分布式系统的固有挑战。",
+      "importance": 8
+    },
+    {
+      "title": "MiniMaxAI/MiniMax-M2.7",
+      "title_zh": "MiniMax-M2.7",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "MiniMax-M2.7 是 MiniMaxAI 推出的首个深度参与自身进化的模型，具备构建复杂代理工具和完成高复杂度生产力任务的能力。该模型在 MLE Bench Lite 上达到了 66.6% 的奖牌率，仅次于 Opus-4.6 和 GPT-5.4。M2.7 在 SWE-Pro 上的表现与 GPT-5.3-Codex 相当，并在多语言 SWE Bench 和 VIBE-Pro 等基准测试中表现出色。该模型支持多代理协作，具有稳定的角色身份和自主决策能力，显著缩短了生产事件恢复时间。",
+      "importance": 8
+    },
+    {
+      "title": "openbmb/VoxCPM2",
+      "title_zh": "VoxCPM2",
+      "url": "https://huggingface.co/openbmb/VoxCPM2",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "VoxCPM2 是一个无标记、扩散自回归的文本到语音模型，拥有 20 亿参数，支持 30 种语言，输出 48kHz 音频。该模型无需语言标签即可直接输入文本，支持从自然语言描述生成新声音，并能从短音频片段克隆任意声音。VoxCPM2 提供 48kHz 的工作室质量输出，并支持实时流式处理，适用于多种语音合成应用场景。该模型完全开源，采用 Apache-2.0 许可证，免费供商业使用。",
+      "importance": 8
+    },
+    {
+      "title": "google/gemma-4-31B-it",
+      "title_zh": "Gemma 4 31B IT",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Gemma 是 Google DeepMind 推出的开放模型家族，支持文本和图像输入，并生成文本输出。Gemma 4 具有多模态处理能力，支持 140 多种语言，提供密集和专家混合架构，适用于文本生成、编码和推理等任务。该模型支持高达 256K 的上下文窗口，优化了设备上的执行效率，适合从高端手机到笔记本电脑和服务器的多种环境部署。Gemma 4 引入了关键的能力和架构进步，提升了编码基准性能，并支持自主代理的功能调用。",
+      "importance": 8
+    },
+    {
+      "title": "OOWM: Structuring Embodied Reasoning and Planning via Object-Oriented Programmatic World Modeling",
+      "title_zh": "OOWM：通过面向对象的程序化世界建模构建具身推理和规划",
+      "url": "https://arxiv.org/abs/2604.09580",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "OOWM提出了一种新框架，通过软件工程形式化方法来结构化具身推理。该框架将世界模型定义为显式的符号元组，利用统一建模语言（UML）将视觉感知转化为严格的对象层次结构，并将规划操作化为可执行的控制流。OOWM在MRoom-30k基准上显著超越了非结构化文本基线，展示了其在规划连贯性、执行成功率和结构完整性方面的优势，为具身推理提供了新的范式。",
+      "importance": 7
+    },
+    {
+      "title": "DeepReviewer 2.0: A Traceable Agentic System for Auditable Scientific Peer Review",
+      "title_zh": "DeepReviewer 2.0：可追溯的科学同行评审代理系统",
+      "url": "https://arxiv.org/abs/2604.09590",
+      "source": "ArXiv CS.AI",
+      "category": "tool_update",
+      "summary_zh": "DeepReviewer 2.0是一个面向科学同行评审的可追溯代理系统，旨在生成可审核的评审包。该系统通过构建手稿的声明-证据-风险账本和验证议程，提供锚定的批评和可执行的后续行动。在ICLR 2025的134篇投稿中，该系统的表现优于Gemini-3.1-Pro-preview，并在与人类评审委员会的盲比较中赢得了71.63%的微平均胜率。DeepReviewer 2.0被定位为辅助工具，而非决策代理。",
+      "importance": 7
+    },
+    {
+      "title": "AdaQE-CG: Adaptive Query Expansion for Web-Scale Generative AI Model and Data Card Generation",
+      "title_zh": "AdaQE-CG：用于网络规模生成式AI模型和数据卡生成的自适应查询扩展",
+      "url": "https://arxiv.org/abs/2604.09617",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "AdaQE-CG是一种自适应查询扩展框架，旨在解决生成式AI系统文档生成中的静态模板、信息稀缺和缺乏基准等挑战。该框架结合动态信息提取和跨卡知识转移，通过上下文感知的查询扩展模块（IPE-QE）和MetaGAI池的跨卡完成模块（ICC-MP）来丰富信息提取和填补缺失字段。此外，MetaGAI-Bench是首个用于评估GAI文档的大规模专家标注基准。实验表明，AdaQE-CG在五个质量维度上显著优于现有方法，超过人类撰写的数据卡，并接近人类水平的模型卡质量。",
+      "importance": 7
+    },
+    {
+      "title": "Competing with AI Scientists: Agent-Driven Approach to Astrophysics Research",
+      "title_zh": "与AI科学家竞争：基于代理的天体物理研究方法",
+      "url": "https://arxiv.org/abs/2604.09621",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文介绍了一种基于代理的参数推断管道构建方法，利用多代理系统Cmbagent进行科学数据分析。该方法在FAIR Universe弱透镜不确定性挑战中应用，尽管完全自主探索未达到专家水平，但通过人类干预实现了第一名的结果。这表明半自主代理系统可以与专家解决方案竞争，甚至在某些情况下超越它们。最终推断管道使用参数高效的卷积神经网络、已知参数网格上的似然校准和多种正则化技术，展示了代理驱动的研究工作流在快速探索和构建推断问题管道中的可扩展性。",
+      "importance": 7
+    },
+    {
+      "title": "Belief-Aware VLM Model for Human-like Reasoning",
+      "title_zh": "用于类人推理的信念感知VLM模型",
+      "url": "https://arxiv.org/abs/2604.09686",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了一种信念感知的视觉语言模型（VLM）框架，旨在解决传统神经网络模型在意图推断中的局限性。通过引入基于检索的记忆和强化学习，该框架不依赖显式的信念模型，而是使用向量化记忆来近似信念，从而在VLM中进行推理。实验在VQA数据集上进行，结果显示该方法在零样本基线上的一致性提升，强调了信念感知推理的重要性。这种方法为多模态推理提供了一种新的视角，特别是在捕捉人类意图的动态变化方面。",
+      "importance": 7
+    },
+    {
+      "title": "Linguistic Accommodation Between Neurodivergent Communities on Reddit:A Communication Accommodation Theory Analysis of ADHD and Autism Groups",
+      "title_zh": "Reddit上神经多样性社区间的语言适应：对ADHD和自闭症群体的交流适应理论分析",
+      "url": "https://arxiv.org/abs/2604.10063",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "研究探讨了Reddit上ADHD和自闭症两个神经多样性社区之间的语言适应现象。基于交流适应理论（CAT），研究发现每个社区在其特定的语言特征上表现出显著差异，当用户跨社区发帖时，这些特征会朝相反方向变化，表明存在趋同适应。研究还通过对公开诊断披露时刻的纵向分析，发现其对语言风格的影响较小，且在某些情况下与跨社区适应方向相反。这些发现有助于理解神经多样性群体在线交流的动态，并对社区管理和临床视角产生影响。",
+      "importance": 7
+    },
+    {
+      "title": "Weird Generalization is Weirdly Brittle",
+      "title_zh": "奇怪的泛化异常脆弱",
+      "url": "https://arxiv.org/abs/2604.10022",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "研究探讨了在狭窄领域（如不安全代码）微调的模型在域外表现出意外特性的奇怪泛化现象。通过对多种模型和数据集的扩展复制研究，确认了在特定情况下会出现危险特性，但发现这种泛化异常脆弱，仅在特定模型和数据集上出现，并在简单的训练时或提示干预下消失。研究表明，通过提供提示上下文使泛化行为成为预期行为的干预最为有效，即便是非常通用的干预也能有效缓解奇怪泛化的影响。这些发现有助于澄清奇怪泛化带来的安全威胁，并指向一套易于实施的解决方案。",
+      "importance": 7
+    },
+    {
+      "title": "Computational Implementation of a Model of Category-Theoretic Metaphor Comprehension",
+      "title_zh": "范畴论隐喻理解模型的计算实现",
+      "url": "https://arxiv.org/abs/2604.10035",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本研究开发了一种基于Fuyama等人提出的不确定自然变换理论（TINT）的隐喻理解模型的计算实现。通过简化算法使其更接近原始理论，并通过数据拟合和模拟验证其有效性。算法输出通过三种指标进行评估：与实验数据的拟合、隐喻理解结果的系统性以及理解的新颖性（即隐喻源和目标的关联结构的对应）。改进的算法在所有三个指标上均优于现有算法。",
+      "importance": 7
+    },
+    {
+      "title": "CircuitSynth: Reliable Synthetic Data Generation",
+      "title_zh": "CircuitSynth：可靠的合成数据生成",
+      "url": "https://arxiv.org/abs/2604.10114",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "CircuitSynth是一种新颖的神经符号框架，旨在解决大语言模型在结构化生成任务中常见的幻觉、逻辑不一致和模式崩溃问题。通过将教师LLM的推理能力提炼为概率句子决策图（PSDD），CircuitSynth创建了一个可处理的语义先验，结构上强制执行硬逻辑约束。此外，引入了一种凸优化机制以严格满足软分布目标。实验证明，CircuitSynth在复杂逻辑谜题中实现了100%的模式有效性，并显著优于现有方法。",
+      "importance": 7
+    },
+    {
+      "title": "军工人员疯狂泄密却被开空头支票",
+      "title_zh": "军工人员疯狂泄密却被开空头支票",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%86%9B%E5%B7%A5%E4%BA%BA%E5%91%98%E7%96%AF%E7%8B%82%E6%B3%84%E5%AF%86%E5%8D%B4%E8%A2%AB%E5%BC%80%E7%A9%BA%E5%A4%B4%E6%94%AF%E7%A5%A8%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "神仙肉",
+      "title_zh": "神仙肉",
+      "url": "https://s.weibo.com/weibo?q=%E7%A5%9E%E4%BB%99%E8%82%89&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "全民国家安全教育日",
+      "title_zh": "全民国家安全教育日",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%85%A8%E6%B0%91%E5%9B%BD%E5%AE%B6%E5%AE%89%E5%85%A8%E6%95%99%E8%82%B2%E6%97%A5%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "你以为吃的是素菜其实全是油脂",
+      "title_zh": "你以为吃的是素菜其实全是油脂",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BD%A0%E4%BB%A5%E4%B8%BA%E5%90%83%E7%9A%84%E6%98%AF%E7%B4%A0%E8%8F%9C%E5%85%B6%E5%AE%9E%E5%85%A8%E6%98%AF%E6%B2%B9%E8%84%82%23&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "女子生产坚持不打无痛老公苦苦哀求",
+      "title_zh": "女子生产坚持不打无痛老公苦苦哀求",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E7%94%9F%E4%BA%A7%E5%9D%9A%E6%8C%81%E4%B8%8D%E6%89%93%E6%97%A0%E7%97%9B%E8%80%81%E5%85%AC%E8%8B%A6%E8%8B%A6%E5%93%80%E6%B1%82%23&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "苹果官方发文提醒",
+      "title_zh": "苹果官方发文提醒",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8B%B9%E6%9E%9C%E5%AE%98%E6%96%B9%E5%8F%91%E6%96%87%E6%8F%90%E9%86%92%23&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "如何看待同济大学王教授的百万经费 Nature 论文被指数据造假？",
+      "title_zh": "如何看待同济大学王教授的百万经费 Nature 论文被指数据造假？",
+      "url": "https://www.zhihu.com/question/2025756646962468381",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "上海一公司发现他人使用相同提示词生成高度相似画作，要求停止侵权并赔偿，这算侵权吗？",
+      "title_zh": "上海一公司发现他人使用相同提示词生成高度相似画作，要求停止侵权并赔偿，这算侵权吗？",
+      "url": "https://www.zhihu.com/question/2014736483773280662",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "如何看待 B 太花 18 万为贵州山区孩子建房，却发现对方虚构家庭困境？公益帮扶咋识别真实需求避免善意被消耗？",
+      "title_zh": "如何看待 B 太花 18 万为贵州山区孩子建房，却发现对方虚构家庭困境？公益帮扶咋识别真实需求避免善意被消耗？",
+      "url": "https://www.zhihu.com/question/2027511533572286109",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "Uzi 称「很多退役的选手就不想玩英雄联盟了」，这反映了电竞职业的哪些特点？",
+      "title_zh": "Uzi 称「很多退役的选手就不想玩英雄联盟了」，这反映了电竞职业的哪些特点？",
+      "url": "https://www.zhihu.com/question/2020132108971057763",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "福特 CEO 称「中国车进入美国市场，我们就完蛋」，如何看待其表态？",
+      "title_zh": "福特 CEO 称「中国车进入美国市场，我们就完蛋」，如何看待其表态？",
+      "url": "https://www.zhihu.com/question/2027356246810869800",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美以袭击伊朗进入第 47 天，当前局势如何？哪些信息值得关注？",
+      "title_zh": "美以袭击伊朗进入第 47 天，当前局势如何？哪些信息值得关注？",
+      "url": "https://www.zhihu.com/question/2027522378729613036",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "海狸正将河流变成强大的“碳储存地”",
+      "title_zh": "海狸正将河流变成强大的“碳储存地”",
+      "url": "https://www.toutiao.com/trending/7628258954694672438/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "中国银行一员工年薪超1800万元",
+      "title_zh": "中国银行一员工年薪超1800万元",
+      "url": "https://www.toutiao.com/trending/7628000740484595762/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "第139届广交会今天正式开展",
+      "title_zh": "第139届广交会今天正式开展",
+      "url": "https://www.toutiao.com/trending/7628206506252750372/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "驻外人员嫖娼遭仙人跳出卖国家秘密",
+      "title_zh": "驻外人员嫖娼遭仙人跳出卖国家秘密",
+      "url": "https://www.toutiao.com/trending/7628781733667766314/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "中方坚决反对英方排除中国产品",
+      "title_zh": "中方坚决反对英方排除中国产品",
+      "url": "https://www.toutiao.com/trending/7628511697808179263/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "女子把生姜当水果每天吃1-2斤",
+      "title_zh": "女子把生姜当水果每天吃1-2斤",
+      "url": "https://www.toutiao.com/trending/7628188193745780799/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 120,
+    "processed_count": 30
+  },
+  "display_count": 27
+}
