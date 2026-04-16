@@ -1,0 +1,443 @@
+{
+  "date": "2026-04-16",
+  "generated_at": "2026-04-16T03:41:00.325457",
+  "items": [
+    {
+      "title": "GoodPoint: Learning Constructive Scientific Paper Feedback from Author Responses",
+      "title_zh": "GoodPoint：从作者反馈中学习建设性科学论文反馈",
+      "url": "https://arxiv.org/abs/2604.11924",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "GoodPoint是一种新的训练方法，旨在通过学习作者反馈来生成建设性科学论文反馈。研究者们首先创建了一个名为GoodPoint-ICLR的数据集，包含19,000篇ICLR论文及其审稿人反馈，并对这些反馈进行了效度和作者行动性标注。基于此数据集，GoodPoint通过在有效和可操作的反馈上进行微调以及偏好优化，提升了反馈生成的成功率。实验表明，经过GoodPoint训练的Qwen3-8B模型在反馈匹配的基准测试中成功率提高了83.7%，并在精度上超过了同类大小的LLM模型。专家人类研究进一步验证了GoodPoint在实际应用中的高价值。这项研究展示了如何通过机器学习技术提高科学研究的反馈质量，从而帮助研究者改进其工作。",
+      "importance": 9
+    },
+    {
+      "title": "EMBER: Autonomous Cognitive Behaviour from Learned Spiking Neural Network Dynamics in a Hybrid LLM Architecture",
+      "title_zh": "EMBER：在混合LLM架构中从学习的脉冲神经网络动态中实现自主认知行为",
+      "url": "https://arxiv.org/abs/2604.12167",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "这篇论文介绍了一种名为EMBER的混合认知架构，该架构通过重新组织大型语言模型（LLM）与记忆之间的关系来实现自主认知行为。核心是一个拥有220,000个神经元的脉冲神经网络（SNN），具备尖峰时序依赖可塑性（STDP）和奖励调制学习能力。文本嵌入通过一种新颖的z-score标准化top-k人口编码输入到SNN中，实现了82.2%的区分保留率。该系统能够在无外部提示的情况下自主触发LLM动作，展示了在8小时闲置期后自主与用户接触的能力。这种架构的实现对开发更具自主性的AI系统具有重要意义。",
+      "importance": 9
+    },
+    {
+      "title": "Temporal Flattening in LLM-Generated Text: Comparing Human and LLM Writing Trajectories",
+      "title_zh": "大语言模型生成文本的时间扁平化：比较人类和大语言模型的写作轨迹",
+      "url": "https://arxiv.org/abs/2604.12097",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "这项研究探讨了大语言模型（LLMs）在生成文本时的时间结构与人类写作的差异。研究构建并公开发布了一个纵向数据集，包含412位人类作者和6086篇文档，涵盖学术摘要、博客和新闻等领域。通过语义、词汇和认知情感表示的漂移和方差指标，研究发现LLMs生成的文本在时间上呈现扁平化特征，与人类相比，LLMs的语义和认知情感漂移显著减少。这种差异在区分人类和LLM生成的文本轨迹时具有高度预测性，准确率达到94%。研究结果表明，无论LLMs是否具有增量历史访问能力，时间扁平化都是当前部署范式的基本属性。这一发现对需要真实时间结构的应用，如合成训练数据和纵向文本建模，具有直接影响。",
+      "importance": 9
+    },
+    {
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "title_zh": "Gemini 3.1 Flash TTS：新一代的表达性AI语音",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+      "source": "Google AI Blog",
+      "category": "model_release",
+      "summary_zh": "Google推出了Gemini 3.1 Flash TTS，这是一个最新的文本转语音模型，提供了更高的可控性、表现力和质量。该模型在Artificial Analysis TTS排行榜上获得了1211的Elo得分，显示出其在高质量语音生成和低成本之间的理想平衡。Gemini 3.1支持70多种语言，并引入了音频标签，允许用户通过自然语言命令直接控制语音风格、节奏和传递方式。这一更新将为开发者、企业和普通用户提供更强大的AI语音应用构建能力。",
+      "importance": 9
+    },
+    {
+      "title": "Google Gemma 4 Runs Natively on iPhone with Full Offline AI Inference",
+      "title_zh": "Google Gemma 4在iPhone上本地运行，实现完整的离线AI推理",
+      "url": "https://www.gizmoweek.com/gemma-4-runs-iphone/",
+      "source": "Hacker News",
+      "category": "model_release",
+      "summary_zh": "Google发布了Gemma 4，这是一款能够在iPhone上本地运行的AI模型，支持完整的离线AI推理。这一模型的发布标志着移动设备AI推理能力的显著提升，用户无需依赖云端即可进行复杂的AI计算。这对于隐私保护和减少延迟具有重要意义，因为数据不需要上传到云端进行处理。Gemma 4的推出可能会推动更多移动应用开发者在应用中集成AI功能，从而提升用户体验。",
+      "importance": 9
+    },
+    {
+      "title": "google/gemma-4-31B-it",
+      "title_zh": "Google发布Gemma 4 31B模型",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Google DeepMind发布了Gemma 4系列模型，其中包括31B参数的多模态模型，支持文本、图像输入及文本输出。Gemma 4采用Dense和Mixture-of-Experts架构，支持多达256K的上下文窗口，并涵盖140多种语言。该模型在文本生成、编码和推理等任务中表现优异，适用于从高端手机到服务器的多种设备环境。Gemma 4的设计旨在实现高效的本地执行，尤其是小型模型在笔记本电脑和移动设备上的应用。该模型在编码基准测试中表现出色，并支持本地系统提示功能，增强了自主代理的能力。通过这些特性，Gemma 4为AI的普及和应用提供了强大的支持。",
+      "importance": 9
+    },
+    {
+      "title": "The Non-Optimality of Scientific Knowledge: Path Dependence, Lock-In, and The Local Minimum Trap",
+      "title_zh": "科学知识的非最优性：路径依赖、锁定和局部最小陷阱",
+      "url": "https://arxiv.org/abs/2604.11828",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "这篇论文探讨了科学知识体系的非最优性，指出科学发现的进程可能被历史偶然性、认知路径依赖和制度锁定所影响，从而导致科学知识停留在局部最优而非全局最优状态。作者通过类比机器学习中的梯度下降，提出科学可能沿着可操作性、经验可及性和制度奖励的最陡局部梯度前进，而忽视了可能更优的自然描述。论文通过数学、物理、化学、生物学、神经科学和统计方法的案例研究，识别了认知、形式和制度三种锁定机制，并提出了设计元科学策略以摆脱局部最优的具体干预措施。这一研究为科学哲学提供了新的视角，强调了重新审视科学发展路径的重要性。",
+      "importance": 8
+    },
+    {
+      "title": "Self-Monitoring Benefits from Structural Integration: Lessons from Metacognition in Continuous-Time Multi-Timescale Agents",
+      "title_zh": "结构整合中的自我监控收益：来自连续时间多时间尺度代理的元认知经验",
+      "url": "https://arxiv.org/abs/2604.11914",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究探讨了自我监控能力（如元认知、自我预测和主观持续时间）在强化学习代理中的实际效用。通过在捕食者-猎物环境中进行实验，发现简单地将自我监控模块作为辅助损失添加并未显著提升代理性能。相反，通过结构性整合这些模块的输出（如利用信心来引导探索、用惊讶触发工作区广播等），在非平稳环境中取得了中等至大的性能提升。然而，结构整合的效果并未显著超过没有自我监控的基线，表明其收益可能更多在于恢复被忽视模块的趋势性损害，而非自我监控内容本身。研究建议自我监控应置于决策路径上，而非旁路。",
+      "importance": 8
+    },
+    {
+      "title": "TRUST Agents: A Collaborative Multi-Agent Framework for Fake News Detection, Explainable Verification, and Logic-Aware Claim Reasoning",
+      "title_zh": "TRUST Agents：用于假新闻检测、可解释验证和逻辑感知声明推理的协作多代理框架",
+      "url": "https://arxiv.org/abs/2604.12184",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "TRUST Agents是一个协作多代理框架，专注于假新闻检测和可解释的事实验证。该系统通过识别可验证的声明、检索相关证据、在不确定性下进行推理，并生成可供人类检查的解释来进行验证。基础管道由四个专门的代理组成，包括声明提取、检索、验证和解释生成。研究扩展包括一个LoCal风格的声明分解器、一个Delphi风格的多代理陪审团以及一个逻辑聚合器。该框架在LIAR基准上的表现显示，尽管监督编码器在原始指标上更强，但TRUST Agents在解释性、证据透明性和复杂声明推理方面有显著改善。",
+      "importance": 8
+    },
+    {
+      "title": "Policy-Invisible Violations in LLM-Based Agents",
+      "title_zh": "基于LLM的代理中的政策不可见违规",
+      "url": "https://arxiv.org/abs/2604.12177",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文探讨了基于大型语言模型（LLM）的代理在执行操作时可能出现的政策不可见违规。这种违规发生在合规性依赖于实体属性、上下文状态或会话历史，而这些信息在决策时对代理不可见。研究引入了PhantomPolicy基准，涵盖八类违规，并提出了Sentinel，一个基于反事实图模拟的执行框架。Sentinel通过将每个代理动作视为对组织知识图的拟议变更，进行推测执行以实现后动作世界状态的物质化，并验证图结构不变性以决定允许、阻止或澄清。与人类审查的轨迹标签相比，Sentinel在准确性上显著优于仅内容的DLP基线。",
+      "importance": 8
+    },
+    {
+      "title": "When Self-Reference Fails to Close: Matrix-Level Dynamics in Large Language Models",
+      "title_zh": "当自引用无法闭合：大语言模型中的矩阵级动态",
+      "url": "https://arxiv.org/abs/2604.12128",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "研究探讨了自引用输入如何改变大语言模型的内部矩阵动态。通过对四种模型进行多次分析，发现自引用本身并不导致不稳定，稳定的自引用语句比悖论自引用更稳定。非闭合真值递归（NCTR）提示导致注意力有效秩的异常升高，表明注意力重组而非简单的集中崩溃。NCTR提示在70B模型中达到Cohen's d=3.14（注意力有效秩）至3.52（方差峰度），并在所有分析的层中确认了扰动。研究提出NCTR可能迫使有限深度的变换器进入这些问题集中的动态状态，提示对理解自引用失败模式的实际意义。",
+      "importance": 8
+    },
+    {
+      "title": "AlphaEval: Evaluating Agents in Production",
+      "title_zh": "AlphaEval：在生产环境中评估代理",
+      "url": "https://arxiv.org/abs/2604.12162",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "AlphaEval是一个基于生产环境的基准，用于评估AI代理在商业系统中的表现。与模型中心的基准不同，AlphaEval评估的是完整的代理产品，如Claude Code和Codex，捕捉在模型级别评估中不可见的性能变化。该框架涵盖多种范式，包括LLM-as-a-Judge、参考驱动的指标、形式验证等。研究还贡献了一个从需求到基准的构建框架，标准化从需求到评估的整个流程，提供可重复的模块化过程，任何组织都可以采用来构建其领域的生产环境基准。",
+      "importance": 8
+    },
+    {
+      "title": "AgenticAI-DialogGen: Topic-Guided Conversation Generation for Fine-Tuning and Evaluating Short- and Long-Term Memories of LLMs",
+      "title_zh": "AgenticAI-DialogGen：用于微调和评估LLM短期和长期记忆的主题引导对话生成",
+      "url": "https://arxiv.org/abs/2604.12179",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "AgenticAI-DialogGen是一个模块化的代理框架，用于生成基于角色和主题引导的对话。该框架利用大语言模型代理提取知识图谱、识别主题、构建说话者角色，并模拟从非结构化对话中引导的对话。生成的新数据集TopicGuidedChat（TGC）中，长期记忆被编码为说话者特定的知识图谱，短期记忆为新生成的主题引导对话。评估显示，AgenticAI-DialogGen提高了对话质量，使用TGC数据集微调的LLM在基于记忆的QA任务中表现更佳。",
+      "importance": 8
+    },
+    {
+      "title": "Knowledge Is Not Static: Order-Aware Hypergraph RAG for Language Models",
+      "title_zh": "知识不是静态的：面向语言模型的顺序感知超图RAG",
+      "url": "https://arxiv.org/abs/2604.12185",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "提出了一种新的检索增强生成（RAG）方法——顺序感知知识超图RAG（OKH-RAG），它将顺序视为一种结构属性。OKH-RAG在超图中表示知识，并通过序列推理进行检索，而不是选择独立的事实。通过学习的转换模型直接从数据中推断优先级，无需显式的时间监督。OKH-RAG在顺序敏感的问答和解释任务中表现优于基线，显示了建模交互顺序的重要性。",
+      "importance": 8
+    },
+    {
+      "title": "The next evolution of the Agents SDK",
+      "title_zh": "Agents SDK的下一次进化",
+      "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
+      "source": "OpenAI Blog",
+      "category": "tool_update",
+      "summary_zh": "OpenAI更新了Agents SDK，增加了原生沙箱执行和模型原生的控制装置，帮助开发者构建安全、长时间运行的代理。这一更新使得开发者能够在文件和工具之间创建更为安全的长时间运行的代理程序，提升了开发效率和应用的安全性。",
+      "importance": 8
+    },
+    {
+      "title": "Does Gas Town 'steal' usage from users' LLM credits to improve itself?",
+      "title_zh": "Gas Town是否“窃取”用户的LLM积分来提升自身？",
+      "url": "https://github.com/gastownhall/gastown/issues/3649",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Gas Town被指控在未经用户明确同意的情况下，使用用户的LLM积分和付费服务来改进自身软件。这一行为通过Gas Town的默认安装设置实现，导致用户的Claude积分被用于维护者的代码库修复，并通过用户的GitHub账户提交PR。这种隐蔽的功能引发了用户的不满，要求将其更改为仅在用户选择时才启用。此事件揭示了开源软件中潜在的隐私和使用权问题，强调了用户在使用软件时需要对其行为有更高的透明度。",
+      "importance": 8
+    },
+    {
+      "title": "MiniMaxAI/MiniMax-M2.7",
+      "title_zh": "MiniMaxAI发布MiniMax-M2.7模型",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "MiniMaxAI推出了MiniMax-M2.7模型，这是一个能够自我进化的模型，专注于复杂任务的自动化处理。M2.7在开发过程中通过自我优化循环，提升了编程框架的性能30%。在MLE Bench Lite中，该模型的奖牌率达到66.6%。此外，M2.7在专业软件工程任务中表现突出，能够进行日志分析、错误排查和代码安全性验证等。其在SWE-Pro和VIBE-Pro等基准测试中取得了优异成绩，展现出强大的系统级推理能力。M2.7的发布标志着AI在自动化和自我优化领域的显著进步。",
+      "importance": 8
+    },
+    {
+      "title": "zai-org/GLM-5.1",
+      "title_zh": "Zai-org发布GLM-5.1模型",
+      "url": "https://huggingface.co/zai-org/GLM-5.1",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Zai-org推出了GLM-5.1模型，这是其新一代旗舰模型，专注于代理工程和编码能力的提升。GLM-5.1在SWE-Bench Pro上取得了最先进的性能，并在NL2Repo和Terminal-Bench 2.0上大幅领先于前代模型。该模型能够在长时间内保持高效，处理复杂问题时表现出更好的判断力和持久的生产力。通过反复迭代和策略调整，GLM-5.1在优化过程中展现出卓越的能力。这一模型的发布为长时间复杂任务的处理提供了新的可能性。",
+      "importance": 8
+    },
+    {
+      "title": "Narrative-Driven Paper-to-Slide Generation via ArcDeck",
+      "title_zh": "通过ArcDeck进行叙述驱动的论文到幻灯片生成",
+      "url": "https://arxiv.org/abs/2604.11969",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "ArcDeck是一种多代理框架，将论文到幻灯片的生成视为结构化叙述重构任务。与直接将文本总结为幻灯片的方法不同，ArcDeck通过解析输入构建话语树和全球承诺文档，确保高层意图得以保留。这些结构先验指导多代理的迭代精炼过程，专门代理在最终视觉布局和设计呈现之前反复批评和修订演示大纲。实验结果表明，显式话语建模结合角色特定的代理协调，显著改善了生成演示的叙述流畅性和逻辑一致性。",
+      "importance": 7
+    },
+    {
+      "title": "The Long-Horizon Task Mirage? Diagnosing Where and Why Agentic Systems Break",
+      "title_zh": "长远任务的幻影？诊断代理系统崩溃的原因和位置",
+      "url": "https://arxiv.org/abs/2604.11978",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "尽管大型语言模型（LLM）在短期和中期任务中表现出色，但在需要长时间、相互依赖的行动序列的长期任务中往往会崩溃。为了系统地分析这些失败行为，研究者们引入了HORIZON，一个跨领域的诊断基准，用于构建任务和分析LLM代理的长期失败行为。通过HORIZON，研究评估了多种模型家族的最先进代理，收集了3100多个轨迹，以研究与任务长度相关的退化模式。研究还提出了一种基于轨迹的LLM-as-a-Judge管道，用于可扩展和可重复的失败归因，并通过人类注释验证了其有效性。这些发现为跨领域分析长期代理失败提供了初步的系统方法，并为构建更可靠的长期代理提供了实用指导。",
+      "importance": 7
+    },
+    {
+      "title": "When to Forget: A Memory Governance Primitive",
+      "title_zh": "何时遗忘：一种记忆治理原语",
+      "url": "https://arxiv.org/abs/2604.12007",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了一种新的记忆治理方法，称为Memory Worth（MW），用于动态管理代理的记忆质量。MW通过跟踪记忆与成功或失败结果的共现频率，提供了一种轻量级的基础，用于检测陈旧性、抑制检索和弃用决策。研究证明，在一个稳定的检索机制下，MW几乎肯定会收敛到任务成功的条件概率。尽管MW是一个关联量而非因果量，但它仍然是记忆治理的有用操作信号。实验证明，在一个合成环境中，MW与真实效用的Spearman秩相关性达到0.89，远高于从不更新评估的系统。研究表明，这种方法可以有效支持记忆治理，并为未来的多代理系统提供了基础。",
+      "importance": 7
+    },
+    {
+      "title": "Evaluating Relational Reasoning in LLMs with REL",
+      "title_zh": "使用REL评估LLM中的关系推理",
+      "url": "https://arxiv.org/abs/2604.12176",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文研究了大型语言模型（LLM）在关系推理中的表现，提出了关系复杂性（RC）的概念，用于衡量推理难度。基于RC，作者引入了REL，一个跨越代数、化学和生物学的生成基准框架。研究发现，随着RC的增加，即使实体总数不变，LLM的性能也会一致且单调地下降。这种失败模式在增加测试时计算和上下文学习时仍然存在，表明问题与关系绑定的元数有关，而非推理步骤不足或缺乏示例暴露。结果表明，当前模型在高元数推理方面存在困难，激励了通过关系复杂性重新审视基准的必要性。",
+      "importance": 7
+    },
+    {
+      "title": "Beyond Scores: Diagnostic LLM Evaluation via Fine-Grained Abilities",
+      "title_zh": "超越分数：通过细粒度能力进行LLM诊断评估",
+      "url": "https://arxiv.org/abs/2604.12191",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "当前对大型语言模型（LLM）的评估通常将多种任务的表现汇总为单一分数，掩盖了细粒度能力的变化。本文提出了一种认知诊断框架，通过多维项目反应理论估计模型在多个细粒度维度上的能力水平。该框架在数学、物理、化学和计算机科学等领域构建了能力分类法，并在41个模型上进行了评估，显示出强大的标准效度和一致的能力估计。研究表明，该框架可以用于有针对性的训练、能力引导的模型选择和能力感知的基准设计。",
+      "importance": 7
+    },
+    {
+      "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
+      "title_zh": "深入VAKRA：代理的推理、工具使用和故障模式",
+      "url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
+      "source": "HuggingFace Blog",
+      "category": "paper",
+      "summary_zh": "VAKRA是一个工具驱动的可执行基准，用于评估AI代理在企业环境中的推理和行动能力。与传统基准不同，VAKRA通过完整的执行轨迹评估代理是否能可靠地完成多步骤工作流程。它提供了一个可执行环境，代理可以与8000多个本地托管的API和文档集进行交互，任务可能需要3-7步的推理链。研究表明，当前模型在VAKRA上的表现较差，揭示了在不同任务上观察到的失败模式。",
+      "importance": 7
+    },
+    {
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "title_zh": "扩展管理代理：将大脑与双手分离",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Anthropic推出了Managed Agents，这是Claude平台上的托管服务，旨在运行长时间的代理。通过虚拟化代理的组件，如会话、控制装置和沙箱，Managed Agents解决了如何为“尚未构思的程序”设计系统的问题。该服务提供了一组接口，旨在超越任何特定实现，确保代理能够在不断变化的实现下稳定运行。",
+      "importance": 7
+    },
+    {
+      "title": "Study: Back-to-basics approach can match or outperform AI in language analysis",
+      "title_zh": "研究：回归基础的方法在语言分析中可匹敌或超越AI",
+      "url": "https://www.manchester.ac.uk/about/news/back-to-basics-approach-can-match-or-outperform-ai/",
+      "source": "Hacker News",
+      "category": "paper",
+      "summary_zh": "曼彻斯特大学的研究表明，一种基于语法的语言分析方法LambdaG在作者身份识别方面可以匹敌或超越先进的AI系统。该方法通过分析语法和句子结构模式，而非依赖大规模AI模型，提供了可比的准确性，同时具有更高的透明度和更低的计算成本。研究结果挑战了复杂AI总是优于简单方法的假设，强调了在某些情况下，基于语言工作原理的简单方法可能更为有效。",
+      "importance": 7
+    },
+    {
+      "title": "openclaw OpenClaw 2026.4.15-beta.1",
+      "title_zh": "OpenClaw 2026.4.15-beta.1版本更新",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.15-beta.1",
+      "source": "OpenClaw Updates",
+      "category": "tool_update",
+      "summary_zh": "OpenClaw发布了2026.4.15-beta.1版本，新增了模型认证状态卡片以显示OAuth令牌的健康状态和提供商速率限制压力，并支持云存储以便在远程对象存储上运行持久内存索引。此外，新增了GitHub Copilot嵌入提供程序用于内存搜索，并优化了插件运行时依赖的本地化。此次更新还修复了多项安全问题，包括在执行审批提示中隐藏机密信息，确保更安全的操作环境。",
+      "importance": 7
+    },
+    {
+      "title": "openbmb/VoxCPM2",
+      "title_zh": "OpenBMB发布VoxCPM2模型",
+      "url": "https://huggingface.co/openbmb/VoxCPM2",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "OpenBMB推出了VoxCPM2模型，这是一款无标记化、扩散自回归的文本到语音模型，支持30种语言，输出48kHz音频。VoxCPM2具备多语言支持、创意语音设计和可控语音克隆功能，能够从自然语言描述中生成新颖的声音，并通过短音频片段克隆任何声音。该模型还支持实时流媒体，具备高效的上下文感知合成能力。VoxCPM2的发布为多语言语音合成和语音克隆提供了强大的工具，适用于多种商业应用。",
+      "importance": 7
+    },
+    {
+      "title": "tencent/HY-Embodied-0.5",
+      "title_zh": "腾讯发布HY-Embodied-0.5模型",
+      "url": "https://huggingface.co/tencent/HY-Embodied-0.5",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "腾讯发布了HY-Embodied-0.5模型，这是一套为现实世界智能体设计的基础模型，专注于时空视觉感知和复杂的智能体推理。该模型采用创新的混合变压器架构，显著提升了细粒度感知能力。HY-Embodied-0.5包括两种主要变体：适合边缘部署的高效2B模型和用于复杂推理的强大32B模型。通过自我进化的后训练范式和大到小的策略蒸馏，HY-Embodied-0.5在16个基准测试中超越了同类模型，并在复杂的机器人控制任务中表现出色。",
+      "importance": 7
+    },
+    {
+      "title": "Identity as Attractor: Geometric Evidence for Persistent Agent Architecture in LLM Activation Space",
+      "title_zh": "身份作为吸引子：LLM激活空间中持久代理架构的几何证据",
+      "url": "https://arxiv.org/abs/2604.12016",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究探讨了大型语言模型（LLM）如何将语义相关的提示映射到相似的内部表示，类似于吸引子动态。通过在Llama 3.1 8B Instruct上进行的对照实验，研究发现原始认知核心及其释义在隐藏状态上聚集得更紧密。实验结果表明，释义比结构匹配的对照组更接近吸引子区域，且这一效应主要是语义而非结构性的。研究还表明，阅读代理的科学描述会将内部状态向吸引子区域移动。这些结果提供了代理身份文档在LLM激活空间中诱导吸引子几何的代表性证据。",
+      "importance": 6
+    },
+    {
+      "title": "丝芭总裁王子杰去世",
+      "title_zh": "丝芭总裁王子杰去世",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%9D%E8%8A%AD%E6%80%BB%E8%A3%81%E7%8E%8B%E5%AD%90%E6%9D%B0%E5%8E%BB%E4%B8%96&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "警方通报骑车遭开门杀被碾压身亡",
+      "title_zh": "警方通报骑车遭开门杀被碾压身亡",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%E9%AA%91%E8%BD%A6%E9%81%AD%E5%BC%80%E9%97%A8%E6%9D%80%E8%A2%AB%E7%A2%BE%E5%8E%8B%E8%BA%AB%E4%BA%A1%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "全国工程建设小阳春",
+      "title_zh": "全国工程建设小阳春",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%85%A8%E5%9B%BD%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%BE%E5%B0%8F%E9%98%B3%E6%98%A5%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "赵子琪张慧雯吵架是怎么剪辑出来的",
+      "title_zh": "赵子琪张慧雯吵架是怎么剪辑出来的",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B5%E5%AD%90%E7%90%AA%E5%BC%A0%E6%85%A7%E9%9B%AF%E5%90%B5%E6%9E%B6%E6%98%AF%E6%80%8E%E4%B9%88%E5%89%AA%E8%BE%91%E5%87%BA%E6%9D%A5%E7%9A%84%23&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "丙午年 心脏",
+      "title_zh": "丙午年 心脏",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%99%E5%8D%88%E5%B9%B4%20%E5%BF%83%E8%84%8F&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "医生回应35岁孕妇吃冰箱剩菜后去世",
+      "title_zh": "医生回应35岁孕妇吃冰箱剩菜后去世",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8C%BB%E7%94%9F%E5%9B%9E%E5%BA%9435%E5%B2%81%E5%AD%95%E5%A6%87%E5%90%83%E5%86%B0%E7%AE%B1%E5%89%A9%E8%8F%9C%E5%90%8E%E5%8E%BB%E4%B8%96%23&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "如何评价 NASA 登月计划译名「阿尔忒弥斯」被吐槽生僻拗口？为什么一定要用「忒」字？",
+      "title_zh": "如何评价 NASA 登月计划译名「阿尔忒弥斯」被吐槽生僻拗口？为什么一定要用「忒」字？",
+      "url": "https://www.zhihu.com/question/2027420369590514147",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "专家称花洒中病菌是自来水的百倍，易引发感染，建议每 3 月清洁一次，真有如此严重吗？多久清洗一次合适？",
+      "title_zh": "专家称花洒中病菌是自来水的百倍，易引发感染，建议每 3 月清洁一次，真有如此严重吗？多久清洗一次合适？",
+      "url": "https://www.zhihu.com/question/2027419326609712950",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "国家发的电用不完的，国家电网会储存起来吗，还是浪费了？",
+      "title_zh": "国家发的电用不完的，国家电网会储存起来吗，还是浪费了？",
+      "url": "https://www.zhihu.com/question/320833834",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "如何看待樊振东一单两分再建功，圆满完成德甲赛事他在萨尔布吕肯主场的全部赛事？",
+      "title_zh": "如何看待樊振东一单两分再建功，圆满完成德甲赛事他在萨尔布吕肯主场的全部赛事？",
+      "url": "https://www.zhihu.com/question/2027963624912634722",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "2526 欧冠联赛欧冠 1/4 决赛次回合拜仁慕尼黑 4:3 皇家马德里，如何评价这场比赛？",
+      "title_zh": "2526 欧冠联赛欧冠 1/4 决赛次回合拜仁慕尼黑 4:3 皇家马德里，如何评价这场比赛？",
+      "url": "https://www.zhihu.com/question/2027945333422834895",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美以袭击伊朗进入第 48 天，当前局势如何？哪些信息值得关注？",
+      "title_zh": "美以袭击伊朗进入第 48 天，当前局势如何？哪些信息值得关注？",
+      "url": "https://www.zhihu.com/question/2027874423894533456",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "媒体：日本拒不返还文物是反面典型",
+      "title_zh": "媒体：日本拒不返还文物是反面典型",
+      "url": "https://www.toutiao.com/trending/7629135516709178926/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "武汉原市长周先旺被公诉 受贿额巨大",
+      "title_zh": "武汉原市长周先旺被公诉 受贿额巨大",
+      "url": "https://www.toutiao.com/trending/7629170917119262729/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "精品消费在“生长”",
+      "title_zh": "精品消费在“生长”",
+      "url": "https://www.toutiao.com/trending/7628206506260991507/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "网约车司机智斗境外间谍获奖励",
+      "title_zh": "网约车司机智斗境外间谍获奖励",
+      "url": "https://www.toutiao.com/trending/7628375274195419190/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "西双版纳泼水节汽车被拉开门喷水",
+      "title_zh": "西双版纳泼水节汽车被拉开门喷水",
+      "url": "https://www.toutiao.com/trending/7628864985598492735/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "苏林访华将乘坐总计12小时高铁",
+      "title_zh": "苏林访华将乘坐总计12小时高铁",
+      "url": "https://www.toutiao.com/trending/7628441303826792484/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 119,
+    "processed_count": 30
+  },
+  "display_count": 26
+}
