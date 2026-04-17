@@ -1,0 +1,443 @@
+{
+  "date": "2026-04-17",
+  "generated_at": "2026-04-17T03:37:24.158889",
+  "items": [
+    {
+      "title": "google/gemma-4-31B-it",
+      "title_zh": "Google Gemma 4 31B 模型发布",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Gemma 4 是由 Google DeepMind 开发的多模态模型家族，支持文本和图像输入，并生成文本输出。此次发布的 Gemma 4 具有高达 256K 的上下文窗口，并支持 140 多种语言。模型采用密集和专家混合（MoE）架构，适用于文本生成、编码和推理等任务。Gemma 4 提供四种不同大小的模型，适合从高端手机到服务器的各种环境部署，推动最先进 AI 的普及。该模型在推理、扩展多模态性、优化设备本地执行和增强编码与代理能力方面进行了显著改进。",
+      "importance": 10
+    },
+    {
+      "title": "AI-Assisted Peer Review at Scale: The AAAI-26 AI Review Pilot",
+      "title_zh": "AI辅助的同行评审：AAAI-26 AI评审试点",
+      "url": "https://arxiv.org/abs/2604.13940",
+      "source": "ArXiv CS.AI",
+      "category": "industry",
+      "summary_zh": "科学同行评审面临着提交量激增带来的压力，难以维持评审质量、一致性和及时性。最近的AI进展使得社区考虑在同行评审中使用AI，但关键问题是AI是否能在实际会议规模上生成技术上可靠的评审。本文报告了AI辅助同行评审的首次大规模现场部署：AAAI-26的每篇主轨提交都收到了一个由最先进系统生成的AI评审。该系统结合了前沿模型、工具使用和多阶段过程中的保障措施，在不到一天的时间内为22977篇完整评审论文生成了评审。对AAAI-26作者和程序委员会成员的大规模调查显示，参与者不仅发现AI评审有用，而且在技术准确性和研究建议等关键维度上更偏爱AI评审。我们还引入了一个新的基准，发现我们的系统在检测各种科学弱点方面显著优于简单的LLM生成的评审基线。这些结果表明，最先进的AI方法已经能够在会议规模上对科学同行评审做出有意义的贡献，为下一代人机协作评估研究开辟了道路。",
+      "importance": 9
+    },
+    {
+      "title": "TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
+      "title_zh": "TREX：通过代理驱动的树形探索自动化大语言模型微调",
+      "url": "https://arxiv.org/abs/2604.14116",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "TREX是一个多代理系统，旨在自动化大语言模型（LLM）训练的整个生命周期。系统通过协调两个核心模块——研究员和执行者，进行需求分析、开放域文献和数据研究、训练策略制定、数据准备以及模型训练和评估。TREX以搜索树的形式建模多轮实验过程，实现高效的探索路径规划和历史结果重用。为评估自动化LLM训练的能力，研究者构建了FT-Bench基准，包含10个源于现实场景的任务。实验结果表明，TREX代理在目标任务上持续优化模型性能。这一系统的开发为自动化复杂的真实世界工作流程提供了新的可能性。",
+      "importance": 9
+    },
+    {
+      "title": "Lossless Prompt Compression via Dictionary-Encoding and In-Context Learning: Enabling Cost-Effective LLM Analysis of Repetitive Data",
+      "title_zh": "通过字典编码和上下文学习实现无损提示压缩：支持大规模重复数据的成本效益分析",
+      "url": "https://arxiv.org/abs/2604.13066",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本文介绍了一种无损提示压缩方法，通过字典编码和上下文学习来优化大型语言模型（LLM）的分析效率。该方法无需对模型进行微调，通过将频繁出现的子序列替换为紧凑的元标记，并在系统提示中提供压缩字典，使LLM能够正确解释这些元标记。压缩算法识别多尺度的重复模式，并通过令牌节省优化标准确保压缩成本效益。实验表明，在LogHub 2.0基准测试中，使用Claude 3.7 Sonnet进行的压缩在模板压缩中达到超过0.99的精确匹配率，在算法压缩中达到超过0.91的平均Levenshtein相似度分数，即使在60%-80%的压缩率下。该方法适用于API驱动的LLM，直接解决了令牌限制和API成本问题，使得大规模重复数据集的分析更加经济高效。",
+      "importance": 9
+    },
+    {
+      "title": "Claude Opus 4.7",
+      "title_zh": "Claude Opus 4.7",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "source": "Hacker News",
+      "category": "model_release",
+      "summary_zh": "Anthropic发布了最新的Claude Opus 4.7模型，相较于Opus 4.6在高级软件工程任务上有显著提升，尤其是在复杂和长时间运行的任务中表现出色。Opus 4.7不仅能更好地处理图像，还能在完成专业任务时展现出更高的创造力和品味。该模型在多个基准测试中表现优于Opus 4.6。为了提升网络安全，Opus 4.7引入了自动检测和阻止高风险网络安全用途的功能。该模型现已在所有Claude产品和API中可用，并支持Amazon Bedrock、Google Cloud的Vertex AI和Microsoft Foundry等平台。",
+      "importance": 9
+    },
+    {
+      "title": "Cloudflare's AI Platform: an inference layer designed for agents",
+      "title_zh": "Cloudflare的AI平台：为代理设计的推理层",
+      "url": "https://blog.cloudflare.com/ai-platform/",
+      "source": "Hacker News",
+      "category": "tool_update",
+      "summary_zh": "Cloudflare推出了一种新的AI推理层，旨在为代理提供服务。该平台允许用户通过一个统一的API访问来自任何提供商的AI模型，简化了从一个模型切换到另一个模型的过程。此更新包括自动重试上游故障、更细粒度的日志控制以及零设置默认网关等功能。通过这一平台，开发者可以更有效地管理成本、确保可靠性，并在全球范围内优化延迟。这一工具的推出标志着Cloudflare在AI应用开发领域的进一步扩展，为开发者提供了更高效的AI模型集成和管理方式。",
+      "importance": 9
+    },
+    {
+      "title": "MiniMaxAI/MiniMax-M2.7",
+      "title_zh": "MiniMaxAI 发布 MiniMax-M2.7 模型",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "MiniMax-M2.7 是 MiniMaxAI 发布的首个深度参与自身演化的模型，能够构建复杂的代理框架并完成高复杂度的生产力任务。M2.7 在开发过程中通过自我更新记忆和构建复杂技能来优化学习过程，性能提升达 30%。在 MLE Bench Lite 上，M2.7 的奖牌率达 66.6%。在软件工程领域，M2.7 展现出卓越的编程能力，能够进行日志分析、故障排除、代码安全审查等任务，显著降低生产事故恢复时间。",
+      "importance": 9
+    },
+    {
+      "title": "zai-org/GLM-5.1",
+      "title_zh": "GLM-5.1 模型发布",
+      "url": "https://huggingface.co/zai-org/GLM-5.1",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "GLM-5.1 是新一代旗舰模型，具备显著增强的编码能力，特别是在 SWE-Bench Pro 和 NL2Repo 等基准测试中表现优异。与前代模型不同，GLM-5.1 能够在更长时间内保持高效，处理模糊问题时表现出更好的判断力。该模型能够分解复杂问题、运行实验、读取结果并识别障碍，通过反复迭代优化策略，持续提升性能。",
+      "importance": 9
+    },
+    {
+      "title": "claude-code v2.1.111",
+      "title_zh": "claude-code v2.1.111",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.111",
+      "source": "Claude Code Updates",
+      "category": "tool_update",
+      "summary_zh": "Claude Code v2.1.111版本引入了多项新功能和改进。Opus 4.7 xhigh模式现已可用，用户可以通过/effort命令调整速度与智能之间的平衡。新增的Auto模式允许Max订阅用户在使用Opus 4.7时自动调整设置。新增的/ultrareview命令可以在云端进行全面的代码审查，支持并行多代理分析。Windows用户可以选择使用PowerShell工具，而Linux和macOS用户则需手动启用。其他改进包括更好的命令建议、改进的主题选项以及更智能的权限提示。这些更新提升了工具的灵活性和用户体验，对开发者的日常工作有显著帮助。",
+      "importance": 9
+    },
+    {
+      "title": "Exploration and Exploitation Errors Are Measurable for Language Model Agents",
+      "title_zh": "语言模型代理的探索和利用错误是可测量的",
+      "url": "https://arxiv.org/abs/2604.13151",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "语言模型（LM）代理在复杂的开放式决策任务中越来越多地被使用，从AI编码到物理AI。在这些环境中，核心要求是能够有效地探索问题空间和利用已获得的知识。然而，系统地从观察到的行为中区分和量化探索和利用的能力仍然具有挑战性。为了解决这个问题，研究人员设计了受实际化身AI场景启发的可控环境。这些环境由部分可观察的2D网格地图和未知任务有向无环图（DAG）组成。研究人员设计了一种度量标准，以便从代理的行为中量化探索和利用错误。评估结果显示，即使是最先进的模型在任务上也表现不佳，不同模型表现出不同的失败模式。通过最小的工程调整，推理模型在任务解决上表现得更为有效。代码已在GitHub上发布。",
+      "importance": 8
+    },
+    {
+      "title": "Numerical Instability and Chaos: Quantifying the Unpredictability of Large Language Models",
+      "title_zh": "数值不稳定性与混沌：量化大型语言模型的不可预测性",
+      "url": "https://arxiv.org/abs/2604.13206",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "随着大型语言模型（LLMs）越来越多地集成到代理工作流程中，其数值不稳定性引发的不可预测性成为一个关键的可靠性问题。本文对这种不可预测性进行了严格分析，揭示了其根源在于浮点表示的有限数值精度，追踪舍入误差如何在Transformer计算层中传播、放大或消散。研究发现，在早期层中存在一种混沌的“雪崩效应”，即微小的扰动会触发二元结果：要么迅速放大，要么完全衰减。研究还表明，LLMs表现出普遍的、尺度依赖的混沌行为，分为三个不同的状态：稳定状态、混沌状态和信号主导状态。通过多个数据集和模型架构的广泛验证，研究验证了这些发现。",
+      "importance": 8
+    },
+    {
+      "title": "When Reasoning Models Hurt Behavioral Simulation: A Solver-Sampler Mismatch in Multi-Agent LLM Negotiation",
+      "title_zh": "当推理模型损害行为模拟：多代理LLM谈判中的求解器-采样器不匹配",
+      "url": "https://arxiv.org/abs/2604.11840",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究表明，在多代理谈判环境中，增强推理能力的模型可能会在行为模拟中表现不佳。具体而言，这些模型在解决策略问题时表现出色，但在模拟有限理性行为时可能过度优化，导致妥协行为减少。在三个多代理谈判环境中进行的实验显示，有限反思条件下的模型产生了更具多样性和妥协性的轨迹，而没有反思或本地推理的模型则不然。研究强调了模型能力与模拟保真度的不同目标，建议在行为模拟中应将模型视为采样器而非仅仅是求解器。",
+      "importance": 8
+    },
+    {
+      "title": "EVE: A Domain-Specific LLM Framework for Earth Intelligence",
+      "title_zh": "EVE：用于地球智能的领域特定LLM框架",
+      "url": "https://arxiv.org/abs/2604.13071",
+      "source": "ArXiv CS.CL",
+      "category": "open_source",
+      "summary_zh": "EVE（Earth Virtual Expert）是首个为地球智能开发和部署领域专用大型语言模型（LLM）的开源端到端框架。其核心是EVE-Instruct，一个基于Mistral Small 3.2构建的24B模型，经过优化以进行推理和问答。在新构建的地球观测和地球科学基准测试中，EVE-Instruct在保持一般能力的同时优于同类模型。EVE集成了RAG和幻觉检测管道，支持通过API和GUI的生产系统，已有350名试点用户使用。所有模型、数据集和代码将在huggingface.co/eve-esa和github.com/eve-esa上以开放许可证发布，作为对该领域的贡献。",
+      "importance": 8
+    },
+    {
+      "title": "Before the First Token: Scale-Dependent Emergence of Hallucination Signals in Autoregressive Language Models",
+      "title_zh": "在第一个标记之前：自回归语言模型中幻觉信号的规模依赖性出现",
+      "url": "https://arxiv.org/abs/2604.13068",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "研究表明，自回归语言模型在生成前就能区分事实与虚构输出，但这种能力何时达到顶峰尚不明确。本文分析了7个自回归变压器模型（117M到7B参数）在三个基于事实的数据集上的表现，发现模型在400M参数以下时，探测准确度处于随机水平，而在1B参数以上时，信号在生成前达到峰值。这种预生成信号在Pythia-1.4B和Qwen2.5-7B中具有统计显著性，表明仅靠规模不足以实现知识组织，指令调优或等效后训练是必要的。研究为规模校准的检测协议提供了基础，并提出了指令调优在支持事实生成中的作用假设。",
+      "importance": 8
+    },
+    {
+      "title": "Correct Chains, Wrong Answers: Dissociating Reasoning from Output in LLM Logic",
+      "title_zh": "正确的推理链，错误的答案：在LLM逻辑中分离推理与输出",
+      "url": "https://arxiv.org/abs/2604.13065",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本文提出了一种新的基准测试——Novel Operator Test，用于区分真正的推理能力与模式检索能力。通过对五个模型进行测试，研究发现，尽管模型在推理过程中每一步都正确，但最终答案可能仍然错误。研究揭示了两种失败类型：策略失败和内容失败，表明模型在处理新逻辑时存在困难。研究结果表明，模型在处理新逻辑时的困难与名称不熟悉无关，而是与逻辑本身的复杂性有关。",
+      "importance": 8
+    },
+    {
+      "title": "Codex for (almost) everything",
+      "title_zh": "Codex几乎无所不能",
+      "url": "https://openai.com/index/codex-for-almost-everything",
+      "source": "OpenAI Blog",
+      "category": "tool_update",
+      "summary_zh": "OpenAI更新了Codex应用程序，适用于macOS和Windows系统。此次更新增加了计算机使用、应用内浏览、图像生成、内存和插件功能，旨在加速开发者的工作流程。通过这些新增功能，Codex能够更好地支持开发者在不同环境下的编程需求，提高工作效率。",
+      "importance": 8
+    },
+    {
+      "title": "New unsealed records reveal Amazon's price-fixing tactics, California AG claims",
+      "title_zh": "新解密记录揭示亚马逊的价格操纵策略，加州总检察长声称",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/apr/16/amazon-price-fixing-california-lawsuit",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "加州总检察长Rob Bonta指控亚马逊通过施压独立卖家提高在竞争对手平台上的价格，从而在价格上占据优势。新解密的文件包括内部邮件、证词和公司演示文稿，揭示了亚马逊如何利用自动化工具监控和调整价格策略，以确保其平台上的价格最低。亚马逊否认这些指控，称其价格策略旨在保护消费者利益。此案件将在2027年1月开庭审理，可能对电子商务平台的定价策略产生深远影响。",
+      "importance": 8
+    },
+    {
+      "title": "tencent/HY-Embodied-0.5",
+      "title_zh": "腾讯发布 HY-Embodied-0.5 模型",
+      "url": "https://huggingface.co/tencent/HY-Embodied-0.5",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "HY-Embodied-0.5 是腾讯推出的一系列基础模型，专为真实世界的具身智能设计。该模型采用创新的混合变压器（MoT）架构，利用潜在令牌进行模态特定计算，显著提升细粒度感知能力。通过自我演化后训练范式和大到小的策略蒸馏，紧凑的 MoT-2B 模型在 16 个基准测试中表现优于同类模型。HY-Embodied 作为视觉-语言-动作（VLA）管道的强大“大脑”，在真实世界的物理机器人控制中表现出色。",
+      "importance": 8
+    },
+    {
+      "title": "google/magika",
+      "title_zh": "Google 发布 Magika 文件类型检测工具",
+      "url": "https://github.com/google/magika",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Magika 是 Google 推出的新型 AI 驱动的文件类型检测工具，利用深度学习的最新进展实现高精度检测。该工具使用自定义优化模型，大小仅为几 MB，能够在毫秒内准确识别文件类型，即使在单个 CPU 上运行。Magika 在 200 多种内容类型的 1 亿个样本数据集上进行训练和评估，测试集上平均准确率达 99%。该工具已在 Gmail、Drive 和 Safe Browsing 中大规模使用，每周处理数千亿个样本。",
+      "importance": 8
+    },
+    {
+      "title": "openclaw openclaw 2026.4.15",
+      "title_zh": "openclaw openclaw 2026.4.15",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.15",
+      "source": "OpenClaw Updates",
+      "category": "tool_update",
+      "summary_zh": "OpenClaw 2026.4.15版本带来了多项重要更新，包括对Anthropic模型的默认选择和Claude Opus 4.7的集成。Google TTS插件新增了Gemini语音合成功能，支持多种输出格式。新增的Model Auth状态卡可以实时显示OAuth令牌的健康状态和速率限制压力。Memory LanceDB现在支持云存储，增强了持久化内存索引的灵活性。此外，GitHub Copilot的内存搜索功能也得到了增强，支持更安全的负载验证。这些更新显著提升了OpenClaw的功能和用户体验，尤其是在模型管理和插件集成方面。",
+      "importance": 8
+    },
+    {
+      "title": "SciFi: A Safe, Lightweight, User-Friendly, and Fully Autonomous Agentic AI Workflow for Scientific Applications",
+      "title_zh": "SciFi：一种安全、轻量、用户友好且完全自主的科学应用代理AI工作流",
+      "url": "https://arxiv.org/abs/2604.13180",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "随着代理AI的进步，越来越多的自主工作流得以实现，但现有系统在可靠部署于实际科学研究中仍面临重大挑战。本文提出了一种安全、轻量且用户友好的代理框架，用于自主执行明确的科学任务。该框架结合了隔离的执行环境、三层代理循环和自评估的执行机制，确保了安全可靠的操作，同时有效利用各种能力水平的大型语言模型。通过专注于具有明确上下文和停止标准的结构化任务，该框架支持端到端的自动化，减少了人类干预，使研究人员能够将更多精力投入到创造性活动和开放式科学探究中。",
+      "importance": 7
+    },
+    {
+      "title": "WebXSkill: Skill Learning for Autonomous Web Agents",
+      "title_zh": "WebXSkill：自主网络代理的技能学习",
+      "url": "https://arxiv.org/abs/2604.13318",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "自主网络代理由大型语言模型（LLM）驱动，显示出在完成复杂浏览器任务方面的潜力，但仍在长时间工作流中遇到困难。WebXSkill框架通过可执行技能弥合了这一差距，每个技能都将参数化的动作程序与步骤级别的自然语言指导相结合，支持直接执行和代理驱动的适应。WebXSkill在三个阶段中运行：技能提取、技能组织和技能部署。在WebArena和WebVoyager上，WebXSkill将任务成功率提高了9.8和12.9个百分点，证明了可执行技能对网络代理的有效性。",
+      "importance": 7
+    },
+    {
+      "title": "Optimizing Earth Observation Satellite Schedules under Unknown Operational Constraints: An Active Constraint Acquisition Approach",
+      "title_zh": "在未知操作约束下优化地球观测卫星计划：一种主动约束获取方法",
+      "url": "https://arxiv.org/abs/2604.13283",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "地球观测（EO）卫星调度是一个组合优化问题，通常假设操作约束模型是预先完全指定的。然而，在实际中，约束通常嵌入在工程制品或高保真模拟器中，而不是显式的数学模型中。本文研究了在未知约束下的EO调度，目标已知，但可行性必须通过二元预言机交互学习。研究引入了保守约束获取（CCA），一种领域特定的程序，旨在高效识别合理的约束，同时限制对学习模型的不必要收紧。在合成实例上，L&O在任务数量为50时，平均差距从65-68%（优先贪婪）降至17.7-35.8%，并在120秒内找到最佳可行解。",
+      "importance": 7
+    },
+    {
+      "title": "OVT-MLCS: An Online Visual Tool for MLCS Mining from Long or Big Sequences",
+      "title_zh": "OVT-MLCS：用于从长或大序列中挖掘MLCS的在线可视化工具",
+      "url": "https://arxiv.org/abs/2604.13037",
+      "source": "ArXiv CS.AI",
+      "category": "tool_update",
+      "summary_zh": "OVT-MLCS是一个在线可视化工具，专为从长或大序列中挖掘多重最长公共子序列（MLCS）而设计。该工具引入了关键点算法KP-MLCS，能够有效处理长度超过1000或10000的序列。OVT-MLCS不仅支持在线挖掘、存储和下载MLCS，还提供用户友好的交互功能，便于检查和分析挖掘结果。通过实时图形可视化和序列化技术，OVT-MLCS促进了MLCS在各个应用领域的广泛应用。",
+      "importance": 7
+    },
+    {
+      "title": "TableNet A Large-Scale Table Dataset with LLM-Powered Autonomous",
+      "title_zh": "TableNet：一个由LLM驱动的自主大型表格数据集",
+      "url": "https://arxiv.org/abs/2604.13041",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "TableNet是一个新型表格结构识别数据集，通过多源收集和生成，旨在克服现有数据集规模和质量的限制。该数据集由LLM驱动的自主表格生成和识别多代理系统生成，支持大规模和详细的数据集构建。系统采用多样性驱动的主动学习范式，选择性采样最具信息量的数据以微调模型，在TableNet测试集上实现了竞争性能，同时显著减少了训练样本。TableNet为表格相关领域的研究提供了新的可能性。",
+      "importance": 7
+    },
+    {
+      "title": "LiveClawBench: Benchmarking LLM Agents on Complex, Real-World Assistant Tasks",
+      "title_zh": "LiveClawBench：在复杂的真实世界助手任务中对LLM代理进行基准测试",
+      "url": "https://arxiv.org/abs/2604.13072",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "LiveClawBench是一个新的基准测试，用于评估LLM代理在真实世界助手任务中的表现。基于对各种OpenClaw使用案例的分析，研究提出了三轴复杂性框架，描述了任务难度的三个维度：环境复杂性、认知需求和运行时适应性。通过该框架，构建了一个试点基准，涵盖了具有组合难度的真实世界助手任务。该框架和基准为在现实助手环境中评估LLM代理提供了原则性基础，并为未来在任务领域和复杂性轴上的扩展奠定了基础。",
+      "importance": 7
+    },
+    {
+      "title": "OmniTrace: A Unified Framework for Generation-Time Attribution in Omni-Modal LLMs",
+      "title_zh": "OmniTrace：用于全模态LLM的生成时归因统一框架",
+      "url": "https://arxiv.org/abs/2604.13073",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "OmniTrace是一个轻量级且与模型无关的框架，旨在为全模态语言模型的生成时归因提供统一的协议。它将任意令牌级信号（如注意力权重或基于梯度的分数）转换为跨模态解释，追踪每个生成令牌到多模态输入的来源，并通过信心加权和时间一致的聚合选择简洁的支持源。评估表明，OmniTrace在生成感知的跨度级归因上比自我归因和基于嵌入的基线更稳定和可解释，表明将归因视为结构化生成时追踪问题为全模态语言模型的透明性提供了可扩展的基础。",
+      "importance": 7
+    },
+    {
+      "title": "PersonaVLM: Long-Term Personalized Multimodal LLMs",
+      "title_zh": "PersonaVLM：长期个性化多模态LLM",
+      "url": "https://arxiv.org/abs/2604.13074",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "PersonaVLM是一个创新的个性化多模态代理框架，旨在实现长期个性化。它通过整合三个关键能力将通用MLLM转变为个性化助手：(a) 记忆：主动提取和总结交互中的多模态记忆，整合到个性化数据库中。(b) 推理：通过从数据库中检索和整合相关记忆进行多轮推理。(c) 响应对齐：推断用户在长期交互中的个性变化，确保输出与其独特特征保持一致。实验表明，该方法在Persona-MME基准上提高了22.4%，在PERSONAMEM上提高了9.8%，优于GPT-4o。",
+      "importance": 7
+    },
+    {
+      "title": "Red Skills or Blue Skills? A Dive Into Skills Published on ClawHub",
+      "title_zh": "红色技能还是蓝色技能？深入探讨ClawHub上发布的技能",
+      "url": "https://arxiv.org/abs/2604.13064",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本文对ClawHub这一大型公共代理技能注册表进行了实证研究，分析了其语言分布、功能组织、流行度和安全信号。研究发现，英语技能更偏向于基础设施和技术能力，而中文技能更注重应用场景，如媒体生成和金融服务。此外，超过30%的技能被标记为可疑或恶意。研究提出了一种在提交时预测技能风险的方法，并构建了一个包含11,010个技能的平衡基准，最佳的逻辑回归模型达到了72.62%的准确率和78.95%的AUROC。这些发现表明，公共技能注册表既是代理能力重用的关键推动者，也是生态系统级安全风险的新表面。",
+      "importance": 7
+    },
+    {
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "title_zh": "扩展管理代理：将大脑与双手分离",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "source": "Anthropic Engineering",
+      "category": "industry",
+      "summary_zh": "Anthropic介绍了Managed Agents，这是Claude平台上的托管服务，旨在运行长时间的代理任务。该服务通过一组持久接口运行，能够适应模型的不断改进。Managed Agents通过将代理的组件虚拟化，解决了“未想出的程序”的设计问题，使得系统可以在硬件变化的情况下保持稳定。此举为开发者提供了一个灵活的环境来构建和运行复杂的AI应用。",
+      "importance": 7
+    },
+    {
+      "title": "幼儿园老师回应睡过头被孩子们叫醒",
+      "title_zh": "幼儿园老师回应睡过头被孩子们叫醒",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B9%BC%E5%84%BF%E5%9B%AD%E8%80%81%E5%B8%88%E5%9B%9E%E5%BA%94%E7%9D%A1%E8%BF%87%E5%A4%B4%E8%A2%AB%E5%AD%A9%E5%AD%90%E4%BB%AC%E5%8F%AB%E9%86%92%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "雷军回应是否做10万以内车型",
+      "title_zh": "雷军回应是否做10万以内车型",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%9B%B7%E5%86%9B%E5%9B%9E%E5%BA%94%E6%98%AF%E5%90%A6%E5%81%9A10%E4%B8%87%E4%BB%A5%E5%86%85%E8%BD%A6%E5%9E%8B%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "首发首展首秀集中亮相消博会",
+      "title_zh": "首发首展首秀集中亮相消博会",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%A6%96%E5%8F%91%E9%A6%96%E5%B1%95%E9%A6%96%E7%A7%80%E9%9B%86%E4%B8%AD%E4%BA%AE%E7%9B%B8%E6%B6%88%E5%8D%9A%E4%BC%9A%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "章若楠片场拍戏走神",
+      "title_zh": "章若楠片场拍戏走神",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%AB%A0%E8%8B%A5%E6%A5%A0%E7%89%87%E5%9C%BA%E6%8B%8D%E6%88%8F%E8%B5%B0%E7%A5%9E%23&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "肺癌成中国女性第一大癌症",
+      "title_zh": "肺癌成中国女性第一大癌症",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%82%BA%E7%99%8C%E6%88%90%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%80%A7%E7%AC%AC%E4%B8%80%E5%A4%A7%E7%99%8C%E7%97%87%23&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "钟汉良曾被9岁郭晓婷拒绝加好友",
+      "title_zh": "钟汉良曾被9岁郭晓婷拒绝加好友",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%92%9F%E6%B1%89%E8%89%AF%E6%9B%BE%E8%A2%AB9%E5%B2%81%E9%83%AD%E6%99%93%E5%A9%B7%E6%8B%92%E7%BB%9D%E5%8A%A0%E5%A5%BD%E5%8F%8B%23&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "广州官宣小升初实行「随机分班」，分班将由教育部门统一组织，如何看待这一操作？会影响到教学质量吗？",
+      "title_zh": "广州官宣小升初实行「随机分班」，分班将由教育部门统一组织，如何看待这一操作？会影响到教学质量吗？",
+      "url": "https://www.zhihu.com/question/2028141749118189870",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "乌克兰濒临破产，目前可用资金仅够维持数月，为什么会这样？国家破产将会对乌克兰造成怎样的打击？",
+      "title_zh": "乌克兰濒临破产，目前可用资金仅够维持数月，为什么会这样？国家破产将会对乌克兰造成怎样的打击？",
+      "url": "https://www.zhihu.com/question/2028168681784434786",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "生猪跌破五元一斤，但菜市场的瘦肉、排骨并无明显降价，这是咋回事？中间的差价去哪了？",
+      "title_zh": "生猪跌破五元一斤，但菜市场的瘦肉、排骨并无明显降价，这是咋回事？中间的差价去哪了？",
+      "url": "https://www.zhihu.com/question/2028126022088893076",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "你见过的最一针见血的程序员笑话是什么？",
+      "title_zh": "你见过的最一针见血的程序员笑话是什么？",
+      "url": "https://www.zhihu.com/question/626166739",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "厨房里有 10 升氢氟酸泄露了，水泥地板，在墙角，已经过去 2 天，如何处理？",
+      "title_zh": "厨房里有 10 升氢氟酸泄露了，水泥地板，在墙角，已经过去 2 天，如何处理？",
+      "url": "https://www.zhihu.com/question/2026430230860973929",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美以袭击伊朗进入第 49 天，当前局势如何？还有哪些信息值得关注？",
+      "title_zh": "美以袭击伊朗进入第 49 天，当前局势如何？还有哪些信息值得关注？",
+      "url": "https://www.zhihu.com/question/2028238414336585868",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "国产AI激光“灭蚊神器”海外爆单",
+      "title_zh": "国产AI激光“灭蚊神器”海外爆单",
+      "url": "https://www.toutiao.com/trending/7628666147721740329/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "间谍策反中企员工致项目停工停产",
+      "title_zh": "间谍策反中企员工致项目停工停产",
+      "url": "https://www.toutiao.com/trending/7629480321129545771/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "一季度中国经济“成绩单”来了",
+      "title_zh": "一季度中国经济“成绩单”来了",
+      "url": "https://www.toutiao.com/trending/7629291475725189171/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "李在明硬刚以色列是一时冲动吗",
+      "title_zh": "李在明硬刚以色列是一时冲动吗",
+      "url": "https://www.toutiao.com/trending/7628409818994835483/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "中国驻日大使馆接连遭到恐怖威胁",
+      "title_zh": "中国驻日大使馆接连遭到恐怖威胁",
+      "url": "https://www.toutiao.com/trending/7629092863972327443/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "雷军说最大的心理负担是不能说错话",
+      "title_zh": "雷军说最大的心理负担是不能说错话",
+      "url": "https://www.toutiao.com/trending/7629373962570579978/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 129,
+    "processed_count": 30
+  },
+  "display_count": 30
+}
