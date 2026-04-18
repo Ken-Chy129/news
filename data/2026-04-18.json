@@ -1,0 +1,443 @@
+{
+  "date": "2026-04-18",
+  "generated_at": "2026-04-18T03:24:57.358650",
+  "items": [
+    {
+      "title": "MiniMaxAI/MiniMax-M2.7",
+      "title_zh": "MiniMaxAI/MiniMax-M2.7",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "MiniMax-M2.7 是 MiniMaxAI 推出的首个深度参与自我进化的模型。该模型能够构建复杂的代理框架，完成高复杂度的生产力任务，并利用代理团队、复杂技能和动态工具搜索。M2.7 在开发过程中通过自我更新记忆、构建复杂技能进行强化学习实验，并基于实验结果改进学习过程。其在 MLE Bench Lite 上的表现仅次于 Opus-4.6 和 GPT-5.4，获得了66.6%的奖牌率。此外，M2.7 在软件工程领域表现出色，能够进行日志分析、故障排除、代码重构和安全性检查，并在多次生产事故中将恢复时间缩短至三分钟以内。其在 SWE-Pro、SWE Multilingual 和 Multi SWE Bench 等基准测试中表现优异，支持多代理协作和自主决策。",
+      "importance": 10
+    },
+    {
+      "title": "NuHF Claw: A Risk Constrained Cognitive Agent Framework for Human Centered Procedure Support in Digital Nuclear Control Rooms",
+      "title_zh": "NuHF Claw：用于数字核控制室的人本程序支持的风险约束认知代理框架",
+      "url": "https://arxiv.org/abs/2604.14160",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "随着核电站主控制室的数字化，操作员的交互模式发生了根本性变化，现有的人类可靠性分析方法无法充分应对由此带来的复杂软控制行为和认知风险。NuHF Claw 提出了一种持续的认知风险代理框架，通过风险约束的代理运行时，将认知状态推断与概率安全评估紧密结合，以实时调节自主系统行为。实验验证表明，NuHF Claw 能够预测界面引发的认知退化，动态约束不安全的自主建议，并在保留人类决策权的同时提供风险感知的导航指导。这标志着从自动化驱动操作向认知感知自主性的根本转变，为智能代理安全集成到下一代核控制环境中提供了原则性路径。",
+      "importance": 9
+    },
+    {
+      "title": "Geometric Metrics for MoE Specialization: From Fisher Information to Early Failure Detection",
+      "title_zh": "MoE 专业化的几何度量：从费舍尔信息到早期故障检测",
+      "url": "https://arxiv.org/abs/2604.14500",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了一种信息几何框架，用于分析专家混合（MoE）模型的专业化动态。通过费舍尔信息度量，研究者能够在概率单纯形上分析专家路由分布的演变。研究表明，传统的启发式度量不具备参数化不变性，并且专业化对应于测地流动。提出的费舍尔专业化指数（FSI）与下游性能的相关性达到0.91，而费舍尔异质性评分（FHS）在训练完成10%时预测失败的AUC为0.89，显著优于基于验证损失的早停策略。实验验证了该框架在语言建模、视觉MoE和扩展研究中的有效性。",
+      "importance": 9
+    },
+    {
+      "title": "SAGE Celer 2.6 Technical Card",
+      "title_zh": "SAGE Celer 2.6 技术卡",
+      "url": "https://arxiv.org/abs/2604.14168",
+      "source": "ArXiv CS.CL",
+      "category": "model_release",
+      "summary_zh": "SAGEA 推出了最新的通用 Celer 模型 SAGE Celer 2.6，提供 5B、10B 和 27B 参数版本。该模型经过架构修改和进一步预训练，采用逆向推理（IR）管道，能有效验证自身逻辑路径，减少复杂推理任务中的错误和幻觉。SAGE Celer 2.6 集成了多模态功能，具备端到端视觉编码器，避免了适配器方法的常见问题。其在数学、编码和通用智能基准（ACUMEN）上表现出色，尤其针对南亚语言进行了优化，支持 Devanagari 脚本的自定义分词器，在尼泊尔语和印地语上表现优异，同时保持了英语推理能力。",
+      "importance": 9
+    },
+    {
+      "title": "Building a Fast Multilingual OCR Model with Synthetic Data",
+      "title_zh": "使用合成数据构建快速多语言OCR模型",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ocr-v2",
+      "source": "HuggingFace Blog",
+      "category": "blog",
+      "summary_zh": "NVIDIA推出了Nemotron OCR v2，这是一款多语言光学字符识别（OCR）模型，利用合成数据实现了高效的文本识别。通过程序化地将文本渲染到图像上，生成了1200万张合成训练图像，涵盖六种语言，使得非英语语言的NED（归一化编辑距离）得分从0.56-0.92降低到0.035-0.069。该模型在单个A100 GPU上实现了每秒34.7页的处理速度。合成数据生成方法提供了可扩展性，能够适应任何存在字体和源文本的语言。这一技术突破不仅提升了OCR的准确性和速度，还为多语言文本处理提供了新的可能性。",
+      "importance": 9
+    },
+    {
+      "title": "Fulu bounty for Ring Camera jailbreak reaches $23k",
+      "title_zh": "Fulu 对 Ring 摄像头越狱的悬赏达到 23,000 美元",
+      "url": "https://bounties.fulu.org/bounties/ring-video-doorbells",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Fulu 为破解 Ring 视频门铃的悬赏已达到 23,000 美元。Ring 是亚马逊旗下的产品，广泛用于家庭安防监控。然而，用户无法控制这些摄像头生成的视频数据，所有数据都被传输到亚马逊的服务器上。Fulu 的悬赏旨在鼓励开发一种软件或固件修改，使得 Ring 门铃可以直接与本地 PC 或服务器集成，而不再需要连接到亚马逊的服务器。此举不仅能增强用户对数据的控制，还能保留设备的运动检测和夜视等功能。这一悬赏反映了对数据隐私和用户控制权的日益关注。",
+      "importance": 9
+    },
+    {
+      "title": "google/gemma-4-31B-it",
+      "title_zh": "Google发布Gemma 4-31B多模态模型",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Google DeepMind发布了Gemma 4系列模型，包括多模态处理能力，支持文本、图像输入（部分小模型支持音频），并生成文本输出。Gemma 4具有256K的上下文窗口，支持超过140种语言。该系列模型采用密集和专家混合（MoE）架构，适用于文本生成、编码和推理等任务。模型有四种不同规模，适合从高端手机到服务器的多种环境部署。Gemma 4在推理、扩展多模态处理和本地设备优化方面取得了显著进展，尤其在编码基准测试中表现出色，支持自主代理的功能调用。",
+      "importance": 9
+    },
+    {
+      "title": "Seeing Through Experts Eyes A Foundational Vision Language Model Trained on Radiologists Gaze and Reasoning",
+      "title_zh": "透过专家的眼睛：基于放射科医生注视和推理训练的基础视觉语言模型",
+      "url": "https://arxiv.org/abs/2604.14316",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "大规模视觉语言模型在自动化胸部X光片解释方面显示出潜力，但其临床实用性受到模型输出与放射科医生推理之间差距的限制。GazeX 模型通过结合放射科医生的眼动数据作为行为先验，模拟专家的诊断推理过程。通过预训练中加入注视轨迹和凝视模式，GazeX 学习遵循放射科医生注意力的空间和时间结构，并以临床有意义的顺序整合观察结果。实验表明，GazeX 在放射报告生成、疾病定位和视觉问答等任务中表现出更高的准确性和可解释性，提供了更可信、可解释和诊断稳健的AI系统路径。",
+      "importance": 8
+    },
+    {
+      "title": "Pushing the Limits of On-Device Streaming ASR: A Compact, High-Accuracy English Model for Low-Latency Inference",
+      "title_zh": "推动设备端流式ASR的极限：用于低延迟推理的紧凑高精度英语模型",
+      "url": "https://arxiv.org/abs/2604.14493",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "为了在边缘设备上部署高质量的自动语音识别（ASR），需要在不使用GPU加速的情况下优化模型的准确性、延迟和内存占用。研究对比了多种ASR架构，最终发现NVIDIA的Nemotron Speech Streaming在资源受限硬件上的实时流式英语识别表现最佳。通过ONNX Runtime重实现流式推理管道，并结合多种后训练量化策略，将模型大小从2.47 GB减少到0.67 GB，同时保持字错误率（WER）在全精度PyTorch基线的1%以内。推荐的int4 k-quant变体在八个标准基准上的平均流式WER为8.20%，在CPU上以0.56秒的算法延迟实现比实时更快的运行，确立了设备端流式ASR的新质量效率平衡点。",
+      "importance": 8
+    },
+    {
+      "title": "Perspective on Bias in Biomedical AI: Preventing Downstream Healthcare Disparities",
+      "title_zh": "生物医学AI中的偏见视角：防止下游医疗差距",
+      "url": "https://arxiv.org/abs/2604.14514",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文探讨了生物医学AI中的偏见问题，指出在数据收集和研究优先级阶段就可能出现关键偏见，导致下游医疗差距。通过分析4719篇PubMed索引的组学研究，发现只有少数报告了祖先或种族信息，而这些数据集通常以欧洲血统数据为主。随着生物医学基础模型在生物医学发现中的重要性增加，这些早期偏见可能会被放大。作者建议全行业关注三个基础原则：来源、开放性和评估透明性，以改善生物医学AI的公平性和稳健性。",
+      "importance": 8
+    },
+    {
+      "title": "Mind DeepResearch Technical Report",
+      "title_zh": "Mind DeepResearch 技术报告",
+      "url": "https://arxiv.org/abs/2604.14518",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "Mind DeepResearch (MindDR) 是一个高效的多代理深度研究框架，通过精心设计的数据合成和多阶段训练管道，在仅使用约30B参数模型的情况下实现领先性能。MindDR采用三代理架构和四阶段训练流程，展示了在BrowseComp-ZH、WideSearch等基准上的竞争力，甚至与更大规模模型相媲美。该系统已在理想汽车上线，提供了一个在线产品。MindDR Bench基准测试显示其在用户交互查询上的卓越表现。",
+      "importance": 8
+    },
+    {
+      "title": "Stateful Evidence-Driven Retrieval-Augmented Generation with Iterative Reasoning",
+      "title_zh": "基于状态化证据驱动的检索增强生成与迭代推理",
+      "url": "https://arxiv.org/abs/2604.14170",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "该研究提出了一种新的框架，称为基于状态化证据驱动的检索增强生成（RAG），用于改进大语言模型（LLM）的问答性能。该框架将问题回答视为一个逐步的证据积累过程，利用结构化推理单元和持久的证据池来捕捉支持和不支持的信息。通过迭代推理过程，框架能够稳定地聚合证据，并在噪声检索环境下保持稳健性。实验表明，该方法在多个问答基准上优于标准 RAG 和多步基线，显著提高了证据质量和模型稳定性。",
+      "importance": 8
+    },
+    {
+      "title": "Benchmarking Linguistic Adaptation in Comparable-Sized LLMs: A Study of Llama-3.1-8B, Mistral-7B-v0.1, and Qwen3-8B on Romanized Nepali",
+      "title_zh": "可比大小 LLM 的语言适应性基准：Llama-3.1-8B、Mistral-7B-v0.1 和 Qwen3-8B 在罗马化尼泊尔语上的研究",
+      "url": "https://arxiv.org/abs/2604.14171",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本研究对三种可比大小的开放权重模型（Llama-3.1-8B、Mistral-7B-v0.1 和 Qwen3-8B）在罗马化尼泊尔语上的语言适应性进行了系统基准测试。使用包含 10,000 个转录指令的双语数据集，在零样本和微调设置下评估这些架构。结果表明，所有模型在零样本情况下无法生成罗马化尼泊尔语，但经过微调后，所有模型均能解决这些问题并在多项指标上表现出色。特别是，Qwen3-8B 在结构对齐指标上领先，是推荐的架构。",
+      "importance": 8
+    },
+    {
+      "title": "Claude Design",
+      "title_zh": "Claude设计",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Anthropic Labs推出了Claude Design，这是一个新的产品，利用Claude Opus 4.7视觉模型帮助用户创建设计、原型、幻灯片等视觉作品。该产品允许用户通过对话、内联评论和自定义滑块进行设计迭代，并自动应用团队的设计系统以确保输出的一致性。Claude Design为设计师提供了更广泛的探索空间，同时也为非设计背景的用户提供了创建视觉作品的途径。该工具已经被用于创建交互式原型、产品线框图、设计探索、演示文稿和营销材料等。",
+      "importance": 8
+    },
+    {
+      "title": "FeaturedQuantifying infrastructure noise in agentic coding evalsInfrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.",
+      "title_zh": "量化代理编码评估中的基础设施噪声",
+      "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Anthropic的研究表明，基础设施配置对代理编码基准测试的影响可能超过模型之间的排名差距。在Terminal-Bench 2.0的实验中，不同资源配置的得分差异达到6个百分点。代理编码评估不同于静态基准测试，模型在完整环境中进行编程、测试和迭代，运行时环境成为问题解决过程的重要组成部分。尽管Terminal-Bench 2.0已指定每个任务的推荐CPU和RAM，但资源执行方法的差异仍会影响基准测试结果。这一发现强调了在评估模型能力时考虑基础设施配置的重要性。",
+      "importance": 8
+    },
+    {
+      "title": "Maine Said No to New Data Centers. Other States Are Racing to Follow",
+      "title_zh": "缅因州拒绝新数据中心，其他州竞相效仿",
+      "url": "https://www.motherjones.com/environment/2026/04/maine-ai-data-center-moratorium-ban-energy-grid/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "缅因州立法通过了全美首个州级大型数据中心建设暂停令，冻结了对耗电超过20兆瓦的数据中心的建设审批，为期一年半。此举是对AI模型训练和部署所需的大型计算设施的反对，因其可能导致电费上涨和环境污染。尽管数据中心开发商承诺带来经济利益，但缅因州的立法者认为这些好处未能惠及当地居民。此举可能影响投资并使缅因州失去经济机会，但也反映了对环境和社区影响的担忧。其他州也在考虑类似措施，以应对数据中心对电网和环境的压力。",
+      "importance": 8
+    },
+    {
+      "title": "zai-org/GLM-5.1",
+      "title_zh": "GLM-5.1模型发布",
+      "url": "https://huggingface.co/zai-org/GLM-5.1",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "GLM-5.1是新一代旗舰模型，专注于agentic工程，具有显著增强的编码能力。相比前代，GLM-5.1在SWE-Bench Pro、NL2Repo和Terminal-Bench 2.0等基准测试中表现优异。该模型在处理模糊问题时表现出更好的判断力，能够在长时间任务中保持高效。GLM-5.1通过反复迭代优化策略，能够在数百轮和数千次工具调用中持续优化结果。该模型支持多种开源框架的本地部署，包括SGLang、vLLM和Transformers。",
+      "importance": 8
+    },
+    {
+      "title": "openbmb/VoxCPM2",
+      "title_zh": "VoxCPM2多语言文本到语音模型发布",
+      "url": "https://huggingface.co/openbmb/VoxCPM2",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "VoxCPM2是一个无标记、扩散自回归的文本到语音模型，拥有2B参数，支持30种语言，输出48kHz音频。该模型无需语言标签，直接接受任何支持语言的文本输入，支持从自然语言描述生成新声音，无需参考音频。VoxCPM2还支持实时流式传输，能够在NVIDIA RTX 4090上实现约0.3的实时因子（RTF）。该模型完全开源，采用Apache-2.0许可，免费用于商业用途。",
+      "importance": 8
+    },
+    {
+      "title": "tencent/HY-Embodied-0.5",
+      "title_zh": "腾讯发布HY-Embodied-0.5模型",
+      "url": "https://huggingface.co/tencent/HY-Embodied-0.5",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "腾讯发布了HY-Embodied-0.5模型，专为真实世界的具身智能而设计。该模型采用混合变压器（MoT）架构，增强了细粒度感知能力。其2B参数的变体适合边缘部署，而32B变体则适合复杂推理。通过自进化后训练和大到小的策略蒸馏，HY-Embodied-0.5在16个基准测试中超越了同类规模的最先进模型。该模型在视觉-语言-动作（VLA）管道中表现出色，适用于物理机器人控制。",
+      "importance": 8
+    },
+    {
+      "title": "Qwen/Qwen3.6-35B-A3B",
+      "title_zh": "Qwen3.6-35B-A3B模型发布",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Qwen3.6-35B-A3B是一个因果语言模型，具有视觉编码器，参数总数为35B，其中3B被激活。该模型在前端工作流和库级推理方面表现出色，并引入了保留历史消息推理上下文的新选项，简化了迭代开发。Qwen3.6的上下文长度原生支持262,144个token，并可扩展至1,010,000个token。该模型在SWE-Bench系列基准测试中表现优异，适用于多种开发工具。",
+      "importance": 8
+    },
+    {
+      "title": "Simulating Human Cognition: Heartbeat-Driven Autonomous Thinking Activity Scheduling for LLM-based AI systems",
+      "title_zh": "模拟人类认知：基于心跳驱动的LLM系统自主思维活动调度",
+      "url": "https://arxiv.org/abs/2604.14178",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "大型语言模型（LLM）代理在推理和工具使用方面表现出色，但其固定的反应性控制流程限制了适应性和效率。本文提出了一种心跳驱动的自主思维活动调度机制，模仿人类认知的自然节奏，协调动态认知模块的使用。与传统方法不同，该调度器通过学习历史数据来决定何时启动特定的思维活动，如记忆回忆、经验总结或战略规划。这种方法允许动态添加或移除认知模块，而无需结构重构。实验结果表明，该方法有效地学习基于历史数据调度认知活动，并能自主整合新的思维模块。",
+      "importance": 7
+    },
+    {
+      "title": "Fun-TSG: A Function-Driven Multivariate Time Series Generator with Variable-Level Anomaly Labeling",
+      "title_zh": "Fun-TSG：具有变量级异常标记的功能驱动多变量时间序列生成器",
+      "url": "https://arxiv.org/abs/2604.14221",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "多变量时间序列中异常检测方法的可靠评估仍然是一个开放的挑战，主要由于现有基准数据集的局限性。Fun-TSG 是一个完全可定制的时间序列生成器，旨在支持异常检测系统的高质量评估。该工具支持基于随机采样的依赖结构和异常类型的全自动生成，以及通过用户定义方程和异常配置的手动生成。Fun-TSG 提供了对数据生成过程的完全透明性，包括对变量和时间戳级别的异常标签的访问，支持多样化、可解释和可重复的基准场景创建。",
+      "importance": 7
+    },
+    {
+      "title": "Quantifying Cross-Query Contradictions in Multi-Query LLM Reasoning",
+      "title_zh": "量化多查询LLM推理中的跨查询矛盾",
+      "url": "https://arxiv.org/abs/2604.14525",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "大型语言模型在处理多相关查询时常产生相互矛盾的答案。本文研究了案例文件逻辑一致性，即在相互依赖的查询间保持全局可满足的信念状态。作者引入了一套390个多查询推理实例的基准，并提出了集合级别的指标如案例可满足率、矛盾密度和修订成本。通过增强的求解器方法，显著减少了跨查询矛盾，同时保持了每个查询的准确性，证明了全局一致性对于稳健的多查询推理至关重要。",
+      "importance": 7
+    },
+    {
+      "title": "Dissecting Failure Dynamics in Large Language Model Reasoning",
+      "title_zh": "剖析大型语言模型推理中的失败动态",
+      "url": "https://arxiv.org/abs/2604.14528",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "大型语言模型在推理过程中表现出强大的性能，但其失败原因仍不明确。通过分析模型生成的推理轨迹，发现错误通常源于少数早期过渡点，此后推理在局部上保持一致但在全局上不正确。基于此观察，作者引入了GUARD框架，通过不确定性信号探测和重定向关键过渡点。实验证明，这种基于失败动态的干预方法能显著提高推理结果的可靠性，强调了理解推理何时及如何偏离的重要性。",
+      "importance": 7
+    },
+    {
+      "title": "Chronological Knowledge Retrieval: A Retrieval-Augmented Generation Approach to Construction Project Documentation",
+      "title_zh": "时间顺序知识检索：一种用于建筑项目文档的检索增强生成方法",
+      "url": "https://arxiv.org/abs/2604.14169",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "在大型建筑项目中，决策的持续演变会生成大量记录，通常记录在会议纪要中。由于决策可能会覆盖先前的决策，专业人员常需要重建特定选择的历史。为解决这一挑战，该研究提出了一种检索增强生成（RAG）框架，结合语义搜索和大型语言模型，确保回答的准确性和上下文相关性。该方法在比利时一大型公司完成的建筑项目的会议纪要数据集上进行了演示，并向社区开放数据集和开源实现，以促进对时间标注项目文档的对话访问的进一步研究。",
+      "importance": 7
+    },
+    {
+      "title": "Tug-of-War within A Decade: Conflict Resolution in Vulnerability Analysis via Teacher-Guided Retrieval-Augmented Generations",
+      "title_zh": "十年内的拉锯战：通过教师引导的检索增强生成解决漏洞分析中的冲突",
+      "url": "https://arxiv.org/abs/2604.14172",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "该研究提出了一种名为 CRVA-TGRAG 的框架，旨在解决大语言模型（LLM）在 CVE（公共漏洞和暴露）检测和分析中的知识冲突问题。该框架通过父文档分段和基于语义相似性和倒排索引的检索方案提高文档检索准确性，并通过教师引导的偏好优化技术增强 LLM 的生成能力。实验表明，该方法在检索最新 CVE 数据集方面比外部知识库具有更高的准确性，有效减少了知识冲突和不一致。",
+      "importance": 7
+    },
+    {
+      "title": "Correcting Suppressed Log-Probabilities in Language Models with Post-Transformer Adapters",
+      "title_zh": "使用后变压器适配器校正语言模型中的抑制对数概率",
+      "url": "https://arxiv.org/abs/2604.14174",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "研究表明，经过对齐调优的语言模型在政治敏感话题上常抑制事实对数概率，尽管其隐藏表示中保留了知识。该研究展示了一个 786K 参数的后变压器适配器如何纠正 Qwen3-4B、8B 和 14B 模型中 31 个意识形态区分事实的抑制。适配器在冻结的隐藏状态上训练，能够记忆训练事实并在多种规模上推广到未见事实。研究表明，适配器在最后预测位置应用时能生成连贯、较少审查的文本，而在所有位置应用时则会导致不连贯输出。",
+      "importance": 7
+    },
+    {
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "title_zh": "扩展管理代理：将大脑与手分离",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Anthropic介绍了Claude Managed Agents，这是一项托管服务，旨在通过一组持久的接口运行长时间的代理任务。该服务解决了如何为“尚未构思的程序”设计系统的问题，类似于操作系统将硬件虚拟化为抽象概念。Managed Agents通过虚拟化代理的组件（如会话、控制环和沙箱），使其能够适应不断变化的实现。此举不仅提升了代理的灵活性和持久性，还为开发者提供了更稳定的开发环境。",
+      "importance": 7
+    },
+    {
+      "title": "Claude Code auto mode: a safer way to skip permissionsMar 25, 2026",
+      "title_zh": "Claude Code自动模式：一种更安全的跳过权限的方法",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Anthropic推出了Claude Code的自动模式，旨在减少用户在运行命令或修改文件时的批准疲劳。自动模式通过模型分类器自动处理批准请求，避免了手动审查和无保护运行之间的极端选择。该模式在输入层和执行层提供双重防护，确保仅在用户意图不一致时才进行干预。这一功能的推出不仅提高了用户体验，还减少了因过度批准而导致的潜在风险。",
+      "importance": 7
+    },
+    {
+      "title": "Harness design for long-running application developmentMar 24, 2026",
+      "title_zh": "长时间应用开发的控制设计",
+      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Anthropic的研究人员开发了一种多代理架构，用于长时间自主编码，旨在提高Claude在前端设计和完整应用构建中的性能。通过生成器和评估器代理的结合，该系统能够在多小时的自动编码会话中生成完整的全栈应用。研究表明，控制设计对长时间代理编码的有效性有显著影响，这一架构为开发者提供了新的工具，以在不同领域中实现高效的自主开发。",
+      "importance": 7
+    },
+    {
+      "title": "雷军不建议有司机的大老板买小米",
+      "title_zh": "雷军不建议有司机的大老板买小米",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%9B%B7%E5%86%9B%E4%B8%8D%E5%BB%BA%E8%AE%AE%E6%9C%89%E5%8F%B8%E6%9C%BA%E7%9A%84%E5%A4%A7%E8%80%81%E6%9D%BF%E4%B9%B0%E5%B0%8F%E7%B1%B3%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "张雪机车排名一路狂飙",
+      "title_zh": "张雪机车排名一路狂飙",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E9%9B%AA%E6%9C%BA%E8%BD%A6%E6%8E%92%E5%90%8D%E4%B8%80%E8%B7%AF%E7%8B%82%E9%A3%99%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "中国新能源产品成了海外抢手货",
+      "title_zh": "中国新能源产品成了海外抢手货",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E6%96%B0%E8%83%BD%E6%BA%90%E4%BA%A7%E5%93%81%E6%88%90%E4%BA%86%E6%B5%B7%E5%A4%96%E6%8A%A2%E6%89%8B%E8%B4%A7%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "花少8姐姐三句不离小鲜肉",
+      "title_zh": "花少8姐姐三句不离小鲜肉",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%B0%918%E5%A7%90%E5%A7%90%E4%B8%89%E5%8F%A5%E4%B8%8D%E7%A6%BB%E5%B0%8F%E9%B2%9C%E8%82%89%23&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "女孩偷偷领结婚证爷爷得知心痛落泪",
+      "title_zh": "女孩偷偷领结婚证爷爷得知心痛落泪",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%A9%E5%81%B7%E5%81%B7%E9%A2%86%E7%BB%93%E5%A9%9A%E8%AF%81%E7%88%B7%E7%88%B7%E5%BE%97%E7%9F%A5%E5%BF%83%E7%97%9B%E8%90%BD%E6%B3%AA%23&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "谢娜爆料浪姐录制时厕所门是锁的",
+      "title_zh": "谢娜爆料浪姐录制时厕所门是锁的",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B0%A2%E5%A8%9C%E7%88%86%E6%96%99%E6%B5%AA%E5%A7%90%E5%BD%95%E5%88%B6%E6%97%B6%E5%8E%95%E6%89%80%E9%97%A8%E6%98%AF%E9%94%81%E7%9A%84%23&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "张雪机车夺冠后首秀，WSBK 荷兰站超级杆位赛获第二名，如何评价这一成绩？",
+      "title_zh": "张雪机车夺冠后首秀，WSBK 荷兰站超级杆位赛获第二名，如何评价这一成绩？",
+      "url": "https://www.zhihu.com/question/2028596154972075550",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "劳务中介称「微信余额不足 300 不给面试」，这种招聘门槛是否合理？",
+      "title_zh": "劳务中介称「微信余额不足 300 不给面试」，这种招聘门槛是否合理？",
+      "url": "https://www.zhihu.com/question/2027401585177674207",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "和对象同一个单位，领导叮嘱我一个消息，不让外泄，我告诉女朋友，结果女朋友告诉她的直属领导，怎么办？",
+      "title_zh": "和对象同一个单位，领导叮嘱我一个消息，不让外泄，我告诉女朋友，结果女朋友告诉她的直属领导，怎么办？",
+      "url": "https://www.zhihu.com/question/2027648564466033801",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "为什么《让我们荡起双桨》有一种淡淡的哀伤？",
+      "title_zh": "为什么《让我们荡起双桨》有一种淡淡的哀伤？",
+      "url": "https://www.zhihu.com/question/49688722",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "中方回应日本自卫队舰艇进入台湾海峡活动，「蓄意挑衅、错上加错，已提出强烈抗议」，如何看待日方此举？",
+      "title_zh": "中方回应日本自卫队舰艇进入台湾海峡活动，「蓄意挑衅、错上加错，已提出强烈抗议」，如何看待日方此举？",
+      "url": "https://www.zhihu.com/question/2028500837161248206",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美以袭击伊朗进入第 50 天，当前局势如何？哪些信息值得关注？",
+      "title_zh": "美以袭击伊朗进入第 50 天，当前局势如何？哪些信息值得关注？",
+      "url": "https://www.zhihu.com/question/2028608066787045428",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "女子称一辆油罐车补充92和95两种油",
+      "title_zh": "女子称一辆油罐车补充92和95两种油",
+      "url": "https://www.toutiao.com/trending/7629629930086842406/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "海军护航编队正执行例行性护航任务",
+      "title_zh": "海军护航编队正执行例行性护航任务",
+      "url": "https://www.toutiao.com/trending/7628980643745218614/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "一季度经济这些亮点值得关注",
+      "title_zh": "一季度经济这些亮点值得关注",
+      "url": "https://www.toutiao.com/trending/7629907988915949110/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "巴西总统：特朗普不是“世界皇帝”",
+      "title_zh": "巴西总统：特朗普不是“世界皇帝”",
+      "url": "https://www.toutiao.com/trending/7629134151015153670/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "央视主持人朱迅自曝已抗癌20年",
+      "title_zh": "央视主持人朱迅自曝已抗癌20年",
+      "url": "https://www.toutiao.com/trending/7629703538171448882/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "张雪机车夺得超级杆位赛第二名",
+      "title_zh": "张雪机车夺得超级杆位赛第二名",
+      "url": "https://www.toutiao.com/trending/7629876915364564530/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 117,
+    "processed_count": 30
+  },
+  "display_count": 28
+}
