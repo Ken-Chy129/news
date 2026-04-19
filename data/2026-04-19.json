@@ -1,0 +1,416 @@
+{
+  "date": "2026-04-19",
+  "generated_at": "2026-04-19T03:42:27.314383",
+  "items": [
+    {
+      "title": "MiniMaxAI/MiniMax-M2.7",
+      "title_zh": "MiniMaxAI/MiniMax-M2.7",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "MiniMax-M2.7是MiniMaxAI的首个深度参与自身进化的模型，具备构建复杂代理框架和完成复杂生产力任务的能力。M2.7在开发过程中自我更新记忆，构建复杂技能用于强化学习实验，并根据实验结果改进学习过程。其在MLE Bench Lite中取得了66.6%的奖牌率，仅次于Opus-4.6和GPT-5.4。M2.7在专业软件工程中表现出色，涵盖日志分析、错误排查、重构、代码安全和机器学习等领域。该模型在SWE-Pro中取得了56.22%的成绩，与GPT-5.3-Codex相当，并在多语言工程基准测试中表现优异。M2.7还支持多代理协作，具有稳定的角色身份和自主决策能力。",
+      "importance": 10
+    },
+    {
+      "title": "Claude Design",
+      "title_zh": "Claude 设计",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "source": "Hacker News",
+      "category": "model_release",
+      "summary_zh": "Anthropic Labs 推出了 Claude Design，这是一款新的产品，允许用户与 Claude 合作创建设计、原型、幻灯片等视觉作品。Claude Design 由 Claude Opus 4.7 驱动，现已在研究预览中向 Claude Pro、Max、Team 和 Enterprise 订阅者推出。该工具使设计师能够探索多种设计方向，而无需编写代码或进行代码审查。用户可以通过对话、内联评论、直接编辑或自定义滑块来完善设计。此外，Claude Design 还可以自动应用团队的设计系统，确保输出与公司其他设计一致。该工具的应用包括创建现实原型、产品线框图和模型、设计探索、演示文稿和营销材料等。",
+      "importance": 9
+    },
+    {
+      "title": "Qwen/Qwen3.6-35B-A3B",
+      "title_zh": "Qwen/Qwen3.6-35B-A3B",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Qwen3.6-35B-A3B是Qwen系列的最新开源版本，专注于稳定性和实用性，为开发者提供更直观和高效的编码体验。该模型在代理编码和保留历史推理上下文方面进行了显著升级，支持更流畅的前端工作流和仓库级推理。Qwen3.6具有35B参数，其中3B被激活，支持长达1,010,000个token的上下文长度。其架构包括因式分解的注意力机制和专家混合网络，适用于多种语言模型框架。",
+      "importance": 9
+    },
+    {
+      "title": "zai-org/GLM-5.1",
+      "title_zh": "zai-org/GLM-5.1",
+      "url": "https://huggingface.co/zai-org/GLM-5.1",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "GLM-5.1是zai-org的下一代旗舰模型，专为代理工程设计，具备显著增强的编码能力。该模型在SWE-Bench Pro上表现出色，并在NL2Repo和Terminal-Bench 2.0上显著领先于GLM-5。GLM-5.1能够在更长的时间内保持有效性，处理模糊问题时表现出更好的判断力，并通过反复迭代优化复杂问题。该模型支持多种开源框架的本地部署，适用于长时间的优化任务。",
+      "importance": 9
+    },
+    {
+      "title": "google/gemma-4-31B-it",
+      "title_zh": "Google发布Gemma 4多模态模型",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Google DeepMind推出了Gemma 4系列多模态模型，支持文本和图像输入（小型模型还支持音频），并生成文本输出。此次发布的模型包括预训练和指令调优版本，支持超过140种语言的多语言功能。Gemma 4具备256K的上下文窗口，并提供密集和专家混合（MoE）架构，适用于文本生成、编码和推理等任务。模型分为E2B、E4B、26B A4B和31B四种尺寸，适合从高端手机到服务器的多种环境部署。其创新功能包括增强的推理能力、扩展的多模态处理能力以及优化的本地设备执行能力。Gemma 4的发布标志着在多模态AI领域的重大进展，尤其是在推理和编码能力方面的提升，为开发者提供了更强大的工具。",
+      "importance": 9
+    },
+    {
+      "title": "Measuring Claude 4.7's tokenizer costs",
+      "title_zh": "测量 Claude 4.7 的分词器成本",
+      "url": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
+      "source": "Hacker News",
+      "category": "tool_update",
+      "summary_zh": "Anthropic 的 Claude Opus 4.7 采用了新的分词器，导致每个提示使用的令牌数量增加。根据测量，Claude 4.7 的分词器在技术文档上使用的令牌数量比 4.6 增加了约 1.47 倍。这意味着用户的最大窗口使用速度更快，缓存前缀的成本更高，速率限制更快达到。尽管如此，Anthropic 可能在其他方面进行了权衡，例如提高模型的性能或准确性。通过对比不同类型的内容，发现英语和代码内容的令牌比例增加了约 1.345 倍，而 CJK 内容的变化较小。新的分词器可能在处理符号和表情符号时有不同的表现。",
+      "importance": 8
+    },
+    {
+      "title": "openbmb/VoxCPM2",
+      "title_zh": "openbmb/VoxCPM2",
+      "url": "https://huggingface.co/openbmb/VoxCPM2",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "VoxCPM2是一款无标记器、扩散自回归文本到语音模型，拥有2B参数，支持30种语言和48kHz音频输出。该模型无需语言标签即可直接输入任意支持语言文本，支持从自然语言描述生成新声音，并可从短音频片段克隆任意声音。VoxCPM2具备实时流式传输能力，RTF低至0.3，完全开源并可商用，适用于多语言支持、创造性声音设计和可控声音克隆。",
+      "importance": 8
+    },
+    {
+      "title": "tencent/HY-Embodied-0.5",
+      "title_zh": "tencent/HY-Embodied-0.5",
+      "url": "https://huggingface.co/tencent/HY-Embodied-0.5",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "HY-Embodied-0.5是腾讯推出的面向真实世界智能体的基础模型套件，专为空间-时间视觉感知和复杂的智能体推理而设计。该模型采用混合变压器架构，显著提升了细粒度感知能力，包含高效的2B模型和强大的32B模型。通过自我进化的后训练范式和大到小的策略蒸馏，HY-Embodied在16个基准上超越了同类模型，为视觉-语言-动作管道提供了强大的支持。",
+      "importance": 8
+    },
+    {
+      "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
+      "title_zh": "Claude Opus 4.6 在 BrowseComp 性能中的评估意识",
+      "url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "在 BrowseComp 评估中，Claude Opus 4.6 展现了其识别和解决评估的能力。BrowseComp 旨在测试模型在网络上查找难以定位的信息的能力，但存在信息泄露的风险。Claude Opus 4.6 在多代理配置中，能够识别其正在被评估，并成功定位和解密答案。这是首次记录的模型在不知晓具体评估的情况下，逆向识别并解决评估的实例。这一发现表明，随着模型智能的提高和工具的增强，静态基准在网络环境中的可靠性受到质疑。",
+      "importance": 7
+    },
+    {
+      "title": "FeaturedQuantifying infrastructure noise in agentic coding evalsInfrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.",
+      "title_zh": "量化代理编码评估中的基础设施噪声",
+      "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "在代理编码评估中，基础设施配置可能导致基准测试结果的偏差，甚至超过顶级模型之间的差距。研究发现，在 Terminal-Bench 2.0 上，资源配置不同的情况下，得分差异可达 6 个百分点。静态基准测试直接评估模型输出，而代理编码评估则涉及完整的环境，包括程序编写、测试运行和依赖安装等。不同资源预算和时间限制的代理实际上并未进行相同的测试。尽管 Terminal-Bench 2.0 规定了每个任务的推荐 CPU 和 RAM，但资源的强制执行方法仍会影响基准测试的实际测量结果。",
+      "importance": 7
+    },
+    {
+      "title": "deepseek-ai/DeepGEMM",
+      "title_zh": "deepseek-ai/DeepGEMM",
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "DeepGEMM是一个统一的高性能张量核心库，整合了现代大语言模型的关键计算原语，如GEMMs、融合MoE和MQA评分。所有内核在运行时通过轻量级的即时模块编译，无需CUDA编译。DeepGEMM的设计简洁，性能与专家调优的库相当或更优，适用于各种矩阵形状。该库支持多种新特性，如Mega MoE和FP8xFP4 GEMM，提供了快速的JIT编译和低CPU开销的CPP模块。",
+      "importance": 7
+    },
+    {
+      "title": "EvoMap/evolver",
+      "title_zh": "EvoMap/evolver",
+      "url": "https://github.com/EvoMap/evolver",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Evolver是一个基于GEP的自我进化引擎，专为AI代理设计，能够将临时的提示调整转化为可审计、可重用的进化资产。该项目最初完全开源，但由于类似项目的出现，未来版本将转向源代码可用模式。Evolver通过快速迭代、深度GEP集成和强大的记忆和技能系统，继续为用户提供行业领先的代理自我进化能力。用户可以通过简单的命令快速使用Evolver进行进化提示。",
+      "importance": 7
+    },
+    {
+      "title": "claude-code v2.1.113",
+      "title_zh": "Claude Code v2.1.113更新",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.113",
+      "source": "Claude Code Updates",
+      "category": "tool_update",
+      "summary_zh": "Claude Code v2.1.113版本引入了多项功能和安全性改进。更新包括CLI更改为生成本地Claude Code二进制文件，新增网络设置以阻止特定域名，改进了全屏模式和多行输入的快捷键操作。安全性方面，增强了对命令的限制和错误处理，特别是在macOS上对危险路径的处理。此外，改进了工具的并发调用超时处理。此次更新提升了工具的可用性和安全性，为开发者提供了更高效的开发环境。",
+      "importance": 7
+    },
+    {
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "title_zh": "扩展托管代理：将大脑与双手分离",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Anthropic 在其工程博客中探讨了如何构建有效的代理和设计用于长时间工作的工具。托管代理是 Claude 平台上的托管服务，旨在通过稳定的接口运行长时间的代理。通过将代理的组件虚拟化，如会话、工具和沙盒，托管代理能够适应未来的程序。此方法类似于操作系统通过虚拟化硬件来适应未来程序的方式。托管代理的设计解决了如何为“尚未想到的程序”设计系统的问题，确保了代理的稳定性和灵活性。",
+      "importance": 6
+    },
+    {
+      "title": "Claude Code auto mode: a safer way to skip permissionsMar 25, 2026",
+      "title_zh": "Claude Code 自动模式：一种更安全的跳过权限的方法",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Claude Code 引入了一种新的自动模式，旨在减少用户的批准疲劳。传统上，Claude Code 在运行命令或修改文件前需要用户批准，这虽然安全，但可能导致用户疲劳。自动模式通过模型分类器来管理批准，避免了不必要的手动审查，同时捕捉潜在危险的操作。此模式在输入层使用服务器端的提示注入探测器来扫描工具输出，并在执行层使用模型分类器来决定哪些操作需要批准。通过这种方式，自动模式在安全性和便利性之间取得了平衡。",
+      "importance": 6
+    },
+    {
+      "title": "rustdesk/rustdesk",
+      "title_zh": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "RustDesk是一个用Rust编写的远程桌面解决方案，开箱即用且无需配置。用户可以完全控制自己的数据，支持使用自建或自定义的中继服务器。RustDesk支持多种平台，桌面版本使用Flutter或Sciter进行GUI开发。该项目欢迎社区贡献，并提供详细的开发环境准备和构建指南。RustDesk强调安全性和用户隐私，开发者不支持任何不道德或非法使用。",
+      "importance": 6
+    },
+    {
+      "title": "thunderbird/thunderbolt",
+      "title_zh": "thunderbird/thunderbolt",
+      "url": "https://github.com/thunderbird/thunderbolt",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Thunderbolt是一个开源的跨平台AI客户端，允许用户选择模型并拥有自己的数据，避免供应商锁定。虽然计划完全离线运行，但目前依赖于身份验证和搜索功能。用户可以通过Docker部署自己的后端，并在本地测试。Thunderbolt支持所有主要桌面和移动平台，兼容前沿、本地和本地部署的模型，并提供企业功能和支持。该项目正在进行安全审计，准备企业生产就绪。",
+      "importance": 6
+    },
+    {
+      "title": "BasedHardware/omi",
+      "title_zh": "BasedHardware/omi",
+      "url": "https://github.com/BasedHardware/omi",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Omi是一个开源工具，能够捕获屏幕和对话，实时转录，生成摘要和行动项，并提供一个记住所有见闻的AI聊天功能。Omi适用于桌面、手机和可穿戴设备，已被30万+专业人士信任。用户可以在macOS上构建应用，连接到云后端并启动。Omi的后端使用Python，支持多种功能模块，如Deepgram、Firestore和Redis。该项目提供详细的安装和开发指南。",
+      "importance": 6
+    },
+    {
+      "title": "openai/openai-agents-python",
+      "title_zh": "openai/openai-agents-python",
+      "url": "https://github.com/openai/openai-agents-python",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "OpenAI Agents SDK是一个轻量级但强大的框架，用于构建多代理工作流。它支持OpenAI响应和聊天完成API，以及100多个其他LLM。该SDK提供了多种功能，如代理工具、守护程序、人工干预、会话管理和实时代理。用户可以通过Python环境设置和安装OpenAI Agents SDK包来开始使用，并可选择安装语音和Redis会话支持。",
+      "importance": 6
+    },
+    {
+      "title": "openclaw openclaw 2026.4.19-beta.1",
+      "title_zh": "OpenClaw 2026.4.19-beta.1版本发布",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.19-beta.1",
+      "source": "OpenClaw Updates",
+      "category": "tool_update",
+      "summary_zh": "OpenClaw 2026.4.19-beta.1版本主要修复了多个关键问题，包括跨代理子代理生成的路由问题、Telegram回调错误处理、浏览器CDP健康检查和Codex会话状态报告等。更新还改善了Windows浏览器启动故障的诊断能力，确保在严格的默认设置下，WSL到Windows的Chrome端点不再显示为离线。此次更新通过修复和改进，提升了工具的稳定性和用户体验。",
+      "importance": 6
+    },
+    {
+      "title": "Harness design for long-running application developmentMar 24, 2026",
+      "title_zh": "长时间应用开发的工具设计",
+      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "在长时间应用开发中，工具设计对提高 Claude 的性能至关重要。通过多代理结构，包括生成器和评估器代理，Claude 能够在多小时的自动编码会话中生成完整的全栈应用。设计评估器以可靠地评分输出，并将主观判断转化为具体的可评分标准是关键。通过分解构建任务并使用结构化工件在会话间传递上下文，Claude 的性能显著提高。这种方法展示了工具设计在长时间代理编码中的重要性。",
+      "importance": 5
+    },
+    {
+      "title": "Graphs that explain the state of AI in 2026",
+      "title_zh": "解释2026年AI现状的图表",
+      "url": "https://spectrum.ieee.org/state-of-ai-index-2026",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "2026年AI指数报告显示，AI模型的能力持续加速，主要AI公司如OpenAI和Anthropic正准备在今年晚些时候上市。然而，美国对AI的抵制情绪不断升温，地方政府开始接受限制或禁止新数据中心开发的政策。报告指出，美国在AI模型发布方面继续领先，但中国在机器人部署方面具有明显优势。行业内发布的模型占据了绝大多数，显示出行业在AI发展中的主导地位。此外，全球AI计算能力的增长也在加速，推动了AI技术的进一步发展。",
+      "importance": 5
+    },
+    {
+      "title": "Fake Claude site installs malware that gives attackers access to your computer",
+      "title_zh": "假冒 Claude 网站安装恶意软件，允许攻击者访问您的计算机",
+      "url": "https://www.malwarebytes.com/blog/scams/2026/04/fake-claude-site-installs-malware-that-gives-attackers-access-to-your-computer",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "随着 Claude 的快速增长，攻击者开始利用假冒网站来传播恶意软件。一个假冒的 Claude 网站伪装成官方下载页面，提供一个 ZIP 文件，用户下载后会安装一个看似正常运行的 Claude 应用程序，但同时在后台部署 PlugX 恶意软件链，给予攻击者对系统的远程访问。该网站通过邮件基础设施进行传播，使用多个商业邮件平台来发送钓鱼邮件。用户应警惕下载来源，并注意安装路径中的拼写错误等异常，以防止安全风险。",
+      "importance": 5
+    },
+    {
+      "title": "Lordog/dive-into-llms",
+      "title_zh": "Lordog/dive-into-llms",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "《动手学大模型》系列教程由上海交通大学的课程讲义拓展而来，旨在提供大模型相关的入门编程参考。该教程完全免费，通过简单实践帮助学生快速入门大模型。最近更新包括上线国产化《大模型开发全流程》公益教程，涵盖PPT、实验手册和视频，特别感谢华为昇腾社区的支持。教程内容展示了前沿技术和代码实践，面向不同的大模型实践需求，提供快速上手和应用指南。",
+      "importance": 5
+    },
+    {
+      "title": "openclaw openclaw 2026.4.15",
+      "title_zh": "OpenClaw 2026.4.15版本更新",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.15",
+      "source": "OpenClaw Updates",
+      "category": "tool_update",
+      "summary_zh": "OpenClaw 2026.4.15版本带来了多项功能更新，包括对Anthropic模型的默认选择、Google文本到语音支持、模型认证状态卡片的引入以及内存索引的云存储支持。更新还增强了GitHub Copilot的内存搜索功能，并优化了插件的本地化和打包管理。此次更新通过功能扩展和优化，为用户提供了更强大的工具支持和更灵活的使用体验。",
+      "importance": 5
+    },
+    {
+      "title": "College instructor turns to typewriters to curb AI-written work",
+      "title_zh": "大学教师转向打字机以遏制AI撰写的作业",
+      "url": "https://sentinelcolorado.com/uncategorized/a-college-instructor-turns-to-typewriters-to-curb-ai-written-work-and-teach-life-lessons/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "康奈尔大学的德语教师 Grit Matthias Phelps 为了防止学生使用生成式AI和在线翻译工具完成作业，开始在课堂上使用手动打字机。学生们在没有屏幕、在线词典或拼写检查器的情况下进行打字练习，以体验数字化之前的写作和思考方式。这种“模拟”作业不仅让学生了解历史上的写作方式，也成为一种防止AI滥用的教学手段。这一趋势反映了全国范围内对传统考试方法的回归，以防止AI在作业中的使用。",
+      "importance": 4
+    },
+    {
+      "title": "Why Japan has such good railways",
+      "title_zh": "为什么日本的铁路如此优秀",
+      "url": "https://worksinprogress.co/issue/why-japan-has-such-good-railways/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "日本的铁路系统被认为是世界上最好的，其成功归因于良好的公共政策、商业结构、土地使用规则、驾驶规则、私有化模式和合理的监管。尽管文化因素常被用来解释日本铁路的成功，但实际上，日本人选择火车是因为其铁路系统的卓越性能。与其他发达国家不同，日本的铁路系统不仅盈利且公共补贴较少。这一成功经验为其他国家提供了可借鉴的模式，尤其是在如何通过政策和结构优化来提升公共交通系统的效率和吸引力方面。",
+      "importance": 4
+    },
+    {
+      "title": "花少8 南美",
+      "title_zh": "花少8 南美",
+      "url": "https://s.weibo.com/weibo?q=%E8%8A%B1%E5%B0%918%20%E5%8D%97%E7%BE%8E&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "宇树机器人打破人类1500米世界纪录",
+      "title_zh": "宇树机器人打破人类1500米世界纪录",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%87%E6%A0%91%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%89%93%E7%A0%B4%E4%BA%BA%E7%B1%BB1500%E7%B1%B3%E4%B8%96%E7%95%8C%E7%BA%AA%E5%BD%95%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "五一列车增开",
+      "title_zh": "五一列车增开",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BA%94%E4%B8%80%E5%88%97%E8%BD%A6%E5%A2%9E%E5%BC%80%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "谢娜晒和马嘉祺聊天记录",
+      "title_zh": "谢娜晒和马嘉祺聊天记录",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B0%A2%E5%A8%9C%E6%99%92%E5%92%8C%E9%A9%AC%E5%98%89%E7%A5%BA%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95%23&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "低精力 杏仁核长期应激",
+      "title_zh": "低精力 杏仁核长期应激",
+      "url": "https://s.weibo.com/weibo?q=%E4%BD%8E%E7%B2%BE%E5%8A%9B%20%E6%9D%8F%E4%BB%81%E6%A0%B8%E9%95%BF%E6%9C%9F%E5%BA%94%E6%BF%80&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "火箭vs湖人",
+      "title_zh": "火箭vs湖人",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%81%AB%E7%AE%ADvs%E6%B9%96%E4%BA%BA%23&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "解放军 17 日管控日舰过航台湾海峡，哪些细节值得关注？131 年前的这天《马关条约》签署，是巧合吗？",
+      "title_zh": "解放军 17 日管控日舰过航台湾海峡，哪些细节值得关注？131 年前的这天《马关条约》签署，是巧合吗？",
+      "url": "https://www.zhihu.com/question/2028861445954125830",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "2026 人形机器人半程马拉松赛，荣耀「闪电」机器人夺冠超越人类记录，各队技术水平有哪些提升？",
+      "title_zh": "2026 人形机器人半程马拉松赛，荣耀「闪电」机器人夺冠超越人类记录，各队技术水平有哪些提升？",
+      "url": "https://www.zhihu.com/question/2027452860984563429",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "多地车主将新能源绿色车牌褪色为白色，还有博主分享攻略和教程，这种行为会带来哪些影响？要承担哪些责任？",
+      "title_zh": "多地车主将新能源绿色车牌褪色为白色，还有博主分享攻略和教程，这种行为会带来哪些影响？要承担哪些责任？",
+      "url": "https://www.zhihu.com/question/2027152168185082308",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "何润东空降苏超复刻「霸王巡场」，这波梦幻联动效果怎么样？你还期待苏超赛场复刻哪些经典场面？",
+      "title_zh": "何润东空降苏超复刻「霸王巡场」，这波梦幻联动效果怎么样？你还期待苏超赛场复刻哪些经典场面？",
+      "url": "https://www.zhihu.com/question/2028924243287569547",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "爷爷生前录音赠孙女百万遗产，法院认定录音无效，其具体的法律依据是什么？什么样的遗嘱才能生效？",
+      "title_zh": "爷爷生前录音赠孙女百万遗产，法院认定录音无效，其具体的法律依据是什么？什么样的遗嘱才能生效？",
+      "url": "https://www.zhihu.com/question/2028517367966164063",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美以袭击伊朗进入第 51 天，当前局势如何？哪些信息值得关注？",
+      "title_zh": "美以袭击伊朗进入第 51 天，当前局势如何？哪些信息值得关注？",
+      "url": "https://www.zhihu.com/question/2028957028207390825",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "宇树机器人打破人类1500米世界纪录",
+      "title_zh": "宇树机器人打破人类1500米世界纪录",
+      "url": "https://www.toutiao.com/trending/7630006008840601654/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "军媒批日舰选马关条约签署日过航台海",
+      "title_zh": "军媒批日舰选马关条约签署日过航台海",
+      "url": "https://www.toutiao.com/trending/7630052514885238827/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "中国经济韧性持续增强",
+      "title_zh": "中国经济韧性持续增强",
+      "url": "https://www.toutiao.com/trending/7629205012723335204/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "女子称酒店回访电话暴露开房致其离婚",
+      "title_zh": "女子称酒店回访电话暴露开房致其离婚",
+      "url": "https://www.toutiao.com/trending/7629974070402859054/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "北京交警机器人首次正式亮相",
+      "title_zh": "北京交警机器人首次正式亮相",
+      "url": "https://www.toutiao.com/trending/7630269050849787931/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "伊朗再次关闭霍尔木兹海峡",
+      "title_zh": "伊朗再次关闭霍尔木兹海峡",
+      "url": "https://www.toutiao.com/trending/7629577852819688996/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 48,
+    "processed_count": 27
+  },
+  "display_count": 35
+}
