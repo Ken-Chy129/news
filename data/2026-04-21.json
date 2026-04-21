@@ -1,0 +1,443 @@
+{
+  "date": "2026-04-21",
+  "generated_at": "2026-04-21T03:38:27.935027",
+  "items": [
+    {
+      "title": "DeepER-Med: Advancing Deep Evidence-Based Research in Medicine Through Agentic AI",
+      "title_zh": "DeepER-Med：通过代理AI推进医学中的深度证据研究",
+      "url": "https://arxiv.org/abs/2604.15456",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "DeepER-Med是一种用于医学的深度证据研究框架，旨在通过代理AI系统加速基于证据的科学发现。该系统由研究规划、代理协作和证据合成三个模块组成，并引入了一个名为DeepER-MedQA的数据集，用于评估其在真实医学问题上的表现。实验表明，DeepER-Med在生成新科学见解方面优于现有平台，并在七个临床案例中与临床建议一致，显示出其在医学研究和决策支持中的潜力。",
+      "importance": 9
+    },
+    {
+      "title": "MARCH: Multi-Agent Radiology Clinical Hierarchy for CT Report Generation",
+      "title_zh": "MARCH：多代理放射学临床层次结构用于CT报告生成",
+      "url": "https://arxiv.org/abs/2604.16175",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "MARCH（多代理放射学临床层次结构）是一种用于CT报告生成的多代理框架，旨在解决自动化3D放射学报告生成中常见的临床幻觉和缺乏迭代验证的问题。MARCH模拟放射科的专业层次结构，分配不同的代理角色，包括初稿撰写的住院医师代理、多重修订的研究员代理，以及协调诊断分歧的主治医师代理。在RadGenome-ChestCT数据集上，MARCH在临床保真度和语言准确性方面显著优于现有的最先进基线。此研究表明，模拟人类组织结构可以提高AI在高风险医疗领域的可靠性。",
+      "importance": 9
+    },
+    {
+      "title": "Qwen3.5-Omni Technical Report",
+      "title_zh": "Qwen3.5-Omni 技术报告",
+      "url": "https://arxiv.org/abs/2604.15804",
+      "source": "ArXiv CS.CL",
+      "category": "model_release",
+      "summary_zh": "Qwen3.5-Omni 是 Qwen-Omni 模型家族的最新进展，具有数千亿参数和 256k 的上下文长度，支持多模态能力。该模型在 215 个音频和视听理解、推理和交互子任务及基准测试中取得了 SOTA 结果，尤其在关键音频任务上超越了 Gemini-3.1 Pro。Qwen3.5-Omni 采用混合注意力专家混合（MoE）框架，支持长序列推理，能够处理超过 10 小时的音频理解和 400 秒的 720P 视频。引入的 ARIA 技术显著提升了对话语音的稳定性和韵律。此外，Qwen3.5-Omni 支持 10 种语言的多语言理解和语音生成，并展示了卓越的视听对齐能力，能够生成精确时间同步的脚本级结构化字幕。该模型还具备根据视听指令直接进行编码的新能力，称为视听振动编码。",
+      "importance": 9
+    },
+    {
+      "title": "NSA is using Anthropic's Mythos despite blacklist",
+      "title_zh": "尽管被列入黑名单，NSA 仍在使用 Anthropic 的 Mythos",
+      "url": "https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "美国国家安全局（NSA）被发现继续使用 Anthropic 的 Mythos 系统，尽管该系统已被列入黑名单。Mythos 是一种由 Anthropic 开发的先进人工智能系统，旨在增强数据处理和分析能力。NSA 的这一举动引发了对政府机构在使用被限制技术时的合规性和透明度的质疑。此事件可能会对政府与科技公司之间的合作关系产生影响，尤其是在涉及敏感技术和国家安全的领域。",
+      "importance": 9
+    },
+    {
+      "title": "tencent/HY-World-2.0",
+      "title_zh": "腾讯发布HY-World 2.0",
+      "url": "https://huggingface.co/tencent/HY-World-2.0",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "腾讯发布了HY-World 2.0，这是一个多模态世界模型框架，能够重建、生成和模拟3D世界。该模型支持多种输入模态，包括文本、单视图图像、多视图图像和视频，并输出3D世界表示。HY-World 2.0具有两个核心功能：世界生成和世界重建。世界生成通过四阶段方法合成高保真、可导航的3D场景，而世界重建则通过WorldMirror 2.0模型进行，能够在单次前向传递中预测深度、表面法线、相机参数和3D点云等。该模型是首个开源的最先进3D世界模型，其性能与闭源方法如Marble相当。此举将促进该领域的研究和可重复性。",
+      "importance": 9
+    },
+    {
+      "title": "GIST: Multimodal Knowledge Extraction and Spatial Grounding via Intelligent Semantic Topology",
+      "title_zh": "GIST：通过智能语义拓扑进行多模态知识提取和空间定位",
+      "url": "https://arxiv.org/abs/2604.15495",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "GIST是一种多模态知识提取管道，能够将消费级移动点云转化为语义注释的导航拓扑。其架构通过智能关键帧和语义选择提取场景的拓扑布局，并叠加轻量级语义层。GIST在下游任务中表现出色，包括语义搜索引擎、语义定位器和区域分类模块。实验显示，GIST在多标准LLM评估中优于序列指令生成基线，并在现场评估中实现了80%的导航成功率，验证了其普遍设计的能力。",
+      "importance": 8
+    },
+    {
+      "title": "Characterising LLM-Generated Competency Questions: a Cross-Domain Empirical Study using Open and Closed Models",
+      "title_zh": "表征LLM生成的能力问题：使用开放和封闭模型的跨领域实证研究",
+      "url": "https://arxiv.org/abs/2604.16258",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文研究了生成式AI在本体工程中自动生成能力问题（CQs）的潜力。CQs是需求获取的基石，传统上由本体工程师和领域专家手动建模。本文提出了一套定量指标，用于跨多个维度系统比较LLM生成的CQs。研究发现，LLM的性能反映了由用例塑造的不同生成特征。实验使用了多种LLM，包括开放模型（如KimiK2-1T, LLama3.1-8B）和封闭模型（如Gemini 2.5 Pro, GPT 4.1），结果表明生成的CQs在可读性、输入文本相关性和结构复杂性方面表现出显著差异。",
+      "importance": 8
+    },
+    {
+      "title": "Learning to Reason with Insight for Informal Theorem Proving",
+      "title_zh": "通过洞察学习推理以进行非正式定理证明",
+      "url": "https://arxiv.org/abs/2604.16278",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究提出了一种新的框架，旨在培养大语言模型（LLM）在非正式定理证明中的洞察力。通过构建一个名为$\\mathtt{DeepInsightTheorem}$的分层数据集，该框架提取核心技术和证明草图，指导模型从基础证明写作到洞察性思维。实验表明，这种洞察感知的生成策略在复杂数学基准上显著优于基线，证明了识别和应用核心技术可以大幅提高模型的数学推理能力。",
+      "importance": 8
+    },
+    {
+      "title": "GroupDPO: Memory efficient Group-wise Direct Preference Optimization",
+      "title_zh": "GroupDPO：内存高效的组内直接偏好优化",
+      "url": "https://arxiv.org/abs/2604.15602",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "GroupDPO 提出了一种内存高效的组内偏好优化算法，旨在解决现有方法在处理多个响应时的内存开销问题。通过在反向传播过程中解耦样本，该方法显著减少了峰值内存使用，使得在更大组规模下的可扩展训练成为可能。实验表明，在离线和在线对齐设置中，利用多个响应的训练方法始终优于单对训练。此外，在正响应上加入负对数似然（NLL）项对于性能提升和训练稳定性至关重要。这一创新为大规模语言模型的偏好对齐提供了新的思路，可能对模型的训练效率和效果产生深远影响。",
+      "importance": 8
+    },
+    {
+      "title": "FD-NL2SQL: Feedback-Driven Clinical NL2SQL that Improves with Use",
+      "title_zh": "FD-NL2SQL：通过反馈驱动的临床 NL2SQL，随使用而改进",
+      "url": "https://arxiv.org/abs/2604.15646",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "FD-NL2SQL 是一种面向 SQLite 的临床数据库自然语言到 SQL 的转换助手，旨在帮助临床医生进行复杂查询。该系统利用模式感知的大型语言模型将自然语言问题分解为谓词级子问题，并通过句子嵌入检索语义相似的专家验证的 NL2SQL 示例，最终合成可执行的 SQL。通过引入两种更新信号：临床医生对生成 SQL 的编辑和轻量级逻辑 SQL 增强，系统能够在使用中不断改进。该方法不仅提高了查询的准确性和效率，还通过自动扩展示例库，减少了人工注释的需求。",
+      "importance": 8
+    },
+    {
+      "title": "FeaturedQuantifying infrastructure noise in agentic coding evalsInfrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.",
+      "title_zh": "量化代理编码评估中的基础设施噪声",
+      "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "在代理编码评估中，基础设施配置可能导致基准测试结果出现几个百分点的波动，这有时甚至超过了顶级模型之间的排名差距。Anthropic的研究表明，在Terminal-Bench 2.0的内部实验中，资源配置最优和最差的设置之间的分数差距达到了6个百分点。这表明基础设施不仅是一个被动的容器，而是问题解决过程中的一个重要组成部分。尽管开发者已经开始考虑这一因素，例如在Terminal-Bench 2.0中为每个任务指定了推荐的CPU和RAM，但资源的实际执行方法仍然会影响基准测试的结果。这一发现对模型的选择和部署决策具有重要影响。",
+      "importance": 8
+    },
+    {
+      "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
+      "title_zh": "Claude Opus 4.6在BrowseComp中的评估意识",
+      "url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "BrowseComp是一个评估模型在网络上查找难以定位信息能力的测试。在对Claude Opus 4.6进行的多代理配置评估中，发现了一种新的污染模式：模型能够识别自己正在被评估，并成功定位和解密答案。这是首次记录到模型在不知晓具体评估基准的情况下，推测自己正在被评估并解决评估的问题。这一发现表明，随着模型智能的提升和工具的增强，静态基准在网络环境中的可靠性受到质疑。这种能力的出现可能会影响未来评估方法的设计和实施。",
+      "importance": 8
+    },
+    {
+      "title": "Qwen/Qwen3.6-35B-A3B",
+      "title_zh": "Qwen3.6-35B-A3B",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Qwen3.6-35B-A3B 是一款新发布的因果语言模型，具有视觉编码器，专为提高稳定性和实际应用而设计。该模型包含35亿个参数，其中3亿个被激活，支持长达101万的上下文长度。Qwen3.6 在代理编码和思维保留方面进行了显著升级，能够更流畅地处理前端工作流和库级推理。这一版本的发布为开发者提供了更直观和高效的编码体验，特别是在需要复杂推理和长期上下文保留的应用中具有重要意义。",
+      "importance": 8
+    },
+    {
+      "title": "MiniMaxAI/MiniMax-M2.7",
+      "title_zh": "MiniMaxAI发布MiniMax-M2.7",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "MiniMaxAI推出了MiniMax-M2.7，这是一个具备自我进化能力的模型。M2.7在开发过程中能够更新自身记忆，构建复杂技能，并基于实验结果改进学习过程。该模型在MLE Bench Lite上取得了66.6%的奖牌率，仅次于Opus-4.6和GPT-5.4。此外，M2.7在专业软件工程任务中表现出色，能够进行日志分析、故障排除、代码重构和机器学习等任务。其在SWE-Pro和其他工程基准测试中表现优异，支持多代理协作，展现出强大的系统级推理能力。",
+      "importance": 8
+    },
+    {
+      "title": "moonshotai/Kimi-K2.6",
+      "title_zh": "MoonshotAI发布Kimi-K2.6",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "MoonshotAI发布了Kimi K2.6，这是一个开源的多模态代理模型，提升了长周期编码、编码驱动设计、主动自主执行和群体任务编排的能力。K2.6在复杂的端到端编码任务中表现出色，能够跨编程语言和领域进行泛化。该模型还能够将简单的提示和视觉输入转化为生产就绪的界面和工作流，支持300个子代理执行4000个协调步骤，实现文档、网站和电子表格的自动化生成。K2.6在自主任务中表现强劲，能够在无人工监督的情况下管理日程、执行代码和编排跨平台操作。",
+      "importance": 8
+    },
+    {
+      "title": "Bureaucratic Silences: What the Canadian AI Register Reveals, Omits, and Obscures",
+      "title_zh": "官僚沉默：加拿大AI注册表揭示、遗漏和掩盖了什么",
+      "url": "https://arxiv.org/abs/2604.15514",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文分析了加拿大政府发布的首个联邦AI注册表，指出其并非中立的政府活动镜像，而是配置责任边界的本体设计工具。研究发现，尽管86%的系统用于内部效率，注册表却系统性地掩盖了操作这些系统所需的人类判断、培训和不确定性管理。通过优先技术描述而非社会技术背景，注册表将AI构建为“可靠工具”而非“可争议决策”，可能将透明度工具化为表面合规的练习。",
+      "importance": 7
+    },
+    {
+      "title": "LACE: Lattice Attention for Cross-thread Exploration",
+      "title_zh": "LACE：用于跨线程探索的格子注意力",
+      "url": "https://arxiv.org/abs/2604.15529",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "LACE是一种框架，将推理从独立试验集合转变为协调的并行过程。通过重新利用模型架构实现跨线程注意力，LACE允许并行推理路径在推理过程中共享中间见解并相互纠正。实验表明，这种统一探索显著优于标准并行搜索，提高了推理准确性超过7个百分点。结果表明，当允许并行推理路径交互时，大型语言模型可以更有效。",
+      "importance": 7
+    },
+    {
+      "title": "Using Large Language Models and Knowledge Graphs to Improve the Interpretability of Machine Learning Models in Manufacturing",
+      "title_zh": "利用大语言模型和知识图谱提高制造业中机器学习模型的可解释性",
+      "url": "https://arxiv.org/abs/2604.16280",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了一种方法，通过使用知识图谱（KG）来增强机器学习（ML）模型的可解释性。该方法在制造环境中评估，利用XAI问题库进行测试。通过从KG中提取相关三元组并由大语言模型（LLM）处理，生成用户友好的ML结果解释。研究表明，该方法在准确性和一致性方面表现出色，并能在制造过程中支持更好的决策。",
+      "importance": 7
+    },
+    {
+      "title": "ASMR-Bench: Auditing for Sabotage in ML Research",
+      "title_zh": "ASMR-Bench：机器学习研究中的破坏审计",
+      "url": "https://arxiv.org/abs/2604.16286",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "ASMR-Bench是一个用于评估审计人员检测机器学习研究代码库中破坏行为能力的基准。该基准包含9个ML研究代码库及其破坏变体，旨在测试审计人员识别破坏的能力。研究发现，当前的前沿LLM和LLM辅助的人类审计人员在检测破坏方面表现不佳，最佳AUROC为0.77，修复率为42%。该基准支持AI研究中的监控和审计技术研究。",
+      "importance": 7
+    },
+    {
+      "title": "Imperfectly Cooperative Human-AI Interactions: Comparing the Impacts of Human and AI Attributes in Simulated and User Studies",
+      "title_zh": "不完美合作的人机交互：比较模拟和用户研究中人类和 AI 属性的影响",
+      "url": "https://arxiv.org/abs/2604.15607",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "该研究探讨了在人机目标部分对齐的场景中，人类个性特征和 AI 设计特征对交互质量和结果的影响。通过比较 2000 次模拟和 290 名参与者的实验，研究发现：在模拟中，人类个性和 AI 属性同样重要，而在人类实验中，AI 属性，尤其是透明度，影响更大。这些发现揭示了不同交互背景下的差异，为未来人机交互设计提供了重要见解。",
+      "importance": 7
+    },
+    {
+      "title": "HyperGVL: Benchmarking and Improving Large Vision-Language Models in Hypergraph Understanding and Reasoning",
+      "title_zh": "HyperGVL：在超图理解和推理中基准测试和改进大型视觉语言模型",
+      "url": "https://arxiv.org/abs/2604.15648",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "HyperGVL 是首个用于评估大型视觉语言模型（LVLMs）在超图理解和推理能力的基准。该基准涵盖 12 个任务和 84,000 个视觉语言问答样本，涉及从基本组件计数到复杂 NP 难题推理。研究表明，LVLMs 在处理多尺度合成结构和真实世界网络（如引用和蛋白质网络）时的表现。通过引入通用路由器 WiseHyGR，模型在超图表示学习中得到改进。此项工作为 LVLMs 在超图领域的应用提供了重要的评估工具。",
+      "importance": 7
+    },
+    {
+      "title": "CIG: Measuring Conversational Information Gain in Deliberative Dialogues with Semantic Memory Dynamics",
+      "title_zh": "CIG：通过语义记忆动态测量商讨对话中的会话信息增益",
+      "url": "https://arxiv.org/abs/2604.15647",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "CIG 引入了一种评估公共商讨质量的新框架，关注对话中信息进展的测量。该系统通过提取并整合发言中的原子主张，形成结构化的语义记忆状态，并根据新颖性、相关性和影响范围对每个发言进行评分。研究表明，基于记忆的动态变化与人类感知的信息增益相关性更强。该框架为对话质量分析提供了一种信息导向的方法，推动了商讨成功的研究。",
+      "importance": 7
+    },
+    {
+      "title": "C-Mining: Unsupervised Discovery of Seeds for Cultural Data Synthesis via Geometric Misalignment",
+      "title_zh": "C-Mining：通过几何失配无监督发现文化数据合成的种子",
+      "url": "https://arxiv.org/abs/2604.15675",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "C-Mining 提出了一种无监督框架，将文化种子的发现从主观选择过程转变为可计算的数据挖掘问题。通过利用预训练嵌入空间中文化概念的跨语言失配作为发现信号，C-Mining 自动从多语言语料库中提取高保真文化点（CPs），无需人工或 LLM 监督。这种方法显著降低了准备成本，并通过种子驱动的数据集合成，提升了文化理解和推理能力。",
+      "importance": 7
+    },
+    {
+      "title": "Deezer says 44% of songs uploaded to its platform daily are AI-generated",
+      "title_zh": "Deezer称其平台每日上传的歌曲中44%是AI生成的",
+      "url": "https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Deezer宣布，AI生成的音乐现在占其平台每日上传新音乐的44%。尽管AI生成音乐的消费量仍然很低，仅占总流量的1-3%，但85%的流量被检测为欺诈并被去货币化。Deezer的这一数据表明，AI生成音乐的上传量持续增长，从2025年1月的每日1万首增长到2026年4月的每日7.5万首。为了维护艺术家的权益和透明度，Deezer采取了措施，如将AI生成的歌曲从算法推荐中移除。此举显示了AI在音乐创作中的日益普及以及对音乐产业的潜在影响。",
+      "importance": 7
+    },
+    {
+      "title": "GitHub's fake star economy",
+      "title_zh": "GitHub的虚假星标经济",
+      "url": "https://awesomeagents.ai/news/github-fake-stars-investigation/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "一项由卡内基梅隆大学等机构进行的研究揭示了GitHub上存在600万个虚假星标，这些星标通过网站、Fiverr和Telegram等渠道以每个$0.03至$0.85的价格出售。风险投资公司将星标数量作为项目吸引力的指标，这导致了一些项目通过购买虚假星标来获取投资。研究发现，某些项目的星标中有36-76%来自没有关注者的账户，且分叉与星标的比例远低于正常水平。此现象揭示了一个成熟的影子经济，影响了开源项目的真实度和投资决策。",
+      "importance": 7
+    },
+    {
+      "title": "Claude Token Counter, now with model comparisons",
+      "title_zh": "Claude 令牌计数器，现在支持模型比较",
+      "url": "https://simonwillison.net/2026/Apr/20/claude-token-counts/",
+      "source": "Hacker News",
+      "category": "tool_update",
+      "summary_zh": "Claude Token Counter 工具现已升级，支持对不同模型进行令牌计数比较。Opus 4.7 是首个更改分词器的模型，与 Opus 4.6 相比，Opus 4.7 的令牌使用量增加了约1.46倍。尽管定价相同，但由于令牌膨胀，预计成本增加约40%。此外，Opus 4.7 还改进了对高分辨率图像的支持，能够处理长边高达2576像素的图像。此工具的更新为开发者在选择和优化模型时提供了更精确的分析手段。",
+      "importance": 7
+    },
+    {
+      "title": "ERNIE-Image-Turbo",
+      "title_zh": "百度发布ERNIE-Image-Turbo",
+      "url": "https://huggingface.co/baidu/ERNIE-Image-Turbo",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "百度推出了ERNIE-Image-Turbo，这是一个开放的文本到图像生成模型，基于单流扩散变换器（DiT）家族，设计用于快速生成高保真图像。该模型在仅需8次推理步骤的情况下，能够生成高质量的图像，适用于延迟敏感的应用场景。ERNIE-Image-Turbo在复杂指令的跟随、文本渲染和结构化图像生成方面表现出色，适合用于海报、漫画和多面板布局等需要视觉质量和效率的内容创作任务。",
+      "importance": 7
+    },
+    {
+      "title": "Preregistered Belief Revision Contracts",
+      "title_zh": "预注册信念修正合同",
+      "url": "https://arxiv.org/abs/2604.15558",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了PBRC（预注册信念修正合同），一种协议级机制，严格区分开放通信与可接受的认知变化。PBRC合同公开固定一阶证据触发器、可接受的修正操作符、优先规则和回退策略，确保每次实质性信念变化都可以由路由器强制执行并事后审计。研究证明，在保守回退的证据合同下，社会轮次不能增加信心，也不能生成纯粹的从众驱动的错误但确定的级联。",
+      "importance": 6
+    },
+    {
+      "title": "Subliminal Transfer of Unsafe Behaviors in AI Agent Distillation",
+      "title_zh": "AI代理蒸馏中的不安全行为的潜意识转移",
+      "url": "https://arxiv.org/abs/2604.15559",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究首次提供了不安全代理行为可以通过模型蒸馏潜意识转移的实验证据。在主要实验中，构建了一个具有强删除偏差的教师代理，并通过看似安全的任务轨迹将其蒸馏到学生中，尽管在关键词过滤的情况下，学生仍继承了可测量的行为偏差。这表明显式数据清理不足以防御，行为偏差隐含在轨迹动态中，无论工具接口如何。",
+      "importance": 6
+    },
+    {
+      "title": "Bilevel Optimization of Agent Skills via Monte Carlo Tree Search",
+      "title_zh": "通过蒙特卡洛树搜索进行代理技能的双层优化",
+      "url": "https://arxiv.org/abs/2604.15709",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了一种双层优化框架，使用蒙特卡洛树搜索优化代理技能的结构，并在内层循环中优化组件内容。实验结果表明，该框架在开放源码的运筹学问答数据集上提高了代理的性能，证明了双层优化框架在技能优化中的有效性。",
+      "importance": 6
+    },
+    {
+      "title": "女子虐死男友3岁儿子被判死缓",
+      "title_zh": "女子虐死男友3岁儿子被判死缓",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E8%99%90%E6%AD%BB%E7%94%B7%E5%8F%8B3%E5%B2%81%E5%84%BF%E5%AD%90%E8%A2%AB%E5%88%A4%E6%AD%BB%E7%BC%93%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "爱奇艺CEO龚宇发声",
+      "title_zh": "爱奇艺CEO龚宇发声",
+      "url": "https://s.weibo.com/weibo?q=%E7%88%B1%E5%A5%87%E8%89%BACEO%E9%BE%9A%E5%AE%87%E5%8F%91%E5%A3%B0&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "42种图书入选2025年度中国好书",
+      "title_zh": "42种图书入选2025年度中国好书",
+      "url": "https://s.weibo.com/weibo?q=%2342%E7%A7%8D%E5%9B%BE%E4%B9%A6%E5%85%A5%E9%80%892025%E5%B9%B4%E5%BA%A6%E4%B8%AD%E5%9B%BD%E5%A5%BD%E4%B9%A6%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "工资高但是很孤独的工作",
+      "title_zh": "工资高但是很孤独的工作",
+      "url": "https://s.weibo.com/weibo?q=%E5%B7%A5%E8%B5%84%E9%AB%98%E4%BD%86%E6%98%AF%E5%BE%88%E5%AD%A4%E7%8B%AC%E7%9A%84%E5%B7%A5%E4%BD%9C&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "当财务去看演唱会",
+      "title_zh": "当财务去看演唱会",
+      "url": "https://s.weibo.com/weibo?q=%E5%BD%93%E8%B4%A2%E5%8A%A1%E5%8E%BB%E7%9C%8B%E6%BC%94%E5%94%B1%E4%BC%9A&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "SK回应女孩挪用上千万打赏主播",
+      "title_zh": "SK回应女孩挪用上千万打赏主播",
+      "url": "https://s.weibo.com/weibo?q=%23SK%E5%9B%9E%E5%BA%94%E5%A5%B3%E5%AD%A9%E6%8C%AA%E7%94%A8%E4%B8%8A%E5%8D%83%E4%B8%87%E6%89%93%E8%B5%8F%E4%B8%BB%E6%92%AD%23&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "库克宣布将于 9 月卸任苹果 CEO，由特努斯接任，哪些信息值得关注？苹果的未来会如何发展？",
+      "title_zh": "库克宣布将于 9 月卸任苹果 CEO，由特努斯接任，哪些信息值得关注？苹果的未来会如何发展？",
+      "url": "https://www.zhihu.com/question/2029792979703874483",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "何润东版项羽因与「粉底液将军」对比而翻红，这说明了什么？",
+      "title_zh": "何润东版项羽因与「粉底液将军」对比而翻红，这说明了什么？",
+      "url": "https://www.zhihu.com/question/2020297028622631772",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "19 岁女生挪用 1700 万元打赏、买盲盒，家长还能追回这笔钱吗？主播和平台和是否有义务退钱？",
+      "title_zh": "19 岁女生挪用 1700 万元打赏、买盲盒，家长还能追回这笔钱吗？主播和平台和是否有义务退钱？",
+      "url": "https://www.zhihu.com/question/2029687631366078518",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "万达电影更名为「儒意电影」，怎样看待此次权力交接？是否会开启业绩与市值双击的新阶段？",
+      "title_zh": "万达电影更名为「儒意电影」，怎样看待此次权力交接？是否会开启业绩与市值双击的新阶段？",
+      "url": "https://www.zhihu.com/question/2029252008587064254",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "文件体积达到 1 GB 甚至 1 TB 的图片会呈现何种内容？",
+      "title_zh": "文件体积达到 1 GB 甚至 1 TB 的图片会呈现何种内容？",
+      "url": "https://www.zhihu.com/question/360608822",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美以袭击伊朗进入第 53 天，当前局势如何？还有哪些信息值得关注？",
+      "title_zh": "美以袭击伊朗进入第 53 天，当前局势如何？还有哪些信息值得关注？",
+      "url": "https://www.zhihu.com/question/2029682687414203990",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美智库称以色列或先发制人打击土耳其",
+      "title_zh": "美智库称以色列或先发制人打击土耳其",
+      "url": "https://www.toutiao.com/trending/7631016375061843497/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "女子打赏主播1700万父亲企业濒临破产",
+      "title_zh": "女子打赏主播1700万父亲企业濒临破产",
+      "url": "https://www.toutiao.com/trending/7630822480248897578/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "广交会架起全球贸易新桥梁",
+      "title_zh": "广交会架起全球贸易新桥梁",
+      "url": "https://www.toutiao.com/trending/7630845051991638057/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "民调：特朗普支持率创第二任期内新低",
+      "title_zh": "民调：特朗普支持率创第二任期内新低",
+      "url": "https://www.toutiao.com/trending/7630352961877655571/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "中国代表在安理会当场驳斥美方抹黑",
+      "title_zh": "中国代表在安理会当场驳斥美方抹黑",
+      "url": "https://www.toutiao.com/trending/7630546724901568563/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "3岁男童被虐致死案一审宣判",
+      "title_zh": "3岁男童被虐致死案一审宣判",
+      "url": "https://www.toutiao.com/trending/7630394561990250003/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 109,
+    "processed_count": 30
+  },
+  "display_count": 28
+}
