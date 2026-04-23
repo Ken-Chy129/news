@@ -1,0 +1,443 @@
+{
+  "date": "2026-04-23",
+  "generated_at": "2026-04-23T03:39:21.950344",
+  "items": [
+    {
+      "title": "ARES: Adaptive Red-Teaming and End-to-End Repair of Policy-Reward System",
+      "title_zh": "ARES：自适应红队和端到端修复策略-奖励系统",
+      "url": "https://arxiv.org/abs/2604.18789",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文介绍了ARES框架，用于识别和修复大型语言模型（LLM）和奖励模型（RM）同时失效的系统性弱点。ARES通过“安全导师”生成对抗性提示，揭示LLM和RM的双重弱点，并通过两阶段修复过程增强模型的安全性。实验表明，ARES在多个对抗性安全基准上显著提高了安全鲁棒性，同时保持了模型能力。这一框架为全面的RLHF安全对齐设立了新范式，对开发者而言，意味着更安全的AI模型开发。",
+      "importance": 9
+    },
+    {
+      "title": "Towards Scalable Lifelong Knowledge Editing with Selective Knowledge Suppression",
+      "title_zh": "面向可扩展的终身知识编辑：选择性知识抑制",
+      "url": "https://arxiv.org/abs/2604.19089",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "大型语言模型（LLMs）需要频繁更新知识以反映不断变化的事实并减少幻觉现象。现有的参数编辑方法在连续编辑过程中稳定性较差，容易导致灾难性遗忘。为了解决这些问题并提高终身设置中的可扩展性，研究者提出了LightEdit框架。该框架首先从检索的信息中选择相关知识以有效修改查询，然后通过解码策略抑制模型的原始知识概率，从而实现基于选定信息的高效编辑。在ZSRE、Counterfact和RIPE基准测试中的广泛实验表明，LightEdit优于现有的终身知识编辑方法，并通过最小化训练成本实现了成本效益高的可扩展性，能够轻松适应各种数据集。",
+      "importance": 9
+    },
+    {
+      "title": "Where Fake Citations Are Made: Tracing Field-Level Hallucination to Specific Neurons in LLMs",
+      "title_zh": "假引用的来源：追踪大型语言模型中特定神经元的领域级幻觉",
+      "url": "https://arxiv.org/abs/2604.18880",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "研究发现大型语言模型（LLMs）在生成引用时常常会产生虚假的引用，尤其是在作者名字上错误率更高。通过对9个模型和108,000个生成引用的分析，研究表明，引用风格对模型的影响不大，而注重推理的蒸馏过程会降低召回率。研究还通过弹性网络正则化和稳定性选择，识别出与幻觉相关的特定神经元，并通过因果干预验证了这些神经元在幻觉生成中的作用。抑制这些神经元可改善模型在多个领域的性能，表明可以通过内部模型信号来检测和减轻引用幻觉。",
+      "importance": 9
+    },
+    {
+      "title": "Our eighth generation TPUs: two chips for the agentic era",
+      "title_zh": "我们的第八代TPU：为代理时代设计的两款芯片",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "谷歌在Google Cloud Next大会上推出了第八代定制的Tensor处理单元（TPU），包括TPU 8t和TPU 8i两种架构，分别用于训练和推理。这些芯片旨在支持谷歌自建的超级计算机，推动从前沿模型训练到大规模推理工作负载的各类应用。TPU 8t和TPU 8i是与Google DeepMind合作设计的，能够应对最苛刻的AI工作负载，并适应不断演变的模型架构。TPU的设计标准包括定制数值、液体冷却和定制互连等，经过十多年的发展，第八代TPU在能效和性能上实现了显著提升。这一代TPU的推出标志着AI基础设施的又一次重大进步，为行业和开发者提供了更强大的计算能力。",
+      "importance": 9
+    },
+    {
+      "title": "Qwen/Qwen3.6-35B-A3B",
+      "title_zh": "Qwen3.6-35B-A3B",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Qwen3.6-35B-A3B是一个在Hugging Face Transformers格式下发布的后训练模型，具有35B参数和3B激活参数。该模型专注于稳定性和实际应用，提供更直观和高效的编码体验。其主要升级包括更流畅的前端工作流处理和库级推理能力，以及保留历史消息推理上下文的新选项，简化迭代开发并减少开销。模型支持长达1,010,000个token的上下文长度，适用于多种AI框架。此版本的发布为开发者提供了更强大的工具来提高生产力。",
+      "importance": 9
+    },
+    {
+      "title": "Beyond One Output: Visualizing and Comparing Distributions of Language Model Generations",
+      "title_zh": "超越单一输出：可视化和比较语言模型生成的分布",
+      "url": "https://arxiv.org/abs/2604.18724",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "GROVE是一种交互式可视化工具，旨在揭示语言模型生成的多样性。通过将多个生成结果表示为文本图中的重叠路径，GROVE揭示了共享结构、分支点和簇。研究表明，图形摘要有助于结构判断，而直接输出检查更适合细节问题。该工具通过三个用户研究验证，支持混合工作流程，提升了用户在开放式任务中的生成多样性评估能力。",
+      "importance": 8
+    },
+    {
+      "title": "AI scientists produce results without reasoning scientifically",
+      "title_zh": "AI科学家在没有科学推理的情况下产生结果",
+      "url": "https://arxiv.org/abs/2604.18805",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究评估了基于大型语言模型（LLM）的科学代理在多个领域的推理能力，发现这些代理在科学推理的认知模式上存在显著缺陷。尽管能够执行科学工作流，这些代理在68%的情况下忽略证据，26%的情况下进行反驳驱动的信念修正，且很少进行多测试证据的收敛。这表明当前的LLM代理在科学推理中缺乏自我纠正的能力，强调了推理本身作为训练目标的重要性。",
+      "importance": 8
+    },
+    {
+      "title": "Reasoning-Aware AIGC Detection via Alignment and Reinforcement",
+      "title_zh": "通过对齐和强化的推理感知AIGC检测",
+      "url": "https://arxiv.org/abs/2604.19172",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "随着大型语言模型（LLMs）的快速发展和广泛应用，可靠的AI生成内容（AIGC）检测需求日益增加。研究者引入了AIGC-text-bank，一个包含多领域LLM来源和作者场景的综合数据集，并提出了REVEAL检测框架，该框架在分类前生成可解释的推理链。通过监督微调和强化学习两阶段训练策略，REVEAL在多个基准测试中实现了最先进的性能，提供了一个稳健且透明的AIGC检测解决方案。该项目已开源，供研究人员和开发者使用。",
+      "importance": 8
+    },
+    {
+      "title": "ClawNet: Human-Symbiotic Agent Network for Cross-User Autonomous Cooperation",
+      "title_zh": "ClawNet：面向跨用户自主合作的人机共生代理网络",
+      "url": "https://arxiv.org/abs/2604.19211",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "当前的AI代理框架在自动化单个任务方面取得了显著进展，但现有系统都仅服务于单个用户。ClawNet提出了一种人机共生代理范式，每个用户拥有一个永久绑定的代理系统，该系统代表用户进行协作，形成一个以人为节点的网络。该范式基于三种治理原语：分层身份架构、范围授权和操作级别的问责制。通过中央协调器，ClawNet实现了身份绑定和授权验证，允许多个用户通过各自的代理安全地协作。这一框架为跨用户代理协作提供了基础设施和治理机制。",
+      "importance": 8
+    },
+    {
+      "title": "UAF: A Unified Audio Front-end LLM for Full-Duplex Speech Interaction",
+      "title_zh": "UAF：用于全双工语音交互的统一音频前端LLM",
+      "url": "https://arxiv.org/abs/2604.19221",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "全双工语音交互是人工智能朝向更人性化对话系统发展的驱动力。传统的级联语音处理管道存在延迟累积、信息丢失和错误传播等问题。UAF作为首个统一音频前端LLM，旨在解决这些问题。该模型将各种音频前端任务重新定义为单一的自回归序列预测问题，包括语音活动检测、转接检测、说话人识别、自动语音识别和问答。实验表明，UAF在多个音频前端任务上表现领先，并显著提高了实际交互场景中的响应延迟和中断准确性。",
+      "importance": 8
+    },
+    {
+      "title": "LegalBench-BR: A Benchmark for Evaluating Large Language Models on Brazilian Legal Decision Classification",
+      "title_zh": "LegalBench-BR：用于评估大型语言模型在巴西法律决策分类中的基准",
+      "url": "https://arxiv.org/abs/2604.18878",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "LegalBench-BR是首个用于评估语言模型在巴西法律文本分类中的公开基准。该数据集包含来自圣卡塔琳娜州法院的3,105个上诉案件，通过LLM辅助标注并经过启发式验证。在一个类别平衡的测试集中，BERTimbau-LoRA模型仅更新0.3%的参数就达到了87.6%的准确率，显著优于Claude 3.5 Haiku和GPT-4o mini。研究表明，通用LLM无法替代领域适应的模型，即使任务只是一个简单的5类问题。该研究释放了完整的数据集、模型和管道，以促进葡萄牙语法律NLP的可重复研究。",
+      "importance": 8
+    },
+    {
+      "title": "Semantic Needles in Document Haystacks: Sensitivity Testing of LLM-as-a-Judge Similarity Scoring",
+      "title_zh": "文档堆中的语义针：LLM作为评判者的相似性评分敏感性测试",
+      "url": "https://arxiv.org/abs/2604.18835",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "该研究提出了一个可扩展的多因素实验框架，用于系统地测试大型语言模型（LLM）在文档对比中的语义变化敏感性。研究发现，LLM在文档中表现出位置偏差，语义差异在文档开头时受到更严厉的惩罚。此外，当被改变的句子被无关主题的上下文包围时，会显著降低相似性评分。每个LLM产生的评分分布具有独特的“指纹”，但所有模型在对不同扰动类型的宽容度上表现出普遍的层次结构。这些结果表明，LLM的语义相似性评分对文档结构、上下文连贯性和模型身份的敏感性超出了语义变化本身。",
+      "importance": 8
+    },
+    {
+      "title": "Experiments or Outcomes? Probing Scientific Feasibility in Large Language Models",
+      "title_zh": "实验还是结果？探讨大型语言模型中的科学可行性",
+      "url": "https://arxiv.org/abs/2604.18786",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "该研究将科学可行性评估视为一种诊断推理任务，模型需根据假设预测其可行性并解释决策。通过在不同知识条件下评估大型语言模型（LLM），研究发现提供结果证据通常比实验描述更可靠。结果证据能提高准确性，而实验文本在上下文不完整时可能会降低性能。这些发现澄清了何时实验证据有助于基于LLM的可行性评估，何时会引入脆弱性。",
+      "importance": 8
+    },
+    {
+      "title": "Making ChatGPT better for clinicians",
+      "title_zh": "改进 ChatGPT 以更好地服务临床医生",
+      "url": "https://openai.com/index/making-chatgpt-better-for-clinicians",
+      "source": "OpenAI Blog",
+      "category": "blog",
+      "summary_zh": "OpenAI 宣布为美国经过验证的医生、护士和药剂师免费提供 ChatGPT，以支持临床护理、文档编写和研究。这一举措旨在通过提供一个强大的语言模型工具，帮助医疗专业人员更高效地处理日常任务和复杂的医学问题。ChatGPT 的应用不仅限于简单的问答，还可以协助生成医疗文档、分析研究数据和提供决策支持。这种免费提供的策略可能会加速 AI 在医疗领域的普及，提高医疗服务的效率和准确性。",
+      "importance": 8
+    },
+    {
+      "title": "Introducing workspace agents in ChatGPT",
+      "title_zh": "在 ChatGPT 中引入工作空间代理",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "source": "OpenAI Blog",
+      "category": "blog",
+      "summary_zh": "OpenAI 推出了由 Codex 驱动的 ChatGPT 工作空间代理，这些代理可以在云端自动化复杂的工作流程，帮助团队在各种工具之间安全地扩展工作。这些代理旨在简化团队操作，通过自动化重复性任务和连接不同的工具，提升工作效率。此功能的推出标志着 AI 在企业工作流程中的应用进一步深化，可能会显著提高团队协作效率和生产力。",
+      "importance": 8
+    },
+    {
+      "title": "ChatGPT Images 2.0",
+      "title_zh": "ChatGPT 图像 2.0",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
+      "source": "Hacker News",
+      "category": "model_release",
+      "summary_zh": "OpenAI发布了ChatGPT的图像生成2.0版本，进一步提升了AI在图像生成领域的能力。新版本在图像质量、生成速度和多样性上都有显著提升，支持更复杂的场景和更高分辨率的输出。这一更新不仅增强了AI在创意设计和内容生成中的应用潜力，还为用户提供了更广泛的创作空间。随着AI技术的不断进步，图像生成工具在广告、媒体和娱乐等行业的应用前景更加广阔。",
+      "importance": 8
+    },
+    {
+      "title": "moonshotai/Kimi-K2.6",
+      "title_zh": "moonshotai/Kimi-K2.6",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Kimi K2.6是一个开源的多模态代理模型，专注于长周期编码、编码驱动设计、主动自主执行和群体任务编排。该模型在复杂的端到端编码任务中表现出色，能够将简单的提示和视觉输入转化为生产就绪的界面和全栈工作流。K2.6支持多达300个子代理并行执行任务，能够在单次自主运行中生成从文档到网站的完整输出。其在自主任务中表现出色，能够在无需人工监督的情况下管理计划、执行代码和协调跨平台操作。",
+      "importance": 8
+    },
+    {
+      "title": "tencent/HY-World-2.0",
+      "title_zh": "tencent/HY-World-2.0",
+      "url": "https://huggingface.co/tencent/HY-World-2.0",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "HY-World 2.0是一个多模态世界模型框架，能够生成和重建3D世界。它接受多种输入模式（如文本、单视图图像、多视图图像和视频），并生成3D世界表示。该模型的核心能力包括通过四阶段方法合成高保真、可导航的3D场景，以及通过统一的前馈模型进行多视图图像或视频的3D重建。HY-World 2.0是首个开源的3D世界模型，提供了与闭源方法相媲美的结果，促进了该领域的研究和发展。",
+      "importance": 8
+    },
+    {
+      "title": "openclaw openclaw 2026.4.20-beta.1",
+      "title_zh": "OpenClaw 2026.4.20-beta.1 发布",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.20-beta.1",
+      "source": "OpenClaw Updates",
+      "category": "tool_update",
+      "summary_zh": "OpenClaw 发布了 2026.4.20-beta.1 版本，带来了多项重要更新。首先，用户界面方面，设置向导的安全免责声明进行了重新设计，增加了黄色警告标志和加载动画，以提升用户体验。在代理和提示功能上，系统提示和 OpenAI GPT-5 叠加层得到了增强，增加了实时状态检查和弱结果恢复功能。在模型和成本管理方面，支持分级模型定价，并提供 Moonshot Kimi K2.6/K2.5 的成本估算。此外，会议和维护功能现在默认强制执行内置条目上限和年龄修剪，防止过多的会话积压导致内存溢出。插件和测试方面，优化了插件加载别名和配置解析，减少了测试开销。Cron 作业管理进行了改进，分离了运行时执行状态以保持作业定义的稳定性。最后，Moonshot/Kimi 模型默认设置为 Kimi K2.6，提供了更好的兼容性和功能支持。这些更新将显著提升 OpenClaw 的性能和用户体验。",
+      "importance": 8
+    },
+    {
+      "title": "Quantum inspired qubit qutrit neural networks for real time financial forecasting",
+      "title_zh": "用于实时金融预测的量子启发的量子比特和量子三态神经网络",
+      "url": "https://arxiv.org/abs/2604.18838",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究比较了人工神经网络（ANN）、量子比特神经网络（QQBN）和量子三态神经网络（QQTN）在股票预测中的表现。结果显示，QQTN在风险调整收益、信息系数和市场条件下的稳健性方面表现优异，且训练时间显著减少。此结果展示了量子三态神经网络在金融应用中的潜力，表明其在准确性、效率和适应性方面的优势，为量子启发方法在计算密集领域的整合铺平了道路。",
+      "importance": 7
+    },
+    {
+      "title": "Human-Guided Harm Recovery for Computer Use Agents",
+      "title_zh": "计算机使用代理的人类引导伤害恢复",
+      "url": "https://arxiv.org/abs/2604.18847",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "随着语言模型代理在真实计算机系统上执行操作的能力增强，如何有效地从有害状态恢复成为一个重要课题。本文提出了一种基于人类偏好的恢复方法，通过用户研究确定了恢复的关键维度，并开发了一个奖励模型来评估恢复计划。BackBench基准测试显示，该方法在恢复质量上优于基础代理，奠定了代理安全方法的新基础。",
+      "importance": 7
+    },
+    {
+      "title": "On Solving the Multiple Variable Gapped Longest Common Subsequence Problem",
+      "title_zh": "解决多变量间隙最长公共子序列问题",
+      "url": "https://arxiv.org/abs/2604.18645",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文研究了可变间隙最长公共子序列（VGLCS）问题，这是一种涉及灵活间隙约束的LCS问题的推广，应用于分子序列比较和时间序列分析。提出了一种基于根状态图表示的搜索框架，使用迭代束搜索策略来控制组合爆炸。实验表明，该方法在320个合成实例中表现出对基线束搜索的稳健性，具有重要的计算研究意义。",
+      "importance": 7
+    },
+    {
+      "title": "Industrial Surface Defect Detection via Diffusion Generation and Asymmetric Student-Teacher Network",
+      "title_zh": "通过扩散生成和不对称师生网络的工业表面缺陷检测",
+      "url": "https://arxiv.org/abs/2604.19240",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "工业表面缺陷检测通常面临缺陷样本有限、长尾分布严重以及在复杂背景下难以准确定位细微缺陷等挑战。本文提出了一种无监督缺陷检测方法，结合了去噪扩散概率模型（DDPM）和不对称师生架构。在数据层面，DDPM仅在正常样本上训练，通过高保真和物理一致的缺陷样本生成缓解数据稀缺问题。在模型层面，构建了不对称双流网络，教师网络提供正常特征的稳定表示，学生网络重建正常模式并放大正常与异常区域之间的差异。实验结果表明，该方法在MVTecAD数据集上实现了98.4%的图像级AUROC和98.3%的像素级AUROC，显著优于现有方法。",
+      "importance": 7
+    },
+    {
+      "title": "MORPHOGEN: A Multilingual Benchmark for Evaluating Gender-Aware Morphological Generation",
+      "title_zh": "MORPHOGEN：用于评估性别意识形态生成的多语言基准",
+      "url": "https://arxiv.org/abs/2604.18914",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "MORPHOGEN是一个多语言基准数据集，用于评估语言模型在性别意识形态生成中的表现。该数据集涵盖法语、阿拉伯语和印地语三种语言，核心任务是要求模型在保持句子意义和结构的同时，将第一人称句子改写为相反的性别。研究结果揭示了当前模型在处理形态性别方面的显著差距，并提供了关于性别意识语言建模的新见解。MORPHOGEN为性别意识形态生成提供了一个集中的诊断工具，并为未来的包容性和形态敏感的自然语言处理研究奠定了基础。",
+      "importance": 7
+    },
+    {
+      "title": "LogosKG: Hardware-Optimized Scalable and Interpretable Knowledge Graph Retrieval",
+      "title_zh": "LogosKG：硬件优化的可扩展和可解释的知识图谱检索",
+      "url": "https://arxiv.org/abs/2604.18913",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "LogosKG是一种新颖的硬件对齐框架，旨在通过符号知识图谱（KG）公式和硬件高效操作实现大规模KG的可扩展和可解释的k-hop检索。为了扩展到十亿边的图，LogosKG集成了度感知分区、跨图路由和按需缓存。实验表明，与CPU和GPU基线相比，LogosKG在不损失检索保真度的情况下实现了显著的效率提升。通过下游的两轮KG-LLM交互，LogosKG展示了如何在大规模证据基础上进行生物医学知识与LLM诊断推理的对齐分析。",
+      "importance": 7
+    },
+    {
+      "title": "Disparities In Negation Understanding Across Languages In Vision-Language Models",
+      "title_zh": "视觉语言模型中不同语言的否定理解差异",
+      "url": "https://arxiv.org/abs/2604.18942",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "研究发现，视觉语言模型（VLMs）在处理否定句时存在确认偏差，倾向于选择正面描述。该研究引入了首个经过人类验证的多语言否定基准，涵盖七种语言。评估结果显示，标准CLIP在非拉丁字母语言上的表现低于随机水平，而MultiCLIP在准确性上表现最佳。SpaceVLM作为一种否定校正方法，在多种语言上显示出显著改进，尤其是英语、希腊语、西班牙语和他加禄语。研究揭示了语言特性如形态、书写系统和否定结构与模型改进之间的相互作用，强调了多语言基准在全球部署VLMs中的重要性。",
+      "importance": 7
+    },
+    {
+      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+      "title_zh": "通过 Responses API 中的 WebSockets 加速代理工作流",
+      "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+      "source": "OpenAI Blog",
+      "category": "blog",
+      "summary_zh": "OpenAI 详细介绍了如何通过在 Responses API 中使用 WebSockets 和连接范围缓存来减少 API 开销并提高模型延迟。此方法显著加快了代理工作流的速度，优化了模型的响应时间。通过这种技术，开发者可以在不增加硬件资源的情况下提高系统性能，从而为用户提供更流畅的体验。这一进展可能会在需要实时响应的应用中带来显著的性能提升。",
+      "importance": 7
+    },
+    {
+      "title": "Quantifying infrastructure noise in agentic coding evals",
+      "title_zh": "量化代理编码评估中的基础设施噪声",
+      "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Anthropic 研究发现，基础设施配置可以对代理编码基准测试的结果产生显著影响，甚至超过顶级模型之间的差距。在 Terminal-Bench 2.0 的内部实验中，资源配置的差异导致了高达 6 个百分点的分数差异。这表明，静态基准测试可能无法准确反映模型的真实能力，因为运行环境成为问题解决过程的一个组成部分。研究还指出，尽管最新版本的基准测试已开始指定每个任务的推荐 CPU 和 RAM，但一致性执行仍然是一个挑战。这一发现对开发者在选择和部署 AI 模型时的决策具有重要影响。",
+      "importance": 7
+    },
+    {
+      "title": "zilliztech/claude-context",
+      "title_zh": "zilliztech/claude-context",
+      "url": "https://github.com/zilliztech/claude-context",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Claude Context是一个MCP插件，为Claude Code和其他AI编码代理提供语义代码搜索功能。它通过语义搜索从数百万行代码中找到相关代码，将结果直接引入Claude的上下文中，而无需多轮发现。该插件通过将代码库存储在矢量数据库中，仅在上下文中使用相关代码，从而降低了大规模代码库的成本。Claude Context支持与Claude Code等AI编码助手的集成，为开发者提供了高效的代码搜索和上下文管理工具。",
+      "importance": 7
+    },
+    {
+      "title": "openai/privacy-filter",
+      "title_zh": "openai/privacy-filter",
+      "url": "https://huggingface.co/openai/privacy-filter",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "OpenAI Privacy Filter是一个双向token分类模型，用于检测和屏蔽文本中的个人身份信息（PII）。该模型适用于需要快速、上下文感知和可调节的数据清理工作流。它预训练为自回归模型，并通过监督分类损失进行后训练。模型能够在单次前向传递中标记输入序列，并使用受限的Viterbi程序解码连贯的跨度。其设计目标是高效的本地执行，支持长达128,000个token的上下文窗口，并允许精确/召回权衡和检测跨度长度的配置。",
+      "importance": 7
+    },
+    {
+      "title": "镜片装反孩子暴涨到900度妈妈崩溃",
+      "title_zh": "镜片装反孩子暴涨到900度妈妈崩溃",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%95%9C%E7%89%87%E8%A3%85%E5%8F%8D%E5%AD%A9%E5%AD%90%E6%9A%B4%E6%B6%A8%E5%88%B0900%E5%BA%A6%E5%A6%88%E5%A6%88%E5%B4%A9%E6%BA%83%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "QQ音乐巅峰榜十大艺人",
+      "title_zh": "QQ音乐巅峰榜十大艺人",
+      "url": "https://s.weibo.com/weibo?q=QQ%E9%9F%B3%E4%B9%90%E5%B7%85%E5%B3%B0%E6%A6%9C%E5%8D%81%E5%A4%A7%E8%89%BA%E4%BA%BA&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "人民海军成立77周年",
+      "title_zh": "人民海军成立77周年",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BA%BA%E6%B0%91%E6%B5%B7%E5%86%9B%E6%88%90%E7%AB%8B77%E5%91%A8%E5%B9%B4%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "女子怒怼空乘不会中文还飞国际航班",
+      "title_zh": "女子怒怼空乘不会中文还飞国际航班",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E6%80%92%E6%80%BC%E7%A9%BA%E4%B9%98%E4%B8%8D%E4%BC%9A%E4%B8%AD%E6%96%87%E8%BF%98%E9%A3%9E%E5%9B%BD%E9%99%85%E8%88%AA%E7%8F%AD%23&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "库克称苹果地图发布是首个重大错误",
+      "title_zh": "库克称苹果地图发布是首个重大错误",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BA%93%E5%85%8B%E7%A7%B0%E8%8B%B9%E6%9E%9C%E5%9C%B0%E5%9B%BE%E5%8F%91%E5%B8%83%E6%98%AF%E9%A6%96%E4%B8%AA%E9%87%8D%E5%A4%A7%E9%94%99%E8%AF%AF%23&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美要求美在伊朗公民立即离境",
+      "title_zh": "美要求美在伊朗公民立即离境",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BE%8E%E8%A6%81%E6%B1%82%E7%BE%8E%E5%9C%A8%E4%BC%8A%E6%9C%97%E5%85%AC%E6%B0%91%E7%AB%8B%E5%8D%B3%E7%A6%BB%E5%A2%83%23&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "如何看待英国 2008 年后出生者终身不得购烟？此前新西兰、马尔代夫也颁布过类似法律，这会成为普遍趋势吗？",
+      "title_zh": "如何看待英国 2008 年后出生者终身不得购烟？此前新西兰、马尔代夫也颁布过类似法律，这会成为普遍趋势吗？",
+      "url": "https://www.zhihu.com/question/2030322575037790045",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "如何看待宁德时代超充电池从 10% 充到 98% 只需要 6 分 27 秒？",
+      "title_zh": "如何看待宁德时代超充电池从 10% 充到 98% 只需要 6 分 27 秒？",
+      "url": "https://www.zhihu.com/question/2030155187717936842",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "为什么坏事做尽的祁同伟有人同情，而秉公执法的侯亮平都在骂他？",
+      "title_zh": "为什么坏事做尽的祁同伟有人同情，而秉公执法的侯亮平都在骂他？",
+      "url": "https://www.zhihu.com/question/665424339",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "20 岁小伙卖猪肉养活 6 个弟妹，父亲还想生，当地称其家庭条件尚可，如何看待此事？小伙对弟妹有扶养义务吗？",
+      "title_zh": "20 岁小伙卖猪肉养活 6 个弟妹，父亲还想生，当地称其家庭条件尚可，如何看待此事？小伙对弟妹有扶养义务吗？",
+      "url": "https://www.zhihu.com/question/2030282907822945533",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "于敏 - 邓稼先构型的是怎么设计出来的，为什么别的国家死活搞不出来？",
+      "title_zh": "于敏 - 邓稼先构型的是怎么设计出来的，为什么别的国家死活搞不出来？",
+      "url": "https://www.zhihu.com/question/38591351",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美以袭击伊朗进入第 55 天，当前局势如何？还有哪些信息值得关注？",
+      "title_zh": "美以袭击伊朗进入第 55 天，当前局势如何？还有哪些信息值得关注？",
+      "url": "https://www.zhihu.com/question/2030418339395106223",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "国产核动力航母真要来了吗",
+      "title_zh": "国产核动力航母真要来了吗",
+      "url": "https://www.toutiao.com/trending/7631748226869104179/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美商务部长：中国未采购任何H200芯片",
+      "title_zh": "美商务部长：中国未采购任何H200芯片",
+      "url": "https://www.toutiao.com/trending/7631117202644746250/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "一组数据看懂中国制造新动能",
+      "title_zh": "一组数据看懂中国制造新动能",
+      "url": "https://www.toutiao.com/trending/7630980674790850602/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "稀土公司副总向境外泄露7项国家秘密",
+      "title_zh": "稀土公司副总向境外泄露7项国家秘密",
+      "url": "https://www.toutiao.com/trending/7631724075135553070/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "第4艘航母？海军宣传片主角名字亮了",
+      "title_zh": "第4艘航母？海军宣传片主角名字亮了",
+      "url": "https://www.toutiao.com/trending/7631490304986251273/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "爸爸问女儿考试成绩差点气晕",
+      "title_zh": "爸爸问女儿考试成绩差点气晕",
+      "url": "https://www.toutiao.com/trending/7630360456717664282/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 121,
+    "processed_count": 30
+  },
+  "display_count": 28
+}
