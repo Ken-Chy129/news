@@ -1,0 +1,443 @@
+{
+  "date": "2026-04-24",
+  "generated_at": "2026-04-24T03:44:13.355637",
+  "items": [
+    {
+      "title": "Introducing GPT-5.5",
+      "title_zh": "介绍 GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5",
+      "source": "OpenAI Blog",
+      "category": "model_release",
+      "summary_zh": "OpenAI 发布了其最新的语言模型 GPT-5.5。该模型被描述为迄今为止最智能的版本，具有更快的处理速度和更强的能力，专为复杂任务而设计，如编程、研究和数据分析。GPT-5.5 的推出标志着在人工智能模型开发方面的又一重大进步，可能会对各行业的自动化和效率提升产生深远影响。此版本的改进可能会推动更多创新应用，进一步巩固 OpenAI 在 AI 领域的领先地位。",
+      "importance": 10
+    },
+    {
+      "title": "The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?",
+      "title_zh": "工具过度使用的幻觉：为什么LLM偏好外部工具而非内部知识？",
+      "url": "https://arxiv.org/abs/2604.19749",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "这篇论文探讨了大型语言模型（LLM）在推理过程中过度依赖外部工具的现象。研究发现，这种现象普遍存在于不同的LLM中，主要是因为模型错误地判断了其内部知识的边界，导致不必要的工具使用。为解决这一问题，研究提出了一种基于直接偏好优化的知识边界对齐策略，减少了82.8%的工具使用，同时提高了准确性。此外，研究还发现奖励结构与工具使用行为之间存在因果关系，调整奖励信号可以减少66.7%（7B模型）和60.7%（32B模型）的不必要工具调用，而不影响准确性。该研究为理解工具过度使用提供了理论依据。",
+      "importance": 9
+    },
+    {
+      "title": "MIRROR: A Hierarchical Benchmark for Metacognitive Calibration in Large Language Models",
+      "title_zh": "MIRROR：大语言模型的元认知校准分层基准",
+      "url": "https://arxiv.org/abs/2604.19809",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "MIRROR是一个用于评估大语言模型能否利用自我知识做出更好决策的基准，包含八个实验，涵盖四个元认知层次。研究评估了来自八个实验室的16个模型，涉及约25万次评估实例。结果显示，模型在多领域任务中无法准确预测自身表现，且即使具备领域特定的自我知识，也无法将其转化为合适的行动选择。外部元认知控制可以显著降低自信失败率，而提供模型自身的校准分数并未带来显著改善。这表明，外部元认知结构而非改进的自我知识是实现更安全自主AI系统的路径。",
+      "importance": 9
+    },
+    {
+      "title": "Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign",
+      "title_zh": "Bitwarden CLI 在持续的 Checkmarx 供应链攻击中被攻破",
+      "url": "https://socket.dev/blog/bitwarden-cli-compromised",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Socket 的研究人员发现，Bitwarden CLI 在 Checkmarx 供应链攻击中被攻破。Bitwarden 是一个开源密码管理器，服务于超过 1000 万用户和 50000 多家企业。此次攻击利用了 Bitwarden CI/CD 流水线中的一个被攻破的 GitHub Action，恶意代码被发布在 bw1.js 文件中。目前调查仍在进行中，建议使用者检查 CI 日志并旋转可能暴露的秘密。此事件显示了供应链攻击的复杂性和潜在影响，强调了在软件开发过程中加强安全措施的重要性。",
+      "importance": 9
+    },
+    {
+      "title": "GPT-5.5: Mythos-Like Hacking, Open to All",
+      "title_zh": "GPT-5.5：Mythos风格的黑客工具，向所有人开放",
+      "url": "https://xbow.com/blog/mythos-like-hacking-open-to-all",
+      "source": "Hacker News",
+      "category": "model_release",
+      "summary_zh": "OpenAI发布了GPT-5.5模型，这一模型在漏洞检测方面表现出色，与Anthropic的Mythos相当，但不同的是GPT-5.5向公众开放。XBOW团队在实际渗透测试任务中对该模型进行了评估，发现其在发现漏洞、登录应用程序和生成最终报告方面表现优异。GPT-5.5的发布标志着在开放源代码模型中实现了显著的性能提升，尤其是在攻击性安全能力方面。该模型的广泛可用性可能会对网络安全行业产生深远影响，因为它为更多开发者和安全专家提供了强大的工具来识别和修复安全漏洞。",
+      "importance": 9
+    },
+    {
+      "title": "moonshotai/Kimi-K2.6",
+      "title_zh": "moonshotai/Kimi-K2.6",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Kimi K2.6 是一款开源的多模态代理模型，专注于长时间编码、编码驱动设计、主动自主执行和群体任务编排。该模型在复杂的端到端编码任务中表现出色，能够在多种编程语言和领域中稳健泛化。Kimi K2.6 可以将简单的提示和视觉输入转化为生产就绪的界面和全栈工作流，并生成结构化布局和丰富动画。其群体代理功能允许水平扩展至300个子代理，执行4000个协调步骤，实现从文档到网站再到电子表格的端到端输出。Kimi K2.6 的自主任务表现强劲，能够在没有人类监督的情况下管理日程、执行代码并协调跨平台操作。该模型在思维模式下进行测试，展示了其在推理基准测试中的强大性能。",
+      "importance": 9
+    },
+    {
+      "title": "deepseek-ai/DeepSeek-V4-Pro",
+      "title_zh": "deepseek-ai/DeepSeek-V4-Pro",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "DeepSeek-V4 系列是高效的百万令牌上下文智能模型，包括两个强大的专家混合（MoE）语言模型：DeepSeek-V4-Pro 和 DeepSeek-V4-Flash。DeepSeek-V4-Pro 拥有1.6万亿参数（激活49B），支持百万令牌上下文。其混合注意力机制结合了压缩稀疏注意力（CSA）和重压缩注意力（HCA），显著提高了长上下文效率。该模型在1M令牌上下文设置下，仅需 DeepSeek-V3.2 单令牌推理 FLOPs 的27%和 KV 缓存的10%。DeepSeek-V4-Pro-Max 模式在推理和代理任务中表现优异，缩小了与封闭源模型的差距。",
+      "importance": 9
+    },
+    {
+      "title": "claude-code v2.1.119",
+      "title_zh": "Claude Code v2.1.119",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
+      "source": "Claude Code Updates",
+      "category": "tool_update",
+      "summary_zh": "Claude Code v2.1.119版本带来了多项重要更新和改进。配置设置现在可以持久化到`~/.claude/settings.json`，并参与项目、本地和策略覆盖优先级。新增`prUrlTemplate`设置，允许将PR徽章指向自定义代码审查URL。支持GitLab、Bitbucket和GitHub Enterprise的PR URL。PowerShell工具命令在权限模式下可自动批准，匹配Bash行为。新增`PostToolUse`和`PostToolUseFailure`钩子输入，包括工具执行时间。插件版本约束自动更新，Vim模式改进了插入模式下的行为。安全性方面，`blockedMarketplaces`现在正确执行`hostPattern`和`pathPattern`条目。这些改进提升了工具的可用性和安全性，对开发者而言，意味着更高效的开发流程。",
+      "importance": 9
+    },
+    {
+      "title": "AI to Learn 2.0: A Deliverable-Oriented Governance Framework and Maturity Rubric for Opaque AI in Learning-Intensive Domains",
+      "title_zh": "AI to Learn 2.0：面向学习密集领域的不透明AI的交付导向治理框架和成熟度量表",
+      "url": "https://arxiv.org/abs/2604.19751",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "随着生成式AI迅速进入研究、教育和专业工作领域，现有的治理框架难以跟上AI辅助输出在学习密集环境中的评估标准。本文提出了AI to Learn 2.0，一个交付导向的治理框架，旨在解决代理失效问题，即精致的成果可能无法真实反映人类理解和判断能力。该框架通过五部分包、七维成熟度量表和能力证据阶梯来组织和评估AI辅助工作，确保最终交付物在没有原始大语言模型或云API的情况下仍可使用、审计、转移和证明。该框架在学习密集环境中要求提供适当的人类可归因的解释或转移证据，旨在作为结构化第三方审查的治理工具。",
+      "importance": 8
+    },
+    {
+      "title": "Algorithm Selection with Zero Domain Knowledge via Text Embeddings",
+      "title_zh": "通过文本嵌入实现零领域知识的算法选择",
+      "url": "https://arxiv.org/abs/2604.19753",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了一种无特征的算法选择方法，使用预训练的文本嵌入替代手工制作的实例特征。该方法名为ZeroFolio，通过读取原始实例文件、使用预训练嵌入模型进行嵌入，并通过加权k近邻选择算法。实验在11个ASlib场景中进行，涵盖7个领域，结果显示在10个场景中该方法优于基于手工特征的随机森林，在所有场景中通过双种子投票进一步提升性能。研究表明，逆距离加权、行随机化和曼哈顿距离是关键设计选择。在竞争性场景中，结合嵌入和手工特征的软投票方式进一步提高了性能。",
+      "importance": 8
+    },
+    {
+      "title": "Exploring Data Augmentation and Resampling Strategies for Transformer-Based Models to Address Class Imbalance in AI Scoring of Scientific Explanations in NGSS Classroom",
+      "title_zh": "探索数据增强和重采样策略以解决NGSS课堂中科学解释AI评分的类别不平衡问题",
+      "url": "https://arxiv.org/abs/2604.19754",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文研究了数据增强策略以改进基于Transformer的模型在科学解释自动评分中的表现，特别是在NGSS对齐的学习进程中。数据集包含1466个高中生的物理科学评估响应，评分基于11个二进制编码的分析类别。研究使用SciBERT作为基线，并测试了三种增强策略：GPT-4生成的合成响应、EASE词级提取和过滤方法，以及ALP短语级提取。结果显示，增强策略显著提高了模型性能，尤其是GPT数据提升了精确度和召回率，而ALP在大多数严重不平衡类别中达到了完美的精确度、召回率和F1分数。研究表明，针对性增强可以在保持概念覆盖的同时解决严重的不平衡问题，为科学教育中的自动评分提供了可扩展的解决方案。",
+      "importance": 8
+    },
+    {
+      "title": "Explainable AML Triage with LLMs: Evidence Retrieval and Counterfactual Checks",
+      "title_zh": "使用LLM的可解释AML分流：证据检索和反事实检查",
+      "url": "https://arxiv.org/abs/2604.19755",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "反洗钱（AML）交易监控产生大量警报，必须在严格的审计和治理约束下快速分流。本文提出了一种可解释的AML分流框架，将分流视为一个证据约束的决策过程。该方法结合了（i）从政策/类型指导、客户背景、警报触发器和交易子图中检索增强的证据捆绑，（ii）要求明确引用并区分支持与矛盾或缺失证据的结构化LLM输出合同，以及（iii）验证最小、合理扰动是否导致分流建议及其理由的连贯变化的反事实检查。实验表明，证据基础显著提高了可审计性，减少了数值和政策幻觉错误，而反事实验证进一步增加了决策相关的可解释性和鲁棒性，提供了最佳的整体分流性能（PR-AUC 0.75；升级F1 0.62）和强大的来源和忠实度指标（引用有效性0.98；证据支持0.88；反事实忠实度0.76）。这些发现表明，受治理、可验证的LLM系统可以在不牺牲可追溯性和可辩护性要求的情况下为AML分流提供实用的决策支持。",
+      "importance": 8
+    },
+    {
+      "title": "Large Language Models Meet Biomedical Knowledge Graphs for Mechanistically Grounded Therapeutic Prioritization",
+      "title_zh": "大语言模型与生物医学知识图谱结合实现机制性治疗优先化",
+      "url": "https://arxiv.org/abs/2604.19815",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "DrugKLM是一个将生物医学知识图谱结构与大语言模型的机制推理相结合的混合框架，用于实现机制性治疗优先化。在基准数据集上，DrugKLM的表现优于仅使用知识图谱或语言模型的基线方法。DrugKLM的信心评分与分子表型功能对齐，较高的评分与12种TCGA癌症中的改善生存率相关。该框架优先捕获生物扰动信号，而非历史指示模式，专家在五种癌症中的策划揭示了优先化行为的系统性差异。DrugKLM被确立为一个证据整合框架，将异构生物医学数据转化为机制可解释且临床上有依据的治疗假设。",
+      "importance": 8
+    },
+    {
+      "title": "Emergence Transformer: Dynamical Temporal Attention Matters",
+      "title_zh": "Emergence Transformer：动态时间注意力的重要性",
+      "url": "https://arxiv.org/abs/2604.19816",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "Emergence Transformer通过设计动态时间注意力（DTA）机制，提出了一种新的Transformer架构，允许每个组件通过动态注意力内核与自身或邻居的过去状态进行交互，从而促进或抑制组件的涌现一致性。研究发现，邻居DTA一贯促进振荡一致性，而自我DTA由于其对网络结构的非单调依赖，表现出一致性增强的最佳注意力权重。该架构在社会一致性和Hopfield神经网络的应用中展示了其潜力，表明DTA可以在网络动态中调节涌现现象。",
+      "importance": 8
+    },
+    {
+      "title": "Phase 1 Implementation of LLM-generated Discharge Summaries showing high Adoption in a Dutch Academic Hospital",
+      "title_zh": "LLM生成出院总结在荷兰学术医院的第一阶段实施显示高采纳率",
+      "url": "https://arxiv.org/abs/2604.19774",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "在荷兰的一家学术医院中，研究人员实施了一项使用大型语言模型（LLM）生成出院总结的试点研究。该研究集成了电子健康记录（EHR）系统，生成了379份出院总结草稿。在临床实践中，21名住院医师和4名医师助理在9周内使用LLM生成的文本，其中58.5%的入院病例中复制了LLM生成的文本，29.1%的最终出院信中可以追溯到LLM内容。用户自报告显示，86.9%的人认为文档时间减少，60.9%的人认为行政工作量减少。试点后91.3%的用户有意继续使用该系统，支持进一步实施。尽管准确测量用户在出院总结上的文档时间具有挑战性，但对于未来的LLM辅助文档的外部评估是必要的。",
+      "importance": 8
+    },
+    {
+      "title": "Development and Preliminary Evaluation of a Domain-Specific Large Language Model for Tuberculosis Care in South Africa",
+      "title_zh": "南非结核病护理领域特定大型语言模型的开发和初步评估",
+      "url": "https://arxiv.org/abs/2604.19776",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "研究人员开发了一种针对南非结核病（TB）护理的领域特定大型语言模型（DS-LLM），以减轻患者和医疗提供者的负担。该模型使用了南非TB指南、选定的TB文献和现有的基准医疗数据集进行微调，并采用了量化低秩适应（QLoRA）算法和基于图的检索增强生成（GraphRAG）。与基础模型BioMistral-7B和通用LLM相比，DS-LLM在词汇、语义和知识的上下文对齐方面表现更好。这一研究展示了DS-LLM在特定医疗领域的潜力，有助于提高结核病护理的效率和准确性。",
+      "importance": 8
+    },
+    {
+      "title": "Quantifying infrastructure noise in agentic coding evals",
+      "title_zh": "量化代理编码评估中的基础设施噪声",
+      "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "source": "Anthropic Engineering",
+      "category": "paper",
+      "summary_zh": "Anthropic 的研究指出，在代理编码评估中，基础设施配置的差异可能导致基准测试分数的显著变化。在 Terminal-Bench 2.0 的内部实验中，最优和最劣配置之间的差距达到 6 个百分点。这种噪声可能超过模型能力的实际差异，影响模型部署决策。研究强调了在评估模型性能时，考虑基础设施一致性的重要性，并指出需要改进资源分配和执行方法以减少这种噪声。",
+      "importance": 8
+    },
+    {
+      "title": "Investigation uncovers two sophisticated telecom surveillance campaigns",
+      "title_zh": "调查揭示两个复杂的电信监控活动",
+      "url": "https://techcrunch.com/2026/04/23/surveillance-vendors-caught-abusing-access-to-telcos-to-track-peoples-phone-locations-researchers-say/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "安全研究人员揭露了两个利用全球电信基础设施漏洞进行监控的活动。这些活动通过伪装成合法的移动网络运营商，滥用SS7和Diameter协议的已知漏洞，追踪目标的手机位置。SS7协议因缺乏认证和加密，长期以来被认为是不安全的，而Diameter协议虽然设计用于4G和5G网络，但由于实施不当仍存在被利用的风险。这些发现表明，全球电信网络的安全性仍需加强，以防止此类监控活动的泛滥。",
+      "importance": 8
+    },
+    {
+      "title": "Qwen/Qwen3.6-35B-A3B",
+      "title_zh": "Qwen/Qwen3.6-35B-A3B",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Qwen3.6-35B-A3B 是 Qwen 系列的最新版本，专注于稳定性和实际应用能力。该模型在前端工作流和代码库级推理方面表现出色，并引入了保留历史消息推理上下文的新选项，简化了迭代开发并减少了开销。Qwen3.6 拥有35B参数，其中3B被激活，支持长达262,144个令牌的上下文长度，并可扩展至1,010,000个令牌。该模型在语言模型基准测试中表现优异，特别是在代理编码和思维保留方面。",
+      "importance": 8
+    },
+    {
+      "title": "openai/privacy-filter",
+      "title_zh": "OpenAI 隐私过滤器",
+      "url": "https://huggingface.co/openai/privacy-filter",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "OpenAI 隐私过滤器是一种双向令牌分类模型，用于检测和屏蔽文本中的个人身份信息（PII）。该模型适用于需要快速、上下文感知和可调节的高吞吐量数据清理工作流。它采用 Apache 2.0 许可，体积小，适合在浏览器或笔记本电脑上运行，拥有1.5B总参数和50M激活参数。模型支持长达128,000个令牌的上下文窗口，能够高效处理长文本。用户可以通过精细调优适应特定数据分布，并通过预设操作点配置精度/召回权衡。",
+      "importance": 8
+    },
+    {
+      "title": "openclaw openclaw 2026.4.22",
+      "title_zh": "OpenClaw 2026.4.22",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.22",
+      "source": "OpenClaw Updates",
+      "category": "tool_update",
+      "summary_zh": "OpenClaw 2026.4.22版本引入了多项新功能和改进。新增图像生成、文本转语音和语音转文本支持，包括多种格式和实时语音通话转录。支持Deepgram、ElevenLabs和Mistral的语音通话流转录，ElevenLabs还增加了Scribe v2批量音频转录。终端聊天新增本地嵌入模式，支持在没有网关的情况下运行。首次运行配置时自动安装缺失的插件，简化了设置过程。OpenAI的响应模型在启用网络搜索时自动使用本地`web_search`工具。这些更新增强了OpenClaw的多媒体处理能力和用户体验，对开发者和用户都具有重要意义。",
+      "importance": 8
+    },
+    {
+      "title": "ThermoQA: A Three-Tier Benchmark for Evaluating Thermodynamic Reasoning in Large Language Models",
+      "title_zh": "ThermoQA：评估大型语言模型热力学推理的三层基准",
+      "url": "https://arxiv.org/abs/2604.19758",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "ThermoQA是一个包含293个开放式工程热力学问题的基准，分为三层：属性查找、组件分析和完整循环分析。使用CoolProp 7.2.0程序计算的真实值涵盖了水、R-134a和可变比热空气。六个前沿LLM在三次独立运行中进行评估，综合排行榜由Claude Opus 4.6（94.1%）、GPT-5.4（93.1%）和Gemini 3.1 Pro（92.5%）领先。跨层退化范围从2.8个百分点（Opus）到32.5个百分点（MiniMax），确认属性记忆不等于热力学推理。超临界水、R-134a制冷剂和联合循环燃气轮机分析作为自然鉴别器，性能差异在40-60个百分点。多次运行的标准差范围从±0.1%到±2.5%，量化了推理一致性作为一个独特的评估轴。数据集和代码是开源的。",
+      "importance": 7
+    },
+    {
+      "title": "Automated Detection of Dosing Errors in Clinical Trial Narratives: A Multi-Modal Feature Engineering Approach with LightGBM",
+      "title_zh": "临床试验叙述中剂量错误的自动检测：基于LightGBM的多模态特征工程方法",
+      "url": "https://arxiv.org/abs/2604.19759",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "临床试验需要严格遵循用药协议，但剂量错误仍然是影响患者安全和试验完整性的持久挑战。本文提出了一种自动检测临床试验叙述中剂量错误的系统，使用梯度提升和全面的多模态特征工程。该方法结合了3,451个特征，包括传统NLP（TF-IDF、字符n-gram）、密集语义嵌入（all-MiniLM-L6v2）、领域特定的医学模式和基于Transformer的分数（BiomedBERT、DeBERTa-v3），用于训练LightGBM模型。特征从九个互补的文本字段中提取，确保覆盖所有42,112个临床试验叙述。在CT-DEB基准数据集上，测试ROC-AUC达到0.8725，通过5折集成平均（交叉验证：0.8833 + 0.0091 AUC）。系统性消融研究表明，删除句子嵌入导致最大性能下降（2.39%），尽管它们仅贡献了总特征重要性的37.07%。特征效率分析表明，选择前500-1000个特征可获得最佳性能（0.886-0.887 AUC），通过有效的噪声减少，超过了完整的3,451特征集（0.879 AUC）。研究结果强调了特征选择作为正则化技术的重要性，并证明稀疏词汇特征在严重类别不平衡下仍然是密集表示的补充。",
+      "importance": 7
+    },
+    {
+      "title": "Inference Headroom Ratio: A Diagnostic and Control Framework for Inference Stability Under Constraint",
+      "title_zh": "推理余量比：约束下推理稳定性的诊断和控制框架",
+      "url": "https://arxiv.org/abs/2604.19760",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了推理余量比（IHR），一种用于表征约束决策系统中推理稳定性的无量纲诊断量。IHR形式化了系统的有效推理能力C与其操作环境施加的不确定性和约束负载U + K之间的关系，旨在捕捉推理稳定性边界的接近程度，而非输出级别的性能。通过三个控制实验，研究表明IHR作为：（1）一个可量化的风险指标，其与崩溃概率的关系遵循一个拟合良好的逻辑曲线，估计的临界阈值IHR*约为1.19，（2）一个在环境噪声下接近推理稳定性边界的敏感指标，以及（3）一个可行的控制变量，其主动调节将系统崩溃率从79.4%降低到58.7%，并将IHR方差减少70.4%（300次蒙特卡洛运行）。这些结果表明，IHR作为标准性能、漂移和不确定性指标的系统级补充，能够在AI系统在分布变化和约束下运行时估计剩余推理余量。",
+      "importance": 7
+    },
+    {
+      "title": "EvoForest: A Novel Machine-Learning Paradigm via Open-Ended Evolution of Computational Graphs",
+      "title_zh": "EvoForest：通过计算图的开放式进化实现的新机器学习范式",
+      "url": "https://arxiv.org/abs/2604.19761",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "EvoForest是一种混合神经符号系统，用于端到端开放式进化计算。与传统的特征生成不同，EvoForest共同进化可重用的计算结构、可调用的函数族和可训练的低维连续组件，所有这些都在一个共享的有向无环图中。中间节点存储替代实现，可调用节点编码可重用的变换族，如投影、门控和激活，输出节点定义候选预测计算，持久的全局参数可以通过梯度下降优化。在2025年ADIA实验室结构断裂挑战中，EvoForest在600次进化步骤后达到94.13%的ROC-AUC，超过了相同评估协议下公开报告的获胜分数90.14%。",
+      "importance": 7
+    },
+    {
+      "title": "From Actions to Understanding: Conformal Interpretability of Temporal Concepts in LLM Agents",
+      "title_zh": "从行动到理解：LLM代理中时间概念的保形可解释性",
+      "url": "https://arxiv.org/abs/2604.19775",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "随着大型语言模型（LLM）作为自主代理被部署在交互环境中，其多步推理和决策任务的能力日益增强，但其内部机制仍不透明。本文提出了一种通过逐步保形镜头解释LLM代理中概念时间演变的框架。我们引入了时间任务的保形可解释性框架，结合逐步奖励建模和保形预测，以统计标记模型在每一步的内部表示为成功或失败。然后在这些表示上训练线性探测器，以识别时间概念的方向——模型激活空间中与成功、失败或推理漂移一致的潜在方向。在两个模拟交互环境（ScienceWorld和AlfWorld）上的实验结果表明，这些时间概念是线性可分的，揭示了与任务成功一致的可解释结构。我们进一步展示了利用该框架在模型内部引导识别的成功方向来提高LLM代理性能的初步结果。该方法为早期故障检测和LLM代理的干预提供了一种原则性方法，为在复杂交互环境中实现可信赖的自主语言模型铺平了道路。",
+      "importance": 7
+    },
+    {
+      "title": "JTPRO: A Joint Tool-Prompt Reflective Optimization Framework for Language Agents",
+      "title_zh": "JTPRO：语言代理的联合工具提示反思优化框架",
+      "url": "https://arxiv.org/abs/2604.19821",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "JTPRO是一种用于提高工具调用可靠性的框架，通过迭代使用回滚驱动的反思来共同优化全局指令和每个工具的模式/参数描述，以实现准确的工具选择和参数实例化。该框架在多工具基准上进行评估，表现出比强基线更高的工具选择准确性、槽填充准确性和整体成功率。研究表明，指令和工具模式的联合优化比单独优化任一组件更有效和稳健。",
+      "importance": 7
+    },
+    {
+      "title": "Forage V2: Knowledge Evolution and Transfer in Autonomous Agent Organizations",
+      "title_zh": "Forage V2：自主代理组织中的知识进化与转移",
+      "url": "https://arxiv.org/abs/2604.19837",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "Forage V2扩展了其架构，从单一探险到学习组织，经验在运行中积累并在模型能力间转移，机构保障防止知识退化。研究展示了知识积累和转移的两项主张：知识条目在六次运行中从0增长到54，领域理解加深时分母估计稳定；较弱的代理通过种子知识缩小覆盖差距，降低成本和收敛轮次，表明组织知识校准了评估本身。V2的贡献在于设计了使任何代理在进入时更可靠的机构。",
+      "importance": 7
+    },
+    {
+      "title": "Self-Describing Structured Data with Dual-Layer Guidance: A Lightweight Alternative to RAG for Precision Retrieval in Large-Scale LLM Knowledge Navigation",
+      "title_zh": "具有双层指导的自描述结构化数据：大规模LLM知识导航中精确检索的轻量替代方案",
+      "url": "https://arxiv.org/abs/2604.19777",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "研究提出了一种称为自描述结构化检索（SDSR）的轻量框架，用于在大规模LLM知识导航中进行精确检索。该框架通过在文件的首要位置嵌入人类编写的导航元数据，利用LLM的首要偏差。研究还提出了双层指导策略，将文件内元数据与系统提示中的显式路由规则结合。通过四轮基准测试，SDSR在119个类别中实现了100%的主要路由准确性，而无指导基线仅为65%。这一研究为LLM知识导航提供了一种有效的替代方案，减少了基础设施开销，并展示了在半结构化语料库中的应用潜力。",
+      "importance": 7
+    },
+    {
+      "title": "Towards High-Quality Machine Translation for Kokborok: A Low-Resource Tibeto-Burman Language of Northeast India",
+      "title_zh": "迈向高质量的Kokborok机器翻译：印度东北部低资源的藏缅语系语言",
+      "url": "https://arxiv.org/abs/2604.19778",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "研究开发了KokborokMT，一个针对印度东北部Tripura地区的藏缅语系语言Kokborok的高质量神经机器翻译系统。尽管Kokborok是Tripura的官方语言，但在NLP社区中资源极其匮乏。研究使用多源平行语料库对NLLB-200-distilled-600M模型进行微调，显著提高了翻译质量。最佳系统在测试集上实现了BLEU分数17.30和38.56，较之前的结果有显著提升。人类评估显示翻译的适当性和流畅性均有提高。这一研究为低资源语言的机器翻译提供了新的方法和数据支持。",
+      "importance": 7
+    },
+    {
+      "title": "快手 低龄化伪成人",
+      "title_zh": "快手 低龄化伪成人",
+      "url": "https://s.weibo.com/weibo?q=%E5%BF%AB%E6%89%8B%20%E4%BD%8E%E9%BE%84%E5%8C%96%E4%BC%AA%E6%88%90%E4%BA%BA&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "小米YU7GT",
+      "title_zh": "小米YU7GT",
+      "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3YU7GT&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "第11个中国航天日",
+      "title_zh": "第11个中国航天日",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%AC%AC11%E4%B8%AA%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E6%97%A5%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "建议装修一定要去家务化",
+      "title_zh": "建议装修一定要去家务化",
+      "url": "https://s.weibo.com/weibo?q=%E5%BB%BA%E8%AE%AE%E8%A3%85%E4%BF%AE%E4%B8%80%E5%AE%9A%E8%A6%81%E5%8E%BB%E5%AE%B6%E5%8A%A1%E5%8C%96&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "秦昊说外面有人了还要送啊",
+      "title_zh": "秦昊说外面有人了还要送啊",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%A7%A6%E6%98%8A%E8%AF%B4%E5%A4%96%E9%9D%A2%E6%9C%89%E4%BA%BA%E4%BA%86%E8%BF%98%E8%A6%81%E9%80%81%E5%95%8A%23&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "女歌手因恐飞取消北京巡演",
+      "title_zh": "女歌手因恐飞取消北京巡演",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E6%AD%8C%E6%89%8B%E5%9B%A0%E6%81%90%E9%A3%9E%E5%8F%96%E6%B6%88%E5%8C%97%E4%BA%AC%E5%B7%A1%E6%BC%94%23&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "如何看待网友自嘲「学历全家最高，工资全家最低」？这个情况在现实中普遍吗？",
+      "title_zh": "如何看待网友自嘲「学历全家最高，工资全家最低」？这个情况在现实中普遍吗？",
+      "url": "https://www.zhihu.com/question/2030618625988454345",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "员工用私人微信创建 600 多个客户群，离职后认为该账号应属自己拒绝交接，这种情况账号该归属谁？",
+      "title_zh": "员工用私人微信创建 600 多个客户群，离职后认为该账号应属自己拒绝交接，这种情况账号该归属谁？",
+      "url": "https://www.zhihu.com/question/2030684528214111076",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "河北衡水中考体测遇暴雨，有学生淋雨跑 800 米，教育局回应「临时改时间需层层上报」，这样安排合理吗？",
+      "title_zh": "河北衡水中考体测遇暴雨，有学生淋雨跑 800 米，教育局回应「临时改时间需层层上报」，这样安排合理吗？",
+      "url": "https://www.zhihu.com/question/2030708283498030840",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "阿尔忒弥斯 2 号宇航员被曝遭遇脑组织位移与脑室扩张，是真的吗？可能导致出现哪些问题？还能恢复吗？",
+      "title_zh": "阿尔忒弥斯 2 号宇航员被曝遭遇脑组织位移与脑室扩张，是真的吗？可能导致出现哪些问题？还能恢复吗？",
+      "url": "https://www.zhihu.com/question/2030678805937743788",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "一位大学老师称「课堂已死」，如何看待当前大学课堂的困境与未来走向？",
+      "title_zh": "一位大学老师称「课堂已死」，如何看待当前大学课堂的困境与未来走向？",
+      "url": "https://www.zhihu.com/question/2027865848858048455",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "公共充电桩价格悄悄上涨近 20%，夜间充电反而不再便宜了，涨价的原因是什么？你有哪些新的省钱策略推荐？",
+      "title_zh": "公共充电桩价格悄悄上涨近 20%，夜间充电反而不再便宜了，涨价的原因是什么？你有哪些新的省钱策略推荐？",
+      "url": "https://www.zhihu.com/question/2030338599837589984",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "中国海军：我只出一剑谁敢接招",
+      "title_zh": "中国海军：我只出一剑谁敢接招",
+      "url": "https://www.toutiao.com/trending/7631168553462349843/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "华谊兄弟被申请破产案获法院受理",
+      "title_zh": "华谊兄弟被申请破产案获法院受理",
+      "url": "https://www.toutiao.com/trending/7632101351895731721/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "这一指标31个省份全部实现正增长",
+      "title_zh": "这一指标31个省份全部实现正增长",
+      "url": "https://www.toutiao.com/trending/7631139231779553286/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "王毅挥手告别让柬媒感动：太友善了",
+      "title_zh": "王毅挥手告别让柬媒感动：太友善了",
+      "url": "https://www.toutiao.com/trending/7632090286625394214/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "广西：摒弃媒体不曝光不动等不良现象",
+      "title_zh": "广西：摒弃媒体不曝光不动等不良现象",
+      "url": "https://www.toutiao.com/trending/7631040075729256511/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "演员回应脱和服谢幕：撕掉不属于我的皮",
+      "title_zh": "演员回应脱和服谢幕：撕掉不属于我的皮",
+      "url": "https://www.toutiao.com/trending/7631738377105588250/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 128,
+    "processed_count": 30
+  },
+  "display_count": 26
+}
