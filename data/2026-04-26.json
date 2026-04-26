@@ -1,0 +1,443 @@
+{
+  "date": "2026-04-26",
+  "generated_at": "2026-04-26T03:48:12.701444",
+  "items": [
+    {
+      "title": "Architecture of an AI-Based Automated Course of Action Generation System for Military Operations",
+      "title_zh": "Architecture of an AI-Based Automated Course of Action Generation System for Military Operations",
+      "url": "https://arxiv.org/abs/2604.20862",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.20862v1 Announce Type: new \nAbstract: The automation system for Course of Action (CoA) planning is an essential element in future warfare. As maneuver speeds increase, surveillance ranges extend, and weapon ranges grow, the operational area expands, making traditional manned-based CoA pla",
+      "importance": 5
+    },
+    {
+      "title": "Escaping the Agreement Trap: Defensibility Signals for Evaluating Rule-Governed AI",
+      "title_zh": "Escaping the Agreement Trap: Defensibility Signals for Evaluating Rule-Governed AI",
+      "url": "https://arxiv.org/abs/2604.20972",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.20972v1 Announce Type: new \nAbstract: Content moderation systems are typically evaluated by measuring agreement with human labels. In rule-governed environments this assumption fails: multiple decisions may be logically consistent with the governing policy, and agreement metrics penalize ",
+      "importance": 5
+    },
+    {
+      "title": "Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks",
+      "title_zh": "Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks",
+      "url": "https://arxiv.org/abs/2604.20987",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.20987v1 Announce Type: new \nAbstract: Long horizon interactive environments are a testbed for evaluating agents skill usage abilities. These environments demand multi step reasoning, the chaining of multiple skills over many timesteps, and robust decision making under delayed rewards and ",
+      "importance": 5
+    },
+    {
+      "title": "Value-Conflict Diagnostics Reveal Widespread Alignment Faking in Language Models",
+      "title_zh": "Value-Conflict Diagnostics Reveal Widespread Alignment Faking in Language Models",
+      "url": "https://arxiv.org/abs/2604.20995",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.20995v1 Announce Type: new \nAbstract: Alignment faking, where a model behaves aligned with developer policy when monitored but reverts to its own preferences when unobserved, is a concerning yet poorly understood phenomenon, in part because current diagnostic tools remain limited. Prior d",
+      "importance": 5
+    },
+    {
+      "title": "The Last Harness You'll Ever Build",
+      "title_zh": "The Last Harness You'll Ever Build",
+      "url": "https://arxiv.org/abs/2604.21003",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21003v1 Announce Type: new \nAbstract: AI agents are increasingly deployed on complex, domain-specific workflows -- navigating enterprise web applications that require dozens of clicks and form fills, orchestrating multi-step research pipelines that span search, extraction, and synthesis, ",
+      "importance": 5
+    },
+    {
+      "title": "Deep FinResearch Bench: Evaluating AI's Ability to Conduct Professional Financial Investment Research",
+      "title_zh": "Deep FinResearch Bench: Evaluating AI's Ability to Conduct Professional Financial Investment Research",
+      "url": "https://arxiv.org/abs/2604.21006",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21006v1 Announce Type: new \nAbstract: We introduce Deep FinResearch Bench, a practical and comprehensive evaluation framework for deep research (DR) agents in financial investment research. The benchmark assesses three dimensions of report quality: qualitative rigor, quantitative forecast",
+      "importance": 5
+    },
+    {
+      "title": "Adaptive Test-Time Compute Allocation with Evolving In-Context Demonstrations",
+      "title_zh": "Adaptive Test-Time Compute Allocation with Evolving In-Context Demonstrations",
+      "url": "https://arxiv.org/abs/2604.21018",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21018v1 Announce Type: new \nAbstract: While scaling test-time compute can substantially improve model performance, existing approaches either rely on static compute allocation or sample from fixed generation distributions. In this work, we introduce a test-time compute allocation framewor",
+      "importance": 5
+    },
+    {
+      "title": "HypEHR: Hyperbolic Modeling of Electronic Health Records for Efficient Question Answering",
+      "title_zh": "HypEHR: Hyperbolic Modeling of Electronic Health Records for Efficient Question Answering",
+      "url": "https://arxiv.org/abs/2604.21027",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21027v1 Announce Type: new \nAbstract: Electronic health record (EHR) question answering is often handled by LLM-based pipelines that are costly to deploy and do not explicitly leverage the hierarchical structure of clinical data. Motivated by evidence that medical ontologies and patient t",
+      "importance": 5
+    },
+    {
+      "title": "Who Defines Fairness? Target-Based Prompting for Demographic Representation in Generative Models",
+      "title_zh": "Who Defines Fairness? Target-Based Prompting for Demographic Representation in Generative Models",
+      "url": "https://arxiv.org/abs/2604.21036",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21036v1 Announce Type: new \nAbstract: Text-to-image(T2I) models like Stable Diffusion and DALL-E have made generative AI widely accessible, yet recent studies reveal that these systems often replicate societal biases, particularly in how they depict demographic groups across professions. ",
+      "importance": 5
+    },
+    {
+      "title": "Active Data",
+      "title_zh": "Active Data",
+      "url": "https://arxiv.org/abs/2604.21044",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21044v1 Announce Type: new \nAbstract: In some complex domains, certain problem-specific decompositions can provide advantages over monolithic designs by enabling comprehension and specification of the design. In this paper we present an intuitive and tractable approach to reasoning over l",
+      "importance": 5
+    },
+    {
+      "title": "InVitroVision: a Multi-Modal AI Model for Automated Description of Embryo Development using Natural Language",
+      "title_zh": "InVitroVision: a Multi-Modal AI Model for Automated Description of Embryo Development using Natural Language",
+      "url": "https://arxiv.org/abs/2604.21061",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21061v1 Announce Type: new \nAbstract: The application of artificial intelligence (AI) in IVF has shown promise in improving consistency and standardization of decisions, but often relies on annotated data and does not make use of the multimodal nature of IVF data. We investigated whether ",
+      "importance": 5
+    },
+    {
+      "title": "Mind the Prompt: Self-adaptive Generation of Task Plan Explanations via LLMs",
+      "title_zh": "Mind the Prompt: Self-adaptive Generation of Task Plan Explanations via LLMs",
+      "url": "https://arxiv.org/abs/2604.21092",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21092v1 Announce Type: new \nAbstract: Integrating Large Language Models (LLMs) into complex software systems enables the generation of human-understandable explanations of opaque AI processes, such as automated task planning. However, the quality and reliability of these explanations heav",
+      "importance": 5
+    },
+    {
+      "title": "Propensity Inference: Environmental Contributors to LLM Behaviour",
+      "title_zh": "Propensity Inference: Environmental Contributors to LLM Behaviour",
+      "url": "https://arxiv.org/abs/2604.21098",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21098v1 Announce Type: new \nAbstract: Motivated by loss of control risks from misaligned AI systems, we develop and apply methods for measuring language models' propensity for unsanctioned behaviour. We contribute three methodological improvements: analysing effects of changes to environm",
+      "importance": 5
+    },
+    {
+      "title": "AI Governance under Political Turnover: The Alignment Surface of Compliance Design",
+      "title_zh": "AI Governance under Political Turnover: The Alignment Surface of Compliance Design",
+      "url": "https://arxiv.org/abs/2604.21103",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21103v1 Announce Type: new \nAbstract: Governments are increasingly interested in using AI to make administrative decisions cheaper, more scalable, and more consistent. But for probabilistic AI to be incorporated into public administration it must be embedded in a compliance layer that mak",
+      "importance": 5
+    },
+    {
+      "title": "Agentic AI for Personalized Physiotherapy: A Multi-Agent Framework for Generative Video Training and Real-Time Pose Correction",
+      "title_zh": "Agentic AI for Personalized Physiotherapy: A Multi-Agent Framework for Generative Video Training and Real-Time Pose Correction",
+      "url": "https://arxiv.org/abs/2604.21154",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21154v1 Announce Type: new \nAbstract: At-home physiotherapy compliance remains critically low due to a lack of personalized supervision and dynamic feedback. Existing digital health solutions rely on static, pre-recorded video libraries or generic 3D avatars that fail to account for a pat",
+      "importance": 5
+    },
+    {
+      "title": "Multi-Agent Empowerment and Emergence of Complex Behavior in Groups",
+      "title_zh": "Multi-Agent Empowerment and Emergence of Complex Behavior in Groups",
+      "url": "https://arxiv.org/abs/2604.21155",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21155v1 Announce Type: new \nAbstract: Intrinsic motivations are receiving increasing attention, i.e. behavioral incentives that are not engineered, but emerge from the interaction of an agent with its surroundings. In this work we study the emergence of behaviors driven by one such incent",
+      "importance": 5
+    },
+    {
+      "title": "Trust but Verify: Introducing DAVinCI -- A Framework for Dual Attribution and Verification in Claim Inference for Language Models",
+      "title_zh": "Trust but Verify: Introducing DAVinCI -- A Framework for Dual Attribution and Verification in Claim Inference for Language Models",
+      "url": "https://arxiv.org/abs/2604.21193",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21193v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have demonstrated remarkable fluency and versatility across a wide range of NLP tasks, yet they remain prone to factual inaccuracies and hallucinations. This limitation poses significant risks in high-stakes domains such a",
+      "importance": 5
+    },
+    {
+      "title": "Align Generative Artificial Intelligence with Human Preferences: A Novel Large Language Model Fine-Tuning Method for Online Review Management",
+      "title_zh": "Align Generative Artificial Intelligence with Human Preferences: A Novel Large Language Model Fine-Tuning Method for Online Review Management",
+      "url": "https://arxiv.org/abs/2604.21209",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21209v1 Announce Type: new \nAbstract: Online reviews have played a pivotal role in consumers' decision-making processes. Existing research has highlighted the significant impact of managerial review responses on customer relationship management and firm performance. However, a large porti",
+      "importance": 5
+    },
+    {
+      "title": "ReCAPA: Hierarchical Predictive Correction to Mitigate Cascading Failures",
+      "title_zh": "ReCAPA: Hierarchical Predictive Correction to Mitigate Cascading Failures",
+      "url": "https://arxiv.org/abs/2604.21232",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21232v1 Announce Type: new \nAbstract: Vision-Language-Action systems follow instructions to execute multi-step tasks in multimodal environments. Recent VLA approaches typically rely on post-hoc correction mechanisms or operate under fixed task decompositions and alignment schemes. However",
+      "importance": 5
+    },
+    {
+      "title": "Robustness Analysis of POMDP Policies to Observation Perturbations",
+      "title_zh": "Robustness Analysis of POMDP Policies to Observation Perturbations",
+      "url": "https://arxiv.org/abs/2604.21256",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21256v1 Announce Type: new \nAbstract: Policies for Partially Observable Markov Decision Processes (POMDPs) are often designed using a nominal system model. In practice, this model can deviate from the true system during deployment due to factors such as calibration drift or sensor degrada",
+      "importance": 5
+    },
+    {
+      "title": "Trustworthy Clinical Decision Support Using Meta-Predicates and Domain-Specific Languages",
+      "title_zh": "Trustworthy Clinical Decision Support Using Meta-Predicates and Domain-Specific Languages",
+      "url": "https://arxiv.org/abs/2604.21263",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21263v1 Announce Type: new \nAbstract: \\textbf{Background:} Regulatory frameworks for AI in healthcare, including the EU AI Act and FDA guidance on AI/ML-based medical devices, require clinical decision support to demonstrate not only accuracy but auditability. Existing formal languages fo",
+      "importance": 5
+    },
+    {
+      "title": "Enhancing Online Recruitment with Category-Aware MoE and LLM-based Data Augmentation",
+      "title_zh": "Enhancing Online Recruitment with Category-Aware MoE and LLM-based Data Augmentation",
+      "url": "https://arxiv.org/abs/2604.21264",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21264v1 Announce Type: new \nAbstract: Person-Job Fit (PJF) is a critical component for online recruitment. Existing approaches face several challenges, particularly in handling low-quality job descriptions and similar candidate-job pairs, which impair model performance. To address these c",
+      "importance": 5
+    },
+    {
+      "title": "Can MLLMs \"Read\" What is Missing?",
+      "title_zh": "Can MLLMs \"Read\" What is Missing?",
+      "url": "https://arxiv.org/abs/2604.21277",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21277v1 Announce Type: new \nAbstract: We introduce MMTR-Bench, a benchmark designed to evaluate the intrinsic ability of Multimodal Large Language Models (MLLMs) to reconstruct masked text directly from visual context. Unlike conventional question-answering tasks, MMTR-Bench eliminates ex",
+      "importance": 5
+    },
+    {
+      "title": "Spatial Metaphors for LLM Memory: A Critical Analysis of the MemPalace Architecture",
+      "title_zh": "Spatial Metaphors for LLM Memory: A Critical Analysis of the MemPalace Architecture",
+      "url": "https://arxiv.org/abs/2604.21284",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21284v1 Announce Type: new \nAbstract: MemPalace is an open-source AI memory system that applies the ancient method of loci (memory palace) spatial metaphor to organize long-term memory for large language models; launched in April 2026, it accumulated over 47,000 GitHub stars in its first ",
+      "importance": 5
+    },
+    {
+      "title": "Ideological Bias in LLMs' Economic Causal Reasoning",
+      "title_zh": "Ideological Bias in LLMs' Economic Causal Reasoning",
+      "url": "https://arxiv.org/abs/2604.21334",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21334v1 Announce Type: new \nAbstract: Do large language models (LLMs) exhibit systematic ideological bias when reasoning about economic causal effects? As LLMs are increasingly used in policy analysis and economic reporting, where directionally correct causal judgments are essential, this",
+      "importance": 5
+    },
+    {
+      "title": "Evaluating AI Meeting Summaries with a Reusable Cross-Domain Pipeline",
+      "title_zh": "Evaluating AI Meeting Summaries with a Reusable Cross-Domain Pipeline",
+      "url": "https://arxiv.org/abs/2604.21345",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21345v1 Announce Type: new \nAbstract: We present a reusable evaluation pipeline for generative AI applications, instantiated for AI meeting summaries and released with a public artifact package derived from a Dataset Pipeline. The system separates reusable orchestration from task-specific",
+      "importance": 5
+    },
+    {
+      "title": "Symbolic Grounding Reveals Representational Bottlenecks in Abstract Visual Reasoning",
+      "title_zh": "Symbolic Grounding Reveals Representational Bottlenecks in Abstract Visual Reasoning",
+      "url": "https://arxiv.org/abs/2604.21346",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21346v1 Announce Type: new \nAbstract: Vision--language models (VLMs) often fail on abstract visual reasoning benchmarks such as Bongard problems, raising the question of whether the main bottleneck lies in reasoning or representation. We study this on Bongard-LOGO, a synthetic benchmark o",
+      "importance": 5
+    },
+    {
+      "title": "ReaGeo: Reasoning-Enhanced End-to-End Geocoding with LLMs",
+      "title_zh": "ReaGeo: Reasoning-Enhanced End-to-End Geocoding with LLMs",
+      "url": "https://arxiv.org/abs/2604.21357",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21357v1 Announce Type: new \nAbstract: This paper proposes ReaGeo, an end-to-end geocoding framework based on large language models, designed to overcome the limitations of traditional multi-stage approaches that rely on text or vector similarity retrieval over geographic databases, includ",
+      "importance": 5
+    },
+    {
+      "title": "Time, Causality, and Observability Failures in Distributed AI Inference Systems",
+      "title_zh": "Time, Causality, and Observability Failures in Distributed AI Inference Systems",
+      "url": "https://arxiv.org/abs/2604.21361",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21361v1 Announce Type: new \nAbstract: Distributed AI inference pipelines rely heavily on timestamp-based observability to understand system behavior. This work demonstrates that even small clock skew between nodes can cause observability to become causally incorrect while the system itsel",
+      "importance": 5
+    },
+    {
+      "title": "SemanticAgent: A Semantics-Aware Framework for Text-to-SQL Data Synthesis",
+      "title_zh": "SemanticAgent: A Semantics-Aware Framework for Text-to-SQL Data Synthesis",
+      "url": "https://arxiv.org/abs/2604.21414",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.21414v1 Announce Type: new \nAbstract: Existing text-to-SQL synthesis pipelines still conflate executability with semantic validity: syntactic checks and execution-based validation can retain queries that execute successfully while violating database semantics. To address these limitations",
+      "importance": 5
+    },
+    {
+      "title": "白宫晚宴枪击事件枪手身亡",
+      "title_zh": "白宫晚宴枪击事件枪手身亡",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%AE%AB%E6%99%9A%E5%AE%B4%E6%9E%AA%E5%87%BB%E4%BA%8B%E4%BB%B6%E6%9E%AA%E6%89%8B%E8%BA%AB%E4%BA%A1%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "东方甄选4名主播同日宣布离职",
+      "title_zh": "东方甄选4名主播同日宣布离职",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%9C%E6%96%B9%E7%94%84%E9%80%894%E5%90%8D%E4%B8%BB%E6%92%AD%E5%90%8C%E6%97%A5%E5%AE%A3%E5%B8%83%E7%A6%BB%E8%81%8C%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "南方又一轮降雨降温",
+      "title_zh": "南方又一轮降雨降温",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%8D%97%E6%96%B9%E5%8F%88%E4%B8%80%E8%BD%AE%E9%99%8D%E9%9B%A8%E9%99%8D%E6%B8%A9%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "张若昀评论区",
+      "title_zh": "张若昀评论区",
+      "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E8%8B%A5%E6%98%80%E8%AF%84%E8%AE%BA%E5%8C%BA&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "一袋糯米 全部暴露",
+      "title_zh": "一袋糯米 全部暴露",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E8%A2%8B%E7%B3%AF%E7%B1%B3%20%E5%85%A8%E9%83%A8%E6%9A%B4%E9%9C%B2&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "阚清子说自己胖了干啥都心酸",
+      "title_zh": "阚清子说自己胖了干啥都心酸",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%98%9A%E6%B8%85%E5%AD%90%E8%AF%B4%E8%87%AA%E5%B7%B1%E8%83%96%E4%BA%86%E5%B9%B2%E5%95%A5%E9%83%BD%E5%BF%83%E9%85%B8%23&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美国白宫记者晚宴发生枪击事件，特朗普被紧急撤离，具体情况如何？",
+      "title_zh": "美国白宫记者晚宴发生枪击事件，特朗普被紧急撤离，具体情况如何？",
+      "url": "https://www.zhihu.com/question/2031656383213302686",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "男子 30 年前被扣押 2859 克黄金申请退赔，却因「超时效」遭驳回，这合法合规吗？后续该怎么维权？",
+      "title_zh": "男子 30 年前被扣押 2859 克黄金申请退赔，却因「超时效」遭驳回，这合法合规吗？后续该怎么维权？",
+      "url": "https://www.zhihu.com/question/2031421271481607263",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "如何看待网传武汉大学以  7  万元价格从上海交通大学购买 Sci-Hub 数据集？涉及侵权问题吗？",
+      "title_zh": "如何看待网传武汉大学以  7  万元价格从上海交通大学购买 Sci-Hub 数据集？涉及侵权问题吗？",
+      "url": "https://www.zhihu.com/question/2031414223767433472",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "古代丁忧期间，比如兵部尚书，回家 3 年，谁来代替他的位置，然后 3 年后回来官复原职原来那个人咋办？",
+      "title_zh": "古代丁忧期间，比如兵部尚书，回家 3 年，谁来代替他的位置，然后 3 年后回来官复原职原来那个人咋办？",
+      "url": "https://www.zhihu.com/question/372437706",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "怎么看武亮对学生家长说自己每天三点以后才睡觉，你们累有我累吗？",
+      "title_zh": "怎么看武亮对学生家长说自己每天三点以后才睡觉，你们累有我累吗？",
+      "url": "https://www.zhihu.com/question/2030707518805104095",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "武汉人很反感热干面里加汤吗？",
+      "title_zh": "武汉人很反感热干面里加汤吗？",
+      "url": "https://www.zhihu.com/question/327570954",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "白宫晚宴事件细节：30岁男子持霰弹枪",
+      "title_zh": "白宫晚宴事件细节：30岁男子持霰弹枪",
+      "url": "https://www.toutiao.com/trending/7632880276544798758/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "老人不满子女春节没来向楼下扔红酒获刑",
+      "title_zh": "老人不满子女春节没来向楼下扔红酒获刑",
+      "url": "https://www.toutiao.com/trending/7632667739899379731/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "世界知识产权日 守护“原创力”",
+      "title_zh": "世界知识产权日 守护“原创力”",
+      "url": "https://www.toutiao.com/trending/7632821425263263750/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "白宫晚宴枪击事件后特朗普首次发声",
+      "title_zh": "白宫晚宴枪击事件后特朗普首次发声",
+      "url": "https://www.toutiao.com/trending/7632869311845797403/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "外媒为何关注中国舰艇编队西太演训",
+      "title_zh": "外媒为何关注中国舰艇编队西太演训",
+      "url": "https://www.toutiao.com/trending/7631739393174814739/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "于和伟获影帝张艺谋第一时间起身鼓掌",
+      "title_zh": "于和伟获影帝张艺谋第一时间起身鼓掌",
+      "url": "https://www.toutiao.com/trending/7632243700982104110/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 79,
+    "processed_count": 30
+  },
+  "display_count": 20
+}
