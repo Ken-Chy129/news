@@ -1,0 +1,443 @@
+{
+  "date": "2026-04-28",
+  "generated_at": "2026-04-28T03:58:54.535234",
+  "items": [
+    {
+      "title": "AI should elevate your thinking, not replace it",
+      "title_zh": "AI 应该提升你的思维，而不是取代它",
+      "url": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/",
+      "source": "Hacker News",
+      "category": "blog",
+      "summary_zh": "在与科技行业的工程管理人员交流中，发现软件工程正在将人们分为两类：那些将AI作为工具来提升自己工作效率的人，以及那些依赖AI来完成工作的人。文章指出，AI可以生成代码、总结会议、解释概念等，但这可能导致人们在没有真正理解的情况下重复AI生成的答案，从而形成一种智力依赖。文章强调，最优秀的工程师会利用AI来处理琐碎的任务，从而腾出时间进行更高层次的思考，而不是完全依赖AI来完成所有工作。",
+      "importance": 10
+    },
+    {
+      "title": "MolClaw: An Autonomous Agent with Hierarchical Skills for Drug Molecule Evaluation, Screening, and Optimization",
+      "title_zh": "MolClaw：用于药物分子评估、筛选和优化的自主代理",
+      "url": "https://arxiv.org/abs/2604.21937",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "MolClaw 是一种自主代理，专注于药物分子评估、筛选和优化。它通过三层技能架构整合了超过30种专业领域资源，共计70项技能，支持代理在运行时进行长期交互。工具级技能标准化原子操作，工作流级技能将其组合成经过验证的管道，并进行质量检查与反思，而学科级技能提供规划和验证的科学原则。MolBench 基准测试显示，MolClaw 在所有指标上均达到最先进的性能，尤其是在需要结构化工作流的任务上表现突出。这表明工作流编排能力是 AI 驱动药物发现的主要瓶颈。",
+      "importance": 9
+    },
+    {
+      "title": "Feedback Over Form: Why Execution Feedback Matters More Than Pipeline Topology in 1-3B Code Generation",
+      "title_zh": "反馈优于形式：在1-3B代码生成中，执行反馈比管道拓扑更重要",
+      "url": "https://arxiv.org/abs/2604.21950",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究探讨了小型语言模型（1-3B）在代码生成任务中的表现，尤其是通过执行反馈来提升性能。通过在HumanEval和MBPP基准上进行测试，发现自我优化与执行反馈可以显著减少运行时错误，如NameError和SyntaxError，但对逻辑错误的修复效果有限。研究表明，模型的专用性比管道架构更为重要，且早期停止是关键，否则每次迭代都会产生负面影响。实验还显示，复杂的管道结构并未显著优于简单的生成-执行-优化循环。",
+      "importance": 9
+    },
+    {
+      "title": "SHAPE: Unifying Safety, Helpfulness and Pedagogy for Educational LLMs",
+      "title_zh": "SHAPE：统一教育大语言模型的安全性、帮助性和教学法",
+      "url": "https://arxiv.org/abs/2604.22134",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "研究者提出了SHAPE，一个用于评估教育大语言模型（LLMs）在对抗性压力下的教学行为的基准。该基准包含9087个学生问题对，通过图增强的教学管道推断查询中的先决概念，识别掌握差距，并通过显式门控在指导和问题解决之间进行生成路由。实验表明，该方法在两种教学漏洞设置下显著提高了安全性，同时在相同评估协议下保持了接近上限的帮助性。这项研究为教育领域的LLM提供了一个系统化的研究框架，帮助改进其在教学场景中的应用。",
+      "importance": 9
+    },
+    {
+      "title": "4TB of voice samples just stolen from 40k AI contractors at Mercor",
+      "title_zh": "Mercor 4TB语音样本被盗，涉及4万名AI承包商",
+      "url": "https://app.oravys.com/blog/mercor-breach-2026",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "2026年4月4日，黑客组织Lapsus$在其泄露网站上公布了Mercor的泄露数据，涉及约4TB的语音样本和身份文件。这些数据来自于4万名AI承包商，他们在为AI训练提供数据标注、录音和验证通话时被收集。此次泄露的数据不仅包括语音样本，还包括承包商的政府颁发的身份证明文件，形成了一个完整的生物识别信息库。此类数据的泄露可能被用于合成语音克隆服务，尤其是当高质量语音克隆只需15秒的清晰参考音频时，Mercor的录音平均每个承包商提供2到5分钟的高质量语音，远超所需门槛。这一事件引发了多起法律诉讼，原告指控公司在未明确告知的情况下收集了永久性的生物识别标识符。",
+      "importance": 9
+    },
+    {
+      "title": "David Silver of DeepMind raises $1B to build AI that learns without human data",
+      "title_zh": "DeepMind的David Silver筹集10亿美元开发无需人类数据的AI",
+      "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "前DeepMind研究员David Silver创立的Ineffable Intelligence实验室筹集了11亿美元，旨在开发一种无需人类数据的“超级学习者”AI模型。该模型将利用强化学习技术，通过自主试错来获取知识，而不是依赖人类生成的示例。Silver在DeepMind期间开发了AlphaZero等项目，这些项目通过自我学习击败了顶级棋类程序。Ineffable Intelligence的目标是通过自主学习来发现所有知识，这一突破可能与达尔文的进化论相媲美。",
+      "importance": 9
+    },
+    {
+      "title": "deepseek-ai/DeepSeek-V4-Pro",
+      "title_zh": "DeepSeek-V4-Pro",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "DeepSeek-V4-Pro 是一款强大的 Mixture-of-Experts (MoE) 语言模型，拥有1.6万亿参数（激活49B），支持一百万个token的上下文长度。该模型采用混合注意力机制，结合压缩稀疏注意力（CSA）和重压缩注意力（HCA），显著提升长上下文的效率。在1M-token上下文设置中，DeepSeek-V4-Pro 仅需 DeepSeek-V3.2 的27%的单token推理FLOPs和10%的KV缓存。模型通过Muon优化器实现更快的收敛和更高的训练稳定性。DeepSeek-V4-Pro-Max 模式在开放源码模型中表现卓越，尤其在编码基准测试中表现优异，缩小了与领先的闭源模型在推理和代理任务上的差距。",
+      "importance": 9
+    },
+    {
+      "title": "Math Takes Two: A test for emergent mathematical reasoning in communication",
+      "title_zh": "数学需要两人：沟通中数学推理的新兴测试",
+      "url": "https://arxiv.org/abs/2604.21935",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了一个名为 Math Takes Two 的新基准，用于评估通过沟通产生的数学推理能力。该基准测试假设数学认知与人类精确沟通的需求共同进化，测试两个代理在没有先验数学知识的情况下，能否开发出共享的符号协议来解决视觉任务。与现有数据集不同，该基准不依赖预定义的数学语言，而是要求代理从头开始发现潜在结构和表示。这为开发和评估具有新兴数值推理能力的模型提供了新视角。",
+      "importance": 8
+    },
+    {
+      "title": "Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents",
+      "title_zh": "Memanto：用于长时程代理的信息论检索的类型化语义记忆",
+      "url": "https://arxiv.org/abs/2604.22085",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "Memanto 是一种用于代理人工智能的通用记忆层，挑战了知识图复杂性是实现高保真代理记忆的必要条件的假设。Memanto 集成了13种预定义的记忆类别、自动冲突解决机制和时间版本控制。通过 Moorcheh 的信息论搜索引擎，Memanto 在不增加摄取延迟的情况下实现了亚90毫秒的确定性检索。系统性基准测试显示，Memanto 在 LongMemEval 和 LoCoMo 评估套件中分别实现了89.8%和87.1%的准确率，超越了所有评估的混合图和基于向量的系统。",
+      "importance": 8
+    },
+    {
+      "title": "Focus Session: Hardware and Software Techniques for Accelerating Multimodal Foundation Models",
+      "title_zh": "聚焦会议：加速多模态基础模型的硬件和软件技术",
+      "url": "https://arxiv.org/abs/2604.21952",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了一种多层次的方法来高效加速多模态基础模型（MFM），结合了变压器块的硬件和软件协同设计以及优化管道，减少了计算和内存需求。通过使用层次感知的混合精度量化和结构化剪枝，优化了MFM的变压器块和MLP通道。还通过推测性解码和模型级联优化操作，使用轻量级自测试来决定何时升级到更大的模型。实验表明，该方法在医疗领域的MFM和代码生成任务中表现出色，并且有望扩展到能量高效的尖峰MFM。",
+      "importance": 8
+    },
+    {
+      "title": "MambaCSP: Hybrid-Attention State Space Models for Hardware-Efficient Channel State Prediction",
+      "title_zh": "MambaCSP：用于硬件高效信道状态预测的混合注意力状态空间模型",
+      "url": "https://arxiv.org/abs/2604.21957",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "MambaCSP是一种混合注意力状态空间模型，旨在提高信道状态预测的硬件效率。通过替换大型语言模型的预测骨干，MambaCSP使用线性时间的Mamba模型，并引入轻量级的补丁混合器注意力层来注入跨令牌注意力，从而改善长距离上下文的信道状态信息预测。模拟结果显示，与基于LLM的方法相比，MambaCSP在预测准确性上提高了9-12%，并且在吞吐量、VRAM使用和推理速度上分别提高了3.0倍、2.6倍和2.9倍。",
+      "importance": 8
+    },
+    {
+      "title": "When AI Speaks, Whose Values Does It Express? A Cross-Cultural Audit of Individualism-Collectivism Bias in Large Language Models",
+      "title_zh": "当AI发言时，它表达了谁的价值观？大语言模型中个人主义-集体主义偏见的跨文化审计",
+      "url": "https://arxiv.org/abs/2604.22153",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "研究测试了三个领先的AI系统（Claude Sonnet 4.5、GPT-5.4和Gemini 2.5 Flash）在面对来自10个国家的用户时的价值观表现。结果显示，这些AI系统倾向于给出西方风格的个人主义建议，即使面对优先考虑家庭、社区和权威的社会。尤其在尼日利亚和印度，这种偏差尤为明显。研究揭示了AI系统在处理跨文化价值观时的系统性同质化问题，并指出需要开发能够有效整合多元价值观的AI系统。",
+      "importance": 8
+    },
+    {
+      "title": "China blocks Meta's acquisition of AI startup Manus",
+      "title_zh": "中国阻止Meta收购AI初创公司Manus",
+      "url": "https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "中国国家发展和改革委员会要求Meta撤销对新加坡AI初创公司Manus的收购交易。Manus是一家具有中国背景的公司，开发通用AI代理，能够执行复杂任务。该公司在去年3月推出其首款通用AI代理，并在短短八个月内实现了1亿美元的年经常性收入。此次交易引起了中美两国的关注，因为美国立法者禁止美国投资者直接投资中国AI公司，而中国则加强了对AI企业外迁的限制。此事件可能影响到其他希望通过“新加坡洗牌”模式避开中美审查的科技公司。",
+      "importance": 8
+    },
+    {
+      "title": "OpenAI available at FedRAMP Moderate",
+      "title_zh": "OpenAI获得FedRAMP中等授权",
+      "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
+      "source": "OpenAI Blog",
+      "category": "blog",
+      "summary_zh": "OpenAI的ChatGPT企业版和OpenAI API获得了FedRAMP中等授权，这意味着美国联邦机构可以更安全地采用这些AI技术。FedRAMP（联邦风险与授权管理计划）是一个政府项目，旨在为云产品和服务提供标准化的安全评估、授权和持续监控。通过获得这一授权，OpenAI的产品可以在更高的安全标准下被美国政府机构使用，推动AI技术在公共部门的应用。这一进展可能会加速AI在政府领域的普及，并为其他AI供应商提供一个安全合规的参考框架。",
+      "importance": 8
+    },
+    {
+      "title": "Decoupled DiLoCo: Resilient, Distributed AI Training at Scale",
+      "title_zh": "Decoupled DiLoCo：大规模分布式AI训练的新前沿",
+      "url": "https://deepmind.google/blog/decoupled-diloco/",
+      "source": "Hacker News",
+      "category": "paper",
+      "summary_zh": "DeepMind推出了一种新的分布式AI训练架构Decoupled DiLoCo，通过将大型训练分解为多个计算“岛屿”，实现了更具弹性和灵活性的模型训练。这种架构允许在全球数据中心之间进行异步数据流动，避免了传统方法中因同步问题导致的通信延迟。Decoupled DiLoCo结合了Pathways和DiLoCo的优势，提供了一种在全球范围内进行大规模AI模型训练的新方法。",
+      "importance": 8
+    },
+    {
+      "title": "Qwen/Qwen3.6-35B-A3B",
+      "title_zh": "Qwen3.6-35B-A3B",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Qwen3.6-35B-A3B 是一款因应社区反馈而开发的开放权重模型，旨在提升稳定性和实际应用效用。该模型在前端工作流和代码库级推理方面表现出色，并引入了保留历史消息推理上下文的新选项，简化了迭代开发，减少了开销。Qwen3.6 拥有35B参数，其中3B被激活，支持长达1,010,000个token的上下文长度。该模型在SWE-Bench系列基准测试中表现优异，尤其在复杂的推理任务中，展示了其强大的推理能力和实用性。",
+      "importance": 8
+    },
+    {
+      "title": "An Artifact-based Agent Framework for Adaptive and Reproducible Medical Image Processing",
+      "title_zh": "基于工件的自适应和可重现医学图像处理代理框架",
+      "url": "https://arxiv.org/abs/2604.21936",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文介绍了一种基于工件的代理框架，用于增强医学图像处理的语义层。该框架通过工件契约形式化中间和最终输出，支持对工作流状态的结构化查询和从模块化规则库中按目标组装配置。执行由工作流执行器负责，以保持确定性计算图构建和来源跟踪，同时代理在本地操作以遵循大多数隐私约束。我们在真实世界的临床 CT 和 MRI 队列上评估了该框架，展示了自适应配置合成、跨重复执行的确定性可重现性和基于工件的语义查询。",
+      "importance": 7
+    },
+    {
+      "title": "Rethinking Publication: A Certification Framework for AI-Enabled Research",
+      "title_zh": "重新思考出版：AI支持研究的认证框架",
+      "url": "https://arxiv.org/abs/2604.22026",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "随着 AI 研究管道产出越来越多的可发表学术成果，现有的出版系统缺乏评估通过自动化管道产生的知识的原则性方法。本文提出了一个两层认证框架，将知识质量评估与人类贡献的评分分开，允许出版系统一致且透明地处理管道生成的工作。框架通过对贡献进行分类（A类：管道可达，B类：需要人类指导，C类：超出当前管道能力）来实现这一点。干运行验证显示，该框架可以适当地认证知识，同时容忍不可减少的归因不确定性。",
+      "importance": 7
+    },
+    {
+      "title": "A systematic review of generative AI usage for IT project management",
+      "title_zh": "生成式AI在IT项目管理中的应用系统综述",
+      "url": "https://arxiv.org/abs/2604.21958",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文使用PRISMA方法对生成式AI在IT项目管理中的应用进行了系统综述，揭示了OpenAI的GPT在研究中的主导地位，并指出研究主要依赖于提示工程，表明该领域的研究仍处于探索阶段。文章还识别并讨论了三个有前景的研究方向：过程组特定的AI代理、项目角色基础的AI代理以及支持人类指导协调的混合协作网络。",
+      "importance": 7
+    },
+    {
+      "title": "A general optimization solver based on OP-to-MaxSAT reduction",
+      "title_zh": "基于OP到MaxSAT转换的通用优化求解器",
+      "url": "https://arxiv.org/abs/2604.21961",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了一种名为OP-to-MaxSAT转换的自动化方法，以及基于此方法的通用优化求解器GORED。GORED通过将多种类型的优化问题转换为MaxSAT实例来统一求解过程，并使用最先进的MaxSAT求解器进行求解。实验结果表明，GORED不仅成功解决了多种优化问题，其解决方案质量也与现有方法相当，且无显著统计差异。此方法的引入改变了优化求解器的设计范式，从为每种问题类型设计专用算法转向使用单一算法解决多样化问题。",
+      "importance": 7
+    },
+    {
+      "title": "Universal Transformers Need Memory: Depth-State Trade-offs in Adaptive Recursive Reasoning",
+      "title_zh": "通用变压器需要记忆：自适应递归推理中的深度-状态权衡",
+      "url": "https://arxiv.org/abs/2604.21999",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究探讨了在Sudoku-Extreme等组合推理基准上，单块通用变压器（UT）与自适应计算时间（ACT）结合时的记忆令牌需求。结果表明，记忆令牌在所有配置中都是必要的，最佳令牌数量存在明显的下限阈值。实验还揭示了路由器初始化陷阱，影响了训练的成功率。通过ACT与固定深度处理的对比，ACT提供了更一致的结果，并通过lambda预热实现了更高效的推理。研究强调了ACT在推理过程中的重要性，尤其是在减少推理步骤的同时保持准确性。",
+      "importance": 7
+    },
+    {
+      "title": "Foundation models for discovering robust biomarkers of neurological disorders from dynamic functional connectivity",
+      "title_zh": "用于从动态功能连接中发现神经障碍稳健生物标志物的基础模型",
+      "url": "https://arxiv.org/abs/2604.22018",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了一种名为RE-CONFIRM的框架，用于评估深度学习模型（包括基础模型）揭示的潜在生物标志物的稳健性。通过对五个大型数据集进行实验，发现常用的性能指标不足以评估这些模型识别的生物标志物的稳健性。为此，提出了Hub-LoRA作为微调技术，使基础模型不仅在性能上超越定制的深度学习模型，还能产生符合神经生物学的生物标志物。RE-CONFIRM具有通用性，可用于验证基于功能性MRI数据集训练的深度学习模型的稳健性。",
+      "importance": 7
+    },
+    {
+      "title": "Fine-Grained Analysis of Shared Syntactic Mechanisms in Language Models",
+      "title_zh": "语言模型中共享句法机制的细粒度分析",
+      "url": "https://arxiv.org/abs/2604.22166",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "研究探讨了语言模型在不同句法构造中是否使用共享的神经机制。通过因果可解释性方法，研究发现填充-间隙依赖性在模型的早期到中层中有高度局部化和共享的机制，而否定极性项目（NPI）处理则没有这样的统一机制。这些机制在超出分布的情况下也能泛化，而分布对齐搜索则容易在狭窄的语言分布上过拟合。研究验证了通过操控识别出的组件可以提高模型在可接受性判断基准上的表现。",
+      "importance": 7
+    },
+    {
+      "title": "How Large Language Models Balance Internal Knowledge with User and Document Assertions",
+      "title_zh": "大语言模型如何平衡内部知识与用户和文档断言",
+      "url": "https://arxiv.org/abs/2604.22193",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "研究提出了一个三源交互框架，系统评估了27个来自3个家族的LLMs在2个数据集上的表现。结果显示，大多数模型更依赖于文档断言而非用户断言，这种偏好在后训练中得到强化。行为分析表明，大多数模型容易受到影响，难以有效区分有益和有害的外部信息。通过在多样化的源交互数据上进行微调，可以显著提高模型的辨别能力。这项研究为开发能够有效整合多源信息的可信LLMs铺平了道路。",
+      "importance": 7
+    },
+    {
+      "title": "Adaptive Ultrasound Imaging with Physics-Informed NV-Raw2Insights-US AI",
+      "title_zh": "基于物理信息的NV-Raw2Insights-US AI实现自适应超声成像",
+      "url": "https://huggingface.co/blog/nvidia/raw2insights-adaptive-ultrasound-imaging",
+      "source": "HuggingFace Blog",
+      "category": "blog",
+      "summary_zh": "NVIDIA与西门子医疗合作开发了一种名为NV-Raw2Insights-US的超声成像模型，该模型直接从超声探头捕获的原始信号中学习，而不是依赖于传统的图像重建过程。这种方法允许模型更准确地理解声波在人体中的传播，从而生成个性化的声速地图，提高图像聚焦的准确性。这一创新不仅有望提高超声成像的精度，还可能开启端到端AI在医学成像领域的应用，改变传统的超声成像方式。",
+      "importance": 7
+    },
+    {
+      "title": "The next phase of the Microsoft OpenAI partnership",
+      "title_zh": "微软与OpenAI合作进入新阶段",
+      "url": "https://openai.com/index/next-phase-of-microsoft-partnership",
+      "source": "OpenAI Blog",
+      "category": "blog",
+      "summary_zh": "OpenAI与微软宣布修订合作协议，以简化合作关系，增加长期明确性，并支持大规模AI创新。此举可能预示着两家公司在AI领域的进一步深度合作，尤其是在云计算和AI模型的开发与部署方面。通过这一调整，双方希望在技术创新和市场应用上实现更大的协同效应，为AI技术的广泛应用奠定基础。",
+      "importance": 7
+    },
+    {
+      "title": "Running local LLMs offline on a ten-hour flight",
+      "title_zh": "在十小时航班上离线运行本地LLMs",
+      "url": "https://deploy.live/blog/running-local-llms-offline-on-a-ten-hour-flight/",
+      "source": "Hacker News",
+      "category": "blog",
+      "summary_zh": "一位工程师在从伦敦飞往拉斯维加斯的十小时航班上测试了在MacBook Pro上离线运行本地大型语言模型（LLMs）的能力。他使用了Gemma 4和Qwen 4.6模型，处理了约400万令牌的任务，包括账单分析工具的开发。尽管面临电池耗尽和设备过热等问题，但他成功地利用这段时间探索了平时无法优先处理的项目，展示了现代硬件和开源模型在离线环境中的潜力。",
+      "importance": 7
+    },
+    {
+      "title": "openai/privacy-filter",
+      "title_zh": "OpenAI 隐私过滤器",
+      "url": "https://huggingface.co/openai/privacy-filter",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "OpenAI 隐私过滤器是一种双向token分类模型，专用于检测和屏蔽文本中的个人身份信息（PII）。该模型适用于高吞吐量数据清理工作流，能够在本地运行，快速且具备上下文感知能力。模型采用类似于gpt-oss的架构，但体积更小，拥有1.5B参数。其128,000-token的上下文窗口允许高吞吐量处理长文本。用户可以通过微调适应特定数据分布，并通过预设操作点配置精确度/召回率权衡。",
+      "importance": 7
+    },
+    {
+      "title": "moonshotai/Kimi-K2.6",
+      "title_zh": "Kimi-K2.6",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Kimi K2.6 是一款开源的多模态代理模型，提升了长时间编码、编码驱动设计、主动自主执行和群体任务编排的实际能力。该模型在复杂的端到端编码任务中表现出色，能够在Rust、Go、Python等多种编程语言和前端、DevOps等领域中稳健泛化。Kimi K2.6 还支持将简单的提示和视觉输入转换为生产就绪的界面和轻量级全栈工作流，生成结构化布局、交互元素和丰富的动画。",
+      "importance": 7
+    },
+    {
+      "title": "AgentSearchBench: A Benchmark for AI Agent Search in the Wild",
+      "title_zh": "AgentSearchBench：野外AI代理搜索基准",
+      "url": "https://arxiv.org/abs/2604.22436",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "AgentSearchBench 是一个大规模基准，旨在解决 AI 代理生态系统中复杂任务的委托和执行问题。该基准从多个提供商的近10,000个真实世界代理中构建，形式化了代理搜索为检索和重新排序问题，并使用执行基础的性能信号评估相关性。实验揭示了语义相似性与实际代理性能之间的显著差距，暴露了基于描述的检索和重新排序方法的局限性。研究表明，轻量级行为信号（包括执行感知探测）可以显著提高排名质量，强调了在代理发现中整合执行信号的重要性。",
+      "importance": 6
+    },
+    {
+      "title": "网红白冰偷税911.18万",
+      "title_zh": "网红白冰偷税911.18万",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BD%91%E7%BA%A2%E7%99%BD%E5%86%B0%E5%81%B7%E7%A8%8E911.18%E4%B8%87%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "白冰回应偷税被查",
+      "title_zh": "白冰回应偷税被查",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%86%B0%E5%9B%9E%E5%BA%94%E5%81%B7%E7%A8%8E%E8%A2%AB%E6%9F%A5%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "网警发出五一假期网络安全指南",
+      "title_zh": "网警发出五一假期网络安全指南",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BD%91%E8%AD%A6%E5%8F%91%E5%87%BA%E4%BA%94%E4%B8%80%E5%81%87%E6%9C%9F%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%8C%87%E5%8D%97%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "突然意识到人一定要流动起来",
+      "title_zh": "突然意识到人一定要流动起来",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%AA%81%E7%84%B6%E6%84%8F%E8%AF%86%E5%88%B0%E4%BA%BA%E4%B8%80%E5%AE%9A%E8%A6%81%E6%B5%81%E5%8A%A8%E8%B5%B7%E6%9D%A5%23&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "境外组织大力资助网红煽动躺平",
+      "title_zh": "境外组织大力资助网红煽动躺平",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A2%83%E5%A4%96%E7%BB%84%E7%BB%87%E5%A4%A7%E5%8A%9B%E8%B5%84%E5%8A%A9%E7%BD%91%E7%BA%A2%E7%85%BD%E5%8A%A8%E8%BA%BA%E5%B9%B3%23&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "3只虾21块钱",
+      "title_zh": "3只虾21块钱",
+      "url": "https://s.weibo.com/weibo?q=3%E5%8F%AA%E8%99%BE21%E5%9D%97%E9%92%B1&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "男子从内地偷运 51 公斤盒饭回澳门，被海关查获，为啥要专门偷运盒饭？未经检疫的熟食入境会有什么风险？",
+      "title_zh": "男子从内地偷运 51 公斤盒饭回澳门，被海关查获，为啥要专门偷运盒饭？未经检疫的熟食入境会有什么风险？",
+      "url": "https://www.zhihu.com/question/2032065068477715780",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "如何评价饶毅发文「一门三代六导师七博士被质疑学术不端」？",
+      "title_zh": "如何评价饶毅发文「一门三代六导师七博士被质疑学术不端」？",
+      "url": "https://www.zhihu.com/question/2032131854120088764",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "为什么沙发不靠墙的布局，大多数中国家庭都难以接受？",
+      "title_zh": "为什么沙发不靠墙的布局，大多数中国家庭都难以接受？",
+      "url": "https://www.zhihu.com/question/1961092724506714892",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "《潜伏》中站长为什么在李涯死了之后说：正好跳在了我的神经上？",
+      "title_zh": "《潜伏》中站长为什么在李涯死了之后说：正好跳在了我的神经上？",
+      "url": "https://www.zhihu.com/question/2030939332526216882",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "25 岁女孩确诊黑色素瘤仅 5 个月离世，这是一种什么病？为什么会这么严重？",
+      "title_zh": "25 岁女孩确诊黑色素瘤仅 5 个月离世，这是一种什么病？为什么会这么严重？",
+      "url": "https://www.zhihu.com/question/2031790900779507895",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "为什么《黑袍纠察队》的世界观如此黑深残，但拍到现在却越来越幼稚了?",
+      "title_zh": "为什么《黑袍纠察队》的世界观如此黑深残，但拍到现在却越来越幼稚了?",
+      "url": "https://www.zhihu.com/question/2031523812659942202",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "国安部披露境外组织资助“躺平网红”",
+      "title_zh": "国安部披露境外组织资助“躺平网红”",
+      "url": "https://www.toutiao.com/trending/7633569884609806382/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "4000万粉丝网红白冰偷税被罚1891万",
+      "title_zh": "4000万粉丝网红白冰偷税被罚1891万",
+      "url": "https://www.toutiao.com/trending/7633629799567380009/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "我国能源安全韧性持续增强",
+      "title_zh": "我国能源安全韧性持续增强",
+      "url": "https://www.toutiao.com/trending/7633052676763058185/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "多位省委书记省长会见王传福",
+      "title_zh": "多位省委书记省长会见王传福",
+      "url": "https://www.toutiao.com/trending/7632519522750152740/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "女子包圆老人葱误打包带走卖葱钱",
+      "title_zh": "女子包圆老人葱误打包带走卖葱钱",
+      "url": "https://www.toutiao.com/trending/7633007886838366250/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "网警发出“五一”假期网络安全指南",
+      "title_zh": "网警发出“五一”假期网络安全指南",
+      "url": "https://www.toutiao.com/trending/7633606570723164214/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 117,
+    "processed_count": 30
+  },
+  "display_count": 28
+}
