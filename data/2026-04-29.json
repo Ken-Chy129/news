@@ -1,0 +1,443 @@
+{
+  "date": "2026-04-29",
+  "generated_at": "2026-04-29T03:56:34.866740",
+  "items": [
+    {
+      "title": "An Intelligent Fault Diagnosis Method for General Aviation Aircraft Based on Multi-Fidelity Digital Twin and FMEA Knowledge Enhancement",
+      "title_zh": "基于多保真数字孪生和FMEA知识增强的通用航空飞机智能故障诊断方法",
+      "url": "https://arxiv.org/abs/2604.22777",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该论文提出了一种智能故障诊断框架，专注于通用航空飞机的故障诊断。该框架结合了多保真数字孪生技术，集成了高保真飞行动力学模拟、FMEA驱动的故障注入、多保真残差特征提取和大语言模型增强的可解释报告生成。通过JSBSim六自由度飞行动力学引擎构建数字孪生体，生成23通道的发动机健康监测数据。实验表明，该方法在20类故障任务上实现了96.2%的Macro-F1分数，并在推理加速方面达到了4.3倍的提升，性能损失仅为0.6%。该研究强调了残差特征质量对诊断性能的贡献远超分类器架构，确立了“残差质量优先”的设计原则。",
+      "importance": 9
+    },
+    {
+      "title": "LEGO: An LLM Skill-Based Front-End Design Generation Platform",
+      "title_zh": "LEGO：基于LLM技能的前端设计生成平台",
+      "url": "https://arxiv.org/abs/2604.23355",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "LEGO 是一个用于前端设计生成的统一技能平台，旨在解决现有 LLM 基于 EDA 代理的孤立任务特定系统问题。该平台将数字前端流程分解为六个独立步骤，并将每个代理能力表示为可组合的电路技能。通过调查 100 多篇论文和 11 个代表性开源项目，LEGO 提取了 42 种可执行电路技能。实验证明，在 VerilogEval v2 问题集上，LEGO 提升了 Pass@1 从 0.000 到 0.805，相比基线提高了 80.5%。这些结果表明，模块化技能组合支持有效且灵活的 RTL 设计自动化。LEGO 平台及所有电路技能在 GitHub 上公开。",
+      "importance": 9
+    },
+    {
+      "title": "Mixture of Heterogeneous Grouped Experts for Language Modeling",
+      "title_zh": "异构专家组混合用于语言建模",
+      "url": "https://arxiv.org/abs/2604.23108",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "该研究提出了一种名为异构专家组混合（MoHGE）的新型语言模型架构，旨在解决传统专家混合模型中专家规模统一带来的计算成本不匹配问题。MoHGE通过引入两级路由机制和组间专家辅助损失，实现了灵活的资源感知专家组合，优化了推理效率。实验结果表明，MoHGE在保持GPU利用率平衡的同时，参数总量减少约20%，性能与传统MoE架构相当。这一架构为工业应用中的推理成本优化提供了可扩展的解决方案。",
+      "importance": 9
+    },
+    {
+      "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+      "title_zh": "推出NVIDIA Nemotron 3 Nano Omni：长上下文多模态智能用于文档、音频和视频代理",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+      "source": "HuggingFace Blog",
+      "category": "blog",
+      "summary_zh": "NVIDIA推出了Nemotron 3 Nano Omni，这是一款新型全模态理解模型，旨在用于现实世界的文档分析、多图像推理、自动语音识别、长音视频理解、代理计算机使用和一般推理。该模型在复杂文档智能排行榜如MMlongbench-Doc、OCRBenchV2，以及视频和音频排行榜如WorldSense和DailyOmni上表现出色。它结合了Nemotron 3混合Mamba-Transformer专家混合骨干、C-RADIOv4-H视觉编码器和Parakeet-TDT-0.6B-v2音频编码器，能够保持细致的视觉细节，增加本地音频理解，并扩展到非常长的多模态上下文。Nemotron 3 Nano Omni在多模态用例中提供了高达9倍的吞吐量和2.9倍的单流推理速度，相较于其他替代方案。",
+      "importance": 9
+    },
+    {
+      "title": "Google and Pentagon reportedly agree on deal for 'any lawful' use of AI",
+      "title_zh": "谷歌与五角大楼据称达成协议，允许“任何合法”使用AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "谷歌与美国国防部达成了一项机密协议，允许后者将谷歌的AI模型用于“任何合法的政府用途”。这一协议是在谷歌员工要求CEO Sundar Pichai阻止五角大楼使用其AI后不久被报道的。协议不允许谷歌对政府如何使用其AI模型进行否决，这意味着谷歌对AI使用的限制可能仅仅是象征性的。此外，协议要求谷歌协助政府在需要时调整AI的安全设置和过滤器。这一协议将谷歌与OpenAI和xAI等公司置于同一阵营，而Anthropic因拒绝移除武器和监控相关限制而被五角大楼列入黑名单。这一事件引发了对AI技术在军事和政府用途中的伦理和安全问题的广泛关注。",
+      "importance": 9
+    },
+    {
+      "title": "deepseek-ai/DeepSeek-V4-Pro",
+      "title_zh": "DeepSeek-V4-Pro 发布",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "DeepSeek-V4-Pro 是一款具备 1.6 万亿参数（激活 49B）的 Mixture-of-Experts (MoE) 语言模型，支持百万级别的上下文长度。该模型采用混合注意力机制，结合了压缩稀疏注意力（CSA）和重压缩注意力（HCA），在长上下文效率上有显著提升。在 1M-token 上下文设置中，DeepSeek-V4-Pro 仅需 DeepSeek-V3.2 的 27% 的单 token 推理 FLOPs 和 10% 的 KV 缓存。它还引入了流形约束超连接（mHC）以增强信号传播的稳定性。使用 Muon 优化器加速收敛和提高训练稳定性。模型在 32T 高质量 token 上进行了预训练，并通过独立培养领域专家和统一模型整合的两阶段后训练流程，整合了不同领域的专业知识。DeepSeek-V4-Pro-Max 在开放源代码模型中表现出色，在推理和代理任务上显著缩小了与闭源模型的差距。",
+      "importance": 9
+    },
+    {
+      "title": "PExA: Parallel Exploration Agent for Complex Text-to-SQL",
+      "title_zh": "PExA：复杂文本到SQL的并行探索代理",
+      "url": "https://arxiv.org/abs/2604.22934",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该研究提出了一种新的文本到SQL生成框架，旨在解决当前LLM代理在延迟和性能之间的权衡问题。通过将原始查询与一组简单的原子SQL测试用例并行执行，确保语义覆盖，最终生成SQL。该方法在Spider 2.0基准上验证，达到了70.2%的执行准确率，创下新的记录。这种方法通过并行测试用例的覆盖迭代，收集足够的信息以生成最终SQL，显著提高了复杂查询的生成效率。",
+      "importance": 8
+    },
+    {
+      "title": "The Power of Power Law: Asymmetry Enables Compositional Reasoning",
+      "title_zh": "幂律的力量：不对称性促进组合推理",
+      "url": "https://arxiv.org/abs/2604.22951",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究发现，自然语言数据遵循幂律分布，在组合推理任务中，训练在幂律分布下的模型表现优于均匀分布。通过引入最小化的技能组合任务，证明幂律分布下的学习需要显著更少的训练数据。理论分析表明，幂律采样引入了有益的不对称性，改善了病态的损失景观，使模型能够首先以低数据复杂性获取高频技能组合，从而有效学习稀有的长尾技能。这一发现为有效的数据分布提供了新的视角。",
+      "importance": 8
+    },
+    {
+      "title": "GSAR: Typed Grounding for Hallucination Detection and Recovery in Multi-Agent LLMs",
+      "title_zh": "GSAR：多代理LLM中的幻觉检测与恢复的类型化基础",
+      "url": "https://arxiv.org/abs/2604.23366",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "GSAR 是一个用于多代理 LLM 系统的基础评估和重新规划框架，旨在提高系统的可信度。它将声明划分为四种类型，并根据证据类型分配权重，计算不对称的矛盾惩罚加权基础分数，并将其与三层决策功能结合。GSAR 在 FEVER 数据集上的评估显示其在四个独立训练的 LLM 法官下的表现优于现有方法。GSAR 是首个将证据类型评分与分层恢复结合的基础框架。",
+      "importance": 8
+    },
+    {
+      "title": "IndustryAssetEQA: A Neurosymbolic Operational Intelligence System for Embodied Question Answering in Industrial Asset Maintenance",
+      "title_zh": "IndustryAssetEQA：用于工业资产维护的神经符号操作智能系统",
+      "url": "https://arxiv.org/abs/2604.23446",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "IndustryAssetEQA 是一个神经符号操作智能系统，旨在提高工业资产维护中的问题回答能力。该系统结合了情景遥测表示和故障模式影响分析知识图谱（FMEA-KG），在四种工业资产类型的数据集上进行评估。与仅使用 LLM 的基线相比，IndustryAssetEQA 在结构有效性、反事实准确性和解释蕴涵性方面有显著提升，同时将严重的专家评定过度声明从 28% 降至 2%。",
+      "importance": 8
+    },
+    {
+      "title": "Mechanistic Steering of LLMs Reveals Layer-wise Feature Vulnerabilities in Adversarial Settings",
+      "title_zh": "LLM的机制引导揭示了对抗环境中的层级特征脆弱性",
+      "url": "https://arxiv.org/abs/2604.23130",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "研究探讨了大型语言模型（LLM）在对抗性环境中被破解的内在机制。通过对Gemma-2-2B模型的三阶段管道分析，发现模型的中后层特征子组更易受攻击。该研究利用BeaverTails数据集，通过特征分组策略和LLM-judge评分协议，揭示了特定层级特征的脆弱性。这一发现表明，针对特征层级的干预可能比当前的提示级防御更能增强对抗鲁棒性。",
+      "importance": 8
+    },
+    {
+      "title": "DARC-CLIP: Dynamic Adaptive Refinement with Cross-Attention for Meme Understanding",
+      "title_zh": "DARC-CLIP：用于模因理解的动态自适应交叉注意力精炼",
+      "url": "https://arxiv.org/abs/2604.23214",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "DARC-CLIP是一种基于CLIP的框架，旨在通过自适应多模态融合提高模因理解能力。该框架引入了自适应交叉注意力精炼器和动态特征适配器，以实现双向信息对齐和任务敏感信号适配。在PrideMM基准上的评估显示，DARC-CLIP在仇恨检测任务中比最强基线提高了4.18 AUROC和6.84 F1。这表明自适应交叉信号精炼是多模态内容分析的有效策略。",
+      "importance": 8
+    },
+    {
+      "title": "How ChatGPT serves ads",
+      "title_zh": "ChatGPT如何投放广告",
+      "url": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "OpenAI的广告平台通过在ChatGPT对话中注入广告单元实现广告投放。广告单元通过结构化对象插入到对话流中，而在商家端，一个名为OAIQ的跟踪SDK在访问者的浏览器中运行，报告产品浏览情况。广告和商家之间通过Fernet加密的点击令牌连接。广告单元包括广告请求ID、广告商品牌信息、广告内容和目标链接等。广告内容通过OpenAI托管的服务器加载，确保广告的完整性和安全性。这种广告投放方式展示了AI在广告领域的应用潜力。",
+      "importance": 8
+    },
+    {
+      "title": "OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs",
+      "title_zh": "OpenAI模型将登陆Amazon Bedrock：与OpenAI和AWS CEO的访谈",
+      "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "OpenAI与AWS达成协议，允许OpenAI的模型在AWS的Bedrock平台上运行。这一变化使得OpenAI可以在多个云提供商上提供其产品，而不仅限于微软Azure。这一举措标志着OpenAI与微软之间协议的修订，微软仍将是OpenAI的主要云合作伙伴，但OpenAI现在可以在任何云提供商上提供其产品。此举有助于OpenAI扩大其市场覆盖面，同时继续与微软保持战略合作关系。",
+      "importance": 8
+    },
+    {
+      "title": "VibeVoice: Open-source frontier voice AI",
+      "title_zh": "VibeVoice：开源前沿语音AI",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "VibeVoice是微软推出的开源语音AI框架，涵盖文本到语音（TTS）和自动语音识别（ASR）模型。VibeVoice-ASR支持60分钟长音频的单次处理，提供结构化转录，包括说话者、时间戳和内容。该模型支持50多种语言，并提供用户自定义上下文。VibeVoice-TTS支持多达90分钟的长文本语音合成，适用于多说话者场景。此项目旨在推动语音合成社区的协作，促进AI在语音技术领域的应用。",
+      "importance": 8
+    },
+    {
+      "title": "Claude.ai unavailable and elevated errors on the API",
+      "title_zh": "Claude.ai无法访问及API错误增加",
+      "url": "https://status.claude.com/incidents/9l93x2ht4s5w",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Claude.ai平台及其相关服务在4月28日UTC时间17:34至18:52期间出现了访问问题和API认证错误。Anthropic公司已识别出问题并正在努力解决，影响范围包括Claude Console、Claude API、Claude Code、Claude Cowork和Claude for Government。公司表示目前服务成功率已恢复正常，并将密切监控以防止进一步问题。这一事件可能影响了依赖Claude服务的开发者和企业用户，凸显了云服务平台在稳定性和可靠性方面的挑战。",
+      "importance": 8
+    },
+    {
+      "title": "AISLE Discovers 38 CVEs in OpenEMR Healthcare Software",
+      "title_zh": "AISLE在OpenEMR医疗软件中发现38个CVE漏洞",
+      "url": "https://aisle.com/blog/aisle-discovers-38-critical-security-vulnerabilities-in-healthcare-software-used-by-100000-providers",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "AISLE研究团队在OpenEMR的代码库中发现了38个CVE漏洞，这些漏洞占据了该软件在GitHub上发布的安全公告的一半以上。OpenEMR是全球最广泛使用的开源电子健康记录平台之一，服务于超过100,000个医疗提供者和2亿多患者。AISLE使用其AI分析引擎进行漏洞检测，并与OpenEMR的维护团队紧密合作快速修复了这些问题。这一发现揭示了医疗软件在快速数字化过程中面临的安全挑战，强调了加强关键基础设施安全的重要性。",
+      "importance": 8
+    },
+    {
+      "title": "Qwen/Qwen3.6-27B",
+      "title_zh": "Qwen3.6-27B 发布",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Qwen3.6-27B 是一款因应社区反馈而开发的开放权重模型，旨在提高稳定性和实际应用效用。该模型在代理编码和推理保留方面有显著升级，能够更流畅地处理前端工作流和代码库级别的推理。模型采用因果语言模型结构，具备视觉编码器，拥有 27B 参数和 64 层隐藏层。其上下文长度原生支持 262,144 tokens，并可扩展至 1,010,000 tokens。Qwen3.6 的发布为开发者提供了更直观、响应迅速的编码体验，尤其在处理复杂的代码和推理任务时表现出色。",
+      "importance": 8
+    },
+    {
+      "title": "openai/privacy-filter",
+      "title_zh": "OpenAI 隐私过滤器发布",
+      "url": "https://huggingface.co/openai/privacy-filter",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "OpenAI 隐私过滤器是一款用于检测和屏蔽文本中个人身份信息（PII）的双向 token 分类模型。该模型适用于需要高吞吐量数据清理的工作流，支持本地运行，具有快速、上下文感知和可调节的特点。模型预训练采用自回归方式，随后转换为隐私标签分类器，并通过监督分类损失进行后训练。它能够在单次前向传递中标记输入序列，使用 Viterbi 程序解码连贯的跨度。模型具有 1.5B 总参数和 50M 活跃参数，支持 128,000-token 的长上下文窗口，适合处理长文本。其 Apache 2.0 许可使得模型易于实验、定制和商业部署。",
+      "importance": 8
+    },
+    {
+      "title": "FormalScience: Scalable Human-in-the-Loop Autoformalisation of Science with Agentic Code Generation in Lean",
+      "title_zh": "FormalScience：通过Lean中的代理代码生成实现科学的可扩展人机协作自动形式化",
+      "url": "https://arxiv.org/abs/2604.23002",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "FormalScience提供了一种领域无关的自动形式化管道，帮助领域专家在没有深厚形式语言经验的情况下，生成语法正确且语义对齐的形式证明。应用于物理学，构建了FormalPhysics数据集，包含200个大学水平的物理问题及其Lean4形式表示。研究评估了开源模型和专有系统在语句自动形式化任务中的表现，揭示了现代LLM方法在物理自动形式化中的语义漂移问题。该研究为科学领域的自动形式化和定理证明提供了新的工具和数据集。",
+      "importance": 7
+    },
+    {
+      "title": "Towards Causally Interpretable Wi-Fi CSI-Based Human Activity Recognition with Discrete Latent Compression and LTL Rule Extraction",
+      "title_zh": "面向因果可解释的基于Wi-Fi CSI的人类活动识别：离散潜在压缩与LTL规则提取",
+      "url": "https://arxiv.org/abs/2604.22979",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该研究提出了一种新的基于Wi-Fi信道状态信息（CSI）的人类活动识别方法，强调因果可解释性和符号可控性。通过使用类别变分自编码器压缩CSI幅度窗口，生成紧凑的离散表示，并进行因果发现以估计类条件时间依赖图。随后，统计支持的滞后依赖被翻译为线性时序逻辑（LTL）规则，形成一个完全符号化和确定性的分类器。该方法在保持竞争性预测性能的同时，保留了显式的时间和因果结构，为无线HAR提供了一种可行的替代方案。",
+      "importance": 7
+    },
+    {
+      "title": "A Systematic Approach for Large Language Models Debugging",
+      "title_zh": "大型语言模型调试的系统方法",
+      "url": "https://arxiv.org/abs/2604.23027",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该研究提出了一种系统化的方法来调试大型语言模型（LLM），将模型视为可观察的系统，提供从问题检测到模型改进的结构化、模型无关的方法。通过统一评估、可解释性和错误分析实践，该方法使从业者能够迭代诊断模型的弱点，优化提示和模型参数，并调整数据以进行微调或评估。这种方法不仅加速了故障排除，还促进了LLM系统部署中的可重复性、透明性和可扩展性。",
+      "importance": 7
+    },
+    {
+      "title": "Analytica: Soft Propositional Reasoning for Robust and Scalable LLM-Driven Analysis",
+      "title_zh": "Analytica：用于稳健和可扩展LLM驱动分析的软命题推理",
+      "url": "https://arxiv.org/abs/2604.23072",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "Analytica是一种基于软命题推理（SPR）的新型代理架构，旨在解决LLM在复杂分析任务中的不稳定性和缺乏可验证结构的问题。SPR将复杂分析重构为估计不同结果命题的软真值的结构化过程，允许正式建模和最小化估计误差。Analytica通过并行的分而治之框架实现这一点，减少偏差和方差。实验结果表明，Analytica在经济、金融和政治预测任务中平均提高了15.84%的准确性，表现出较低的方差和高效的成本效益。",
+      "importance": 7
+    },
+    {
+      "title": "SoccerRef-Agents: Multi-Agent System for Automated Soccer Refereeing",
+      "title_zh": "SoccerRef-Agents：自动化足球裁判的多代理系统",
+      "url": "https://arxiv.org/abs/2604.23392",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "SoccerRef-Agents 是一个用于足球裁判的多代理决策框架，旨在提供全面且可解释的裁判决策。该系统构建了一个多模态基准 SoccerRefBench，包含 1200 多个裁判理论问题和 600 个犯规视频片段，并建立了一个基于向量的知识库 RefKnowledgeDB。通过跨模态 RAG 协作，该系统在决策准确性和解释质量上显著优于通用 MLLM。",
+      "importance": 7
+    },
+    {
+      "title": "Constraint-Based Analysis of Reasoning Shortcuts in Neurosymbolic Learning",
+      "title_zh": "神经符号学习中推理捷径的基于约束分析",
+      "url": "https://arxiv.org/abs/2604.23377",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该研究探讨了神经符号系统在学习过程中满足逻辑约束但未实现概念标签对应的推理捷径问题。通过将推理捷径形式化为约束满足问题，研究证明了在双射映射下，判别属性是捷径自由的必要条件。研究开发了一种基于 ASP 的算法来验证给定约束集是否唯一确定预期概念映射，并提供了复杂性分类和实验验证。",
+      "importance": 7
+    },
+    {
+      "title": "Small Language Model Helps Resolve Semantic Ambiguity of LLM Prompt",
+      "title_zh": "小型语言模型帮助解决LLM提示的语义歧义",
+      "url": "https://arxiv.org/abs/2604.23263",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "该研究提出了一种预推理提示优化机制，通过显式提示消歧来解决大型语言模型（LLM）提示中的语义歧义。利用小型语言模型（SLM）进行提示消歧，能够在不干扰LLM推理内部机制的情况下优化提示。实验表明，该方法在多个基准上提高了2.5分的推理性能，成本仅为0.02美元。这一研究促进了显式提示消歧作为有效提示优化方法的发展。",
+      "importance": 7
+    },
+    {
+      "title": "Au-M-ol: A Unified Model for Medical Audio and Language Understanding",
+      "title_zh": "Au-M-ol：一种用于医学音频和语言理解的统一模型",
+      "url": "https://arxiv.org/abs/2604.23284",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "Au-M-ol是一种新型多模态架构，旨在提升临床任务中的自动语音识别（ASR）性能。该模型包括音频编码器、适配层和预训练的大型语言模型（LLM），能够直接解释医学语音内容，提升准确性和鲁棒性。在实验中，Au-M-ol在医学转录任务中将词错误率（WER）降低了56%，在嘈杂环境、特定领域术语和说话者多样性条件下表现良好。这表明Au-M-ol在需要可靠和上下文感知音频理解的临床应用中具有很大潜力。",
+      "importance": 7
+    },
+    {
+      "title": "VeriLLMed: Interactive Visual Debugging of Medical Large Language Models with Knowledge Graphs",
+      "title_zh": "VeriLLMed：使用知识图谱进行医学大语言模型的交互式可视化调试",
+      "url": "https://arxiv.org/abs/2604.23356",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "VeriLLMed是一种可视化分析系统，旨在通过整合外部生物医学知识来审计和调试医学大语言模型的诊断推理。该系统将模型输出转化为可比的推理路径，构建基于知识图谱的参考路径，并识别三类诊断错误：关系错误、分支错误和缺失错误。案例研究和专家评估表明，VeriLLMed有助于开发人员识别临床上不合理的推理，并生成可操作的见解以改善医学大语言模型。",
+      "importance": 7
+    },
+    {
+      "title": "An update on GitHub availability",
+      "title_zh": "GitHub可用性更新",
+      "url": "https://github.blog/news-insights/company-news/an-update-on-github-availability/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "GitHub最近经历了两次重大服务中断，导致用户无法正常使用平台。为提高可靠性，GitHub计划将容量增加10倍，并设计支持30倍当前规模的架构。随着软件开发流程的加速，GitHub面临的挑战包括存储、合并检查、分支保护、API使用等多方面的压力。GitHub正在通过减少不必要的工作、改善缓存、隔离关键服务等措施来提升系统的稳定性和可用性。",
+      "importance": 7
+    },
+    {
+      "title": "Claude Code auto mode: a safer way to skip permissions",
+      "title_zh": "Claude Code自动模式：一种更安全的跳过权限方法",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Claude Code推出了一种新的自动模式，旨在减少用户在执行命令或修改文件时的批准疲劳。传统的手动批准模式虽然安全，但繁琐，而完全跳过权限的模式则存在安全隐患。自动模式通过模型分类器来判断哪些操作需要用户批准，哪些可以自动执行，从而在安全性和便利性之间取得平衡。此模式通过输入层的探测和行动层的监控，确保危险操作不会在未授权的情况下执行。",
+      "importance": 7
+    },
+    {
+      "title": "朋友圈改版",
+      "title_zh": "朋友圈改版",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%8B%E5%8F%8B%E5%9C%88%E6%94%B9%E7%89%88%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "躺平网红",
+      "title_zh": "躺平网红",
+      "url": "https://s.weibo.com/weibo?q=%E8%BA%BA%E5%B9%B3%E7%BD%91%E7%BA%A2&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "新中国首条通江达海大运河来了",
+      "title_zh": "新中国首条通江达海大运河来了",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%96%B0%E4%B8%AD%E5%9B%BD%E9%A6%96%E6%9D%A1%E9%80%9A%E6%B1%9F%E8%BE%BE%E6%B5%B7%E5%A4%A7%E8%BF%90%E6%B2%B3%E6%9D%A5%E4%BA%86%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "偏偏宠爱",
+      "title_zh": "偏偏宠爱",
+      "url": "https://s.weibo.com/weibo?q=%E5%81%8F%E5%81%8F%E5%AE%A0%E7%88%B1&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "多平台已下架毒品前体",
+      "title_zh": "多平台已下架毒品前体",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%9A%E5%B9%B3%E5%8F%B0%E5%B7%B2%E4%B8%8B%E6%9E%B6%E6%AF%92%E5%93%81%E5%89%8D%E4%BD%93%23&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "体育老师考教资太尴尬了",
+      "title_zh": "体育老师考教资太尴尬了",
+      "url": "https://s.weibo.com/weibo?q=%E4%BD%93%E8%82%B2%E8%80%81%E5%B8%88%E8%80%83%E6%95%99%E8%B5%84%E5%A4%AA%E5%B0%B4%E5%B0%AC%E4%BA%86&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "体检迟到两分钟被取消事业单位入职资格，法院判决人社局机械执法，责令重新处置，如何从法律角度解读？",
+      "title_zh": "体检迟到两分钟被取消事业单位入职资格，法院判决人社局机械执法，责令重新处置，如何从法律角度解读？",
+      "url": "https://www.zhihu.com/question/2032152657725481199",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "如何看待长城汽车魏建军在北京车展上对宝马董事长称纯电平台是虚假宣传，并强调宝马的看法和长城一致？",
+      "title_zh": "如何看待长城汽车魏建军在北京车展上对宝马董事长称纯电平台是虚假宣传，并强调宝马的看法和长城一致？",
+      "url": "https://www.zhihu.com/question/2031648098368345383",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "为什么 B 族维生素有 B1 B3B5 B6 B7B9 B12，却没有 B4 B8 B10 B11 这些编号？",
+      "title_zh": "为什么 B 族维生素有 B1 B3B5 B6 B7B9 B12，却没有 B4 B8 B10 B11 这些编号？",
+      "url": "https://www.zhihu.com/question/1996481608203649538",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "Minimax 股价几乎腰斩，其背后有哪些原因？对市场有何影响？",
+      "title_zh": "Minimax 股价几乎腰斩，其背后有哪些原因？对市场有何影响？",
+      "url": "https://www.zhihu.com/question/2032281961440483242",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "老一辈总把「臭鱼烂虾」当人脉，反映什么问题？大部分老一辈的见识是否很有限，只是年龄老显得有智慧？",
+      "title_zh": "老一辈总把「臭鱼烂虾」当人脉，反映什么问题？大部分老一辈的见识是否很有限，只是年龄老显得有智慧？",
+      "url": "https://www.zhihu.com/question/1997643987473961834",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "阿联酋宣布退出欧佩克，背后原因有哪些？将产生哪些影响？",
+      "title_zh": "阿联酋宣布退出欧佩克，背后原因有哪些？将产生哪些影响？",
+      "url": "https://www.zhihu.com/question/2032556377051063281",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "阿联酋为何退出石油输出国组织",
+      "title_zh": "阿联酋为何退出石油输出国组织",
+      "url": "https://www.toutiao.com/trending/7633508445018849316/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "受贿数额特别巨大！蓝天立被公诉",
+      "title_zh": "受贿数额特别巨大！蓝天立被公诉",
+      "url": "https://www.toutiao.com/trending/7633995126952329258/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "五一劳动奖表彰坚持面向基层一线",
+      "title_zh": "五一劳动奖表彰坚持面向基层一线",
+      "url": "https://www.toutiao.com/trending/7632992020432473663/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "普京在强雨雪中为女副总理撑伞",
+      "title_zh": "普京在强雨雪中为女副总理撑伞",
+      "url": "https://www.toutiao.com/trending/7633824225530462249/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "民调：特朗普支持率跌至任内新低",
+      "title_zh": "民调：特朗普支持率跌至任内新低",
+      "url": "https://www.toutiao.com/trending/7633688125021634602/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "男子在足浴店逃单 前台懵了",
+      "title_zh": "男子在足浴店逃单 前台懵了",
+      "url": "https://www.toutiao.com/trending/7633564705676296243/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 119,
+    "processed_count": 30
+  },
+  "display_count": 29
+}
