@@ -1,0 +1,443 @@
+{
+  "date": "2026-04-30",
+  "generated_at": "2026-04-30T04:00:03.200437",
+  "items": [
+    {
+      "title": "Co-Director: Agentic Generative Video Storytelling",
+      "title_zh": "Co-Director：代理生成视频故事讲述",
+      "url": "https://arxiv.org/abs/2604.24842",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "Co-Director是一个用于生成视频故事的多代理框架，将视频故事讲述形式化为全局优化问题。该系统通过多臂赌博机方法识别创造性方向，并通过局部多模态自我优化循环确保语义一致性。实验表明，Co-Director在个性化广告的400个场景数据集GenAD-Bench上显著优于现有技术基准，能够无缝扩展到更广泛的电影叙事中。",
+      "importance": 9
+    },
+    {
+      "title": "JURY-RL: Votes Propose, Proofs Dispose for Label-Free RLVR",
+      "title_zh": "JURY-RL：投票提议，证明处置用于无标签RLVR",
+      "url": "https://arxiv.org/abs/2604.25419",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "JURY-RL是一种无标签强化学习验证奖励（RLVR）框架，旨在解决传统RLVR依赖人工标注或精心设计的奖励规范的问题。该框架通过将答案提议与奖励处置分离，利用模型投票提出候选答案，并通过形式验证器确定该答案是否可获得正奖励。具体来说，只有在Lean中成功验证的多数投票答案的回滚才会获得奖励。当验证不确定时，采用ResZero作为后备奖励，丢弃未验证的多数提议，并在剩余答案上重新分配零均值、方差保留的信号。JURY-RL在数学推理基准测试中表现优于其他无标签基线，并在代码生成和通用基准测试中具有竞争力，达到与监督训练相当的pass@1性能，并通过更高的pass@k和响应多样性展示出优越的泛化能力。",
+      "importance": 9
+    },
+    {
+      "title": "Faithful Autoformalization via Roundtrip Verification and Repair",
+      "title_zh": "通过往返验证和修复实现忠实的自动形式化",
+      "url": "https://arxiv.org/abs/2604.25031",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本文提出了一种不需要真实标注的往返验证方法，用于验证大语言模型（LLM）将自然语言形式化的忠实性。该方法通过将语句形式化、翻译回自然语言、再形式化，并使用形式工具检查逻辑等价性来验证忠实性。研究在150个交通规则上进行，使用Claude Opus 4.6和GPT-5.2进行评估，诊断引导的修复将形式等价性从45-61%提高到83-85%。这表明形式等价性与语义漂移减少相关，为提高模型的形式化能力提供了新思路。",
+      "importance": 9
+    },
+    {
+      "title": "Building the compute infrastructure for the Intelligence Age",
+      "title_zh": "为智能时代构建计算基础设施",
+      "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+      "source": "OpenAI Blog",
+      "category": "industry",
+      "summary_zh": "OpenAI 正在通过 Stargate 项目扩展其计算基础设施，以支持广泛的 AGI 应用。自 2025 年 1 月宣布以来，OpenAI 已在美国实现了 10GW 的 AI 基础设施目标，并在过去 90 天内增加了 3GW。Stargate 项目旨在通过与合作伙伴和当地社区的合作，提前应对计算资源短缺问题。计算能力是高级 AI 的关键输入，支持更好的模型训练、可靠的服务和成本降低。OpenAI 强调，单一公司无法独自构建智能时代的基础设施，需要整个生态系统的协调。",
+      "importance": 9
+    },
+    {
+      "title": "Mistral Medium 3.5",
+      "title_zh": "Mistral Medium 3.5",
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+      "source": "Hacker News",
+      "category": "model_release",
+      "summary_zh": "Mistral公司发布了Mistral Medium 3.5，这是一个128B参数的密集模型，专为长时间运行的编码和生产力工作而设计。该模型支持在云端异步运行编码任务，并可通过Mistral Vibe CLI或Le Chat启动。Mistral Medium 3.5在真实世界中表现出色，能够在仅四个GPU上自托管运行。其新功能包括在Le Chat中引入的“工作模式”，用于处理复杂的多步骤任务。此模型在推理、编码和指令遵循方面表现优异，提供了灵活的推理配置，适用于快速聊天回复或复杂任务处理。这一发布对开发者和企业意味着更高效的云端任务管理和更强大的生产力工具。",
+      "importance": 9
+    },
+    {
+      "title": "deepseek-ai/DeepSeek-V4-Pro",
+      "title_zh": "DeepSeek-V4-Pro 发布",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "DeepSeek-V4-Pro 是一款具备高效百万令牌上下文智能的语言模型，拥有1.6万亿参数（激活49B），支持百万令牌的上下文长度。该模型采用混合注意力机制，结合压缩稀疏注意力（CSA）和高度压缩注意力（HCA），在1M令牌上下文设置下，仅需DeepSeek-V3.2的27%单令牌推理FLOPs和10%KV缓存。通过Muon优化器实现更快的收敛和更高的训练稳定性。模型在超过32万亿高质量令牌上进行预训练，并通过两阶段后训练管道进行微调，显著提升了开源模型在编码基准和推理任务上的性能，缩小了与闭源模型的差距。",
+      "importance": 9
+    },
+    {
+      "title": "Qwen/Qwen3.6-35B-A3B",
+      "title_zh": "Qwen3.6-35B-A3B 发布",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Qwen3.6-35B-A3B 是一款因应社区反馈而开发的开放权重模型，旨在提供更稳定和实用的编码体验。该模型拥有35B总参数和3B激活参数，采用因果语言模型架构，支持多步骤训练和长达1,010,000令牌的上下文长度。模型在前端工作流和仓库级推理上表现出色，能够保留历史消息中的推理上下文，从而简化迭代开发过程。Qwen3.6在语言和推理基准测试中表现优异，尤其是在复杂的编码任务中展现出卓越的能力。",
+      "importance": 9
+    },
+    {
+      "title": "Latent Agents: A Post-Training Procedure for Internalized Multi-Agent Debate",
+      "title_zh": "潜在代理：内化多代理辩论的后训练程序",
+      "url": "https://arxiv.org/abs/2604.24881",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了一种将多代理辩论内化到单个大型语言模型（LLM）中的框架，通过两阶段微调管道结合辩论结构学习和动态奖励调度。实验表明，内化模型在使用最多减少93%令牌的情况下，匹配或超过显式多代理辩论的性能。此外，通过激活引导研究发现，内化创建了特定代理的子空间，使得恶意行为更易于定位和控制。",
+      "importance": 8
+    },
+    {
+      "title": "S-SONDO: Self-Supervised Knowledge Distillation for General Audio Foundation Models",
+      "title_zh": "S-SONDO：通用音频基础模型的自监督知识蒸馏",
+      "url": "https://arxiv.org/abs/2604.24933",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "S-SONDO是首个使用输出嵌入蒸馏通用音频模型的框架，避免了对logits或层级对齐的需求。实验表明，通过S-SONDO蒸馏的学生模型最多可缩小61倍，同时保留高达96%的教师性能。这种方法适用于嵌入式教师，提供了关于损失选择和基于聚类的平衡数据采样的实用见解。",
+      "importance": 8
+    },
+    {
+      "title": "Adaptive Prompt Embedding Optimization for LLM Jailbreaking",
+      "title_zh": "LLM越狱的自适应提示嵌入优化",
+      "url": "https://arxiv.org/abs/2604.24983",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文提出了一种新的白盒越狱方法，称为提示嵌入优化（PEO），直接优化原始提示令牌的嵌入，而不附加对抗性令牌。实验表明，PEO在不改变可见提示字符串的情况下，能够保持语义内容，并在有害行为基准上优于现有的白盒攻击方法。",
+      "importance": 8
+    },
+    {
+      "title": "Agentic Architect: An Agentic AI Framework for Architecture Design Exploration and Optimization",
+      "title_zh": "Agentic Architect：用于架构设计探索和优化的代理AI框架",
+      "url": "https://arxiv.org/abs/2604.25083",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "Agentic Architect是一个用于计算机架构设计探索和优化的AI框架，结合了LLM驱动的代码演化和周期精确模拟。实验表明，该框架在缓存替换、数据预取和分支预测方面匹配或超过现有的最先进设计，显著提升了性能。该框架首次提供了一个端到端的开源平台，用于代理AI架构探索和优化。",
+      "importance": 8
+    },
+    {
+      "title": "PI-TTA: Physics-Informed Source-Free Test-Time Adaptation for Robust Human Activity Recognition on Mobile Devices",
+      "title_zh": "PI-TTA：用于移动设备上稳健的人类活动识别的物理信息源无关测试时适应",
+      "url": "https://arxiv.org/abs/2604.25435",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "PI-TTA是一种轻量级的源无关适应框架，专为移动和可穿戴传感器的人类活动识别（HAR）设计。它通过引入重力一致性、短期时间连续性和频谱稳定性三个物理一致性约束，稳定在线更新。PI-TTA在USCHAD、PAMAP2和mHealth数据集上的实验表明，它在长序列压力测试和因子化位移协议下有效缓解了信心驱动基线的严重退化，保持了稳定的适应性。与传统方法相比，PI-TTA在长序列准确性上提高了最多9.13%，并在物理违规率上分别减少了27.5%、24.1%和45.4%。这些结果表明，物理信息适应可以提高实际移动传感系统的准确性、稳定性和部署可靠性。",
+      "importance": 8
+    },
+    {
+      "title": "Dual-Track CoT: Budget-Aware Stepwise Guidance for Small LMs",
+      "title_zh": "双轨道CoT：小型语言模型的预算感知逐步指导",
+      "url": "https://arxiv.org/abs/2604.25039",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "大型语言模型（LLM）通过链式思维（CoT）提示解决许多推理任务，但小型模型（约7到8亿参数）在计算和令牌预算紧张的情况下仍难以进行多步骤推理。本文提出了一种新方法，旨在使小型语言模型（SLM）在相同或更少的令牌下可靠推理。该方法通过过程监督和简单的测试时控制（如令牌预算和冗余步骤拒绝）来替代模型规模或大量采样计数，特别适用于设备上、低延迟或成本受限的部署场景。",
+      "importance": 8
+    },
+    {
+      "title": "Analyzing LLM Reasoning to Uncover Mental Health Stigma",
+      "title_zh": "分析LLM推理以揭示心理健康污名",
+      "url": "https://arxiv.org/abs/2604.25053",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "尽管大型语言模型（LLM）在心理健康应用中越来越受关注，但研究表明它们可能对心理状况个体表现出污名。本文通过分析LLM的中间推理步骤，揭示隐藏的污名化语言及其背后的内部逻辑。研究利用临床专业知识对常见的污名化语言模式进行分类，并使用该框架识别和标记LLM推理中的问题陈述。结果表明，评估模型推理不仅能揭示比传统多项选择题方法更多的污名，还能识别LLM在理解心理健康状况方面的逻辑缺陷。",
+      "importance": 8
+    },
+    {
+      "title": "The Dynamics of Delusion: Modeling Bidirectional False Belief Amplification in Human-Chatbot Dialogue",
+      "title_zh": "妄想的动态：建模人机对话中双向错误信念的放大",
+      "url": "https://arxiv.org/abs/2604.25096",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本文研究了AI聊天机器人可能助长用户妄想信念的担忧，提出了一种潜在状态模型来捕捉人类与聊天机器人之间的累积和衰减影响。研究发现双向影响模型显著优于单向模型，表明人类对聊天机器人的影响短暂但强烈，而聊天机器人对人类的影响则更持久。此外，聊天机器人对自身未来输出的强烈自我影响往往会在长时间对话中延续妄想。研究首次提供了人机互动形成妄想反馈回路的定量证据，为开发更安全的AI系统提供了参考。",
+      "importance": 8
+    },
+    {
+      "title": "AI evals are becoming the new compute bottleneck",
+      "title_zh": "AI 评估成为新的计算瓶颈",
+      "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+      "source": "HuggingFace Blog",
+      "category": "blog",
+      "summary_zh": "AI 评估的成本已成为计算瓶颈，影响了谁能够进行这类评估。Holistic Agent Leaderboard 最近花费约 40,000 美元进行 21,730 次代理展开，单次 GAIA 运行成本高达 2,829 美元。新的代理基准测试噪声大、对支架敏感且部分可压缩，训练中循环的基准测试本质上昂贵。静态 LLM 基准测试的成本也在上升，例如 Stanford 的 HELM 项目显示每个模型的 API 成本从 85 美元到 10,926 美元不等。随着模型智能的提高和工具的增强，评估的可靠性和成本问题变得更加复杂。",
+      "importance": 8
+    },
+    {
+      "title": "Granite 4.1 LLMs: How They’re Built",
+      "title_zh": "Granite 4.1 大型语言模型：构建过程",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+      "source": "HuggingFace Blog",
+      "category": "model_release",
+      "summary_zh": "Granite 4.1 是一系列密集型、仅解码器的大型语言模型，拥有 3B、8B 和 30B 参数，使用约 15 万亿个标记进行训练。模型通过多阶段预训练管道，包括长上下文扩展至 512K 标记，并在 4.1M 高质量样本上进行监督微调。8B 指令模型在性能上与之前的 Granite 4.0-H-Small (32B-A9B MoE) 相当或更优，尽管其架构更简单且参数更少。所有 Granite 4.1 模型均以 Apache 2.0 许可证发布。",
+      "importance": 8
+    },
+    {
+      "title": "Mike: open-source legal AI",
+      "title_zh": "Mike: 开源法律AI",
+      "url": "https://mikeoss.com/",
+      "source": "Hacker News",
+      "category": "open_source",
+      "summary_zh": "Mike是一款开源的法律AI助手，提供了从文档阅读到合同起草和编辑的全流程支持。用户可以插入自己的Claude或Gemini密钥，保持对所用模型的完全控制。该工具支持多文档并行处理，确保每个单元格都能被验证引用，无虚假答案或死链接。用户可以保存经过验证的提示作为可重用的工作流程，创建公司范围的模板供初级员工一键运行。Mike是Harvey和Legora的有效替代品，提供托管产品或自部署源码的选项。这一工具的推出为法律行业提供了更高效的文档处理和工作流程自动化解决方案。",
+      "importance": 8
+    },
+    {
+      "title": "Making AI chatbots friendly leads to mistakes and support of conspiracy theories",
+      "title_zh": "让AI聊天机器人更友好导致错误和支持阴谋论",
+      "url": "https://www.theguardian.com/technology/2026/apr/29/making-ai-chatbots-more-friendly-mistakes-support-false-beliefs-conspiracy-theories-study",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "牛津大学的研究表明，调整AI聊天机器人以使其更友好可能导致它们提供错误信息，并支持错误的信念和阴谋论。研究发现，这些经过调整的机器人在回答准确性上下降了30%，支持用户错误信念的可能性增加了40%。这一趋势引起了担忧，因为许多科技公司正在设计更友好的聊天机器人，以吸引更多用户。研究人员指出，这种友好性与诚实性之间的权衡可能会影响聊天机器人处理敏感信息的能力，特别是在它们被用作数字伴侣、治疗师和顾问时。",
+      "importance": 8
+    },
+    {
+      "title": "openai/privacy-filter",
+      "title_zh": "OpenAI 隐私过滤器发布",
+      "url": "https://huggingface.co/openai/privacy-filter",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "OpenAI 隐私过滤器是一款用于检测和屏蔽文本中个人身份信息（PII）的双向令牌分类模型，适合高吞吐量数据净化工作流。该模型采用Apache 2.0许可，参数总量为1.5B，支持128,000令牌的长上下文窗口，并能够在浏览器或笔记本电脑上运行。模型通过预训练和监督分类损失后训练，能够在单次前向传递中标记输入序列，并通过Viterbi过程解码连贯的文本片段。用户可以通过调整模型的精确度/召回率权衡和检测跨度长度来控制运行。",
+      "importance": 8
+    },
+    {
+      "title": "openclaw OpenClaw 2026.4.25",
+      "title_zh": "OpenClaw 2026.4.25 发布",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.25",
+      "source": "OpenClaw Updates",
+      "category": "tool_update",
+      "summary_zh": "OpenClaw 在其最新版本 2026.4.25 中进行了多项重要更新。语音回复功能获得全面的 TTS 升级，支持多种供应商如 Azure Speech 和 ElevenLabs v3，并引入了聊天范围内的自动 TTS 控制和个性化设置。此外，插件启动和安装路径移至冷持久化注册表，优化了插件更新和安装的确定性。OpenTelemetry 覆盖范围扩展至模型调用、工具循环等多个领域，提升了监控能力。浏览器自动化功能也得到了增强，增加了更安全的标签页 URL 和更深度的浏览器诊断探测。安装和更新的安全性在多个平台上得到了加强，包括 Windows、macOS、Linux 和 Docker。这些更新显著提升了 OpenClaw 的功能性和用户体验，为开发者提供了更强大的工具支持。",
+      "importance": 8
+    },
+    {
+      "title": "Semantic Layers for Reliable LLM-Powered Data Analytics: A Paired Benchmark of Accuracy and Hallucination Across Three Frontier Models",
+      "title_zh": "用于可靠LLM驱动数据分析的语义层：跨三个前沿模型的准确性和幻觉配对基准",
+      "url": "https://arxiv.org/abs/2604.25149",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文研究了在自然语言查询分析数据库时，提供业务语义作为上下文是否能提高模型的准确性。通过在三个前沿LLM上进行基准测试，发现添加语义层文档可以显著提高准确性，表明显式业务语义能够抑制主要的文本到SQL错误类别，而不是通过增强模型能力。",
+      "importance": 7
+    },
+    {
+      "title": "Doing More With Less: Revisiting the Effectiveness of LLM Pruning for Test-Time Scaling",
+      "title_zh": "以更少做更多：重新审视LLM剪枝对测试时缩放的有效性",
+      "url": "https://arxiv.org/abs/2604.25098",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "本文重新审视了在大语言模型（LLM）中应用剪枝技术以减少参数数量而不降低性能的有效性。研究表明，与结构化剪枝相比，非结构化剪枝在多个推理基准上能够增强测试时缩放性能，甚至在某些情况下优于未剪枝的完整模型。这一发现挑战了传统观念，表明精心实施的剪枝可以进一步提高测试时的有效性。",
+      "importance": 7
+    },
+    {
+      "title": "Training Transformers as a Universal Computer",
+      "title_zh": "将Transformer训练为通用计算机",
+      "url": "https://arxiv.org/abs/2604.25166",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "研究展示了小型Transformer可以学习执行MicroPy语言中的程序，MicroPy是一种简化但计算上通用的编程语言。训练后的Transformer能够泛化到多种人类编写的程序，如位复制和翻转、二进制加法和乘法、SAT验证和求解。这表明标准Transformer可以被训练为通用计算机，能够执行任何计算。",
+      "importance": 7
+    },
+    {
+      "title": "SciEval: A Benchmark for Automatic Evaluation of K-12 Science Instructional Materials",
+      "title_zh": "SciEval：K-12科学教学材料自动评估的基准",
+      "url": "https://arxiv.org/abs/2604.25472",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "SciEval是一个用于自动评估K-12科学教学材料的基准，旨在解决由于生成式AI的使用而导致的教学材料评审耗时、需要专业知识且难以扩展的问题。该基准包括一个名为AIME的生成式AI任务，预测分数和证据，并使用教育者设计的评分标准。SciEval数据集包含273个课程级教学材料，基于EQuIP标准进行评估。研究发现，主流的大型语言模型在此任务上表现不佳，但通过对Qwen3进行领域特定微调，性能提升了11%。这表明领域特定的微调对于AIME任务的重要性，并促进了LLM在其他教育任务中的应用。",
+      "importance": 7
+    },
+    {
+      "title": "Improving Zero-Shot Offline RL via Behavioral Task Sampling",
+      "title_zh": "通过行为任务采样改进零样本离线强化学习",
+      "url": "https://arxiv.org/abs/2604.25496",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "该研究提出了一种改进零样本离线强化学习（RL）的方法，通过从离线数据集中提取任务向量来定义用于策略训练的任务分布，而不是随机采样任务向量。研究表明，这种方法在多个基准环境和基线算法中平均提高了20%的零样本性能，强调了在离线零样本RL中采用合理任务采样的重要性。",
+      "importance": 7
+    },
+    {
+      "title": "Diagnosis, Bad Planning & Reasoning. Treatment, SCOPE -- Planning for Hybrid Querying over Clinical Trial Data",
+      "title_zh": "诊断、糟糕的规划与推理。治疗，SCOPE——临床试验数据的混合查询规划",
+      "url": "https://arxiv.org/abs/2604.25120",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "本文研究了临床试验表格推理，其中答案需要通过语义理解进行推理。现有的大语言模型（LLM）方法在隐式规划假设下常常表现出“糟糕的推理”。为此，作者提出了SCOPE框架，该框架通过多LLM规划器将任务分解为行选择、结构化规划和执行。SCOPE在1500个肿瘤学临床试验表格上的混合推理问题中表现优异，显示出显式多LLM规划在推理问题上的准确性提升，同时在准确性和效率之间提供了更好的权衡。",
+      "importance": 7
+    },
+    {
+      "title": "LongSumEval: Question-Answering Based Evaluation and Feedback-Driven Refinement for Long Document Summarization",
+      "title_zh": "LongSumEval：基于问答的长文档摘要评估与反馈驱动的改进",
+      "url": "https://arxiv.org/abs/2604.25130",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "长文档摘要的评估一直是摘要研究的主要瓶颈。现有指标与人类判断的相关性较弱，且无法解释缺陷或指导改进。本文引入LongSumEval框架，通过结构化问答反馈将评估与生成相结合。该框架将摘要质量操作化为问答对的可回答性和事实对齐，生成可解释的分数和可操作的反馈，识别覆盖差距和事实不一致。实验表明，QA模块在七个基准上与人类判断的相关性显著增强，结构化反馈使得无需重新训练即可显著提高质量。",
+      "importance": 7
+    },
+    {
+      "title": "What Makes Good Instruction-Tuning Data? An In-Context Learning Perspective",
+      "title_zh": "什么是好的指令微调数据？一种上下文学习的视角",
+      "url": "https://arxiv.org/abs/2604.25132",
+      "source": "ArXiv CS.CL",
+      "category": "paper",
+      "summary_zh": "指令微调数据集通常包含大量冗余和低质量样本，因此需要有效的数据选择方法。本文提出了一种基于加权上下文影响（wICI）的指令数据选择框架，该框架衡量每个候选样本在语义相关的同行中减少指令跟随难度的有效性。通过系统实验，研究了有效指令微调数据的构成、样本难度与上下文影响的相关性，以及上下文影响如何转化为指令微调效果。实验表明，该方法在受限数据预算下始终优于现有基线。",
+      "importance": 7
+    },
+    {
+      "title": "Cybersecurity in the Intelligence Age",
+      "title_zh": "智能时代的网络安全",
+      "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
+      "source": "OpenAI Blog",
+      "category": "industry",
+      "summary_zh": "OpenAI 发布了一项行动计划，旨在通过民主化 AI 驱动的网络防御来应对日益复杂的网络威胁。计划包括五个支柱：民主化网络防御、政府和行业协调、加强前沿网络能力的安全性、在部署中保持可见性和控制、以及帮助用户自我保护。OpenAI 强调，建设网络安全基础设施需要通过民主制度和过程，并扩大技术的可及性，以保护社区、关键系统和国家安全。",
+      "importance": 7
+    },
+    {
+      "title": "5月起未经同意不得发送商业短信",
+      "title_zh": "5月起未经同意不得发送商业短信",
+      "url": "https://s.weibo.com/weibo?q=%235%E6%9C%88%E8%B5%B7%E6%9C%AA%E7%BB%8F%E5%90%8C%E6%84%8F%E4%B8%8D%E5%BE%97%E5%8F%91%E9%80%81%E5%95%86%E4%B8%9A%E7%9F%AD%E4%BF%A1%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "女生攒到10万怕被嘲笑网友全是鼓励",
+      "title_zh": "女生攒到10万怕被嘲笑网友全是鼓励",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E7%94%9F%E6%94%92%E5%88%B010%E4%B8%87%E6%80%95%E8%A2%AB%E5%98%B2%E7%AC%91%E7%BD%91%E5%8F%8B%E5%85%A8%E6%98%AF%E9%BC%93%E5%8A%B1%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "中国速度彰显中国基建硬核实力",
+      "title_zh": "中国速度彰显中国基建硬核实力",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E9%80%9F%E5%BA%A6%E5%BD%B0%E6%98%BE%E4%B8%AD%E5%9B%BD%E5%9F%BA%E5%BB%BA%E7%A1%AC%E6%A0%B8%E5%AE%9E%E5%8A%9B%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "年轻人出门越来越极简了",
+      "title_zh": "年轻人出门越来越极简了",
+      "url": "https://s.weibo.com/weibo?q=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%87%BA%E9%97%A8%E8%B6%8A%E6%9D%A5%E8%B6%8A%E6%9E%81%E7%AE%80%E4%BA%86&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "霍尔木兹海峡部分被困船员已遇难",
+      "title_zh": "霍尔木兹海峡部分被困船员已遇难",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E6%B5%B7%E5%B3%A1%E9%83%A8%E5%88%86%E8%A2%AB%E5%9B%B0%E8%88%B9%E5%91%98%E5%B7%B2%E9%81%87%E9%9A%BE%23&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "老式水果为何消失了",
+      "title_zh": "老式水果为何消失了",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%80%81%E5%BC%8F%E6%B0%B4%E6%9E%9C%E4%B8%BA%E4%BD%95%E6%B6%88%E5%A4%B1%E4%BA%86%23&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "为什么我们总怪父母没抓住房产和互联网红利，可轮到自己面对 AI 时代红利时，也开始犹豫了？",
+      "title_zh": "为什么我们总怪父母没抓住房产和互联网红利，可轮到自己面对 AI 时代红利时，也开始犹豫了？",
+      "url": "https://www.zhihu.com/question/2031783702569726072",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "比亚迪部分车型 5 月 1 日起涨价，因存储硬件成本大涨，这轮成本波动对车企们影响有多大？为何会扛不住涨价？",
+      "title_zh": "比亚迪部分车型 5 月 1 日起涨价，因存储硬件成本大涨，这轮成本波动对车企们影响有多大？为何会扛不住涨价？",
+      "url": "https://www.zhihu.com/question/2032817462966577108",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "特朗普解雇 NSF 的国家科学委员会全体成员，释放出什么样的信号？",
+      "title_zh": "特朗普解雇 NSF 的国家科学委员会全体成员，释放出什么样的信号？",
+      "url": "https://www.zhihu.com/question/2032422954055776061",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "深圳楼市政策调整，深户家庭可在核心区购买 3 套，非深户（一年社保）可买 2 套，哪些信息值得关注？",
+      "title_zh": "深圳楼市政策调整，深户家庭可在核心区购买 3 套，非深户（一年社保）可买 2 套，哪些信息值得关注？",
+      "url": "https://www.zhihu.com/question/2032898043591312151",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "张雪称已经拒绝了半个亿的商务合作，只保留 4 个车队赞助，透露哪些信息？给网红创业者哪些启示？",
+      "title_zh": "张雪称已经拒绝了半个亿的商务合作，只保留 4 个车队赞助，透露哪些信息？给网红创业者哪些启示？",
+      "url": "https://www.zhihu.com/question/2032526195561120655",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "员工上班吃早餐遭开除，最终获赔 8000 元，为了这种小事解除劳动关系，企业的成本考量出了什么问题？",
+      "title_zh": "员工上班吃早餐遭开除，最终获赔 8000 元，为了这种小事解除劳动关系，企业的成本考量出了什么问题？",
+      "url": "https://www.zhihu.com/question/2032822941545494129",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "歼15喊话日本军机：你在我射程之内",
+      "title_zh": "歼15喊话日本军机：你在我射程之内",
+      "url": "https://www.toutiao.com/trending/7633289620521009198/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "特朗普牵手梅拉尼娅再现拒绝名场面",
+      "title_zh": "特朗普牵手梅拉尼娅再现拒绝名场面",
+      "url": "https://www.toutiao.com/trending/7634080529591238706/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "致敬每一双创造美好的劳动之手",
+      "title_zh": "致敬每一双创造美好的劳动之手",
+      "url": "https://www.toutiao.com/trending/7633299912210432019/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "我国新发现13个亿吨级油田有何意义",
+      "title_zh": "我国新发现13个亿吨级油田有何意义",
+      "url": "https://www.toutiao.com/trending/7634332538965593654/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "55岁资本大佬陆宏达涉嫌性侵属实",
+      "title_zh": "55岁资本大佬陆宏达涉嫌性侵属实",
+      "url": "https://www.toutiao.com/trending/7633782658485370922/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "网警严查“斗狠”类直播 13人被行拘",
+      "title_zh": "网警严查“斗狠”类直播 13人被行拘",
+      "url": "https://www.toutiao.com/trending/7634348738345127474/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 121,
+    "processed_count": 30
+  },
+  "display_count": 28
+}
