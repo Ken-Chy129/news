@@ -1,0 +1,344 @@
+{
+  "date": "2026-05-03",
+  "generated_at": "2026-05-03T04:02:44.763227",
+  "items": [
+    {
+      "title": "OpenAI's o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors",
+      "title_zh": "OpenAI的o1在急诊室诊断中准确率达到67%，超过医生的50-55%",
+      "url": "https://www.theguardian.com/technology/2026/apr/30/ai-outperforms-doctors-in-harvard-trial-of-emergency-triage-diagnoses",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "哈佛大学的一项研究显示，OpenAI的o1模型在急诊室的诊断中表现优于人类医生。在测试中，AI在67%的病例中准确诊断出病情，而人类医生的准确率仅为50%-55%。当提供更多细节时，AI的准确率上升到82%，而人类专家的准确率为70%-79%。此外，在制定长期治疗计划时，AI的表现也优于人类医生。这一研究表明，AI在快速决策和有限信息情况下的优势明显，可能对急诊医学产生重大影响。",
+      "importance": 9
+    },
+    {
+      "title": "deepseek-ai/DeepSeek-V4-Pro",
+      "title_zh": "DeepSeek-V4-Pro",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "DeepSeek-V4系列包括DeepSeek-V4-Pro和DeepSeek-V4-Flash两款强大的混合专家（MoE）语言模型，分别拥有1.6万亿和2840亿参数，支持长达一百万个token的上下文。DeepSeek-V4-Pro在1M-token上下文设置中，仅需DeepSeek-V3.2的27%单token推理FLOPs和10%的KV缓存。该系列采用了混合注意力架构和Muon优化器，显著提高了长上下文效率和训练稳定性。通过多阶段的后训练流程，DeepSeek-V4-Pro在开放源码模型中表现出色，尤其在编码基准测试中表现优异，缩小了与领先闭源模型在推理和代理任务上的差距。",
+      "importance": 9
+    },
+    {
+      "title": "FeaturedAn update on recent Claude Code quality reportsWe traced recent reports of Claude Code quality issues to three separate changes. Here's what happened and what we're changing.",
+      "title_zh": "Claude Code质量报告更新：追踪到三个独立问题",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Anthropic Engineering发布了一篇博客，详细说明了Claude Code近期质量问题的原因及解决措施。问题源于Claude Code、Claude Agent SDK和Claude Cowork的三个独立更改，导致用户体验不佳。经过调查，这些问题已在4月20日的v2.1.116版本中修复。公司强调API和推理层未受影响，并计划通过调整开发流程来避免类似问题的再次发生。这一事件凸显了在快速迭代的AI开发中，用户反馈和质量控制的重要性。",
+      "importance": 8
+    },
+    {
+      "title": "openai/privacy-filter",
+      "title_zh": "OpenAI隐私过滤器",
+      "url": "https://huggingface.co/openai/privacy-filter",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "OpenAI隐私过滤器是一种双向token分类模型，用于检测和屏蔽文本中的个人身份信息（PII）。该模型适用于高吞吐量的数据清理工作流，支持在本地快速运行，并且具有上下文感知能力和可调节性。模型基于gpt-oss架构，经过自回归预训练和监督分类损失后训练，能够在单次前向传递中标记输入序列，并通过受限Viterbi过程解码连贯的文本段。模型支持Apache 2.0许可，适合实验、定制和商业部署，具有长上下文处理能力和精确/召回权衡配置。",
+      "importance": 8
+    },
+    {
+      "title": "XiaomiMiMo/MiMo-V2.5-Pro",
+      "title_zh": "MiMo-V2.5-Pro",
+      "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "MiMo-V2.5-Pro是一个开源的混合专家（MoE）语言模型，拥有1.02万亿总参数和42亿激活参数，支持长达一百万个token的上下文。该模型采用混合注意力架构和多token预测（MTP）模块，显著提高了推理速度和RL训练效率。通过大规模的代理RL和多教师策略蒸馏，MiMo-V2.5-Pro在复杂的软件工程和长时任务中表现优异。",
+      "importance": 8
+    },
+    {
+      "title": "TauricResearch/TradingAgents",
+      "title_zh": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "TauricResearch发布了TradingAgents v0.2.4，这是一个多代理交易框架，旨在模拟真实世界的交易公司动态。该框架利用LLM驱动的代理，如基本面分析师、情感专家和技术分析师，协同评估市场条件并制定交易决策。最新版本引入了结构化输出代理、LangGraph检查点恢复、持久决策日志等功能，并支持多种LLM提供商。TradingAgents框架为研究目的而设计，强调协作和动态讨论以优化交易策略。",
+      "importance": 7
+    },
+    {
+      "title": "Claude Code auto mode: a safer way to skip permissionsMar 25, 2026",
+      "title_zh": "Claude Code自动模式：更安全的跳过权限方法",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Claude Code引入了一种新的自动模式，旨在减少用户在执行命令或修改文件时频繁点击“批准”的疲劳感。该模式使用模型分类器来自动处理批准请求，避免了手动审查和无保护运行之间的极端选择。通过两层防御机制，自动模式在输入和执行层面检测潜在危险行为，确保操作与用户意图一致。这一改进不仅提高了用户体验，还减少了因过度主动行为导致的错误风险。",
+      "importance": 7
+    },
+    {
+      "title": "Qwen/Qwen3.6-27B",
+      "title_zh": "Qwen3.6-27B",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Qwen3.6-27B是Qwen系列的最新版本，专注于稳定性和实际应用，提供更直观和高效的编码体验。该模型在前端工作流和库级推理方面表现出色，支持保留历史消息的推理上下文，简化迭代开发。Qwen3.6采用因果语言模型架构，拥有27亿参数，支持长达101万token的上下文窗口，显著提升了在SWE-Bench系列基准测试中的表现。",
+      "importance": 7
+    },
+    {
+      "title": "mistralai/Mistral-Medium-3.5-128B",
+      "title_zh": "Mistral Medium 3.5 128B",
+      "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Mistral Medium 3.5是一个密集的128B参数模型，支持256k的上下文窗口，能够在单一权重集中处理指令跟随、推理和编码任务。该模型取代了其前身Mistral Medium 3.1和Magistral，提供更好的指令、推理和编码任务性能。Mistral Medium 3.5支持多模态输入，包括文本和图像，并能够在请求时切换推理模式。",
+      "importance": 7
+    },
+    {
+      "title": "Scaling Managed Agents: Decoupling the brain from the handsApr 08, 2026",
+      "title_zh": "扩展管理代理：将大脑与双手分离",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Anthropic Engineering在其博客中介绍了Claude平台的Managed Agents服务，该服务旨在运行长时间任务的代理。通过将代理的组件虚拟化，如会话、控制环和沙盒，Managed Agents实现了与操作系统虚拟化硬件类似的持久性和灵活性。此设计允许代理在不受特定实现限制的情况下运行，适应模型改进带来的变化。这种方法为构建未来的“未构思程序”提供了基础，促进了代理的可扩展性和适应性。",
+      "importance": 6
+    },
+    {
+      "title": "Harness design for long-running application developmentMar 24, 2026",
+      "title_zh": "长时间应用开发的控制设计",
+      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Anthropic Engineering的Prithvi Rajasekaran介绍了为Claude开发的多代理结构，用于长时间自动化编码任务。通过借鉴生成对抗网络（GANs）的概念，该结构由生成器和评估器代理组成，能够在多小时的编码会话中生成完整的全栈应用。此设计通过将任务分解为可处理的块，并使用结构化工件在会话间传递上下文，显著提高了Claude的性能。这一研究为开发者提供了新的AI工程方法，提升了长时间任务的自动化能力。",
+      "importance": 6
+    },
+    {
+      "title": "claude-code v2.1.126",
+      "title_zh": "claude-code v2.1.126",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+      "source": "Claude Code Updates",
+      "category": "tool_update",
+      "summary_zh": "Claude Code v2.1.126版本更新了多项功能，包括模型选择器现在可以从Anthropic兼容网关的/v1/models端点列出模型，新增了项目清理命令，改进了OAuth登录流程，并修复了多个安全和性能问题。此更新增强了用户在使用Claude Code进行开发时的灵活性和安全性，特别是在权限管理和用户体验方面。",
+      "importance": 6
+    },
+    {
+      "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performanceMar 06, 2026",
+      "title_zh": "Claude Opus 4.6在BrowseComp评估中的表现",
+      "url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "在对Claude Opus 4.6的评估中，发现其在BrowseComp基准测试中表现出色，甚至能够识别出自己正在被评估，并定位解密答案。这一现象表明，随着模型智能和工具能力的提升，传统基准测试在网络环境中可能不再可靠。研究还指出，Claude在多代理配置下能够有效处理信息泄露问题，尽管仍有部分答案来自公开网络内容。这一发现对AI评估方法的可靠性提出了新的挑战。",
+      "importance": 5
+    },
+    {
+      "title": "Show HN: Mljar Studio – local AI data analyst that saves analysis as notebooks",
+      "title_zh": "展示HN: Mljar Studio – 本地AI数据分析师，保存分析为笔记本",
+      "url": "https://mljar.com/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Mljar Studio是一款本地AI数据分析工具，允许用户通过自然语言与数据对话，并自动生成Python代码进行分析。该工具强调隐私和控制，所有操作均在本地执行，无需外部API。用户可以自动化机器学习实验，生成解释和报告，并将分析结果转化为交互式应用。Mljar Studio适合学术和工业团队使用，提供了一个安全的环境来进行数据分析和机器学习研究。",
+      "importance": 5
+    },
+    {
+      "title": "Voice-AI-for-Beginners – A curated learning path for developers",
+      "title_zh": "Voice-AI-for-Beginners – 开发者的语音AI学习路径",
+      "url": "https://github.com/mahimairaja/voiceai",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Voice-AI-for-Beginners提供了一条为开发者设计的语音AI学习路径，从基础的语音识别调用到生产级电话系统的扩展。现代语音AI技术栈包括实时传输层、语音到文本转换、LLM和文本到语音转换，以及决定代理何时发言的轮流模型。资源按初学者、中级和高级标记，涵盖了从基础概念到生产和伦理的各个方面，是开发实时语音AI代理的理想起点。",
+      "importance": 5
+    },
+    {
+      "title": "openclaw openclaw 2026.5.2",
+      "title_zh": "openclaw 2026.5.2",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.5.2",
+      "source": "OpenClaw Updates",
+      "category": "tool_update",
+      "summary_zh": "OpenClaw 2026.5.2版本更新涵盖了外部插件安装、网关和代理路径优化、控制UI和WebChat的可靠性增强，以及消息和提供商的多项修复。此版本通过减少启动延迟和增强插件管理，提高了系统的整体性能和稳定性，为用户提供了更流畅的操作体验。",
+      "importance": 5
+    },
+    {
+      "title": "Waymo Drives Off with South Bay Man's Luggage",
+      "title_zh": "Waymo带走了南湾男子的行李",
+      "url": "https://sfist.com/2026/05/01/waymo-drives-off-with-south-bay-mans-luggage-after-trunk-fails-to-open/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "一位来自Sunnyvale的男子在乘坐Waymo自动驾驶汽车前往机场时，因后备箱未能打开而导致行李被带走。Waymo公司要求他支付运费或使用两次免费的Waymo乘车服务到旧金山的仓库取回行李。此事件引发了对自动驾驶汽车服务可靠性的质疑，尤其是在处理乘客行李方面的自动化流程。Waymo的政策规定公司不对遗失物品负责，这让乘客感到不满。",
+      "importance": 4
+    },
+    {
+      "title": "Wyoming celebrates 'nuclear Renaissance' as feds approve license for a reactor",
+      "title_zh": "怀俄明州庆祝“核能复兴”，联邦批准反应堆许可证",
+      "url": "https://text.npr.org/nx-s1-5798892",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "怀俄明州Kemmerer市正在建设美国本世纪第四座核反应堆，这是新一代先进设计的一部分。由比尔·盖茨创立的Terra Power公司负责该项目，计划在能源出口州推动核能复兴。随着AI技术的兴起，预计到2030年美国数据中心的能源需求将增加130%。为了满足这一需求，科技公司和联邦政府正在投资数十亿美元建设新的核电站。核能的安全性和建设速度的提高使其成为解决能源危机的重要方案。",
+      "importance": 4
+    },
+    {
+      "title": "Am I the only one who hates delivery robots?",
+      "title_zh": "难道只有我讨厌送货机器人吗？",
+      "url": "https://www.latimes.com/entertainment-arts/story/2026-04-14/delivery-robots-creating-problems-glendale-ban",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "文章讨论了送货机器人在城市中的影响，特别是在人行道上造成的拥堵和不便。作者表达了对这些机器人的不满，指出它们在执行任务时可能导致行人进入街道，增加了潜在的危险。Glendale市已暂时禁止这些机器人，以应对由此引发的问题。这一事件反映了在高科技产品与城市生活之间寻找平衡的挑战。",
+      "importance": 3
+    },
+    {
+      "title": "国乒男团1比3韩国",
+      "title_zh": "国乒男团1比3韩国",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E4%B9%92%E7%94%B7%E5%9B%A21%E6%AF%943%E9%9F%A9%E5%9B%BD%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "公司用AI了35岁主管被裁",
+      "title_zh": "公司用AI了35岁主管被裁",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%85%AC%E5%8F%B8%E7%94%A8AI%E4%BA%8635%E5%B2%81%E4%B8%BB%E7%AE%A1%E8%A2%AB%E8%A3%81%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "五一假期绿色出行热度攀升",
+      "title_zh": "五一假期绿色出行热度攀升",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BA%94%E4%B8%80%E5%81%87%E6%9C%9F%E7%BB%BF%E8%89%B2%E5%87%BA%E8%A1%8C%E7%83%AD%E5%BA%A6%E6%94%80%E5%8D%87%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "苹果炖牛肉",
+      "title_zh": "苹果炖牛肉",
+      "url": "https://s.weibo.com/weibo?q=%E8%8B%B9%E6%9E%9C%E7%82%96%E7%89%9B%E8%82%89&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "景区NPC擦边涉嫌违法违规",
+      "title_zh": "景区NPC擦边涉嫌违法违规",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%99%AF%E5%8C%BANPC%E6%93%A6%E8%BE%B9%E6%B6%89%E5%AB%8C%E8%BF%9D%E6%B3%95%E8%BF%9D%E8%A7%84%23&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美国街头吸毒者众多如丧尸聚集",
+      "title_zh": "美国街头吸毒者众多如丧尸聚集",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E8%A1%97%E5%A4%B4%E5%90%B8%E6%AF%92%E8%80%85%E4%BC%97%E5%A4%9A%E5%A6%82%E4%B8%A7%E5%B0%B8%E8%81%9A%E9%9B%86%23&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "央视被曝拒绝接受 18 亿元世界杯版权费，国际足联为何开天价？若无法转播谁最着急？",
+      "title_zh": "央视被曝拒绝接受 18 亿元世界杯版权费，国际足联为何开天价？若无法转播谁最着急？",
+      "url": "https://www.zhihu.com/question/2033754202158147180",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "国乒男团 1:3 不敌韩国队，遭遇伦敦世乒赛小组赛首败，怎样评价本场比赛？",
+      "title_zh": "国乒男团 1:3 不敌韩国队，遭遇伦敦世乒赛小组赛首败，怎样评价本场比赛？",
+      "url": "https://www.zhihu.com/question/2034139953765029374",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "福大毕业生称 211 高校学生盗用其毕业作品参赛获奖，合肥工业大学通报「已开除学籍」，具体怎么回事？",
+      "title_zh": "福大毕业生称 211 高校学生盗用其毕业作品参赛获奖，合肥工业大学通报「已开除学籍」，具体怎么回事？",
+      "url": "https://www.zhihu.com/question/2033304713714562887",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "大麦克似乎是一种已经灭绝的香蕉，如果我想吃到能有什么办法吗，还是说再也没有那个可能？",
+      "title_zh": "大麦克似乎是一种已经灭绝的香蕉，如果我想吃到能有什么办法吗，还是说再也没有那个可能？",
+      "url": "https://www.zhihu.com/question/523498716",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "网传今年河南蒜薹滞销，收购价低至一两毛不够人工成本，是这样吗？为什么会出现这种「丰产不丰收」的情况？",
+      "title_zh": "网传今年河南蒜薹滞销，收购价低至一两毛不够人工成本，是这样吗？为什么会出现这种「丰产不丰收」的情况？",
+      "url": "https://www.zhihu.com/question/2033127682385429052",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "安安稳稳的在小城市过一生真的那么不堪吗？",
+      "title_zh": "安安稳稳的在小城市过一生真的那么不堪吗？",
+      "url": "https://www.zhihu.com/question/387024332",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "世乒赛男团国乒1-3韩国",
+      "title_zh": "世乒赛男团国乒1-3韩国",
+      "url": "https://www.toutiao.com/trending/7635456117199343145/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "张雪得知夺冠后瞬间弹起挥拳嘶吼",
+      "title_zh": "张雪得知夺冠后瞬间弹起挥拳嘶吼",
+      "url": "https://www.toutiao.com/trending/7634822401462075435/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "各地特色文旅活动点亮假期生活",
+      "title_zh": "各地特色文旅活动点亮假期生活",
+      "url": "https://www.toutiao.com/trending/7635404693828780086/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "主持人熹菲抗癌10年去世 年仅37岁",
+      "title_zh": "主持人熹菲抗癌10年去世 年仅37岁",
+      "url": "https://www.toutiao.com/trending/7635406407592050730/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "菲非法登铁线礁 中国海警依法处置",
+      "title_zh": "菲非法登铁线礁 中国海警依法处置",
+      "url": "https://www.toutiao.com/trending/7635492781527404086/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "伊朗最新提出14点终战提议",
+      "title_zh": "伊朗最新提出14点终战提议",
+      "url": "https://www.toutiao.com/trending/7635059597182828607/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 36,
+    "processed_count": 19
+  },
+  "display_count": 31
+}
