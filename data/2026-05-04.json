@@ -1,0 +1,443 @@
+{
+  "date": "2026-05-04",
+  "generated_at": "2026-05-04T03:58:42.509570",
+  "items": [
+    {
+      "title": "FeaturedAn update on recent Claude Code quality reportsWe traced recent reports of Claude Code quality issues to three separate changes. Here's what happened and what we're changing.",
+      "title_zh": "FeaturedAn update on recent Claude Code quality reportsWe traced recent reports of Claude Code quality issues to three separate changes. Here's what happened and what we're changing.",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Get the developer newsletter\nProduct updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.\nOver the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude",
+      "importance": 5
+    },
+    {
+      "title": "Scaling Managed Agents: Decoupling the brain from the handsApr 08, 2026",
+      "title_zh": "Scaling Managed Agents: Decoupling the brain from the handsApr 08, 2026",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Get the developer newsletter\nProduct updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.\nGet started with Claude Managed Agents by following our docs.\nA running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work. A",
+      "importance": 5
+    },
+    {
+      "title": "Claude Code auto mode: a safer way to skip permissionsMar 25, 2026",
+      "title_zh": "Claude Code auto mode: a safer way to skip permissionsMar 25, 2026",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Get the developer newsletter\nProduct updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.\nBy default, Claude Code asks users for approval before running commands or modifying files. This keeps users safe, but it also means a lot of clicking \"approve.\" Over time that lea",
+      "importance": 5
+    },
+    {
+      "title": "Harness design for long-running application developmentMar 24, 2026",
+      "title_zh": "Harness design for long-running application developmentMar 24, 2026",
+      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Get the developer newsletter\nProduct updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.\nWritten by Prithvi Rajasekaran, a member of our Labs team.\nOver the past several months I’ve been working on two interconnected problems: getting Claude to produce high-quality fro",
+      "importance": 5
+    },
+    {
+      "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performanceMar 06, 2026",
+      "title_zh": "Eval awareness in Claude Opus 4.6’s BrowseComp performanceMar 06, 2026",
+      "url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+      "source": "Anthropic Engineering",
+      "category": "blog",
+      "summary_zh": "Get the developer newsletter\nProduct updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.\nBrowseComp is an evaluation designed to test how well models can find hard-to-locate information on the web. Like many benchmarks, it is vulnerable to contamination: answers leak o",
+      "importance": 5
+    },
+    {
+      "title": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro, 17x cheaper",
+      "title_zh": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro, 17x cheaper",
+      "url": "https://github.com/aattaran/deepclaude",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Use Claude Code's autonomous agent loop with DeepSeek V4 Pro, OpenRouter, or any Anthropic-compatible backend. Same UX, 17x cheaper.\nClaude Code is the best autonomous coding agent — but it costs $200/month with usage caps. DeepSeek V4 Pro scores 96.4% on LiveCodeBench and costs $0.87/M output token",
+      "importance": 5
+    },
+    {
+      "title": "Let's Buy Spirit Air",
+      "title_zh": "Let's Buy Spirit Air",
+      "url": "https://letsbuyspiritair.com/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "",
+      "importance": 5
+    },
+    {
+      "title": "OpenAI's o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors",
+      "title_zh": "OpenAI's o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors",
+      "url": "https://www.theguardian.com/technology/2026/apr/30/ai-outperforms-doctors-in-harvard-trial-of-emergency-triage-diagnoses",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "From George Clooney in ER to Noah Wyle in The Pitt, emergency department doctors have long been popular heroes. But will it soon be time to hang up the scrubs?\nA groundbreaking Harvard study has found that AI systems outperformed human doctors in high-pressure emergency medicine triage, diagnosing m",
+      "importance": 5
+    },
+    {
+      "title": "LLMs Are Not a Higher Level of Abstraction",
+      "title_zh": "LLMs Are Not a Higher Level of Abstraction",
+      "url": "https://www.lelanthran.com/chap15/content.html",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "\" A picture is worth 10K words - but only those to describe the picture. Hardly any sets of 10K words can be adequately described with pictures.\"\n-- Alan Perlis\nI am seeing the claim everywhere online that LLMs are a higher level of abstraction. If you claim that you haven’t seen this claim then you",
+      "importance": 5
+    },
+    {
+      "title": "I built my own hair electrolysis machine",
+      "title_zh": "I built my own hair electrolysis machine",
+      "url": "https://www.scd31.com/posts/diy-hair-electrolysis-machine",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Axiom: body hair is cringe. That's how I feel, at least. I decided to build a machine that lets me permanently remove it using electricity.\nThere are lots of ways to get rid of body hair temporarily. Shaving is probably the most common. There are other methods that last a little longer, like epilati",
+      "importance": 5
+    },
+    {
+      "title": "Lost in translation: The linguistic challenges facing N. Korean defectors (2025)",
+      "title_zh": "Lost in translation: The linguistic challenges facing N. Korean defectors (2025)",
+      "url": "https://www.dailynk.com/english/lost-in-translation-the-linguistic-challenges-facing-n-korean-defectors/",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "",
+      "importance": 5
+    },
+    {
+      "title": "Group averages obscure how an individual's brain controls behavior: study",
+      "title_zh": "Group averages obscure how an individual's brain controls behavior: study",
+      "url": "https://med.stanford.edu/news/all-news/2026/04/brain-scans-individual-versus-group.html",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Studying cognition by averaging data from many people’s brain scans hides how individuals use their brains, new Stanford Medicine research has shown.\nIn particular, children who struggle with goal-oriented tasks show distinct patterns of brain activity when their data is analyzed individually, rathe",
+      "importance": 5
+    },
+    {
+      "title": "Coffee appears to rewire the gut-brain connection",
+      "title_zh": "Coffee appears to rewire the gut-brain connection",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260502233911.htm",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "Scientists just discovered what coffee is really doing to your gut and brain\n- Date:\n- May 3, 2026\n- Source:\n- University College Cork\n- Summary:\n- Coffee doesn’t just energize—it actively reshapes the gut and mind. Researchers found that both caffeinated and decaf coffee altered gut bacteria in way",
+      "importance": 5
+    },
+    {
+      "title": "Talking to Transformers",
+      "title_zh": "Talking to Transformers",
+      "url": "https://miraos.org/blog/2026/05/02/talking-to-transformers",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "2026 · PROMPTING\nTalking to Transformers\nEffective prompting falls under four pillars:\n1. Articulate your intent clearly using domain-specific language 2. Railroad the model into going where you want in conversation 3. Leverage the model's potential to be a universal translator of concepts and code ",
+      "importance": 5
+    },
+    {
+      "title": "Every American interacting with chatbot would need to upload a government ID",
+      "title_zh": "Every American interacting with chatbot would need to upload a government ID",
+      "url": "https://reclaimthenet.org/senate-panel-backs-guard-act-ai-age-verification-bill",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "The Senate Judiciary Committee voted 22-0 on Thursday to advance the GUARD Act, a bill that would require AI chatbot companies to verify the age of every American who wants to use them.\nThe legislation, sponsored by Senator Josh Hawley of Missouri, sailed through committee with a tweet from its auth",
+      "importance": 5
+    },
+    {
+      "title": "How Kepler built verifiable AI for financial services with Claude",
+      "title_zh": "How Kepler built verifiable AI for financial services with Claude",
+      "url": "https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "How Kepler built verifiable AI for financial services with Claude\nInside a platform that indexes 26M+ SEC filings, earnings call transcripts, IR presentations, consensus estimates, and private data across 14,000+ companies and 27 global markets, and how the team behind it built AI that validates eve",
+      "importance": 5
+    },
+    {
+      "title": "Unauthorized macOS port claiming Don Ho as an author?",
+      "title_zh": "Unauthorized macOS port claiming Don Ho as an author?",
+      "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/issues/17982",
+      "source": "Hacker News",
+      "category": "industry",
+      "summary_zh": "See https://notepad-plus-plus-mac.org/author/ https://github.com/notepad-plus-plus-mac/notepad-plus-plus-macos",
+      "importance": 5
+    },
+    {
+      "title": "ruvnet/ruflo",
+      "title_zh": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "importance": 5
+    },
+    {
+      "title": "TauricResearch/TradingAgents",
+      "title_zh": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "- [2026-04] TradingAgents v0.2.4 released with structured-output agents (Research Manager, Trader, Portfolio Manager), LangGraph checkpoint resume, persistent decision log, DeepSeek/Qwen/GLM/Azure provider support, Docker, and a Windows UTF-8 encoding fix. See CHANGELOG.md for the full list.\n- [2026",
+      "importance": 5
+    },
+    {
+      "title": "soxoj/maigret",
+      "title_zh": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "Maigret collects a dossier on a person by username only, checking for accounts on a huge number of sites and gathering all the available information from web pages. No API keys required.\nEnsure you have Python 3.10 or higher.\npip install maigret\nmaigret YOUR_USERNAME\nNo install? Try the Telegram bot",
+      "importance": 5
+    },
+    {
+      "title": "Hmbown/DeepSeek-TUI",
+      "title_zh": "Hmbown/DeepSeek-TUI",
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "A terminal-native coding agent built around DeepSeek V4's 1M-token context and prefix cache. Single binary, no Node/Python runtime required — ships an MCP client, sandbox, and durable task queue out of the box.\nnpm i -g deepseek-tui\nDeepSeek TUI is a coding agent that runs entirely in your terminal.",
+      "importance": 5
+    },
+    {
+      "title": "AIDC-AI/Pixelle-Video",
+      "title_zh": "AIDC-AI/Pixelle-Video",
+      "url": "https://github.com/AIDC-AI/Pixelle-Video",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "English | 中文\nPixelle_video.mp4\n只需输入一个 主题，Pixelle-Video 就能自动完成：\n- ✍️ 撰写视频文案\n- 🎨 生成 AI 配图/视频\n- 🗣️ 合成语音解说\n- 🎵 添加背景音乐\n- 🎬 一键合成视频\n零门槛，零剪辑经验，让视频创作成为一句话的事！\n- ✅ 2026-01-26: 新增「动作迁移」模块，上传参考视频和图片进行动作迁移\n- ✅ 2026-01-14: 新增「数字人口播」和「图生视频」流水线，新增多语言 TTS 音色支持\n- ✅ 2026-01-06: 新增 RunningHub 48G 显存机器调用支持\n- ✅ 2025-12-28",
+      "importance": 5
+    },
+    {
+      "title": "browserbase/skills",
+      "title_zh": "browserbase/skills",
+      "url": "https://github.com/browserbase/skills",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "A set of skills for enabling Claude Code to work with Browserbase through browser automation and the official bb\nCLI.\nThis plugin includes the following skills (see skills/\nfor details):\nTo install the skill to popular coding agents:\n$ npx skills add browserbase/skills\nOn Claude Code, to add the mar",
+      "importance": 5
+    },
+    {
+      "title": "czlonkowski/n8n-mcp",
+      "title_zh": "czlonkowski/n8n-mcp",
+      "url": "https://github.com/czlonkowski/n8n-mcp",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "A Model Context Protocol (MCP) server that provides AI assistants with comprehensive access to n8n node documentation, properties, and operations. Deploy in minutes to give Claude and other AI assistants deep knowledge about n8n's 1,650 workflow automation nodes (820 core + 830 community).\nn8n-MCP s",
+      "importance": 5
+    },
+    {
+      "title": "1jehuang/jcode",
+      "title_zh": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "The next generation coding agent harness to raise the skill ceiling.\nBuilt for multi-session workflows, infinite customizability, and performance.\nFeatures · Install · Quick Start · Further Reading · Contributing\n# macOS & Linux\ncurl -fsSL https://raw.githubusercontent.com/1jehuang/jcode/master/scri",
+      "importance": 5
+    },
+    {
+      "title": "openwrt/openwrt",
+      "title_zh": "openwrt/openwrt",
+      "url": "https://github.com/openwrt/openwrt",
+      "source": "GitHub Trending",
+      "category": "open_source",
+      "summary_zh": "This repository is a mirror ofhttps://git.openwrt.org/openwrt/openwrt.gitIt is for reference only and is not active for check-ins. We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
+      "importance": 5
+    },
+    {
+      "title": "deepseek-ai/DeepSeek-V4-Pro",
+      "title_zh": "deepseek-ai/DeepSeek-V4-Pro",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence\nIntroduction\nWe present a preview version of DeepSeek-V4 series, including two strong Mixture-of-Experts (MoE) language models — DeepSeek-V4-Pro with 1.6T parameters (49B activated) and DeepSeek-V4-Flash with 284B parameters (1",
+      "importance": 5
+    },
+    {
+      "title": "XiaomiMiMo/MiMo-V2.5-Pro",
+      "title_zh": "XiaomiMiMo/MiMo-V2.5-Pro",
+      "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "MiMo-V2.5-Pro\nMiMo-V2.5-Pro is an open-source Mixture-of-Experts (MoE) language model with 1.02T total parameters and 42B active parameters. It utilizes the hybrid attention architecture and 3-layers Multi-Token Prediction (MTP) introduced in MiMo-V2-Flash, with up to 1M tokens context length.\n1. In",
+      "importance": 5
+    },
+    {
+      "title": "openai/privacy-filter",
+      "title_zh": "openai/privacy-filter",
+      "url": "https://huggingface.co/openai/privacy-filter",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "OpenAI Privacy Filter\nOpenAI Privacy Filter is a bidirectional token-classification model for personally identifiable information (PII) detection and masking in text. It is intended for high-throughput data sanitization workflows where teams need a model that they can run on-premises that is fast, c",
+      "importance": 5
+    },
+    {
+      "title": "mistralai/Mistral-Medium-3.5-128B",
+      "title_zh": "mistralai/Mistral-Medium-3.5-128B",
+      "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+      "source": "HuggingFace Models",
+      "category": "model_release",
+      "summary_zh": "Mistral Medium 3.5 128B\nMistral Medium 3.5 is our first flagship merged model. It is a dense 128B model with a 256k context window, handling instruction-following, reasoning, and coding in a single set of weights. Mistral Medium 3.5 replaces its predecessor Mistral Medium 3.1 and Magistral in Le Cha",
+      "importance": 5
+    },
+    {
+      "title": "国乒淘汰赛签表",
+      "title_zh": "国乒淘汰赛签表",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E4%B9%92%E6%B7%98%E6%B1%B0%E8%B5%9B%E7%AD%BE%E8%A1%A8%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "莫雷加德回应击败中国男团",
+      "title_zh": "莫雷加德回应击败中国男团",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%8E%AB%E9%9B%B7%E5%8A%A0%E5%BE%B7%E5%9B%9E%E5%BA%94%E5%87%BB%E8%B4%A5%E4%B8%AD%E5%9B%BD%E7%94%B7%E5%9B%A2%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "心有热爱永远正值青春",
+      "title_zh": "心有热爱永远正值青春",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BF%83%E6%9C%89%E7%83%AD%E7%88%B1%E6%B0%B8%E8%BF%9C%E6%AD%A3%E5%80%BC%E9%9D%92%E6%98%A5%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "前男友香辣蟹",
+      "title_zh": "前男友香辣蟹",
+      "url": "https://s.weibo.com/weibo?q=%E5%89%8D%E7%94%B7%E5%8F%8B%E9%A6%99%E8%BE%A3%E8%9F%B9&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "五一排队现状",
+      "title_zh": "五一排队现状",
+      "url": "https://s.weibo.com/weibo?q=%E4%BA%94%E4%B8%80%E6%8E%92%E9%98%9F%E7%8E%B0%E7%8A%B6&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "小米大涨超8%",
+      "title_zh": "小米大涨超8%",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E7%B1%B3%E5%A4%A7%E6%B6%A8%E8%B6%858%25%23&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "网传高校一线教师不合格率高达 22%，而行政人员全员合格，真有这个情况吗？造成这种反常现象的成因是什么？",
+      "title_zh": "网传高校一线教师不合格率高达 22%，而行政人员全员合格，真有这个情况吗？造成这种反常现象的成因是什么？",
+      "url": "https://www.zhihu.com/question/2034043329311151947",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "2026 伦敦世乒赛团体赛，国乒男队 2:3 不敌瑞典队，如何评价本场比赛？",
+      "title_zh": "2026 伦敦世乒赛团体赛，国乒男队 2:3 不敌瑞典队，如何评价本场比赛？",
+      "url": "https://www.zhihu.com/question/2034366086838051833",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "各位大佬都说「国内一哥」是银环蛇，为什么不是眼镜王呢？",
+      "title_zh": "各位大佬都说「国内一哥」是银环蛇，为什么不是眼镜王呢？",
+      "url": "https://www.zhihu.com/question/664060181",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "湖南经视启用 AI 主播播新闻，这会成为一种趋势吗？你觉得 AI 主播怎么样？",
+      "title_zh": "湖南经视启用 AI 主播播新闻，这会成为一种趋势吗？你觉得 AI 主播怎么样？",
+      "url": "https://www.zhihu.com/question/2034308747380482937",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "如何评价福建泉州某职业技术大学，学生因为走路玩手机被劝退？",
+      "title_zh": "如何评价福建泉州某职业技术大学，学生因为走路玩手机被劝退？",
+      "url": "https://www.zhihu.com/question/2033604089888646898",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "美以袭击伊朗进入第 66 天，当前局势如何？哪些信息值得关注？",
+      "title_zh": "美以袭击伊朗进入第 66 天，当前局势如何？哪些信息值得关注？",
+      "url": "https://www.zhihu.com/question/2034400687618876536",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "媒体：国乒男队连败已无明显优势",
+      "title_zh": "媒体：国乒男队连败已无明显优势",
+      "url": "https://www.toutiao.com/trending/7635416685062783012/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "火箭军10套发射架震撼起竖",
+      "title_zh": "火箭军10套发射架震撼起竖",
+      "url": "https://www.toutiao.com/trending/7634732867230338623/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "他们的青春，闪闪发光！",
+      "title_zh": "他们的青春，闪闪发光！",
+      "url": "https://www.toutiao.com/trending/7635190280030817798/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "莫雷加德：中国队不必太过担忧",
+      "title_zh": "莫雷加德：中国队不必太过担忧",
+      "url": "https://www.toutiao.com/trending/7635663614401511462/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "单杆破百 吴宜泽10-7暂时领先墨菲",
+      "title_zh": "单杆破百 吴宜泽10-7暂时领先墨菲",
+      "url": "https://www.toutiao.com/trending/7635806403432566335/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "伊朗革命卫队：美决策空间已受限",
+      "title_zh": "伊朗革命卫队：美决策空间已受限",
+      "url": "https://www.toutiao.com/trending/7634832821211414534/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 41,
+    "processed_count": 30
+  },
+  "display_count": 33
+}
