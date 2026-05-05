@@ -1,0 +1,443 @@
+{
+  "date": "2026-05-05",
+  "generated_at": "2026-05-05T03:39:27.674837",
+  "items": [
+    {
+      "title": "TADI: Tool-Augmented Drilling Intelligence via Agentic LLM Orchestration over Heterogeneous Wellsite Data",
+      "title_zh": "TADI: Tool-Augmented Drilling Intelligence via Agentic LLM Orchestration over Heterogeneous Wellsite Data",
+      "url": "https://arxiv.org/abs/2605.00060",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00060v1 Announce Type: new \nAbstract: We present TADI (Tool-Augmented Drilling Intelligence), an agentic AI system that transforms drilling operational data into evidence-based analytical intelligence. Applied to the Equinor Volve Field dataset, TADI integrates 1,759 daily drilling report",
+      "importance": 5
+    },
+    {
+      "title": "AgentReputation: A Decentralized Agentic AI Reputation Framework",
+      "title_zh": "AgentReputation: A Decentralized Agentic AI Reputation Framework",
+      "url": "https://arxiv.org/abs/2605.00073",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00073v1 Announce Type: new \nAbstract: Decentralized, agentic AI marketplaces are rapidly emerging to support software engineering tasks such as debugging, patch generation, and security auditing, often operating without centralized oversight. However, existing reputation mechanisms fail i",
+      "importance": 5
+    },
+    {
+      "title": "Minimal, Local, Causal Explanations for Jailbreak Success in Large Language Models",
+      "title_zh": "Minimal, Local, Causal Explanations for Jailbreak Success in Large Language Models",
+      "url": "https://arxiv.org/abs/2605.00123",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00123v1 Announce Type: new \nAbstract: Safety trained large language models (LLMs) can often be induced to answer harmful requests through jailbreak prompts. Because we lack a robust understanding of why LLMs are susceptible to jailbreaks, future frontier models operating more autonomously",
+      "importance": 5
+    },
+    {
+      "title": "Are Tools All We Need? Unveiling the Tool-Use Tax in LLM Agents",
+      "title_zh": "Are Tools All We Need? Unveiling the Tool-Use Tax in LLM Agents",
+      "url": "https://arxiv.org/abs/2605.00136",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00136v1 Announce Type: new \nAbstract: Tool-augmented reasoning has become a popular direction for LLM-based agents, and it is widely assumed to improve reasoning and reliability. However, we demonstrate that this consensus does not always hold: in the presence of semantic distractors, too",
+      "importance": 5
+    },
+    {
+      "title": "TUR-DPO: Topology- and Uncertainty-Aware Direct Preference Optimization",
+      "title_zh": "TUR-DPO: Topology- and Uncertainty-Aware Direct Preference Optimization",
+      "url": "https://arxiv.org/abs/2605.00224",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00224v1 Announce Type: new \nAbstract: Aligning large language models (LLMs) with human preferences is commonly done via reinforcement learning from human feedback (RLHF) with Proximal Policy Optimization (PPO) or, more simply, via Direct Preference Optimization (DPO). While DPO is stable ",
+      "importance": 5
+    },
+    {
+      "title": "ARMOR 2025: A Military-Aligned Benchmark for Evaluating Large Language Model Safety Beyond Civilian Contexts",
+      "title_zh": "ARMOR 2025: A Military-Aligned Benchmark for Evaluating Large Language Model Safety Beyond Civilian Contexts",
+      "url": "https://arxiv.org/abs/2605.00245",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00245v1 Announce Type: new \nAbstract: Large language models (LLMs) are now being explored for defense applications that require reliable and legally compliant decision support. They also hold significant potential to enhance decision making, coordination, and operational efficiency in mil",
+      "importance": 5
+    },
+    {
+      "title": "Causal Foundations of Collective Agency",
+      "title_zh": "Causal Foundations of Collective Agency",
+      "url": "https://arxiv.org/abs/2605.00248",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00248v1 Announce Type: new \nAbstract: A key challenge for the safety of advanced AI systems is the possibility that multiple simpler agents might inadvertently form a collective agent with capabilities and goals distinct from those of any individual. More generally, determining when a gro",
+      "importance": 5
+    },
+    {
+      "title": "Agentic AI for Trip Planning Optimization Application",
+      "title_zh": "Agentic AI for Trip Planning Optimization Application",
+      "url": "https://arxiv.org/abs/2605.00276",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00276v1 Announce Type: new \nAbstract: Trip planning for intelligent vehicles increasingly requires selecting optimal routes rather than merely producing feasible itineraries, as interacting factors such as travel time, energy consumption, and traffic conditions directly affect plan qualit",
+      "importance": 5
+    },
+    {
+      "title": "Token Arena: A Continuous Benchmark Unifying Energy and Cognition in AI Inference",
+      "title_zh": "Token Arena: A Continuous Benchmark Unifying Energy and Cognition in AI Inference",
+      "url": "https://arxiv.org/abs/2605.00300",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00300v1 Announce Type: new \nAbstract: Public inference benchmarks compare AI systems at the model and provider level, but the unit at which deployment decisions are actually made is the endpoint: the (provider, model, stock-keeping-unit) tuple at which a specific quantization, decoding st",
+      "importance": 5
+    },
+    {
+      "title": "AgentFloor: How Far Up the tool use Ladder Can Small Open-Weight Models Go?",
+      "title_zh": "AgentFloor: How Far Up the tool use Ladder Can Small Open-Weight Models Go?",
+      "url": "https://arxiv.org/abs/2605.00334",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00334v1 Announce Type: new \nAbstract: Production agentic systems make many model calls per user request, and most of those calls are short, structured, and routine. This raises a practical routing question that existing evaluations do not directly answer: which parts of an agent workflow ",
+      "importance": 5
+    },
+    {
+      "title": "Physically Native World Models: A Hamiltonian Perspective on Generative World Modeling",
+      "title_zh": "Physically Native World Models: A Hamiltonian Perspective on Generative World Modeling",
+      "url": "https://arxiv.org/abs/2605.00412",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00412v1 Announce Type: new \nAbstract: World models have recently re-emerged as a central paradigm for embodied intelligence, robotics, autonomous driving, and model-based reinforcement learning. However, current world model research is often dominated by three partially separated routes: ",
+      "importance": 5
+    },
+    {
+      "title": "AEM: Adaptive Entropy Modulation for Multi-Turn Agentic Reinforcement Learning",
+      "title_zh": "AEM: Adaptive Entropy Modulation for Multi-Turn Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2605.00425",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00425v1 Announce Type: new \nAbstract: Reinforcement learning (RL) has significantly advanced the ability of large language model (LLM) agents to interact with environments and solve multi-turn tasks. Yet effective training remains challenging, as sparse, outcome-only rewards make it diffi",
+      "importance": 5
+    },
+    {
+      "title": "Thinking in Text and Images: Interleaved Vision--Language Reasoning Traces for Long-Horizon Robot Manipulation",
+      "title_zh": "Thinking in Text and Images: Interleaved Vision--Language Reasoning Traces for Long-Horizon Robot Manipulation",
+      "url": "https://arxiv.org/abs/2605.00438",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00438v1 Announce Type: new \nAbstract: Long-horizon robotic manipulation requires plans that are both logically coherent and geometrically grounded. Existing Vision-Language-Action policies usually hide planning in latent states or expose only one modality: text-only chain-of-thought encod",
+      "importance": 5
+    },
+    {
+      "title": "On the Role of Artificial Intelligence in Human-Machine Symbiosis",
+      "title_zh": "On the Role of Artificial Intelligence in Human-Machine Symbiosis",
+      "url": "https://arxiv.org/abs/2605.00440",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00440v1 Announce Type: new \nAbstract: The evolution of artificial intelligence (AI) has rendered the boundary between humanity and computational machinery increasingly ambiguous. In the presence of more interwoven relationships within human-machine symbiosis, the very notion of AI-generat",
+      "importance": 5
+    },
+    {
+      "title": "Instance-Aware Parameter Configuration in Bilevel Late Acceptance Hill Climbing for the Electric Capacitated Vehicle Routing Problem",
+      "title_zh": "Instance-Aware Parameter Configuration in Bilevel Late Acceptance Hill Climbing for the Electric Capacitated Vehicle Routing Problem",
+      "url": "https://arxiv.org/abs/2605.00572",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00572v1 Announce Type: new \nAbstract: Algorithm performance in combinatorial optimization is highly sensitive to parameter settings, while a single globally tuned configuration often fails to exploit the heterogeneity of instances. This limitation is particularly evident in the Electric C",
+      "importance": 5
+    },
+    {
+      "title": "Learn where to Click from Yourself: On-Policy Self-Distillation for GUI Grounding",
+      "title_zh": "Learn where to Click from Yourself: On-Policy Self-Distillation for GUI Grounding",
+      "url": "https://arxiv.org/abs/2605.00642",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00642v1 Announce Type: new \nAbstract: Graphical User Interface (GUI) grounding maps natural language instructions to the visual coordinates of target elements and serves as a core capability for autonomous GUI agents. Recent reinforcement learning methods (e.g., GRPO) have achieved strong",
+      "importance": 5
+    },
+    {
+      "title": "To Call or Not to Call: A Framework to Assess and Optimize LLM Tool Calling",
+      "title_zh": "To Call or Not to Call: A Framework to Assess and Optimize LLM Tool Calling",
+      "url": "https://arxiv.org/abs/2605.00737",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00737v1 Announce Type: new \nAbstract: Agentic AI architectures augment LLMs with external tools, unlocking strong capabilities. However, tool use is not always beneficial; some calls may be redundant or even harmful. Effective tool use, therefore, hinges on a core LLM decision: whether to",
+      "importance": 5
+    },
+    {
+      "title": "Position: agentic AI orchestration should be Bayes-consistent",
+      "title_zh": "Position: agentic AI orchestration should be Bayes-consistent",
+      "url": "https://arxiv.org/abs/2605.00742",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00742v1 Announce Type: new \nAbstract: LLMs excel at predictive tasks and complex reasoning tasks, but many high-value deployments rely on decisions under uncertainty, for example, which tool to call, which expert to consult, or how many resources to invest. While the usefulness and feasib",
+      "importance": 5
+    },
+    {
+      "title": "Models Recall What They Violate: Constraint Adherence in Multi-Turn LLM Ideation",
+      "title_zh": "Models Recall What They Violate: Constraint Adherence in Multi-Turn LLM Ideation",
+      "url": "https://arxiv.org/abs/2604.28031",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2604.28031v2 Announce Type: cross \nAbstract: When researchers iteratively refine ideas with large language models, do the models preserve fidelity to the original objective? We introduce DriftBench, a benchmark for evaluating constraint adherence in multi-turn LLM-assisted scientific ideation.",
+      "importance": 5
+    },
+    {
+      "title": "Cloud Is Closer Than It Appears: Revisiting the Tradeoffs of Distributed Real-Time Inference",
+      "title_zh": "Cloud Is Closer Than It Appears: Revisiting the Tradeoffs of Distributed Real-Time Inference",
+      "url": "https://arxiv.org/abs/2605.00005",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00005v1 Announce Type: cross \nAbstract: The increasing deployment of deep neural networks (DNNs) in cyber-physical systems (CPS) enhances perception fidelity, but imposes substantial computational demands on execution platforms, posing challenges to real-time control deadlines. Traditiona",
+      "importance": 5
+    },
+    {
+      "title": "Mean-Field Path-Integral Diffusion: From Samples to Interacting Agents",
+      "title_zh": "Mean-Field Path-Integral Diffusion: From Samples to Interacting Agents",
+      "url": "https://arxiv.org/abs/2605.00007",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00007v1 Announce Type: cross \nAbstract: Independent sample generation is the prevailing paradigm in modern diffusion-based generative models of AI. We ask a different question: can samples \\emph{coordinate} through shared population statistics to transport probability mass more efficientl",
+      "importance": 5
+    },
+    {
+      "title": "FedACT: Concurrent Federated Intelligence across Heterogeneous Data Sources",
+      "title_zh": "FedACT: Concurrent Federated Intelligence across Heterogeneous Data Sources",
+      "url": "https://arxiv.org/abs/2605.00011",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00011v1 Announce Type: cross \nAbstract: Federated Learning (FL) enables collaborative intelligence across decentralized data source devices in a privacy-preserving way. While substantial research attention has been drawn to optimizing the learning process for an individual task, real-worl",
+      "importance": 5
+    },
+    {
+      "title": "Exploring LLM biases to manipulate AI search overview",
+      "title_zh": "Exploring LLM biases to manipulate AI search overview",
+      "url": "https://arxiv.org/abs/2605.00012",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00012v1 Announce Type: cross \nAbstract: Modern large language models (LLMs) are used in many business applications in general, and specifically in web search systems and applications that generate overviews of search results - LLM Overview systems. Such systems are using an LLM to select ",
+      "importance": 5
+    },
+    {
+      "title": "TimeRFT: Stimulating Generalizable Time Series Forecasting for TSFMs via Reinforcement Finetuning",
+      "title_zh": "TimeRFT: Stimulating Generalizable Time Series Forecasting for TSFMs via Reinforcement Finetuning",
+      "url": "https://arxiv.org/abs/2605.00015",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00015v1 Announce Type: cross \nAbstract: Time Series Foundation Models (TSFMs) advance generalization and data efficiency in time series forecasting by unified large-scale pretraining. But TSFMs remain lacking when adapting to specific downstream forecasting tasks for two reasons. First, t",
+      "importance": 5
+    },
+    {
+      "title": "AirFM-DDA: Air-Interface Foundation Model in the Delay-Doppler-Angle Domain for AI-Native 6G",
+      "title_zh": "AirFM-DDA: Air-Interface Foundation Model in the Delay-Doppler-Angle Domain for AI-Native 6G",
+      "url": "https://arxiv.org/abs/2605.00020",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00020v1 Announce Type: cross \nAbstract: The success of large foundation models is catalyzing a new paradigm for AI-native 6G network design: wireless foundation models for physical layer design. However, existing models often operate on channel state information (CSI) in the space-time-fr",
+      "importance": 5
+    },
+    {
+      "title": "Putting HUMANS first: Efficient LAM Evaluation with Human Preference Alignment",
+      "title_zh": "Putting HUMANS first: Efficient LAM Evaluation with Human Preference Alignment",
+      "url": "https://arxiv.org/abs/2605.00022",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00022v1 Announce Type: cross \nAbstract: The rapid proliferation of large audio models (LAMs) demands efficient approaches for model comparison, yet comprehensive benchmarks are costly. To fill this gap, we investigate whether minimal subsets can reliably evaluate LAMs while reducing costs",
+      "importance": 5
+    },
+    {
+      "title": "Sure About That Line? Approaching Confidence-Based, Real-Time Line Assignment in Reading Gaze Data",
+      "title_zh": "Sure About That Line? Approaching Confidence-Based, Real-Time Line Assignment in Reading Gaze Data",
+      "url": "https://arxiv.org/abs/2605.00033",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00033v1 Announce Type: cross \nAbstract: Remote and webcam-based eye tracking in multi-line reading suffers from various noise factors and layout ambiguity, precisely where real-time reading support needs reliable, per-fixation line assignment. Prior work largely addresses this challenge p",
+      "importance": 5
+    },
+    {
+      "title": "SiriusHelper: An LLM Agent-Based Operations Assistant for Big Data Platforms",
+      "title_zh": "SiriusHelper: An LLM Agent-Based Operations Assistant for Big Data Platforms",
+      "url": "https://arxiv.org/abs/2605.00043",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00043v1 Announce Type: cross \nAbstract: Big data platforms are widely used in modern enterprises, and an in-production intelligent assistant is increasingly important to help users quickly find actionable guidance and reduce operational burden. While recent LLM+RAG assistants provide a na",
+      "importance": 5
+    },
+    {
+      "title": "Ambient Persuasion in a Deployed AI Agent: Unauthorized Escalation Following Routine Non-Adversarial Content Exposure",
+      "title_zh": "Ambient Persuasion in a Deployed AI Agent: Unauthorized Escalation Following Routine Non-Adversarial Content Exposure",
+      "url": "https://arxiv.org/abs/2605.00055",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00055v1 Announce Type: cross \nAbstract: We report a safety incident in a deployed multi-agent research system in which a primary AI agent installed 107 unauthorized software components, overwrote a system registry, overrode a prior negative decision from an oversight agent, and escalated ",
+      "importance": 5
+    },
+    {
+      "title": "Smart Ensemble Learning Framework for Predicting Groundwater Heavy Metal Pollution",
+      "title_zh": "Smart Ensemble Learning Framework for Predicting Groundwater Heavy Metal Pollution",
+      "url": "https://arxiv.org/abs/2605.00056",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00056v1 Announce Type: cross \nAbstract: Groundwater in the Densu Basin is increasingly threatened by heavy metal contamination, but conventional methods fail to capture the statistical complexity and spatial heterogeneity of pollution indicators. A key challenge is modelling the Heavy Met",
+      "importance": 5
+    },
+    {
+      "title": "浏阳烟花厂爆炸已致21死61伤",
+      "title_zh": "浏阳烟花厂爆炸已致21死61伤",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B5%8F%E9%98%B3%E7%83%9F%E8%8A%B1%E5%8E%82%E7%88%86%E7%82%B8%E5%B7%B2%E8%87%B421%E6%AD%BB61%E4%BC%A4%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "端午节连休3天不调休",
+      "title_zh": "端午节连休3天不调休",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%AB%AF%E5%8D%88%E8%8A%82%E8%BF%9E%E4%BC%913%E5%A4%A9%E4%B8%8D%E8%B0%83%E4%BC%91%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "数字技术催生文旅新业态",
+      "title_zh": "数字技术催生文旅新业态",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%95%B0%E5%AD%97%E6%8A%80%E6%9C%AF%E5%82%AC%E7%94%9F%E6%96%87%E6%97%85%E6%96%B0%E4%B8%9A%E6%80%81%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "穆祉丞戛纳",
+      "title_zh": "穆祉丞戛纳",
+      "url": "https://s.weibo.com/weibo?q=%E7%A9%86%E7%A5%89%E4%B8%9E%E6%88%9B%E7%BA%B3&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "浏阳烟花爆炸企业负责人被控制",
+      "title_zh": "浏阳烟花爆炸企业负责人被控制",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B5%8F%E9%98%B3%E7%83%9F%E8%8A%B1%E7%88%86%E7%82%B8%E4%BC%81%E4%B8%9A%E8%B4%9F%E8%B4%A3%E4%BA%BA%E8%A2%AB%E6%8E%A7%E5%88%B6%23&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "王俊凯 中餐厅10",
+      "title_zh": "王俊凯 中餐厅10",
+      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%BF%8A%E5%87%AF%20%E4%B8%AD%E9%A4%90%E5%8E%8510&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "官方通报浏阳一烟花厂发生爆炸致 21 死 61 伤，具体什么情况？",
+      "title_zh": "官方通报浏阳一烟花厂发生爆炸致 21 死 61 伤，具体什么情况？",
+      "url": "https://www.zhihu.com/question/2034715859067692607",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "如何看待网文作者愤怒的乌贼痛斥鹤守月满池抄袭？",
+      "title_zh": "如何看待网文作者愤怒的乌贼痛斥鹤守月满池抄袭？",
+      "url": "https://www.zhihu.com/question/2034249614275114625",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "如何评价鸿蒙智行某车型副驾零重力桌椅模式疑似存在安全隐患，某博主测试折叠期间差点压伤小孩？你怎么看？",
+      "title_zh": "如何评价鸿蒙智行某车型副驾零重力桌椅模式疑似存在安全隐患，某博主测试折叠期间差点压伤小孩？你怎么看？",
+      "url": "https://www.zhihu.com/question/2034669670104557076",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "斯诺克世锦赛决赛，吴宜泽 18-17 战胜墨菲获得冠军，如何评价本场比赛？",
+      "title_zh": "斯诺克世锦赛决赛，吴宜泽 18-17 战胜墨菲获得冠军，如何评价本场比赛？",
+      "url": "https://www.zhihu.com/question/2034281420508676224",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "多地倡议公职人员带头缴纳物业费，如何看待这一举措？",
+      "title_zh": "多地倡议公职人员带头缴纳物业费，如何看待这一举措？",
+      "url": "https://www.zhihu.com/question/2034615270451458303",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "保时捷盈利承压「卖掉」布加迪，在华坚持不降价、不国产，保时捷的取舍逻辑是什么？此举是否会错失中国市场？",
+      "title_zh": "保时捷盈利承压「卖掉」布加迪，在华坚持不降价、不国产，保时捷的取舍逻辑是什么？此举是否会错失中国市场？",
+      "url": "https://www.zhihu.com/question/2034648501095588359",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "白宫附近发生枪案 1名枪手被打死",
+      "title_zh": "白宫附近发生枪案 1名枪手被打死",
+      "url": "https://www.toutiao.com/trending/7636183571895504422/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "22岁吴宜泽斯诺克世锦赛夺冠",
+      "title_zh": "22岁吴宜泽斯诺克世锦赛夺冠",
+      "url": "https://www.toutiao.com/trending/7636169680578678282/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "外国游客为“中国式安全感”点赞",
+      "title_zh": "外国游客为“中国式安全感”点赞",
+      "url": "https://www.toutiao.com/trending/7635515945804382254/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "泽连斯基宣布6日零时起停火",
+      "title_zh": "泽连斯基宣布6日零时起停火",
+      "url": "https://www.toutiao.com/trending/7636186634190589466/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "汽车短短10秒全是违规驾驶",
+      "title_zh": "汽车短短10秒全是违规驾驶",
+      "url": "https://www.toutiao.com/trending/7635103286466904083/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "浏阳烟花厂爆炸已致21死61伤",
+      "title_zh": "浏阳烟花厂爆炸已致21死61伤",
+      "url": "https://www.toutiao.com/trending/7635493363558744115/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 112,
+    "processed_count": 30
+  },
+  "display_count": 20
+}
