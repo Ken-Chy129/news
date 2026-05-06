@@ -1,0 +1,443 @@
+{
+  "date": "2026-05-06",
+  "generated_at": "2026-05-06T03:55:28.264020",
+  "items": [
+    {
+      "title": "2026 Roadmap on Artificial Intelligence and Machine Learning for Smart Manufacturing",
+      "title_zh": "2026 Roadmap on Artificial Intelligence and Machine Learning for Smart Manufacturing",
+      "url": "https://arxiv.org/abs/2605.00839",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00839v1 Announce Type: new \nAbstract: The evolution of artificial intelligence (AI) and machine learning (ML) is reshaping smart manufacturing by providing new capabilities for efficiency, adaptability, and autonomy across industrial value chains. However, the deployment of AI and ML in i",
+      "importance": 5
+    },
+    {
+      "title": "AI Agents for Sustainable SMEs: A Green ESG Assessment Framework",
+      "title_zh": "AI Agents for Sustainable SMEs: A Green ESG Assessment Framework",
+      "url": "https://arxiv.org/abs/2605.00841",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00841v1 Announce Type: new \nAbstract: This study presents a novel, AI-driven framework for assessing Environmental, Social, and Governance (ESG) performance in European small and medium-sized enterprises (SMEs). An initial phase established expert-validated ESG baseline scores from a subs",
+      "importance": 5
+    },
+    {
+      "title": "Understanding Emergent Misalignment via Feature Superposition Geometry",
+      "title_zh": "Understanding Emergent Misalignment via Feature Superposition Geometry",
+      "url": "https://arxiv.org/abs/2605.00842",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00842v1 Announce Type: new \nAbstract: Emergent misalignment, where fine-tuning on narrow, non-harmful tasks induces harmful behaviors, poses a key challenge for AI safety in LLMs. Despite growing empirical evidence, its underlying mechanism remains unclear. To uncover the reason behind th",
+      "importance": 5
+    },
+    {
+      "title": "ClinicBot: A Guideline-Grounded Clinical Chatbot with Prioritized Evidence RAG and Verifiable Citations",
+      "title_zh": "ClinicBot: A Guideline-Grounded Clinical Chatbot with Prioritized Evidence RAG and Verifiable Citations",
+      "url": "https://arxiv.org/abs/2605.00846",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00846v1 Announce Type: new \nAbstract: Clinical diagnosis requires answers that are accurate, verifiable, and explicitly grounded in official guidelines. While large language models excel at natural language processing, their tendency to hallucinate undermines their utility in high-stakes ",
+      "importance": 5
+    },
+    {
+      "title": "Accelerating battery research with an AI interface between FINALES and Kadi4Mat",
+      "title_zh": "Accelerating battery research with an AI interface between FINALES and Kadi4Mat",
+      "url": "https://arxiv.org/abs/2605.00909",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.00909v1 Announce Type: new \nAbstract: The time-consuming formation process critically impacts the longevity of sodium-ion coin cells and End Of Life (EOL) performance. This study aims to optimize formation protocols for duration efficiency, targeting high-performance outcomes while minimi",
+      "importance": 5
+    },
+    {
+      "title": "Effect-Transparent Governance for AI Workflow Architectures: Semantic Preservation, Expressive Minimality, and Decidability Boundaries",
+      "title_zh": "Effect-Transparent Governance for AI Workflow Architectures: Semantic Preservation, Expressive Minimality, and Decidability Boundaries",
+      "url": "https://arxiv.org/abs/2605.01030",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01030v2 Announce Type: new \nAbstract: We present a machine-checked formalization of structurally governed AI workflow architectures and prove that effect-level governance can be imposed without reducing internal computational expressivity. Using Interaction Trees in Rocq 8.19, we define a",
+      "importance": 5
+    },
+    {
+      "title": "Algebraic Semantics of Governed Execution: Monoidal Categories, Effect Algebras, and Coterminous Boundaries",
+      "title_zh": "Algebraic Semantics of Governed Execution: Monoidal Categories, Effect Algebras, and Coterminous Boundaries",
+      "url": "https://arxiv.org/abs/2605.01032",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01032v2 Announce Type: new \nAbstract: We present an algebraic semantics for governed execution in which governance is axiomatized, compositional, and coterminous with expressibility. The framework, mechanized in 32 Rocq modules (~12,000 lines, 454 theorems, 0 admitted), is built on intera",
+      "importance": 5
+    },
+    {
+      "title": "A Knowledge-Driven LLM-Based Decision-Support System for Explainable Defect Analysis and Mitigation Guidance in Laser Powder Bed Fusion",
+      "title_zh": "A Knowledge-Driven LLM-Based Decision-Support System for Explainable Defect Analysis and Mitigation Guidance in Laser Powder Bed Fusion",
+      "url": "https://arxiv.org/abs/2605.01100",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01100v1 Announce Type: new \nAbstract: This work presents a knowledge-driven decision-support system that integrates structured defect knowledge with LLM-based reasoning to provide explainable defect diagnosis and mitigation guidance in manufacturing, using LPBF as a representative, safety",
+      "importance": 5
+    },
+    {
+      "title": "Virtual Speech Therapist: A Clinician-in-the-Loop AI Speech Therapy Agent for Personalized and Supervised Therapy",
+      "title_zh": "Virtual Speech Therapist: A Clinician-in-the-Loop AI Speech Therapy Agent for Personalized and Supervised Therapy",
+      "url": "https://arxiv.org/abs/2605.01101",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01101v1 Announce Type: new \nAbstract: This paper develops Virtual Speech Therapist (VST), an intelligent agent-based platform that streamlines stuttering assessment and delivers customized therapy planning through automated and adaptive AI-driven workflows. VST integrates state-of-the-art",
+      "importance": 5
+    },
+    {
+      "title": "Towards Multi-Agent Autonomous Reasoning in Hydrodynamics",
+      "title_zh": "Towards Multi-Agent Autonomous Reasoning in Hydrodynamics",
+      "url": "https://arxiv.org/abs/2605.01102",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01102v1 Announce Type: new \nAbstract: Single-agent systems (SAS) have become the default pattern for LLM-driven scientific workflows, but routing planning, tool use, and synthesis through a single context window comes with a well-known cost: as tool specifications and observational traces",
+      "importance": 5
+    },
+    {
+      "title": "New Bounds for Zarankiewicz Numbers via Reinforced LLM Evolutionary Search",
+      "title_zh": "New Bounds for Zarankiewicz Numbers via Reinforced LLM Evolutionary Search",
+      "url": "https://arxiv.org/abs/2605.01120",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01120v1 Announce Type: new \nAbstract: The Zarankiewicz number $\\textbf{Z}(m, n, s, t)$ is the maximum number of edges in a bipartite graph $G_{m, n}$ such that there is no complete $K_{s, t}$ bipartite subgraph. We determine for the first time the exact values of three Zarankiewicz number",
+      "importance": 5
+    },
+    {
+      "title": "PERSA: Reinforcement Learning for Professor-Style Personalized Feedback with LLMs",
+      "title_zh": "PERSA: Reinforcement Learning for Professor-Style Personalized Feedback with LLMs",
+      "url": "https://arxiv.org/abs/2605.01123",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01123v1 Announce Type: new \nAbstract: Large language models (LLMs) can provide automated feedback in educational settings, but aligning an LLMs style with a specific instructors tone while maintaining diagnostic correctness remains challenging. We ask how can we update an LLM for automate",
+      "importance": 5
+    },
+    {
+      "title": "Iterative Finetuning is Mostly Idempotent",
+      "title_zh": "Iterative Finetuning is Mostly Idempotent",
+      "url": "https://arxiv.org/abs/2605.01130",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01130v1 Announce Type: new \nAbstract: If a model has some behavioral tendency, such as sycophancy or misalignment, and it is trained on its own outputs, will the tendency be amplified in the next generation of models? We study this question by training a series of models where each model ",
+      "importance": 5
+    },
+    {
+      "title": "To Use AI as Dice of Possibilities with Timing Computation",
+      "title_zh": "To Use AI as Dice of Possibilities with Timing Computation",
+      "url": "https://arxiv.org/abs/2605.01134",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01134v1 Announce Type: new \nAbstract: The dominant noun-based modeling paradigm has fundamentally constrained AI development, precluding any adequate representation of the future as an open temporal dimension. This paper introduces a verb-based paradigm, together with precise definitions ",
+      "importance": 5
+    },
+    {
+      "title": "A Low-Latency Fraud Detection Layer for Detecting Adversarial Interaction Patterns in LLM-Powered Agents",
+      "title_zh": "A Low-Latency Fraud Detection Layer for Detecting Adversarial Interaction Patterns in LLM-Powered Agents",
+      "url": "https://arxiv.org/abs/2605.01143",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01143v1 Announce Type: new \nAbstract: Large Language Model (LLM)-powered agents demonstrate strong capabilities in autonomous task execution, tool use, and multi-step reasoning. However, their increasing autonomy also introduces a new attack surface: adversarial interactions can manipulat",
+      "importance": 5
+    },
+    {
+      "title": "Position: Safety and Fairness in Agentic AI Depend on Interaction Topology, Not on Model Scale or Alignment",
+      "title_zh": "Position: Safety and Fairness in Agentic AI Depend on Interaction Topology, Not on Model Scale or Alignment",
+      "url": "https://arxiv.org/abs/2605.01147",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01147v1 Announce Type: new \nAbstract: As large language models are increasingly deployed as interacting agents in high-stakes decisions, the AI safety community assumes that safety properties of individual models will compose into safe multi-agent behavior. This position paper argues that",
+      "importance": 5
+    },
+    {
+      "title": "Arithmetic in the Wild: Llama uses Base-10 Addition to Reason About Cyclic Concepts",
+      "title_zh": "Arithmetic in the Wild: Llama uses Base-10 Addition to Reason About Cyclic Concepts",
+      "url": "https://arxiv.org/abs/2605.01148",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01148v1 Announce Type: new \nAbstract: Does structure in representations imply structure in computation? We study how Llama-3.1-8B reasons over cyclic concepts (e.g., \"what month is six months after August?\"). Even though Llama-3.1-8B's representations for these concepts are circularly str",
+      "importance": 5
+    },
+    {
+      "title": "LLMs Should Not Yet Be Credited with Decision Explanation",
+      "title_zh": "LLMs Should Not Yet Be Credited with Decision Explanation",
+      "url": "https://arxiv.org/abs/2605.01164",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01164v1 Announce Type: new \nAbstract: This position paper argues that LLMs should not yet be credited with decision explanation. This matters because recent work increasingly treats accurate behavioral prediction, plausible rationales, and outcome-conditioned reasoning traces as evidence ",
+      "importance": 5
+    },
+    {
+      "title": "NEURON: A Neuro-symbolic System for Grounded Clinical Explainability",
+      "title_zh": "NEURON: A Neuro-symbolic System for Grounded Clinical Explainability",
+      "url": "https://arxiv.org/abs/2605.01189",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01189v1 Announce Type: new \nAbstract: Clinical AI adoption is hindered by the black-box/grey-box nature of high-performing models, which lack the ontological grounding and narrative transparency required for professional-level explainability. We present NEURON, a neuro-symbolic system des",
+      "importance": 5
+    },
+    {
+      "title": "GR-Ben: A General Reasoning Benchmark for Evaluating Process Reward Models",
+      "title_zh": "GR-Ben: A General Reasoning Benchmark for Evaluating Process Reward Models",
+      "url": "https://arxiv.org/abs/2605.01203",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01203v1 Announce Type: new \nAbstract: Currently, process reward models (PRMs) have exhibited remarkable potential for test-time scaling. Since large language models (LLMs) regularly generate flawed intermediate reasoning steps when tackling a broad spectrum of reasoning and decision-makin",
+      "importance": 5
+    },
+    {
+      "title": "Faithful Mobile GUI Agents with Guided Advantage Estimator",
+      "title_zh": "Faithful Mobile GUI Agents with Guided Advantage Estimator",
+      "url": "https://arxiv.org/abs/2605.01208",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01208v1 Announce Type: new \nAbstract: Vision-language model based graphical user interface (GUI) agents have shown strong interaction capabilities. However, they often behave unfaithfully, relying on memorized shortcuts rather than grounding actions in displayed screen evidence or user in",
+      "importance": 5
+    },
+    {
+      "title": "Agentic AI Systems Should Be Designed as Marginal Token Allocators",
+      "title_zh": "Agentic AI Systems Should Be Designed as Marginal Token Allocators",
+      "url": "https://arxiv.org/abs/2605.01214",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01214v1 Announce Type: new \nAbstract: This position paper argues that agentic AI systems should be designed and evaluated as \\emph{marginal token allocation economies} rather than as text generators priced by the unit. We follow a single request -- a developer asking a coding agent to fix",
+      "importance": 5
+    },
+    {
+      "title": "Zero-Shot Signal Temporal Logic Planning with Disjunctive Branch Selection in Dynamic Semantic Maps",
+      "title_zh": "Zero-Shot Signal Temporal Logic Planning with Disjunctive Branch Selection in Dynamic Semantic Maps",
+      "url": "https://arxiv.org/abs/2605.01222",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01222v1 Announce Type: new \nAbstract: Signal Temporal Logic (STL) offers verifiable task specifications and is crucial for safety-critical control. Yet STL planning remains challenging: exact optimization-based methods are often too slow, and learning-based methods struggle to generalize ",
+      "importance": 5
+    },
+    {
+      "title": "EO-Gym: A Multimodal, Interactive Environment for Earth Observation Agents",
+      "title_zh": "EO-Gym: A Multimodal, Interactive Environment for Earth Observation Agents",
+      "url": "https://arxiv.org/abs/2605.01250",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01250v1 Announce Type: new \nAbstract: Earth Observation (EO) analysis is inherently interactive: resolving uncertainty often requires expanding the region of interest, retrieving historical observations, and switching across sensors such as optical and Synthetic Aperture Radar. However, m",
+      "importance": 5
+    },
+    {
+      "title": "Uncertainty-Aware Trip Purpose Inference from GPS Trajectories via POI Semantic Zones and Pareto Calibration",
+      "title_zh": "Uncertainty-Aware Trip Purpose Inference from GPS Trajectories via POI Semantic Zones and Pareto Calibration",
+      "url": "https://arxiv.org/abs/2605.01257",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01257v1 Announce Type: new \nAbstract: Large-scale GPS trajectory data offer rich observations of human mobility, yet assigning trip purposes to detected stops remains challenging due to the absence of individual-level ground truth, spatial uncertainty from GPS noise and incomplete points ",
+      "importance": 5
+    },
+    {
+      "title": "Valley3: Scaling Omni Foundation Models for E-commerce",
+      "title_zh": "Valley3: Scaling Omni Foundation Models for E-commerce",
+      "url": "https://arxiv.org/abs/2605.01278",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01278v1 Announce Type: new \nAbstract: In this work, we present Valley3, an omni multimodal large language model (MLLM) developed for diverse global e-commerce tasks, with unified understanding and reasoning capabilities across text, images, video, and audio. A key feature of Valley3 is it",
+      "importance": 5
+    },
+    {
+      "title": "Lifting Traces to Logic: Programmatic Skill Induction with Neuro-Symbolic Learning for Long-Horizon Agentic Tasks",
+      "title_zh": "Lifting Traces to Logic: Programmatic Skill Induction with Neuro-Symbolic Learning for Long-Horizon Agentic Tasks",
+      "url": "https://arxiv.org/abs/2605.01293",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01293v1 Announce Type: new \nAbstract: Foundation model-driven agents often struggle with long-horizon planning due to the transient nature of purely prompting-based reasoning. While existing skill induction methods mitigate this by distilling experience into state-blind parameterized scri",
+      "importance": 5
+    },
+    {
+      "title": "Segment-Aligned Policy Optimization for Multi-Modal Reasoning",
+      "title_zh": "Segment-Aligned Policy Optimization for Multi-Modal Reasoning",
+      "url": "https://arxiv.org/abs/2605.01327",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01327v1 Announce Type: new \nAbstract: Existing reinforcement learning approaches for Large Language Models typically perform policy optimization at the granularity of individual tokens or entire response sequences. However, such formulations often misalign with the natural step-wise struc",
+      "importance": 5
+    },
+    {
+      "title": "Truth or Tribe: How In-group Favoritism Prioritize Facts in Persona Agents",
+      "title_zh": "Truth or Tribe: How In-group Favoritism Prioritize Facts in Persona Agents",
+      "url": "https://arxiv.org/abs/2605.01329",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01329v1 Announce Type: new \nAbstract: In-group favoritism refers to the phenomena of favoring members of one's in-group over out-group members and is widely observed in numerous social cooperative behaviors. Recently, in-group favoritism biases have also been identified in generative lang",
+      "importance": 5
+    },
+    {
+      "title": "DiagramNet: An End-to-End Recognition Framework and Dataset for Non-Standard System-Level Diagrams",
+      "title_zh": "DiagramNet: An End-to-End Recognition Framework and Dataset for Non-Standard System-Level Diagrams",
+      "url": "https://arxiv.org/abs/2605.01338",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.01338v1 Announce Type: new \nAbstract: System-level diagrams encode the architectural blueprint of chip design, specifying module functions, dataflows, and interface protocols. However, non-standardized symbols and the scarcity of structured training data hinder existing multimodal large l",
+      "importance": 5
+    },
+    {
+      "title": "山姆回应多名顾客拿袋子装免费酱料",
+      "title_zh": "山姆回应多名顾客拿袋子装免费酱料",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B1%B1%E5%A7%86%E5%9B%9E%E5%BA%94%E5%A4%9A%E5%90%8D%E9%A1%BE%E5%AE%A2%E6%8B%BF%E8%A2%8B%E5%AD%90%E8%A3%85%E5%85%8D%E8%B4%B9%E9%85%B1%E6%96%99%23&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "汉坦病毒疫情",
+      "title_zh": "汉坦病毒疫情",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B1%89%E5%9D%A6%E7%97%85%E6%AF%92%E7%96%AB%E6%83%85%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "以旧换新加力扩围掀起消费新热潮",
+      "title_zh": "以旧换新加力扩围掀起消费新热潮",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%BB%A5%E6%97%A7%E6%8D%A2%E6%96%B0%E5%8A%A0%E5%8A%9B%E6%89%A9%E5%9B%B4%E6%8E%80%E8%B5%B7%E6%B6%88%E8%B4%B9%E6%96%B0%E7%83%AD%E6%BD%AE%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "谢娜演唱会上座率",
+      "title_zh": "谢娜演唱会上座率",
+      "url": "https://s.weibo.com/weibo?q=%E8%B0%A2%E5%A8%9C%E6%BC%94%E5%94%B1%E4%BC%9A%E4%B8%8A%E5%BA%A7%E7%8E%87&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "淘宝免单轮番上阵",
+      "title_zh": "淘宝免单轮番上阵",
+      "url": "https://s.weibo.com/weibo?q=%E6%B7%98%E5%AE%9D%E5%85%8D%E5%8D%95%E8%BD%AE%E7%95%AA%E4%B8%8A%E9%98%B5&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "我与爱同谋开机",
+      "title_zh": "我与爱同谋开机",
+      "url": "https://s.weibo.com/weibo?q=%E6%88%91%E4%B8%8E%E7%88%B1%E5%90%8C%E8%B0%8B%E5%BC%80%E6%9C%BA&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "鸿蒙智行回应副驾折叠争议，称网传视频场景未达到防夹功能触发阈值，哪些信息值得关注？能打消网友的疑虑吗？",
+      "title_zh": "鸿蒙智行回应副驾折叠争议，称网传视频场景未达到防夹功能触发阈值，哪些信息值得关注？能打消网友的疑虑吗？",
+      "url": "https://www.zhihu.com/question/2035071773234783342",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "有哪些外行人看来很蠢的设计实际上却是精妙无比？",
+      "title_zh": "有哪些外行人看来很蠢的设计实际上却是精妙无比？",
+      "url": "https://www.zhihu.com/question/32189846",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "为什么好莱坞的亚裔演员，看起来都不太好看？",
+      "title_zh": "为什么好莱坞的亚裔演员，看起来都不太好看？",
+      "url": "https://www.zhihu.com/question/485774886",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "把现代人丢在侏罗纪，能活多久？",
+      "title_zh": "把现代人丢在侏罗纪，能活多久？",
+      "url": "https://www.zhihu.com/question/353276690",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "有的人熬夜时会感到心脏痛或者「咯噔」一下，这是怎么回事？该如何分辨哪些是虚惊一场，哪些是猝死预警信号？",
+      "title_zh": "有的人熬夜时会感到心脏痛或者「咯噔」一下，这是怎么回事？该如何分辨哪些是虚惊一场，哪些是猝死预警信号？",
+      "url": "https://www.zhihu.com/question/2020107521302427563",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "李嘉诚旗下长和系拟抛售英国电讯业务，套现约 455 亿港元，如何理解这笔交易？为何持续收缩英国资产布局？",
+      "title_zh": "李嘉诚旗下长和系拟抛售英国电讯业务，套现约 455 亿港元，如何理解这笔交易？为何持续收缩英国资产布局？",
+      "url": "https://www.zhihu.com/question/2035263429380759617",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "我军测试某反导武器指挥屏全是马赛克",
+      "title_zh": "我军测试某反导武器指挥屏全是马赛克",
+      "url": "https://www.toutiao.com/trending/7635591123385991174/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "李嘉诚套现约455亿港元",
+      "title_zh": "李嘉诚套现约455亿港元",
+      "url": "https://www.toutiao.com/trending/7635186193206054463/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "从假日中国看经济活力",
+      "title_zh": "从假日中国看经济活力",
+      "url": "https://www.toutiao.com/trending/7636541714270797843/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "詹姆斯空砍27分 雷霆胜湖人总比分1-0",
+      "title_zh": "詹姆斯空砍27分 雷霆胜湖人总比分1-0",
+      "url": "https://www.toutiao.com/trending/7636611022769376831/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "科创50指数涨超8% 寒武纪等走强",
+      "title_zh": "科创50指数涨超8% 寒武纪等走强",
+      "url": "https://www.toutiao.com/trending/7635672786144722990/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "涉网企业未办网络安全备案后果很严重",
+      "title_zh": "涉网企业未办网络安全备案后果很严重",
+      "url": "https://www.toutiao.com/trending/7636519805515763254/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 122,
+    "processed_count": 30
+  },
+  "display_count": 20
+}
