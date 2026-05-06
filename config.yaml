@@ -126,6 +126,7 @@ llm:
   provider: openai
   model: gpt-4o
   api_key_env: OPENAI_API_KEY
+  base_url_env: OPENAI_BASE_URL  # 留空则使用 OpenAI 官方地址，可设为兼容接口地址
   temperature: 0.3
   max_items_per_batch: 20
 

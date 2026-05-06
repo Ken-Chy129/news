@@ -36,6 +36,7 @@ jobs:
       - name: Run pipeline
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
           WEIXIN_WEBHOOK_URL: ${{ secrets.WEIXIN_WEBHOOK_URL }}
           EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}

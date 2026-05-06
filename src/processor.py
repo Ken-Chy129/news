@@ -65,7 +65,8 @@ def process_items(raw_items: List[RawItem], config: dict) -> Dict[str, Any]:
         print("[processor] No API key found, returning items without LLM processing")
         return _fallback_process(raw_items, config)
 
-    client = OpenAI(api_key=api_key)
+    base_url = os.environ.get(llm_config.get("base_url_env", ""), "") or None
+    client = OpenAI(api_key=api_key, base_url=base_url)
     model = llm_config.get("model", "gpt-4o-mini")
     temperature = llm_config.get("temperature", 0.3)
     max_per_batch = llm_config.get("max_items_per_batch", 10)
