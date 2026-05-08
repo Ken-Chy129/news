@@ -1,0 +1,443 @@
+{
+  "date": "2026-05-08",
+  "generated_at": "2026-05-08T03:45:07.719172",
+  "items": [
+    {
+      "title": "LCM: Lossless Context Management",
+      "title_zh": "LCM: Lossless Context Management",
+      "url": "https://arxiv.org/abs/2605.04050",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04050v1 Announce Type: new \nAbstract: We introduce Lossless Context Management (LCM), a deterministic architecture for LLM memory that outperforms Claude Code on long-context tasks. When benchmarked using Opus 4.6, our LCM-augmented coding agent, Volt, achieves higher scores than Claude C",
+      "importance": 5
+    },
+    {
+      "title": "Regularized Centered Emphatic Temporal Difference Learning",
+      "title_zh": "Regularized Centered Emphatic Temporal Difference Learning",
+      "url": "https://arxiv.org/abs/2605.04100",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04100v1 Announce Type: new \nAbstract: Off-policy temporal-difference (TD) learning with function approximation faces a structural tradeoff among stability, projection geometry, and variance control. Emphatic TD (ETD) improves the off-policy projection geometry through follow-on emphasis, ",
+      "importance": 5
+    },
+    {
+      "title": "Actionable Real-Time Modeling of Surgical Team Dynamics via Time-Expanded Interaction Graphs",
+      "title_zh": "Actionable Real-Time Modeling of Surgical Team Dynamics via Time-Expanded Interaction Graphs",
+      "url": "https://arxiv.org/abs/2605.04169",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04169v1 Announce Type: new \nAbstract: Surgical team performance arises from complex interactions between technical execution and non-technical skills, including communication and coordination dynamics. However, current surgical AI systems predominantly model visual workflow signals, lacki",
+      "importance": 5
+    },
+    {
+      "title": "ANDRE: An Attention-based Neuro-symbolic Differentiable Rule Extractor",
+      "title_zh": "ANDRE: An Attention-based Neuro-symbolic Differentiable Rule Extractor",
+      "url": "https://arxiv.org/abs/2605.04193",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04193v1 Announce Type: new \nAbstract: Inductive Logic Programming (ILP) aims to learn interpretable first-order rules from data, but existing symbolic and neuro-symbolic approaches struggle to scale to noisy and probabilistic settings. Classical ILP relies on discrete combinatorial rule s",
+      "importance": 5
+    },
+    {
+      "title": "Pro$^2$Assist: Continuous Step-Aware Proactive Assistance with Multimodal Egocentric Perception for Long-Horizon Procedural Tasks",
+      "title_zh": "Pro$^2$Assist: Continuous Step-Aware Proactive Assistance with Multimodal Egocentric Perception for Long-Horizon Procedural Tasks",
+      "url": "https://arxiv.org/abs/2605.04227",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04227v1 Announce Type: new \nAbstract: Procedural tasks with multiple ordered steps are ubiquitous in daily life. Recent advances in multimodal large language models (MLLMs) have enabled personal assistants that support daily activities. However, existing systems primarily provide reactive",
+      "importance": 5
+    },
+    {
+      "title": "Temporal Reasoning Is Not the Bottleneck: A Probabilistic Inconsistency Framework for Neuro-Symbolic QA",
+      "title_zh": "Temporal Reasoning Is Not the Bottleneck: A Probabilistic Inconsistency Framework for Neuro-Symbolic QA",
+      "url": "https://arxiv.org/abs/2605.04243",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04243v1 Announce Type: new \nAbstract: Despite significant advances, large language models (LLMs) continue to exhibit brittle performance on complex temporal reasoning tasks. This failure mode is widely attributed to inherent deficits in autoregressive logical deduction. In this paper, we ",
+      "importance": 5
+    },
+    {
+      "title": "Parallel Prefix Verification for Speculative Generation",
+      "title_zh": "Parallel Prefix Verification for Speculative Generation",
+      "url": "https://arxiv.org/abs/2605.04263",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04263v1 Announce Type: new \nAbstract: We introduce PARSE (PArallel pRefix Speculative Engine), a speculative generation framework that accelerates large language model (LLM) inference by parallelizing prefix verification on a semantic level. Existing speculative decoding methods are funda",
+      "importance": 5
+    },
+    {
+      "title": "Agent Island: A Saturation- and Contamination-Resistant Benchmark from Multiagent Games",
+      "title_zh": "Agent Island: A Saturation- and Contamination-Resistant Benchmark from Multiagent Games",
+      "url": "https://arxiv.org/abs/2605.04312",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04312v1 Announce Type: new \nAbstract: Static capabilities benchmarks suffer from saturation and contamination, making it difficult to track capabilities progress over time. We introduce Agent Island, a multiplayer simulation environment in which language-model agents compete in a game of ",
+      "importance": 5
+    },
+    {
+      "title": "The Scaling Properties of Implicit Deductive Reasoning in Transformers",
+      "title_zh": "The Scaling Properties of Implicit Deductive Reasoning in Transformers",
+      "url": "https://arxiv.org/abs/2605.04330",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04330v1 Announce Type: new \nAbstract: We investigate the scaling properties of implicit deductive reasoning over Horn clauses in depth-bounded Transformers. By systematically decorrelating provability from spurious features and enforcing algorithmic alignment, we find that in sufficiently",
+      "importance": 5
+    },
+    {
+      "title": "When Context Hurts: The Crossover Effect of Knowledge Transfer on Multi-Agent Design Exploration",
+      "title_zh": "When Context Hurts: The Crossover Effect of Knowledge Transfer on Multi-Agent Design Exploration",
+      "url": "https://arxiv.org/abs/2605.04361",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04361v1 Announce Type: new \nAbstract: The prevailing assumption in agent orchestration is that more context is better. We test this on multi-agent software design across 10 tasks, 7 context-injection conditions, and over 2,700 runs, and find a crossover effect: the same artifact type impr",
+      "importance": 5
+    },
+    {
+      "title": "Deployment-Relevant Alignment Cannot Be Inferred from Model-Level Evaluation Alone",
+      "title_zh": "Deployment-Relevant Alignment Cannot Be Inferred from Model-Level Evaluation Alone",
+      "url": "https://arxiv.org/abs/2605.04454",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04454v1 Announce Type: new \nAbstract: Alignment evaluation in machine learning has largely become evaluation of models. Influential benchmarks score model outputs under fixed inputs, such as truthfulness, instruction following, or pairwise preference, and these scores are often used to su",
+      "importance": 5
+    },
+    {
+      "title": "How Does Thinking Mode Change LLM Moral Judgments? A Controlled Instant-vs-Thinking Comparison Across Five Frontier Models",
+      "title_zh": "How Does Thinking Mode Change LLM Moral Judgments? A Controlled Instant-vs-Thinking Comparison Across Five Frontier Models",
+      "url": "https://arxiv.org/abs/2605.04488",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04488v1 Announce Type: new \nAbstract: We evaluate whether enabling provider-exposed reasoning mode changes moral judgments within the same model checkpoint. Across 100 moral-judgment scenarios and five frontier reasoning-trained LLMs (Claude Sonnet 4.6, GPT 5.5, Gemini 3 Flash, DeepSeek V",
+      "importance": 5
+    },
+    {
+      "title": "From Parameter Dynamics to Risk Scoring : Quantifying Sample-Level Safety Degradation in LLM Fine-tuning",
+      "title_zh": "From Parameter Dynamics to Risk Scoring : Quantifying Sample-Level Safety Degradation in LLM Fine-tuning",
+      "url": "https://arxiv.org/abs/2605.04572",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04572v1 Announce Type: new \nAbstract: Safety alignment of Large Language Models (LLMs) is extremely fragile, as fine-tuning on a small number of benign samples can erase safety behaviors learned from millions of preference examples. Existing studies attempt to explain this phenomenon by c",
+      "importance": 5
+    },
+    {
+      "title": "SensingAgents: A Multi-Agent Collaborative Framework for Robust IMU Activity Recognition",
+      "title_zh": "SensingAgents: A Multi-Agent Collaborative Framework for Robust IMU Activity Recognition",
+      "url": "https://arxiv.org/abs/2605.04608",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04608v1 Announce Type: new \nAbstract: Human Activity Recognition (HAR) using Inertial Measurement Unit (IMU) sensors is a cornerstone of mobile health, smart environments, and human-computer interaction. However, current deep learning-based HAR models often struggle with heavy reliance on",
+      "importance": 5
+    },
+    {
+      "title": "AuditRepairBench: A Paired-Execution Trace Corpus for Evaluator-Channel Ranking Instability in Agent Repair",
+      "title_zh": "AuditRepairBench: A Paired-Execution Trace Corpus for Evaluator-Channel Ranking Instability in Agent Repair",
+      "url": "https://arxiv.org/abs/2605.04624",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04624v1 Announce Type: new \nAbstract: Agent-repair leaderboards reorder under evaluator reconfiguration, and a measurable share of the reordering is produced by methods that consult evaluator-derived signal during internal selection of candidate repairs. We document this failure mode on a",
+      "importance": 5
+    },
+    {
+      "title": "Budget-aware Auto Optimizer Configurator",
+      "title_zh": "Budget-aware Auto Optimizer Configurator",
+      "url": "https://arxiv.org/abs/2605.04711",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04711v1 Announce Type: new \nAbstract: Optimizer states occupy massive GPU memory in large-scale model training. However, gradients in different network blocks exhibit distinct behaviors, such as varying directional stability and scale anisotropy, implying that expensive optimizer states a",
+      "importance": 5
+    },
+    {
+      "title": "Reward-Decomposed Reinforcement Learning for Immersive Video Role-Playing",
+      "title_zh": "Reward-Decomposed Reinforcement Learning for Immersive Video Role-Playing",
+      "url": "https://arxiv.org/abs/2605.04733",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04733v1 Announce Type: new \nAbstract: Text-based role-playing models can imitate character styles, yet they often fail to reflect a scene's atmosphere and evolving tension, both essential for immersive applications such as Virtual Reality (VR) games and interactive narratives. We study vi",
+      "importance": 5
+    },
+    {
+      "title": "AgentTrust: Runtime Safety Evaluation and Interception for AI Agent Tool Use",
+      "title_zh": "AgentTrust: Runtime Safety Evaluation and Interception for AI Agent Tool Use",
+      "url": "https://arxiv.org/abs/2605.04785",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04785v1 Announce Type: new \nAbstract: Modern AI agents execute real-world side effects through tool calls such as file operations, shell commands, HTTP requests, and database queries. A single unsafe action, including accidental deletion, credential exposure, or data exfiltration, can cau",
+      "importance": 5
+    },
+    {
+      "title": "DecodingTrust-Agent Platform (DTap): A Controllable and Interactive Red-Teaming Platform for AI Agents",
+      "title_zh": "DecodingTrust-Agent Platform (DTap): A Controllable and Interactive Red-Teaming Platform for AI Agents",
+      "url": "https://arxiv.org/abs/2605.04808",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04808v1 Announce Type: new \nAbstract: AI agents are increasingly deployed across diverse domains to automate complex workflows through long-horizon and high-stakes action executions. Due to their high capability and flexibility, such agents raise significant security and safety concerns. ",
+      "importance": 5
+    },
+    {
+      "title": "Strat-Reasoner: Reinforcing Strategic Reasoning of LLMs in Multi-Agent Games",
+      "title_zh": "Strat-Reasoner: Reinforcing Strategic Reasoning of LLMs in Multi-Agent Games",
+      "url": "https://arxiv.org/abs/2605.04906",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04906v1 Announce Type: new \nAbstract: While Large Language Models (LLMs) excel in certain reasoning tasks, they struggle in multi-agent games where the final outcome depends on the joint strategies of all agents. In multi-agent games, the non-stationarity of other agents brings significan",
+      "importance": 5
+    },
+    {
+      "title": "Curated AI beats frontier LLMs at pharma asset discovery",
+      "title_zh": "Curated AI beats frontier LLMs at pharma asset discovery",
+      "url": "https://arxiv.org/abs/2605.04908",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04908v1 Announce Type: new \nAbstract: General-purpose LLMs with web search are increasingly used to scout the competitive landscape of pharmaceutical pipelines. We benchmark Gosset -- an AI platform with a chat interface backed by curated target-, modality-, and indication-level drug-asse",
+      "importance": 5
+    },
+    {
+      "title": "A Foundation Model for Zero-Shot Logical Rule Induction",
+      "title_zh": "A Foundation Model for Zero-Shot Logical Rule Induction",
+      "url": "https://arxiv.org/abs/2605.04916",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04916v1 Announce Type: new \nAbstract: Inductive Logic Programming (ILP) learns interpretable logical rules from data. Existing methods are transductive: their learned parameters are bound to specific predicates and require retraining for each new task. We introduce Neural Rule Inducer (NR",
+      "importance": 5
+    },
+    {
+      "title": "On-line Learning in Tree MDPs by Treating Policies as Bandit Arms",
+      "title_zh": "On-line Learning in Tree MDPs by Treating Policies as Bandit Arms",
+      "url": "https://arxiv.org/abs/2605.04979",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.04979v1 Announce Type: new \nAbstract: A Tree Markov Decision Problem (T-MDP) is a finite-horizon MDP with a starting state $s_{1}$, in which every state is reachable from $s_{1}$ through exactly one state-action trajectory. T-MDPs arise naturally as abstractions of decision making in sequ",
+      "importance": 5
+    },
+    {
+      "title": "Uno-Orchestra: Parsimonious Agent Routing via Selective Delegation",
+      "title_zh": "Uno-Orchestra: Parsimonious Agent Routing via Selective Delegation",
+      "url": "https://arxiv.org/abs/2605.05007",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.05007v1 Announce Type: new \nAbstract: Large language model (LLM) multi-agent systems typically rely on rigid orchestration, committing either to flat per-query routing or to hand-engineered task decomposition, so decomposition depth, worker choice, and inference budget are not jointly opt",
+      "importance": 5
+    },
+    {
+      "title": "Position: Embodied AI Requires a Privacy-Utility Trade-off",
+      "title_zh": "Position: Embodied AI Requires a Privacy-Utility Trade-off",
+      "url": "https://arxiv.org/abs/2605.05017",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.05017v1 Announce Type: new \nAbstract: Embodied AI (EAI) systems are rapidly transitioning from simulations into real-world domestic and other sensitive environments. However, recent EAI solutions have largely demonstrated advancements within isolated stages such as instruction, perception",
+      "importance": 5
+    },
+    {
+      "title": "Executable World Models for ARC-AGI-3 in the Era of Coding Agents",
+      "title_zh": "Executable World Models for ARC-AGI-3 in the Era of Coding Agents",
+      "url": "https://arxiv.org/abs/2605.05138",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.05138v1 Announce Type: new \nAbstract: We evaluate an initial coding-agent system for ARC-AGI-3 in which the agent maintains an executable Python world model, verifies it against previous observations, refactors it toward simpler abstractions as a practical proxy for an MDL-like simplicity",
+      "importance": 5
+    },
+    {
+      "title": "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents",
+      "title_zh": "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents",
+      "url": "https://arxiv.org/abs/2605.05191",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2605.05191v1 Announce Type: new \nAbstract: Long-horizon search agents must manage a rapidly growing working context as they reason, call tools, and observe information. Naively accumulating all intermediate content can overwhelm the agent, increasing costs and the risk of errors. We propose th",
+      "importance": 5
+    },
+    {
+      "title": "Analogy between Boltzmann machines and Feynman path integrals",
+      "title_zh": "Analogy between Boltzmann machines and Feynman path integrals",
+      "url": "https://arxiv.org/abs/2301.06217",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2301.06217v1 Announce Type: cross \nAbstract: We provide a detailed exposition of the connections between Boltzmann machines commonly utilized in machine learning problems and the ideas already well known in quantum statistical mechanics through Feynman's description of the same. We find that t",
+      "importance": 5
+    },
+    {
+      "title": "A large language model-type architecture for high-dimensional molecular potential energy surfaces",
+      "title_zh": "A large language model-type architecture for high-dimensional molecular potential energy surfaces",
+      "url": "https://arxiv.org/abs/2412.03831",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2412.03831v2 Announce Type: cross \nAbstract: Computing high-dimensional potential energy surfaces for molecular systems and materials is considered to be a great challenge in computational chemistry with potential impact in a range of areas including the fundamental prediction of reaction rate",
+      "importance": 5
+    },
+    {
+      "title": "Learning Reconstructive Embeddings in Reproducing Kernel Hilbert Spaces via the Representer Theorem",
+      "title_zh": "Learning Reconstructive Embeddings in Reproducing Kernel Hilbert Spaces via the Representer Theorem",
+      "url": "https://arxiv.org/abs/2601.05811",
+      "source": "ArXiv CS.AI",
+      "category": "paper",
+      "summary_zh": "arXiv:2601.05811v1 Announce Type: cross \nAbstract: Motivated by the growing interest in representation learning approaches that uncover the latent structure of high-dimensional data, this work proposes new algorithms for reconstruction-based manifold learning within Reproducing-Kernel Hilbert Spaces",
+      "importance": 5
+    },
+    {
+      "title": "淘宝免单",
+      "title_zh": "淘宝免单",
+      "url": "https://s.weibo.com/weibo?q=%E6%B7%98%E5%AE%9D%E5%85%8D%E5%8D%95&t=31&band_rank=1&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "香港拿下世界杯转播权",
+      "title_zh": "香港拿下世界杯转播权",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%A6%99%E6%B8%AF%E6%8B%BF%E4%B8%8B%E4%B8%96%E7%95%8C%E6%9D%AF%E8%BD%AC%E6%92%AD%E6%9D%83%23&t=31&band_rank=2&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "假日经济点燃消费热潮",
+      "title_zh": "假日经济点燃消费热潮",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%81%87%E6%97%A5%E7%BB%8F%E6%B5%8E%E7%82%B9%E7%87%83%E6%B6%88%E8%B4%B9%E7%83%AD%E6%BD%AE%23&t=31&band_rank=3&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "张杰在谢娜庆功宴上敬酒",
+      "title_zh": "张杰在谢娜庆功宴上敬酒",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E6%9D%B0%E5%9C%A8%E8%B0%A2%E5%A8%9C%E5%BA%86%E5%8A%9F%E5%AE%B4%E4%B8%8A%E6%95%AC%E9%85%92%23&t=31&band_rank=4&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "减肥才知道高中吃的有多少",
+      "title_zh": "减肥才知道高中吃的有多少",
+      "url": "https://s.weibo.com/weibo?q=%E5%87%8F%E8%82%A5%E6%89%8D%E7%9F%A5%E9%81%93%E9%AB%98%E4%B8%AD%E5%90%83%E7%9A%84%E6%9C%89%E5%A4%9A%E5%B0%91&t=31&band_rank=5&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "榴莲仅退款买家发声",
+      "title_zh": "榴莲仅退款买家发声",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%A6%B4%E8%8E%B2%E4%BB%85%E9%80%80%E6%AC%BE%E4%B9%B0%E5%AE%B6%E5%8F%91%E5%A3%B0%23&t=31&band_rank=6&Refer=top",
+      "source": "微博热搜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "531 户小区仅 25 户交物业费致电梯停运，为何会出现此类现象，该如何解决？",
+      "title_zh": "531 户小区仅 25 户交物业费致电梯停运，为何会出现此类现象，该如何解决？",
+      "url": "https://www.zhihu.com/question/2034770945701847487",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "胖东来 19 名管理人员被「降级」，对此你怎么看？让员工参与管理有哪些积极作用？",
+      "title_zh": "胖东来 19 名管理人员被「降级」，对此你怎么看？让员工参与管理有哪些积极作用？",
+      "url": "https://www.zhihu.com/question/2035760194798482054",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "瑞士发现一例安第斯病毒感染病例，这种具有人际传播能力的汉坦病毒与常见汉坦病毒有何不同？公众需要担心吗？",
+      "title_zh": "瑞士发现一例安第斯病毒感染病例，这种具有人际传播能力的汉坦病毒与常见汉坦病毒有何不同？公众需要担心吗？",
+      "url": "https://www.zhihu.com/question/2035621374232716966",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "男子在峨眉山悬崖边推搡猴子险致其坠崖，景区将其列入黑名单，这类伤害景区动物的行为可能承担哪些法律责任？",
+      "title_zh": "男子在峨眉山悬崖边推搡猴子险致其坠崖，景区将其列入黑名单，这类伤害景区动物的行为可能承担哪些法律责任？",
+      "url": "https://www.zhihu.com/question/2035717331842589221",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "老人去世前几年是不是都特别作，都想要把周围人折磨死？这种情况怎么办呢？",
+      "title_zh": "老人去世前几年是不是都特别作，都想要把周围人折磨死？这种情况怎么办呢？",
+      "url": "https://www.zhihu.com/question/451712509",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "宝妈花 18 万住高端月子中心，称月子餐是油炸食品，婴儿床长虱子，违约要倒赔两万，高端月子中心靠谱吗？",
+      "title_zh": "宝妈花 18 万住高端月子中心，称月子餐是油炸食品，婴儿床长虱子，违约要倒赔两万，高端月子中心靠谱吗？",
+      "url": "https://www.zhihu.com/question/2032060205089936958",
+      "source": "知乎热榜",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "香港1.7亿人民币拿下世界杯转播权",
+      "title_zh": "香港1.7亿人民币拿下世界杯转播权",
+      "url": "https://www.toutiao.com/trending/7636922951820148755/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "军报评魏凤和李尚福案：有贪必肃",
+      "title_zh": "军报评魏凤和李尚福案：有贪必肃",
+      "url": "https://www.toutiao.com/trending/7637293977703550514/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "“人工智能+”走向智能经济新形态",
+      "title_zh": "“人工智能+”走向智能经济新形态",
+      "url": "https://www.toutiao.com/trending/7636674300020015155/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "武汉大学教授柯涛逝世 终年48岁",
+      "title_zh": "武汉大学教授柯涛逝世 终年48岁",
+      "url": "https://www.toutiao.com/trending/7637284558564114474/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "伦敦世乒赛团体赛瑞典男队无缘四强",
+      "title_zh": "伦敦世乒赛团体赛瑞典男队无缘四强",
+      "url": "https://www.toutiao.com/trending/7636355302228623402/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    },
+    {
+      "title": "伊朗打击美舰 美袭击伊油轮",
+      "title_zh": "伊朗打击美舰 美袭击伊油轮",
+      "url": "https://www.toutiao.com/trending/7637289576934936100/",
+      "source": "今日头条",
+      "category": "trending",
+      "summary_zh": "",
+      "importance": 3
+    }
+  ],
+  "stats": {
+    "raw_count": 118,
+    "processed_count": 30
+  },
+  "display_count": 20
+}
